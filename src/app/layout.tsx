@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html
-			lang="en"
+			lang="ru"
 			className={`${mulish.variable} font-mulish text-primary bg-foreground`}
 		>
 			<body>

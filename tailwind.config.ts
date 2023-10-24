@@ -17,9 +17,12 @@ const config: Config = {
       },
       colors: {
         foreground: '#254030',
+        foregroundDark: '#0E0E0E',
         primary: '#fff',
         secondary: '#C4C4C4',
-        primaryInvert: '#000'
+        accent: '#FFCC00',
+        primaryInvert: '#000',
+        grey: '#3D3D3D'
       }
     },
   },

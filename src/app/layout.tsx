@@ -3,7 +3,7 @@ import './globals.css'
 import { mulish } from './fonts';
 
 export const metadata: Metadata = {
-	title: 'Dr.Dudikova Clinic теперь и в Барселоне!',
+	title: 'Артур Сугако теперь и в Барселоне!',
 	description: 'Красота – это свобода! Так было сто лет назад – все также и сегодня. Изменились только технологии.',
 }
 
@@ -15,9 +15,15 @@ export default function RootLayout({
 	return (
 		<html
 			lang="en"
-			className={`${mulish.variable} font-mulish`}
+			className={`${mulish.variable} font-mulish text-primary bg-foreground`}
 		>
-			<body>{children}</body>
+			<body>
+				<div className='wrapper flex flex-col min-h-screen'>
+					<main className="content flex-1">
+						{children}
+					</main>
+				</div>
+			</body>
 		</html>
 	)
 }

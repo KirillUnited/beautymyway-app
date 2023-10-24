@@ -7,15 +7,20 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     extend: {
       fontFamily: {
         mulish: ['var(--font-mulish)']
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        foreground: '#254030',
+        primary: '#fff',
+        secondary: '#C4C4C4',
+        primaryInvert: '#000'
+      }
     },
   },
   plugins: [],

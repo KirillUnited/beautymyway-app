@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
-import './globals.css'
+import '../styles/globals.css'
 import { mulish } from './fonts';
+import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://site.com'),
@@ -29,9 +31,11 @@ export default function RootLayout({
 		>
 			<body>
 				<div className='wrapper flex flex-col min-h-screen'>
+					<Header></Header>
 					<main className="content flex-1">
 						{children}
 					</main>
+					<Footer></Footer>
 				</div>
 			</body>
 		</html>

@@ -2,10 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import styles from './Header.module.scss';
+import Button from '@/components/Button/Button';
 
 export default function Header() {
     return (
-        <header className={styles.header}>
+        <header className={styles.root}>
             <div className="min-h-[5rem] container flex justify-between items-center">
                 <div className={`logo`}>
                     <Image
@@ -37,9 +38,8 @@ export default function Header() {
                     </li>
                 </ul>
                 <div className="flex flex-wrap gap-7">
-                    {/* TODO: Button component */}
-                    <button className='font-bold'>В магазин</button>
-                    <div className="flex items-center">
+                    <Button variant='transparent' className={styles.button}>В магазин</Button>
+                    <div className="flex items-center font-light">
                         <button className={`px-2`}>Ua</button>
                         <button className={`px-2`}>Es</button>
                     </div>

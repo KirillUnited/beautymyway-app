@@ -1,0 +1,11 @@
+.btn {
+    @apply inline-flex items-center justify-center font-semibold min-h-[2.5rem] px-3 cursor-pointer transition-all;
+}
+
+.primary {
+    @apply text-primaryInvert bg-primary border border-primary;
+}
+
+.transparent {
+    @apply text-primary bg-transparent border border-primary hover:text-primaryInvert hover:bg-primary;
+}

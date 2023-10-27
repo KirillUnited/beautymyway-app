@@ -14,6 +14,7 @@ export default function Header() {
                         width={180}
                         height={41}
                         alt='Артур Сугако теперь и в Барселоне!'
+                        priority
                     />
                 </div>
 

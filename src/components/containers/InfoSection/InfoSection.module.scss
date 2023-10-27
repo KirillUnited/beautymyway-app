@@ -1,0 +1,18 @@
+.root {
+    @apply py-20;
+}
+.wrapper {
+    @apply container flex flex-col gap-7 items-center;
+}
+.title {
+    @apply text-3xl font-semibold leading-10;
+}
+.description {
+    @apply text-lg font-light leading-7 max-w-3xl text-center;
+}
+.contacts {
+    @apply flex flex-wrap gap-4 border border-primary p-3;
+}
+.button {
+    @apply min-w-[11.5rem];
+}

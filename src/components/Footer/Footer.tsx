@@ -1,13 +1,12 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import Link from 'next/link';
+import Contacts from '@/components/Contacts/Contacts';
 
 export default function Footer() {
     return (
@@ -22,28 +21,8 @@ export default function Footer() {
                             alt='Артур Сугако теперь и в Барселоне!'
                         />
                     </Link>
-                    <div className="contacts">
-                        <Link href='tel:+34 601 500 379' className="flex items-center gap-4 text-lg font-semibold leading-7 truncate">
-                            <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
-                            +34 601 500 379</Link>
-                        <p className="flex items-center gap-4 text-lg font-semibold leading-7">
-                            <FontAwesomeIcon icon={faLocationDot} className='w-4 h-4' />
-                            Barcelona, Carrer de Bertrand i Serra, 12</p>
-                        <p className="flex items-center gap-4 text-lg font-semibold leading-7">
-                            <FontAwesomeIcon icon={faClock} className='w-4 h-4' />
-                            Пн – Сб: 10:00 – 20:00</p>
-                    </div>
-                    <div className="contacts">
-                        <a href='tel:+34 601 500 379' className="flex items-center gap-4 text-lg font-semibold leading-7 truncate">
-                            <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
-                            +34 601 500 379</a>
-                        <p className="flex items-center gap-4 text-lg font-semibold leading-7">
-                            <FontAwesomeIcon icon={faLocationDot} className='w-4 h-4' />
-                            Barcelona, Carrer de Bertrand i Serra, 12</p>
-                        <p className="flex items-center gap-4 text-lg font-semibold leading-7">
-                            <FontAwesomeIcon icon={faClock} className='w-4 h-4' />
-                            Пн – Сб: 10:00 – 20:00</p>
-                    </div>
+                    <Contacts tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'}/>
+                    <Contacts tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'}/>
                     <div className='flex flex-col self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
                             <a href='/'><FontAwesomeIcon icon={faYoutube} className='w-5 h-5' /></a>

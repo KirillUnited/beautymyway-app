@@ -1,0 +1,16 @@
+.root {
+    @apply pt-20;
+}
+.wrapper {
+    @apply container flex flex-col gap-12;
+}
+.title {
+    @apply text-6xl font-semibold text-center;
+}
+.content {
+    @apply flex;
+
+    &-item {
+        @apply text-7xl font-semibold border border-neutral-700 p-7 flex flex-col items-center flex-1;
+    }
+}

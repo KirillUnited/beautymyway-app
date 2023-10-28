@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function HeroSection(): React.JSX.Element {
     return (
         <section className={styles.root}>
-            <div className="container grid grid-cols-2 items-center gap-4">
+            <div className="container grid grid-cols-2 items-center gap-14 px-24">
                 <div className='flex flex-col items-center text-center'>
                     <Image
                         src="/images/logo-light.svg"
@@ -14,10 +14,10 @@ export default function HeroSection(): React.JSX.Element {
                         alt="logo"
                     />
                     <div className={styles.text}>
-                        <p className="font-normal">Красота – это свобода!</p>
-                        <p>Так было сто лет назад – все</p>
-                        <p>также и сегодня. Изменились</p>
-                        <p>только <span className='font-normal'>технологии</span></p>
+                        <p className="font-normal">Свобода - это красота.</p>
+                        <p>Столетие назад и сегодня</p>
+                        <p>эта истина остается неизменной,</p>
+                        <p>лишь средства для достижения красоты претерпели <span className='font-normal'>изменения</span></p>
                     </div>
                     <Image
                         src="/images/signature.svg"

@@ -3,7 +3,7 @@
     background: radial-gradient(
         75.72% 51.86% at 57.47% 57.89%,
         #477e5d 0%,
-        #254030 100%
+        var(--color-foreground) 100%
     );
 }
 .text {

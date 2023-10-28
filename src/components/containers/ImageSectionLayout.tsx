@@ -2,17 +2,20 @@ import React from 'react';
 import styles from './ImageSectionLayout.module.scss';
 import Image from 'next/image';
 import { ImageSectionLayoutProps } from './ImageSectionLayout.props';
+import cn from 'classnames';
 
-export default function SectionLayout({ title, description, children, image }: ImageSectionLayoutProps): React.JSX.Element {
+export default function ImageSectionLayout({ title, description, children, image, className }: ImageSectionLayoutProps): React.JSX.Element {
     return (
         <section className={styles.root}>
-            <div className={styles.wrapper}>
-                <Image
-                    src={image}
-                    width={700}
-                    height={510}
-                    alt={title}
-                />
+            <div className={cn(styles.wrapper, className)}>
+                <div className='relative'>
+                    <Image
+                        src={image}
+                        alt={title || 'Артур Сугако теперь и в Барселоне!'}
+                        fill
+                        className='object-cover'
+                    />
+                </div>
                 <div className={styles.content}>
                     {
                         title

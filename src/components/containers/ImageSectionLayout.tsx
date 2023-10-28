@@ -12,7 +12,6 @@ export default function ImageSectionLayout({ title, description, children, image
                     <Image
                         src={image}
                         alt={title || 'Артур Сугако теперь и в Барселоне!'}
-                        
                         className='object-cover w-full h-full'
                     />
                 </div>

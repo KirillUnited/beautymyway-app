@@ -1,0 +1,11 @@
+.root {
+    @apply pt-20;
+    background: radial-gradient(
+        75.72% 51.86% at 57.47% 57.89%,
+        #477e5d 0%,
+        #254030 100%
+    );
+}
+.text {
+    @apply text-4xl font-extralight italic mt-2 mb-6 pt-2 border-t border-secondary;
+}

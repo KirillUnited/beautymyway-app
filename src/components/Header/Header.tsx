@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className={styles.root}>
             <div className="min-h-[5rem] container flex justify-between items-center">
-                <div className={`logo`}>
+                <Link href={'/'} className={`logo`}>
                     <Image
                         src={`/images/logo.svg`}
                         width={180}
@@ -16,7 +16,7 @@ export default function Header() {
                         alt='Артур Сугако теперь и в Барселоне!'
                         priority
                     />
-                </div>
+                </Link>
 
                 <ul className="justify-center items-center gap-7 inline-flex flex-wrap text-base font-light">
                     <li>

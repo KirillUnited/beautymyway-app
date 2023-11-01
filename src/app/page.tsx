@@ -1,4 +1,5 @@
 import AboutSection from '@/components/containers/AboutSection/AboutSection';
+import FeaturedProductsSection from '@/components/containers/FeaturedProductsSection/FeaturedProductsSection';
 import HeroSection from '@/components/containers/HeroSection/HeroSection';
 import HitSection from '@/components/containers/HitSection/HitSection';
 import InfoSection from '@/components/containers/InfoSection/InfoSection';
@@ -10,6 +11,7 @@ export default function Home() {
 		<>
 			<HeroSection />
 			<InfoSection />
+			<FeaturedProductsSection />
 			<AboutSection />
 			<WhySection />
 			<HitSection />

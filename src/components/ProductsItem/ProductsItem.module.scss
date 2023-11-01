@@ -1,0 +1,28 @@
+.root {
+    &:hover {
+        .image {
+            filter: grayscale(0%);
+        }
+        .description {
+            grid-template-rows: 1fr;
+        }
+    }
+    @apply relative aspect-video lg:aspect-[260/320];
+}
+.content {
+    @apply absolute left-0 bottom-0 right-0 text-center font-semibold p-5 z-10 flex flex-col gap-1;
+    background: linear-gradient(0deg, #37393e 0%, rgba(55, 57, 62, 0) 100%);
+}
+.title {
+    @apply font-semibold line-clamp-2;
+}
+.image {
+    @apply object-cover w-full transition-all;
+    filter: grayscale(100%);
+}
+.description {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    @apply font-light transition-all;
+}

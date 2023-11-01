@@ -39,6 +39,7 @@ export default function FeaturedProductsSection(): React.JSX.Element {
                             return (
                                 <Link href={'/'} key={index}>
                                     <ProductsItem
+                                        variant='featured'
                                         image={image}
                                         title={title}
                                         description={description}

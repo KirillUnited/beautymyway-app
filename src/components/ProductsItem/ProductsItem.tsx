@@ -1,16 +1,23 @@
 import React from 'react';
 import styles from './ProductsItem.module.scss';
 import Image from 'next/image';
+import cn from 'classnames';
 
-interface ProductsItemProps {
+interface ProductsItemProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
     image: string,
     title: string,
+    variant?: 'featured' | string,
     description?: string
 }
 
-export default function ProductsItem({ image, title, description }: ProductsItemProps): React.JSX.Element {
+export default function ProductsItem({ image, title, description, variant = 'default', className }: ProductsItemProps): React.JSX.Element {
     return (
-        <div className={styles.root}>
+        <div className={cn(styles.root,
+            className,
+            {
+                [styles.featured]: variant === 'featured'
+            }
+        )}>
             <Image
                 src={`/images/${image}`}
                 fill
@@ -19,11 +26,15 @@ export default function ProductsItem({ image, title, description }: ProductsItem
             />
             <div className={styles.content}>
                 <h3 className={styles.title}>{title}</h3>
-                <p className={styles.description}>
-                    <span className='line-clamp-4'>
-                        {description}
-                    </span>
-                </p>
+                {
+                    description
+                    &&
+                    <p className={styles.description}>
+                        <span className='line-clamp-4'>
+                            {description}
+                        </span>
+                    </p>
+                }
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import FeaturedProductsSection from '@/components/containers/FeaturedProductsSec
 import HeroSection from '@/components/containers/HeroSection/HeroSection';
 import HitSection from '@/components/containers/HitSection/HitSection';
 import InfoSection from '@/components/containers/InfoSection/InfoSection';
+import ProductsSection from '@/components/containers/ProductsSection/ProductsSection';
 import SurgerySection from '@/components/containers/SurgerySection/SurgerySection';
 import WhySection from '@/components/containers/WhySection/WhySection';
 
@@ -13,6 +14,7 @@ export default function Home() {
 			<InfoSection />
 			<FeaturedProductsSection />
 			<AboutSection />
+			<ProductsSection />
 			<WhySection />
 			<HitSection />
 			<SurgerySection />

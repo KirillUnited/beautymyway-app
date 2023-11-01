@@ -7,14 +7,14 @@
             grid-template-rows: 1fr;
         }
     }
-    @apply relative aspect-video lg:aspect-[260/320];
+    @apply relative aspect-[260/320] max-h-[500px] w-full;
 }
 .content {
-    @apply absolute left-0 bottom-0 right-0 text-center font-semibold p-5 z-10 flex flex-col gap-1;
+    @apply absolute left-0 bottom-[-1px] right-0 text-center font-semibold p-5 z-10 flex flex-col gap-1;
     background: linear-gradient(0deg, #37393e 0%, rgba(55, 57, 62, 0) 100%);
 }
 .title {
-    @apply font-semibold line-clamp-2;
+    @apply text-lg lg:text-2xl font-semibold line-clamp-2 capitalize;
 }
 .image {
     @apply object-cover w-full transition-all;
@@ -25,4 +25,10 @@
     grid-template-rows: 0fr;
     overflow: hidden;
     @apply font-light transition-all;
+}
+.featured {
+    @apply aspect-video lg:aspect-[260/320];
+    .title {
+        @apply text-lg;
+    }
 }

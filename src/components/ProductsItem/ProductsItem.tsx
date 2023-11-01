@@ -6,7 +6,7 @@ import cn from 'classnames';
 interface ProductsItemProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
     image: string,
     title: string,
-    variant?: 'featured' | string,
+    variant?: 'featured' | 'default',
     description?: string
 }
 
@@ -19,8 +19,10 @@ export default function ProductsItem({ image, title, description, variant = 'def
             }
         )}>
             <Image
-                src={`/images/${image}`}
                 fill
+                src={`/images/${image}`}
+                sizes="(max-width: 768px) 50vw, 25vw"
+                quality={50}
                 alt={title}
                 className={styles.image}
             />

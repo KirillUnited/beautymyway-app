@@ -1,0 +1,6 @@
+.wrapper {
+    &>*:first-child {
+        border-right: 1px solid #37393E;
+    }
+    @apply border border-neutral-700 p-9;
+}

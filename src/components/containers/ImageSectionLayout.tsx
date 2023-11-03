@@ -28,9 +28,9 @@ export default function ImageSectionLayout({ title, description, children, image
                             {
                                 description
                                 &&
-                                <p className={styles.description}>
+                                <h3 className={styles.description}>
                                     {description}
-                                </p>
+                                </h3>
                             }
                         </div>
                     }

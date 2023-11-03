@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './HeroSection.module.scss';
 import Image from 'next/image';
+import cn from 'classnames';
 
 export default function HeroSection(): React.JSX.Element {
     return (
-        <section className={styles.root}>
+        <section className={cn(styles.root)}>
             <div className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center lg:gap-14 max-w-5xl mx-auto">
                     <div className='flex flex-col items-center text-center py-5'>

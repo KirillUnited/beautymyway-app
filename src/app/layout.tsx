@@ -6,7 +6,6 @@ import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 
-
 export const metadata: Metadata = {
 	metadataBase: new URL('https://site.com'),
 	title: 'Артур Сугако теперь и в Барселоне!',

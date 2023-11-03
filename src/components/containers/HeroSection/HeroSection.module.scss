@@ -5,6 +5,9 @@
         #477e5d 0%,
         var(--color-foreground) 100%
     );
+    @media (max-width: 62em) {
+        background: transparent;
+    }
 }
 .text {
     @apply text-2xl lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 border-t border-secondary;

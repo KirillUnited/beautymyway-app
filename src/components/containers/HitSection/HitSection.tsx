@@ -1,13 +1,12 @@
 import React from 'react';
 import ImageSectionLayout from '../ImageSectionLayout';
-import image from '../../../../public/images/hit.png';
 import styles from './HitSection.module.scss';
 import Button from '@/components/Button/Button';
 
 export default function HitSection() {
     return (
         <ImageSectionLayout
-            image={image}
+            image={`hit.png`}
             title='Процедура месяца'
             description='Фракционное омоложение Frax'
             className={styles.wrapper}
@@ -26,7 +25,7 @@ export default function HitSection() {
                 Кроме того, аппарат позволяет регулировать площадь покрытия,
                 работая при этом без риска рубцевания и ожогов.
             </p>
-            <Button variant='primary' className='self-start mt-auto'>Детальнее о процедуре</Button>
+            <Button variant='primary' className='self-start mt-4 lg:mt-auto'>Детальнее о процедуре</Button>
         </ImageSectionLayout>
     )
 }

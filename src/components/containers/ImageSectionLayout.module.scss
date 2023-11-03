@@ -1,8 +1,8 @@
 .root {
-    @apply py-20;
+    @apply pt-14 lg:pt-20 py-12;
 }
 .wrapper {
-    @apply container grid grid-cols-2 gap-4;
+    @apply container grid grid-cols-1 lg:grid-cols-2 gap-y-6 gap-x-4;
 }
 .title {
     @apply text-3xl font-semibold leading-9;

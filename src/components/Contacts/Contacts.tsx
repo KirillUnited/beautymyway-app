@@ -10,7 +10,7 @@ import styles from './Contacts.module.scss';
 
 export default function Contacts({ tel, address, time, className }: ContactsProps): React.JSX.Element {
     return (
-        <div className={cn('contacts', className)}>
+        <div className={cn(styles.root, className)}>
             {
                 tel
                 &&

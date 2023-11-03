@@ -1,9 +1,21 @@
 .root {
-    // @apply sticky top-0 left-0 z-50 w-full;
-    // background-color: rgba($color: #fff, $alpha: 0.3);
-    // backdrop-filter: blur(30px);
+    @apply sticky top-0 left-0 z-50 w-full;
+    background-color: rgba(#254030, $alpha: 0.5);
+    backdrop-filter: blur(30px);
 }
 
 .button {
     @apply min-w-[8.5rem];
+}
+.navLink {
+    color: var(--mantine-color-primary-0);
+    font-weight: 300;
+
+    &:hover {
+        background-color: var(--mantine-color-primary-9);
+        transition: all 350ms;
+    }
+    &Label {
+        font-size: var(--mantine-font-size-md);
+    }
 }

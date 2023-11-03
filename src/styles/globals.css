@@ -4,6 +4,7 @@
 
 :root {
     --color-foreground: #254030;
+    --mantine-color-body: #254030;
 }
 
 @layer components {

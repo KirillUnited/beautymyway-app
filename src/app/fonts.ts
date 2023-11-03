@@ -5,5 +5,6 @@ export const mulish = Mulish({
     style: ['normal', 'italic'],
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-mulish'
+    variable: '--font-mulish',
+    preload: true
 });

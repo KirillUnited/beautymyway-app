@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
-import '../styles/globals.css'
+import '@mantine/core/styles.css';
+import '@/styles/globals.css';
 import { mulish } from './fonts';
+import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
+
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://site.com'),
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
 		description: 'OG Decription',
 		siteName: 'Example',
 	},
-}
+};
 
 export default function RootLayout({
 	children,
@@ -25,18 +28,20 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html
-			lang="ru"
-			className={`${mulish.variable} font-mulish text-primary bg-foreground`}
-		>
-			<body>
-				<div className='wrapper flex flex-col min-h-screen'>
-					<Header></Header>
-					<main className="content flex-1">
-						{children}
-					</main>
-					<Footer></Footer>
-				</div>
+		<html lang="ru">
+			<head>
+				<ColorSchemeScript />
+			</head>
+			<body className={`${mulish.className} text-primary bg-foreground`}>
+				<MantineProvider>
+					<div className='wrapper flex flex-col min-h-screen'>
+						<Header></Header>
+						<main className="content flex-1">
+							{children}
+						</main>
+						<Footer></Footer>
+					</div>
+				</MantineProvider>
 			</body>
 		</html>
 	)

@@ -1,14 +1,93 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import {
+    Group,
+    Flex,
+    Burger,
+    Drawer,
+    rem,
+    NavLink
+} from '@mantine/core';
+import HeaderMenu from './HeaderMenu';
 import styles from './Header.module.scss';
 import Button from '@/components/Button/Button';
+import { useDisclosure } from '@mantine/hooks';
+import { LINKS } from '@/data';
 
 export default function Header() {
+    const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
+    const NavLinks = LINKS.map((link) => {
+        const menuItems = link.links?.map((item, index) => (
+            <NavLink 
+            className={styles.navLink} 
+            label={item.label} 
+            key={Math.random()} />
+        ));
+
+        if (menuItems) {
+            return (
+                <NavLink
+                    label={<span className={styles.navLinkLabel}>{link.label}</span>}
+                    className={styles.navLink}
+                    key={Math.random()}
+                >
+                    {menuItems}
+                </NavLink>
+            );
+        }
+
+        return (
+            <NavLink
+                className={styles.navLink}
+                label={<span className={styles.navLinkLabel}>{link.label}</span>}
+                key={Math.random()}
+            />
+        );
+    });
+
     return (
-        <header className={styles.root}>
-            <div className="min-h-[5rem] container flex justify-between items-center">
-                <Link href={'/'} className={`logo`}>
+        <>
+            <header className={styles.root}>
+                <nav className="min-h-[5rem] container flex justify-between items-center py-2">
+                    <Link href={'/'} className={`logo`}>
+                        <Image
+                            src={`/images/logo.svg`}
+                            width={180}
+                            height={41}
+                            alt='Артур Сугако теперь и в Барселоне!'
+                            priority
+                        />
+                    </Link>
+
+                    <Group gap={rem('28px')} visibleFrom='lg' justify='center' className='text-base font-light gap-y-3'>
+                        <HeaderMenu />
+                    </Group>
+
+                    <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
+                        <Button variant='transparent' className={styles.button}>В магазин</Button>
+                        <div className="flex items-center font-light">
+                            <button className={`px-2`}>Ua</button>
+                            <button className={`px-2`}>Es</button>
+                        </div>
+                    </Group>
+
+                    <Burger opened={drawerOpened} onClick={toggleDrawer} color='#fff' hiddenFrom="lg" />
+                </nav>
+            </header>
+
+            <Drawer
+                style={{
+                    '--mantine-color-body': '#254030',
+                    '--mantine-color-gray-7': '#fff',
+                }}
+                opened={drawerOpened}
+                onClose={closeDrawer}
+                size="75%"
+                padding="md"
+                hiddenFrom="lg"
+                title={
                     <Image
                         src={`/images/logo.svg`}
                         width={180}
@@ -16,36 +95,21 @@ export default function Header() {
                         alt='Артур Сугако теперь и в Барселоне!'
                         priority
                     />
-                </Link>
+                }
+                zIndex={1000000}
+            >
+                <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
+                    {NavLinks}
+                </Flex>
 
-                <ul className="justify-center items-center gap-7 inline-flex flex-wrap text-base font-light">
-                    <li>
-                        <Link href={'/'} className="text-center items-center flex">Услуги</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'} className="text-center items-center flex">Проблемы</Link>
-                    </li>
-                    <li>
-                        <Link href={`/`}>Консультация</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'} className="text-center items-center flex">Цены</Link>
-                    </li>
-                    <li>
-                        <Link href={`/`}>Новости</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'} className="text-center items-center flex">Про нас</Link>
-                    </li>
-                </ul>
-                <div className="flex flex-wrap gap-7">
-                    <Button variant='transparent' className={styles.button}>В магазин</Button>
-                    <div className="flex items-center font-light">
+                <Flex direction={'column'} gap={'md'} align="center" key={235352535235}>
+                    <Button variant='primary' className={styles.button}>В магазин</Button>
+                    <div className="flex items-center justify-center font-light">
                         <button className={`px-2`}>Ua</button>
                         <button className={`px-2`}>Es</button>
                     </div>
-                </div>
-            </div>
-        </header >
+                </Flex>
+            </Drawer>
+        </>
     )
 }

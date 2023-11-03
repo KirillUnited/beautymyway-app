@@ -1,5 +1,7 @@
 .wrapper {
-    &>:first-child {
-        order: 1;
+    @media screen and (max-width: 1024px) {
+        & > :first-child {
+            order: 1;
+        }
     }
 }

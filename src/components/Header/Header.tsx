@@ -3,13 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import {
-    Menu,
     Group,
     Flex,
     Burger,
     Drawer,
-    ScrollArea,
-    Divider,
     rem,
     NavLink
 } from '@mantine/core';
@@ -64,11 +61,11 @@ export default function Header() {
                         />
                     </Link>
 
-                    <Group gap={rem('28px')} visibleFrom='lg' justify='center' className='text-base font-light'>
+                    <Group gap={rem('28px')} visibleFrom='lg' justify='center' className='text-base font-light gap-y-3'>
                         <HeaderMenu />
                     </Group>
 
-                    <Group gap={'xl'} justify='center' visibleFrom='lg'>
+                    <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
                         <Button variant='transparent' className={styles.button}>В магазин</Button>
                         <div className="flex items-center font-light">
                             <button className={`px-2`}>Ua</button>

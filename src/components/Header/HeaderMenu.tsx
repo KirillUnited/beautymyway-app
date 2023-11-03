@@ -19,7 +19,7 @@ export default function HeaderMenu(): React.JSX.Element {
                             href={link.link}
                             onClick={(event) => event.preventDefault()}
                         >
-                            <Group>
+                            <Group gap={'xs'}>
                                 <span>{link.label}</span>
                                 <FontAwesomeIcon icon={faAngleDown} />
                             </Group>

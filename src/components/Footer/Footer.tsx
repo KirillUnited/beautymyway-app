@@ -15,10 +15,11 @@ export default function Footer() {
                 <div className='flex flex-col items-center md:items-start gap-6 order-1 sm:order-none'>
                     <Link href={'/'} className={`logo`}>
                         <Image
-                            src={`/images/logo.svg`}
+                            src={`/images/logo-color.png`}
                             width={140}
                             height={32}
                             alt='Артур Сугако теперь и в Барселоне!'
+                            className='max-w-[40px]'
                         />
                     </Link>
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'}/>

@@ -22,9 +22,9 @@ export default function Header() {
         <>
             <header className={styles.root}>
                 <nav className="min-h-[5rem] container flex justify-between items-center py-2">
-                    <Link href={'/'} className={`logo`}>
+                    <Link href={'/'} className={styles.logo}>
                         <Image
-                            src={`/images/logo.svg`}
+                            src={`/images/logo-color.png`}
                             width={180}
                             height={41}
                             alt='Артур Сугако теперь и в Барселоне!'
@@ -59,13 +59,15 @@ export default function Header() {
                 padding="md"
                 hiddenFrom="lg"
                 title={
-                    <Image
-                        src={`/images/logo.svg`}
-                        width={180}
-                        height={41}
-                        alt='Артур Сугако теперь и в Барселоне!'
-                        priority
-                    />
+                    <Link href={'/'} className={styles.logo}>
+                        <Image
+                            src={`/images/logo-color.png`}
+                            width={180}
+                            height={41}
+                            alt='Артур Сугако теперь и в Барселоне!'
+                            priority
+                        />
+                    </Link>
                 }
                 zIndex={1000000}
             >

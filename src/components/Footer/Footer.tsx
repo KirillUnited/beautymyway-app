@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <footer className="flex flex-col gap-10 bg-foregroundDark py-6">
             <div className="container flex flex-wrap flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
-                <div className='flex flex-col items-center md:items-start gap-6'>
+                <div className='flex flex-col items-center md:items-start gap-6 order-1 sm:order-none'>
                     <Link href={'/'} className={`logo`}>
                         <Image
                             src={`/images/logo.svg`}

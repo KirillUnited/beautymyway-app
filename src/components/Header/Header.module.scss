@@ -3,7 +3,12 @@
     background-color: rgba(#254030, $alpha: 0.5);
     backdrop-filter: blur(30px);
 }
-
+.logo {
+    @apply inline-flex w-10;
+    & > img {
+        width: 100%;
+    }
+}
 .button {
     @apply min-w-[8.5rem];
 }

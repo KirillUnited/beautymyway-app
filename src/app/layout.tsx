@@ -8,16 +8,16 @@ import Footer from '@/components/Footer/Footer';
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://site.com'),
-	title: 'Артур Сугако теперь и в Барселоне!',
-	description: 'Красота – это свобода! Так было сто лет назад – все также и сегодня. Изменились только технологии.',
-	keywords: ['Салон красоты', 'Барселона', 'Процедуры'],
+	title: 'Dr. Artur Sugako Clinic ➤ Професиональный косметолог в Барселоне',
+	description: 'Dr. Artur Sugako косметолог в Барселоне⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
+	keywords: ['Массаж', 'Endosphere', 'Emsculpt', 'Dion laser', 'БАД', 'питание', 'спорт', 'косметолог', 'врач', 'ботокс', 'мезотерапия', 'биоревитализация', 'Myway', 'Beauty', 'BeautyMyway', 'липолитики', 'карбокситерапия', 'чистка', 'лицо', 'кожа', 'тело', 'красота', 'здоровье', 'гармония', 'психология'],
 	openGraph: {
 		type: 'website',
 		locale: 'en_IE',
-		url: 'https://www.url.ie/a',
-		title: 'OG Title',
-		description: 'OG Decription',
-		siteName: 'Example',
+		url: 'https://beautymyway.es',
+		title: 'Dr. Artur Sugako Clinic ➤ Професиональный косметолог в Барселоне',
+		description: 'Dr. Artur Sugako косметолог в Барселоне⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
+		siteName: 'beautymyway',
 	},
 };
 

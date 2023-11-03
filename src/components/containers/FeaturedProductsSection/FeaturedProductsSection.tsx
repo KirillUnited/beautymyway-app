@@ -27,7 +27,7 @@ const products = [
 
 export default function FeaturedProductsSection(): React.JSX.Element {
     return (
-        <section>
+        <section className='pb-4'>
             <div className='container'>
                 <div className='section-heading'>
                     <h2 className='section-title'>Уникальные процедуры</h2>

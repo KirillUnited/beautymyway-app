@@ -1,12 +1,11 @@
 import React from 'react';
 import ImageSectionLayout from '../ImageSectionLayout';
-import image from '../../../../public/images/surgery.png';
 import styles from './SurgerySection.module.scss';
 
 export default function SurgerySection() {
     return (
         <ImageSectionLayout
-            image={image}
+            image={`surgery.png`}
             title='COSMETIC SURGERY CLINIC'
             className={styles.wrapper}
         >

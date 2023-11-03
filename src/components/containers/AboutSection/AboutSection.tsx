@@ -1,12 +1,13 @@
 import React from 'react';
 import ImageSectionLayout from '../ImageSectionLayout';
-import image from '../../../../public/images/about.png';
 import Image from 'next/image';
+import styles from './AboutSection.module.scss';
 
 export default function AboutSection() {
     return (
         <ImageSectionLayout
-            image={image}
+            image={`about.png`}
+            className={styles.wrapper}
         >
             <Image
                 src={`/images/logo.svg`}

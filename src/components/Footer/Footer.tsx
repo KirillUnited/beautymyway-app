@@ -11,8 +11,8 @@ import Contacts from '@/components/Contacts/Contacts';
 export default function Footer() {
     return (
         <footer className="flex flex-col gap-10 bg-foregroundDark py-6">
-            <div className="container flex flex-wrap justify-between">
-                <div className='flex flex-col gap-6'>
+            <div className="container flex flex-wrap flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
+                <div className='flex flex-col items-center md:items-start gap-6'>
                     <Link href={'/'} className={`logo`}>
                         <Image
                             src={`/images/logo.svg`}
@@ -21,9 +21,9 @@ export default function Footer() {
                             alt='Артур Сугако теперь и в Барселоне!'
                         />
                     </Link>
-                    <Contacts tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'}/>
-                    <Contacts tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'}/>
-                    <div className='flex flex-col self-start gap-2'>
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'}/>
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'}/>
+                    <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
                             <a href='/'><FontAwesomeIcon icon={faYoutube} className='w-5 h-5' /></a>
                             <a href='/'><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
@@ -37,7 +37,7 @@ export default function Footer() {
                         />
                     </div>
                 </div>
-                <ul className="flex flex-col font-light leading-normal gap-2">
+                <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">О клинике</span>
                     <li>
                         <Link href={'/'}>Цены</Link>
@@ -52,7 +52,7 @@ export default function Footer() {
                         <Link href={'/'}>Новости</Link>
                     </li>
                 </ul>
-                <ul className="flex flex-col font-light leading-normal gap-2">
+                <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">Услуги</span>
                     <li>
                         <Link href={'/'}>Лазерная косметология</Link>
@@ -73,8 +73,8 @@ export default function Footer() {
             </div>
             <div className="container">
                 <div className="text-center leading-[115%] text-sm font-light">
-                    <h5 className="text-primary underline">Публичный договор<br /></h5>
-                    <p className="text-secondary">© {new Date().getFullYear()} Dr. Dudikova. Все права защищены! Запрещено использование материалов сайта без согласия авторов и обратной ссылки. Использование любых материалов,<br />размещенных на сайте, разрешается ссылкой на https://dr-dudikova.clinic/. При копировании материалов со страницы сайта обязательная прямая, открытая для поисковых<br />систем, гиперссылка. Ссылка должна быть размещена независимо от полного или частичного использования материалов. Гиперссылка (для интернет – изданий) – должна<br />быть размещена в подзаголовке или в первом абзаце материала.<br />This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply .</p>
+                    <h5 className="text-primary underline">Публичный договор </h5>
+                    <p className="text-secondary">© {new Date().getFullYear()} Dr. Dudikova. Все права защищены! Запрещено использование материалов сайта без согласия авторов и обратной ссылки. Использование любых материалов, размещенных на сайте, разрешается ссылкой на https://dr-dudikova.clinic/. При копировании материалов со страницы сайта обязательная прямая, открытая для поисковых систем, гиперссылка. Ссылка должна быть размещена независимо от полного или частичного использования материалов. Гиперссылка (для интернет – изданий) – должна быть размещена в подзаголовке или в первом абзаце материала. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply .</p>
                 </div>
             </div>
         </footer>

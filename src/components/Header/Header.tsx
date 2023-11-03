@@ -8,44 +8,15 @@ import {
     Burger,
     Drawer,
     rem,
-    NavLink
 } from '@mantine/core';
 import HeaderMenu from './HeaderMenu';
+import HeaderNav from './HeaderNav';
 import styles from './Header.module.scss';
 import Button from '@/components/Button/Button';
 import { useDisclosure } from '@mantine/hooks';
-import { LINKS } from '@/data';
 
 export default function Header() {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
-    const NavLinks = LINKS.map((link) => {
-        const menuItems = link.links?.map((item, index) => (
-            <NavLink 
-            className={styles.navLink} 
-            label={item.label} 
-            key={Math.random()} />
-        ));
-
-        if (menuItems) {
-            return (
-                <NavLink
-                    label={<span className={styles.navLinkLabel}>{link.label}</span>}
-                    className={styles.navLink}
-                    key={Math.random()}
-                >
-                    {menuItems}
-                </NavLink>
-            );
-        }
-
-        return (
-            <NavLink
-                className={styles.navLink}
-                label={<span className={styles.navLinkLabel}>{link.label}</span>}
-                key={Math.random()}
-            />
-        );
-    });
 
     return (
         <>
@@ -99,7 +70,7 @@ export default function Header() {
                 zIndex={1000000}
             >
                 <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
-                    {NavLinks}
+                    <HeaderNav/>
                 </Flex>
 
                 <Flex direction={'column'} gap={'md'} align="center" key={235352535235}>

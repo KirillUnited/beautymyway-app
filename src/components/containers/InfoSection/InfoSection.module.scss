@@ -1,14 +1,14 @@
 .root {
-    @apply py-20;
+    @apply py-10 lg:py-20;
 }
 .wrapper {
     @apply container flex flex-col gap-7 items-center;
 }
 .title {
-    @apply text-3xl font-semibold leading-10;
+    @apply text-2xl lg:text-3xl text-center font-semibold leading-10;
 }
 .description {
-    @apply text-lg font-light leading-7 max-w-3xl text-center;
+    @apply text-sm lg:text-lg font-light leading-snug lg:leading-7 max-w-3xl text-center;
 }
 .contacts {
     @apply flex flex-wrap gap-4 border border-primary p-3;

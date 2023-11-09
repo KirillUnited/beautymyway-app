@@ -50,7 +50,7 @@ export default function Header() {
 
             <Drawer
                 style={{
-                    '--mantine-color-body': '#254030',
+                    '--mantine-color-body': '#2B3632',
                     '--mantine-color-gray-7': '#fff',
                 }}
                 opened={drawerOpened}

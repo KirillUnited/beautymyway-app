@@ -16,9 +16,9 @@ const config: Config = {
         mulish: ['var(--font-mulish)']
       },
       colors: {
-        foreground: '#254030',
+        foreground: 'var(--color-foreground)',
         foregroundDark: '#0E0E0E',
-        primary: '#fff',
+        primary: '#f5f5f5',
         secondary: '#C4C4C4',
         accent: '#FFCC00',
         primaryInvert: '#000',

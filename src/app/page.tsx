@@ -1,6 +1,7 @@
 'use client';
 import AboutSection from '@/components/containers/AboutSection/AboutSection';
 import FeaturedProductsSection from '@/components/containers/FeaturedProductsSection/FeaturedProductsSection';
+import FeedsSection from '@/components/containers/FeedsSection/FeedsSection';
 import HeroSection from '@/components/containers/HeroSection/HeroSection';
 import HitSection from '@/components/containers/HitSection/HitSection';
 import InfoSection from '@/components/containers/InfoSection/InfoSection';
@@ -22,7 +23,7 @@ const theme = createTheme({
 			"#717171",
 			"#656565",
 			"#575757"
-		  ],
+		],
 	}
 });
 
@@ -36,6 +37,7 @@ export default function Home() {
 			<ProductsSection />
 			<WhySection />
 			<HitSection />
+			<FeedsSection />
 			<SurgerySection />
 		</MantineProvider>
 	)

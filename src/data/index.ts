@@ -125,4 +125,25 @@ export const FEATURED_PRODUCTS = [
         title: 'Биоревитализация',
         description: 'Inventore ut atque distinctio laboriosam consequatur praesentium eos. Fugit nostrum odit quis adipisci. Consequatur voluptatibus perspiciatis possimus non beatae aut. Eum qui perferendis dolores. Velit minus ea tempore rerum ipsa sed.'
     },
+];
+
+export const FEEDS = [
+    {
+        image: 'feeds-1.png',
+        title: 'Новый аппарат Ultraformer MPT в Dr.Dudikova Clinic',
+        description: 'Рады презентовать вам новый аппарат в Dr.Dudikova Clinic! Безоперационная подтяжка лица и тела c с помощью нового аппарата Ultraformer MPT®',
+        date: '15.05.2023'
+    },
+    {
+        image: 'feeds-2.png',
+        title: 'Красота – это свобода!',
+        description: 'Екатерина Дудикова поделилась своими размышлениями о красоте и уходе.Красота – это свобода!',
+        date: '02.12.2021'
+    },
+    {
+        image: 'feeds-3.png',
+        title: 'В нашей клинике прошел летний beauty-бранч',
+        description: 'В нашей клинике COSMETIC SURGERY CLINIC прошел летний beauty-бранч, приуроченный ко Всемирному флешмобу женственности. Omnis voluptatem consequatur adipisci impedit sit velit voluptas illum quos. Consequatur voluptas quo veritatis et eligendi suscipit quae. Qui assumenda qui exercitationem laboriosam voluptatem vitae. Natus voluptas ex dignissimos. Soluta necessitatibus vel nostrum.',
+        date: '15.05.2023'
+    },
 ]

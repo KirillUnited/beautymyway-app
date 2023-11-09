@@ -1,0 +1,20 @@
+.root {
+    @apply h-full;
+    background: #3d3d3d;
+}
+.image {
+    @apply w-full object-cover object-center aspect-[360/200];
+}
+.body {
+    @apply flex-1 p-5;
+}
+.title {
+    @apply font-semibold line-clamp-2;
+    line-height: 135%;
+}
+.description {
+    @apply font-light mt-2 line-clamp-4;
+}
+.footer {
+    padding: 0 1.25rem 1.25rem;
+}

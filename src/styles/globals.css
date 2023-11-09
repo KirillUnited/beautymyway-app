@@ -18,3 +18,8 @@
         @apply text-base font-light;
     }
 }
+@layer utilities {
+    .flexCol {
+        @apply flex flex-col;
+    }
+}

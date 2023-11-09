@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --color-foreground: #254030;
-    --mantine-color-body: #254030;
+    --color-foreground: #2B3632;
+    --mantine-color-body: #2B3632;
 }
 
 @layer components {

@@ -22,7 +22,7 @@ export default function ProductsItem({ image, title, description, variant = 'def
                 fill
                 src={`/images/${image}`}
                 sizes="(max-width: 768px) 50vw, 25vw"
-                quality={50}
+                quality={60}
                 alt={title}
                 className={styles.image}
             />

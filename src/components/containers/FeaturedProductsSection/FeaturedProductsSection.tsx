@@ -1,29 +1,7 @@
 import ProductsItem from '@/components/ProductsItem/ProductsItem';
 import Link from 'next/link';
 import React from 'react';
-
-const products = [
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'Фотолечение и Фотоомоложение (DPL)',
-        description: 'Repellendus est voluptas officia.'
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'Компрессионно-вибрационный массаж',
-        description: 'Одним из наиболее инновационных методов возвращения молодости и борьбы с возрастными изменениями'
-    },
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'Ботулинотерапия',
-        description: 'Aut laboriosam officiis cupiditate id. Nisi voluptatem voluptatibus.'
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'Биоревитализация',
-        description: 'Inventore ut atque distinctio laboriosam consequatur praesentium eos. Fugit nostrum odit quis adipisci. Consequatur voluptatibus perspiciatis possimus non beatae aut. Eum qui perferendis dolores. Velit minus ea tempore rerum ipsa sed.'
-    },
-]
+import { FEATURED_PRODUCTS } from '@/data';
 
 export default function FeaturedProductsSection(): React.JSX.Element {
     return (
@@ -35,7 +13,7 @@ export default function FeaturedProductsSection(): React.JSX.Element {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
                     {
-                        products.map(({ image, title, description }, index) => {
+                        FEATURED_PRODUCTS.map(({ image, title, description }, index) => {
                             return (
                                 <Link href={'/'} key={index}>
                                     <ProductsItem

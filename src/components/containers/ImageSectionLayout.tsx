@@ -11,10 +11,10 @@ export default function ImageSectionLayout({ title, description, children, image
                 <div className='relative'>
                     <Image
                         src={`/images/${image}`}
-                        width={510}
+                        width={700}
                         height={510}
                         alt={title || 'Артур Сугако теперь и в Барселоне!'}
-                        className='object-cover w-full h-full'
+                        className='object-cover w-full h-full aspect-video'
                     />
                 </div>
                 <div className={styles.content}>

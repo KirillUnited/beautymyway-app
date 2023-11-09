@@ -7,8 +7,21 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
+import { LINKS } from '@/data';
 
 export default function Footer() {
+    const getLinks = (name: string) => {
+        const links = LINKS.filter((item) => {
+            if (item.label === name) return item;
+        })[0].links?.map((item) => (
+            <li key={item.label}>
+                <Link href={'/'}>{item.label}</Link>
+            </li>
+        ));
+
+        return links;
+    }
+
     return (
         <footer className="flex flex-col gap-10 bg-foregroundDark py-6">
             <div className="container flex flex-wrap flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
@@ -22,8 +35,8 @@ export default function Footer() {
                             className='max-w-[40px]'
                         />
                     </Link>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'}/>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'}/>
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'} />
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'} />
                     <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
                             <a href='/'><FontAwesomeIcon icon={faYoutube} className='w-5 h-5' /></a>
@@ -40,36 +53,11 @@ export default function Footer() {
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">О клинике</span>
-                    <li>
-                        <Link href={'/'}>Цены</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Видеогалерея</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Отзывы</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Новости</Link>
-                    </li>
+                    {getLinks('Про нас')}
                 </ul>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">Услуги</span>
-                    <li>
-                        <Link href={'/'}>Лазерная косметология</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Аппаратная косметология</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Инъекционная косметология</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Контурная пластика</Link>
-                    </li>
-                    <li>
-                        <Link href={'/'}>Уходовая косметология</Link>
-                    </li>
+                    {getLinks('Услуги')}
                 </ul>
             </div>
             <div className="container">

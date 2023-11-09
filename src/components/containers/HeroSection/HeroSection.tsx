@@ -28,13 +28,6 @@ export default function HeroSection(): React.JSX.Element {
                             alt="logo"
                             className='max-w-[9rem] lg:max-w-full'
                         />
-                        <Image
-                            src="/images/award.png"
-                            width={230}
-                            height={114}
-                            alt="award"
-                            className='max-w-[9rem] lg:max-w-full mt-6 lg:mt-20 shadow-[0px_0px_10px_0px_#595959] rounded-2xl'
-                        />
                     </div>
 
                     <Image

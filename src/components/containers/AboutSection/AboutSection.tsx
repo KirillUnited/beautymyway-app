@@ -2,6 +2,7 @@ import React from 'react';
 import ImageSectionLayout from '../ImageSectionLayout';
 import Image from 'next/image';
 import styles from './AboutSection.module.scss';
+import classNames from 'classnames';
 
 export default function AboutSection() {
     return (
@@ -18,7 +19,7 @@ export default function AboutSection() {
             <div className="text-xl font-extralight italic p-3 text-center border border-primary my-4">
                 Мы получаем вдохновение от красоты каждого клиента,<span className="font-normal"> который обращается к нам!</span>
             </div>
-            <p>Мы <span className="font-semibold leading-none">ежедневно помогаем</span> вам найти и подчеркнуть естественность и гармонию через наш накопленный опыт, лучшие методики и препараты.Обучение у доктора медицины, которому <span className="font-semibold leading-none">доверяют голливудские звезды</span>, ведущего мирового специалиста по лазерным технологиям <span className="font-semibold leading-none">Саймона Ориана (США)</span>, обмен опытом в клинике знаменитого хирурга и дерматолога <span className="font-semibold leading-none">Джейсона Эмера (США)</span>, сотрудничество с ведущим пластическим хирургом <span className="font-semibold leading-none">Ростиславом Валихновским (Украина)</span>, стажировка в ведущих клиниках США, Италия, Великобритании и Израиле - все это позволяет нам <span className="font-semibold leading-none">первыми в Украине</span> внедрять передовые методики и протоколы лечения.</p>
+            <p>Мы <span className="font-semibold">ежедневно используем</span> наш накопленный опыт, лучшие методики и средства, чтобы помочь вам обнаружить и подчеркнуть вашу природную красоту и гармонию. Это позволяет нам внедрять передовые техники и протоколы лечения.</p>
         </ImageSectionLayout>
     )
 }

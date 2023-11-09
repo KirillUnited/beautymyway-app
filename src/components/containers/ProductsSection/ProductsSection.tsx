@@ -1,41 +1,7 @@
 import ProductsItem from '@/components/ProductsItem/ProductsItem';
 import Link from 'next/link';
 import React from 'react';
-
-const products = [
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'пигментные пятна',
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'акне',
-    },
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'мимические морщины',
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'убрать дряблость кожи',
-    },
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'круги под глазами',
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'гипергидроз',
-    },
-    {
-        image: 'featured-product-1.jpeg',
-        title: 'Диодный лазер и DPL',
-    },
-    {
-        image: 'featured-product-2.jpeg',
-        title: 'аппаратный массаж',
-    },
-];
+import { PRODUCTS } from '@/data';
 
 export default function ProductsSection(): React.JSX.Element {
     return (
@@ -46,7 +12,7 @@ export default function ProductsSection(): React.JSX.Element {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4">
                 {
-                    products.map(({ image, title }, index) => {
+                    PRODUCTS.map(({ image, title }, index) => {
                         return (
                             <Link href={'/'} key={index}>
                                 <ProductsItem

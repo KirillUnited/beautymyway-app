@@ -51,7 +51,42 @@ export const LINKS = [
             }
         ]
     },
-]
+];
+
+export const PRODUCTS = [
+    {
+        image: 'product-1.JPG',
+        title: 'пигментные пятна',
+    },
+    {
+        image: 'product-2.JPG',
+        title: 'акне',
+    },
+    {
+        image: 'product-3.JPG',
+        title: 'мимические морщины',
+    },
+    {
+        image: 'product-4.JPG',
+        title: 'убрать дряблость кожи',
+    },
+    {
+        image: 'product-5.JPG',
+        title: 'круги под глазами',
+    },
+    {
+        image: 'product-6.JPG',
+        title: 'гипергидроз',
+    },
+    {
+        image: 'product-7.JPG',
+        title: 'Диодный лазер и DPL',
+    },
+    {
+        image: 'product-8.JPG',
+        title: 'аппаратный массаж',
+    },
+];
 
 export const FEATURED_PRODUCTS = [
     {

@@ -59,15 +59,11 @@ export const LINKS = [
         links: [
             {
                 link: '/',
-                label: 'Цены',
+                label: 'Кто мы',
             },
             {
                 link: '/',
                 label: 'Отзывы',
-            },
-            {
-                link: '/',
-                label: 'Новости',
             },
         ]
     },

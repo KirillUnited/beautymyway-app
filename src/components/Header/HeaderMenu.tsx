@@ -35,6 +35,7 @@ export default function HeaderMenu(): React.JSX.Element {
                 key={link.label}
                 href={link.link}
                 onClick={(event) => event.preventDefault()}
+                className='hover:underline'
             >
                 {link.label}
             </a>

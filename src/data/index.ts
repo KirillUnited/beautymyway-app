@@ -146,4 +146,31 @@ export const FEEDS = [
         description: 'В нашей клинике COSMETIC SURGERY CLINIC прошел летний beauty-бранч, приуроченный ко Всемирному флешмобу женственности. Omnis voluptatem consequatur adipisci impedit sit velit voluptas illum quos. Consequatur voluptas quo veritatis et eligendi suscipit quae. Qui assumenda qui exercitationem laboriosam voluptatem vitae. Natus voluptas ex dignissimos. Soluta necessitatibus vel nostrum.',
         date: '15.05.2023'
     },
+];
+
+export const TESTIMONAILS = [
+    {
+        image: 'hero.png',
+        title: 'Наталья Варченко',
+        subtitle: 'Певица, Miss Europe Continental 2017',
+        description: 'Cum excepturi libero. Ea nulla culpa perferendis alias qui minus ipsum. Expedita dicta libero assumenda. Aliquid molestiae labore recusandae consequatur id sed. Molestias eum quo eos saepe est dicta nihil qui. Dolor quae est ut sint voluptatem.'
+    },
+    {
+        image: 'product-3.JPG',
+        title: 'Lenny Skiles',
+        subtitle: 'Regional',
+        description: 'Dolorum aliquid qui. Dolor tenetur modi fugit optio architecto. Distinctio aut sed. Qui et facere temporibus est impedit minus incidunt.'
+    },
+    {
+        image: 'testimonials-3.png',
+        title: 'Giovanna Mante',
+        subtitle: 'Principal Web Supervisor',
+        description: 'Aliquam nostrum ex sunt. Consequuntur ex eveniet quia non voluptas odit. Est quam omnis consectetur sint. Error facilis sunt non.'
+    },
+    {
+        image: 'hero.png',
+        title: 'Lonnie Cummerata',
+        subtitle: 'Legacy Integration Liaison',
+        description: 'Eum enim est accusamus et fuga consequatur autem porro. Quis at commodi dolor. Reprehenderit eius sed soluta fugit laudantium. Error sapiente quaerat corporis ducimus omnis adipisci qui. Enim consequatur omnis consequuntur consequatur laudantium. Nesciunt voluptatem voluptates alias expedita sint alias quis.'
+    },
 ]

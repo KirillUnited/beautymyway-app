@@ -20,7 +20,7 @@ const config: Config = {
         foregroundDark: '#0E0E0E',
         primary: '#f5f5f5',
         secondary: '#C4C4C4',
-        accent: '#FFCC00',
+        accent: '#CAAC59',
         primaryInvert: '#000',
         grey: '#3D3D3D'
       }

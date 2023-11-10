@@ -5,10 +5,13 @@
         rgb(55, 70, 64) 0%,
         var(--color-foreground) 100%
     );
-    @media (max-width: 62em) {
+    @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
 }
 .text {
-    @apply text-2xl lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 border-t border-secondary;
+    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 border-t border-secondary;
+}
+.bg-image {
+    @apply -order-1 lg:order-1 w-full h-full object-contain object-right lg:w-auto absolute inset-0 lg:relative;
 }

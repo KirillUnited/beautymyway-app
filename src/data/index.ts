@@ -148,7 +148,7 @@ export const FEEDS = [
     },
 ];
 
-export const TESTIMONAILS = [
+export const TESTIMONIALS = [
     {
         image: 'hero.png',
         title: 'Наталья Варченко',
@@ -172,5 +172,32 @@ export const TESTIMONAILS = [
         title: 'Lonnie Cummerata',
         subtitle: 'Legacy Integration Liaison',
         description: 'Eum enim est accusamus et fuga consequatur autem porro. Quis at commodi dolor. Reprehenderit eius sed soluta fugit laudantium. Error sapiente quaerat corporis ducimus omnis adipisci qui. Enim consequatur omnis consequuntur consequatur laudantium. Nesciunt voluptatem voluptates alias expedita sint alias quis.'
+    },
+];
+
+export const TEAM = [
+    {
+        image: 'team-1.png',
+        title: 'team-1'
+    },
+    {
+        image: 'team-2.png',
+        title: 'team-2'
+    },
+    {
+        image: 'team-3.png',
+        title: 'team-3'
+    },
+    {
+        image: 'team-4.png',
+        title: 'team-4'
+    },
+    {
+        image: 'team-5.png',
+        title: 'team-5'
+    },
+    {
+        image: 'team-6.png',
+        title: 'team-6'
     },
 ]

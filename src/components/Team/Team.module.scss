@@ -1,0 +1,44 @@
+.root {
+    @apply block lg:grid;
+    gap: rem(40px);
+    grid-template-columns: [main-start] 2fr [content-start] 1.5fr [content-middle] 1fr [content-end] 1.5fr [main-end];
+    grid-template-rows: [main-start] rem(260px) [content-start] rem(160px) [content-end] rem(260px) [main-end];
+}
+.image {
+    @apply w-full h-full object-cover;
+
+    &:nth-child(1){
+        grid-column-start: main-start;
+        grid-row-start: main-start;
+        grid-row-end: content-start;
+    }
+    &:nth-child(2){
+        grid-column-start: content-start;
+        grid-column-end: content-middle;
+        grid-row-start: main-start;
+        grid-row-end: content-end;
+    }
+    &:nth-child(3){
+        grid-column-start: content-middle;
+        grid-column-end: main-end;
+        grid-row-start: main-start;
+        grid-row-end: content-end;
+    }
+    &:nth-child(4){
+        grid-column-start: main-start;
+        grid-row-start: content-start;
+        grid-row-end: main-end;
+    }
+    &:nth-child(5){
+        grid-column-start: content-start;
+        grid-column-end: content-end;
+        grid-row-start: content-end;
+        grid-row-end: main-end;
+    }
+    &:nth-child(6){
+        grid-column-start: content-end;
+        grid-column-end: main-end;
+        grid-row-start: content-end;
+        grid-row-end: main-end;
+    }
+}

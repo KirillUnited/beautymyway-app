@@ -18,6 +18,7 @@ export default function HeaderMenu(): React.JSX.Element {
                         <a
                             href={link.link}
                             onClick={(event) => event.preventDefault()}
+                            className='hover:text-accent transition-all'
                         >
                             <Group gap={'xs'}>
                                 <span>{link.label}</span>
@@ -25,7 +26,9 @@ export default function HeaderMenu(): React.JSX.Element {
                             </Group>
                         </a>
                     </Menu.Target>
-                    <Menu.Dropdown>{menuItems}</Menu.Dropdown>
+                    <Menu.Dropdown>
+                        {menuItems}
+                    </Menu.Dropdown>
                 </Menu>
             );
         }
@@ -35,7 +38,7 @@ export default function HeaderMenu(): React.JSX.Element {
                 key={link.label}
                 href={link.link}
                 onClick={(event) => event.preventDefault()}
-                className='hover:underline'
+                className='hover:text-accent transition-all'
             >
                 {link.label}
             </a>

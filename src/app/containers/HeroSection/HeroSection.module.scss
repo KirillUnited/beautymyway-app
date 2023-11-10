@@ -10,7 +10,7 @@
     }
 }
 .text {
-    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 border-t border-secondary;
+    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 md:border-t border-secondary;
 }
 .bg-image {
     @apply -order-1 lg:order-1 w-full h-full object-contain object-right lg:w-auto absolute inset-0 lg:relative;

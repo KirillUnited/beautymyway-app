@@ -7,6 +7,11 @@
     --mantine-color-body: #2B3632;
 }
 
+@layer base {
+    a {
+        @apply hover:text-accent transition-all;
+    }
+}
 @layer components {
     .section-heading{
         @apply flex flex-col gap-2 items-center max-w-xl mx-auto text-center pt-12 lg:pt-16 pb-8;

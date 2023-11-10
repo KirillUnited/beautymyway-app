@@ -27,7 +27,7 @@
     @apply font-light transition-all;
 }
 .featured {
-    @apply aspect-video lg:aspect-[260/320];
+    @apply aspect-video lg:aspect-[260/320] hover:text-primary;
     .title {
         @apply text-lg;
     }

@@ -25,7 +25,9 @@ export default function HeaderMenu(): React.JSX.Element {
                             </Group>
                         </a>
                     </Menu.Target>
-                    <Menu.Dropdown>{menuItems}</Menu.Dropdown>
+                    <Menu.Dropdown>
+                        {menuItems}
+                    </Menu.Dropdown>
                 </Menu>
             );
         }
@@ -35,7 +37,6 @@ export default function HeaderMenu(): React.JSX.Element {
                 key={link.label}
                 href={link.link}
                 onClick={(event) => event.preventDefault()}
-                className='hover:underline'
             >
                 {link.label}
             </a>

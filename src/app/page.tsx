@@ -1,15 +1,15 @@
 'use client';
-import AboutSection from '@/components/containers/AboutSection/AboutSection';
-import FeaturedProductsSection from '@/components/containers/FeaturedProductsSection/FeaturedProductsSection';
-import FeedsSection from '@/components/containers/FeedsSection/FeedsSection';
-import HeroSection from '@/components/containers/HeroSection/HeroSection';
-import HitSection from '@/components/containers/HitSection/HitSection';
-import InfoSection from '@/components/containers/InfoSection/InfoSection';
-import ProductsSection from '@/components/containers/ProductsSection/ProductsSection';
-import SurgerySection from '@/components/containers/SurgerySection/SurgerySection';
-import WhySection from '@/components/containers/WhySection/WhySection';
+import AboutSection from './containers/AboutSection/AboutSection';
+import FeaturedProductsSection from './containers/FeaturedProductsSection/FeaturedProductsSection';
+import FeedsSection from './containers/FeedsSection/FeedsSection';
+import HeroSection from './containers/HeroSection/HeroSection';
+import HitSection from './containers/HitSection/HitSection';
+import InfoSection from './containers/InfoSection/InfoSection';
+import ProductsSection from './containers/ProductsSection/ProductsSection';
+import SurgerySection from './containers/SurgerySection/SurgerySection';
+import WhySection from './containers/WhySection/WhySection';
 import { createTheme, MantineProvider } from '@mantine/core';
-import TestimonialsSection from '@/components/containers/TestimonialsSection/TestimonialsSection';
+import TestimonialsSection from './containers/TestimonialsSection/TestimonialsSection';
 import '@mantine/carousel/styles.css';
 
 const theme = createTheme({

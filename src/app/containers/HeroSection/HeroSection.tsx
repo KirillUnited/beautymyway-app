@@ -7,8 +7,8 @@ export default function HeroSection(): React.JSX.Element {
     return (
         <section className={cn(styles.root)}>
             <div className="container">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center lg:gap-14 max-w-5xl mx-auto">
-                    <div className='flex flex-col items-center text-center py-5'>
+                <div className="relative grid grid-cols-1 md:grid-cols-2 items-center lg:gap-14 max-w-5xl mx-auto">
+                    <div className='flex flex-col items-center text-center py-5 z-10 max-w-[75%] md:max-w-full'>
                         <Image
                             src="/images/logo-light.svg"
                             width={160}
@@ -36,7 +36,7 @@ export default function HeroSection(): React.JSX.Element {
                         height={696}
                         alt="hero"
                         priority
-                        className='-order-1 lg:order-1 ml-auto lg:ml-0 w-3/4 md:max-w-md lg:w-auto'
+                        className={`${styles['bg-image']}`}
                     />
                 </div>
             </div>

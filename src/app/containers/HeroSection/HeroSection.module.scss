@@ -5,7 +5,7 @@
         rgb(55, 70, 64) 0%,
         var(--color-foreground) 100%
     );
-    @media (max-width: 62em) {
+    @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
 }

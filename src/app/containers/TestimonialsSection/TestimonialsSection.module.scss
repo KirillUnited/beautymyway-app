@@ -1,3 +1,7 @@
 .wrapper {
     @apply gap-x-10;
+
+    img {
+        @apply object-top;
+    }
 }

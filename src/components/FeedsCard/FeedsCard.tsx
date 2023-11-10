@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FeedsItem.module.scss';
+import styles from './FeedsCard.module.scss';
 import Image from 'next/image';
 import cn from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

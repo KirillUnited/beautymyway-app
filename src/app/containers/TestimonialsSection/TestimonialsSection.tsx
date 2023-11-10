@@ -3,7 +3,7 @@ import { Carousel } from '@mantine/carousel';
 import Autoplay from 'embla-carousel-autoplay';
 import ImageSectionLayout from '../ImageSectionLayout';
 import styles from './TestimonialsSection.module.scss';
-import { TESTIMONAILS } from '@/data';
+import { TESTIMONIALS } from '@/data';
 import { useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 
@@ -11,7 +11,7 @@ export default function TestimonalsSection(): React.JSX.Element {
     const theme = useMantineTheme();
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`)
     const autoplay = useRef(Autoplay({ delay: 3000 }));
-    const items = TESTIMONAILS.map(({ image, title, subtitle, description }, index) => {
+    const items = TESTIMONIALS.map(({ image, title, subtitle, description }, index) => {
         return (
             <Carousel.Slide key={index}>
                 <ImageSectionLayout

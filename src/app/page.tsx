@@ -11,6 +11,7 @@ import WhySection from './containers/WhySection/WhySection';
 import { createTheme, MantineProvider } from '@mantine/core';
 import TestimonialsSection from './containers/TestimonialsSection/TestimonialsSection';
 import '@mantine/carousel/styles.css';
+import TeamSection from './containers/TeamSection/TeamSection';
 
 const theme = createTheme({
 	colors: {
@@ -37,6 +38,7 @@ export default function Home() {
 			<FeaturedProductsSection />
 			<AboutSection />
 			<ProductsSection />
+			<TeamSection />
 			<WhySection />
 			<HitSection />
 			<TestimonialsSection />

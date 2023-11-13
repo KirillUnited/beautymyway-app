@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import { Carousel } from '@mantine/carousel';
 import Autoplay from 'embla-carousel-autoplay';
-import ImageSectionLayout from '../ImageSectionLayout';
-import styles from './TestimonialsSection.module.scss';
 import { TESTIMONIALS } from '@/data';
 import { useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
@@ -31,7 +29,7 @@ export default function TestimonalsSection(): React.JSX.Element {
                     plugins={[autoplay.current]}
                     withIndicators={mobile}
                     withControls={!mobile}
-                    className='max-w-2xl mx-auto'
+                    className='max-w-2xl mx-auto mb-12'
                     
                 >
                     {

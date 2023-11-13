@@ -41,8 +41,6 @@ export default function Home() {
 			<TeamSection />
 			<HitSection />
 			<TestimonialsSection />
-			<FeedsSection />
-			<SurgerySection />
 		</MantineProvider>
 	)
 }

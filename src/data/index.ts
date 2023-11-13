@@ -39,23 +39,11 @@ export const LINKS = [
     },
     {
         link: '/',
-        label: 'Проблемы'
-    },
-    {
-        link: '/',
-        label: 'Консультация'
-    },
-    {
-        link: '/',
         label: 'Цены'
     },
     {
         link: '/',
-        label: 'Новости'
-    },
-    {
-        link: '/',
-        label: 'Про нас',
+        label: 'О нас',
         links: [
             {
                 link: '/',

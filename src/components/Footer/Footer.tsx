@@ -7,8 +7,10 @@ import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
 
+type linksCategoryType = 'О нас' | 'Услуги';
+
 export default function Footer() {
-    const getLinks = (name: string) => {
+    const getLinks = (name: linksCategoryType) => {
         const links = LINKS.filter((item) => {
             if (item.label === name) return item;
         })[0].links?.map((item) => (
@@ -52,7 +54,7 @@ export default function Footer() {
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">О нас</span>
-                    {getLinks('Про нас')}
+                    {getLinks('О нас')}
                 </ul>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">Услуги</span>

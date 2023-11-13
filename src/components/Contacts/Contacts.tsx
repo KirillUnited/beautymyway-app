@@ -9,12 +9,10 @@ import cn from 'classnames';
 import styles from './Contacts.module.scss';
 
 export default function Contacts({ tel, address, time, className }: ContactsProps): React.JSX.Element {
-    const telIsArray = tel && Array.isArray(tel);
-
     return (
         <div className={cn(styles.root, className)}>
             {
-                tel && !telIsArray
+                tel && !Array.isArray(tel)
                 &&
                 <Link href={`tel:${tel}`} className={`${styles.item} truncate`}>
                     <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
@@ -22,7 +20,7 @@ export default function Contacts({ tel, address, time, className }: ContactsProp
                 </Link>
             }
             {
-                tel && telIsArray
+                tel && Array.isArray(tel)
                 &&
                 tel.map((item)=>{
                     return (

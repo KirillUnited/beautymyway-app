@@ -117,7 +117,7 @@ export const FEATURED_PRODUCTS = [
     },
     {
         image: 'featured-product-3.JPG',
-        title: 'комплекс BeautyWay',
+        title: 'Комплекс BeautyWay',
         description: 'Aut laboriosam officiis cupiditate id. Nisi voluptatem voluptatibus.'
     },
     {

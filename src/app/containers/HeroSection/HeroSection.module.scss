@@ -1,5 +1,4 @@
 .root {
-    /* @apply pt-20; */
     background: radial-gradient(
         75.72% 51.86% at 57.47% 57.89%,
         rgb(55, 70, 64) 0%,
@@ -9,8 +8,15 @@
         background: transparent;
     }
 }
+.inner {
+    min-height: rem(600px);
+    
+    @media (max-width: $mantine-breakpoint-md) {
+        min-height: auto;
+    }
+}
 .text {
-    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2 md:border-t border-secondary;
+    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2;
 }
 .bg-image {
     @apply -order-1 lg:order-1 w-full h-full object-contain object-right lg:w-auto absolute inset-0 lg:relative;

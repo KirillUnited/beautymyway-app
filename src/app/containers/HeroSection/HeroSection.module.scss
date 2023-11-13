@@ -9,7 +9,7 @@
     }
 }
 .inner {
-    min-height: rem(600px);
+    min-height: 60vh;
     
     @media (max-width: $mantine-breakpoint-md) {
         min-height: auto;

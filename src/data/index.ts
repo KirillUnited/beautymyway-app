@@ -193,7 +193,7 @@ export const TEAM = [
         title: 'team-4'
     },
     {
-        image: 'team-5.png',
+        image: 'team-5.jpeg',
         title: 'team-5'
     },
     {

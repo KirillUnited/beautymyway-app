@@ -72,35 +72,27 @@ export const LINKS = [
 export const PRODUCTS = [
     {
         image: 'product-1.JPG',
-        title: 'пигментные пятна',
-    },
-    {
-        image: 'product-2.JPG',
-        title: 'акне',
-    },
-    {
-        image: 'product-3.JPG',
-        title: 'мимические морщины',
-    },
-    {
-        image: 'product-4.JPG',
-        title: 'убрать дряблость кожи',
+        title: 'Пигментные пятна',
     },
     {
         image: 'product-5.JPG',
-        title: 'круги под глазами',
+        title: 'Круги под глазами',
+    },
+    {
+        image: 'product-3.JPG',
+        title: 'Мимические морщины',
+    },
+    {
+        image: 'product-4.JPG',
+        title: 'Убрать дряблость кожи',
+    },
+    {
+        image: 'product-2.JPG',
+        title: 'Акне',
     },
     {
         image: 'product-6.JPG',
-        title: 'гипергидроз',
-    },
-    {
-        image: 'product-7.JPG',
-        title: 'Диодный лазер и DPL',
-    },
-    {
-        image: 'product-8.JPG',
-        title: 'аппаратный массаж',
+        title: 'Гипергидроз',
     },
 ];
 

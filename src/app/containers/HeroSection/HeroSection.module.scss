@@ -1,23 +1,33 @@
 .root {
+    position: relative;
     background: radial-gradient(
         75.72% 51.86% at 57.47% 57.89%,
         rgb(55, 70, 64) 0%,
         var(--color-foreground) 100%
     );
+    &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba($color: #2b3632, $alpha: 0.3);
+    }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
 }
 .inner {
     min-height: 60vh;
+    z-index: 10;
     
-    @media (max-width: $mantine-breakpoint-md) {
-        min-height: auto;
-    }
+    // @media (max-width: $mantine-breakpoint-md) {
+    //     min-height: auto;
+    // }
 }
 .text {
-    @apply text-lg lg:text-4xl font-extralight italic mt-2 mb-6 pt-2;
+    @apply font-mulish text-lg lg:text-4xl font-extralight italic py-2 border-t border-b border-secondary;
+    text-shadow: 2px 8px 5px #000000;
 }
 .bg-image {
-    @apply -order-1 lg:order-1 w-full h-full object-contain object-right lg:w-auto absolute inset-0 lg:relative;
+    @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative;
 }

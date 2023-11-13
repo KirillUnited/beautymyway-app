@@ -1,18 +1,44 @@
 import React from 'react';
 import styles from './Team.module.scss';
 import cn from 'classnames';
+import Image from 'next/image';
+import { TEAM } from '@/data';
+import { Carousel } from '@mantine/carousel';
 
-interface TeamGrid extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-    image: string,
-    title: string
+interface TeamSlider extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
 }
 
-export default function TeamGrid({ image, title, className, ...props }: TeamGrid): React.JSX.Element {
+export default function TeamSlider({ className }: TeamSlider): React.JSX.Element {
+    const items = TEAM.map(({
+        image,
+        title
+    }: {
+        image: string,
+        title: string
+    }) => {
+        return (
+            <Carousel.Slide key={title}>
+                <Image
+                    src={`/images/${image}`}
+                    width={360}
+                    height={200}
+                    alt={title}
+                    className={styles['slider-image']}
+                />
+            </Carousel.Slide>
+        )
+    });
+
     return (
-        <div className={
-            cn(styles.root, className)
-        }>
-            TeamGrid
-        </div>
+        <Carousel
+            withIndicators
+            withControls
+            className={cn(styles.slider, className)}
+
+        >
+            {
+                items
+            }
+        </Carousel>
     )
 }

@@ -7,8 +7,10 @@ import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
 
+type linksCategoryType = 'О нас' | 'Услуги';
+
 export default function Footer() {
-    const getLinks = (name: string) => {
+    const getLinks = (name: linksCategoryType) => {
         const links = LINKS.filter((item) => {
             if (item.label === name) return item;
         })[0].links?.map((item) => (
@@ -36,7 +38,11 @@ export default function Footer() {
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
                     <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
-                            <a href='https://instagram.com/beauty.my.way?igshid=YTQwZjQ0NmI0OA=='><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                            {
+                                Object.values(CONTACTS.socials).map((item)=>{
+                                    return <a href={item} key={item}><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                                })
+                            }
                         </div>
                         <Image
                             src={`/images/logo-clinic.svg`}
@@ -48,7 +54,7 @@ export default function Footer() {
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">О нас</span>
-                    {getLinks('Про нас')}
+                    {getLinks('О нас')}
                 </ul>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">Услуги</span>

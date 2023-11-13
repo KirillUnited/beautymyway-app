@@ -200,4 +200,10 @@ export const TEAM = [
         image: 'team-6.png',
         title: 'team-6'
     },
-]
+];
+
+export const CONTACTS = {
+    tel: ['+34 643 942 528', '+34 643 939 409'],
+    adress: 'Valencia',
+    time: 'Пн-Вс с 10:00 - 20:00',
+};

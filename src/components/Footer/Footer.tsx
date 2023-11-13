@@ -7,7 +7,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
-import { LINKS } from '@/data';
+import { CONTACTS, LINKS } from '@/data';
 
 export default function Footer() {
     const getLinks = (name: string) => {
@@ -35,8 +35,7 @@ export default function Footer() {
                             className='max-w-[40px]'
                         />
                     </Link>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+38 097 62 000 77`} address={'г. Киев, ул. Новоселицкая, 10'} time={'Пн – Вс: 09:00 – 21:00'} />
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={`+34 601 500 379`} address={'Barcelona, Carrer de Bertrand i Serra, 12'} time={'Пн – Сб: 10:00 – 20:00'} />
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
                     <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
                             <a href='/'><FontAwesomeIcon icon={faYoutube} className='w-5 h-5' /></a>

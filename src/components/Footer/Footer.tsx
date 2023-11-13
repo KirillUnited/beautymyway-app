@@ -36,7 +36,11 @@ export default function Footer() {
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
                     <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
-                            <a href='https://instagram.com/beauty.my.way?igshid=YTQwZjQ0NmI0OA=='><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                            {
+                                Object.values(CONTACTS.socials).map((item)=>{
+                                    return <a href={item} key={item}><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                                })
+                            }
                         </div>
                         <Image
                             src={`/images/logo-clinic.svg`}

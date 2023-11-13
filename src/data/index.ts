@@ -201,7 +201,7 @@ export const TEAM = [
         title: 'team-5'
     },
     {
-        image: 'team-6.png',
+        image: 'team-6.jpeg',
         title: 'team-6'
     },
 ];
@@ -210,4 +210,7 @@ export const CONTACTS = {
     tel: ['+34 643 942 528', '+34 643 939 409'],
     adress: 'Valencia',
     time: 'Пн-Вс с 10:00 - 20:00',
+    socials: {
+        insta: 'https://instagram.com/beauty.my.way?igshid=YTQwZjQ0NmI0OA==',
+    }
 };

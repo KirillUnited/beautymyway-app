@@ -15,7 +15,7 @@ export default function Footer() {
             if (item.label === name) return item;
         })[0].links?.map((item) => (
             <li key={item.label}>
-                <Link href={'/'}>{item.label}</Link>
+                <Link href={'/'} className='linkHover inline-block'>{item.label}</Link>
             </li>
         ));
 

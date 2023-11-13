@@ -1,4 +1,4 @@
-import ProductsItem from '@/components/ProductsItem/ProductsItem';
+import ProductsItem from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
 import { PRODUCTS } from '@/data';

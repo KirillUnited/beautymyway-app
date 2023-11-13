@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import '@mantine/core/styles.css';
-import '@/styles/globals.css';
+import '@/styles/globals.scss';
 import { mulish } from './fonts';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import Header from '@/components/Header/Header';

@@ -145,25 +145,37 @@ export const TESTIMONIALS = [
         image: 'hero.png',
         title: 'Наталья Варченко',
         subtitle: 'Певица, Miss Europe Continental 2017',
-        description: 'Cum excepturi libero. Ea nulla culpa perferendis alias qui minus ipsum. Expedita dicta libero assumenda. Aliquid molestiae labore recusandae consequatur id sed. Molestias eum quo eos saepe est dicta nihil qui. Dolor quae est ut sint voluptatem.'
+        description: 'Здравствуйте! Хотелось бы выразить благодарность Артуру.Замечательный специалист, очень доброжелательный и вежливый человек. Благодаря таким специалистам, хочется снова и снова приходить в ваш кабинет. С уважением Олеся и Максим )'
     },
     {
         image: 'product-3.JPG',
         title: 'Lenny Skiles',
         subtitle: 'Regional',
-        description: 'Dolorum aliquid qui. Dolor tenetur modi fugit optio architecto. Distinctio aut sed. Qui et facere temporibus est impedit minus incidunt.'
+        description: 'Посещаю данный  центр уже несколько месяцев. Прошла курс лазерного омоложения , теперь хожу на поддерживающие процедуры раз в пол — года. Ходила всегда к Ангелине.Она очень внимательная, всегда спрашивает о самочувствии, объясняет всё доходчиво и понятно, приятная в общении. Персонал всегда приветливый, в кабинетах очень чисто.'
     },
     {
         image: 'testimonials-3.png',
         title: 'Giovanna Mante',
         subtitle: 'Principal Web Supervisor',
-        description: 'Aliquam nostrum ex sunt. Consequuntur ex eveniet quia non voluptas odit. Est quam omnis consectetur sint. Error facilis sunt non.'
+        description: 'Вчера посетила салон и осталась очень довольна, буду делиться эмоциями: во-первых приятной атмосферой интерьером и доброжелательностью  сразу встречают на пороге этого замечательного места, во-вторых профессионализмом и внимательность специалиста) Делаю не первый раз, но в этом салоне впервые биоревитализация, процедура проходит безболезненно, что значит врач профессионал, который и подготовит и где надо душевно подойдет. Огромное спасибо за красоту'
     },
     {
         image: 'hero.png',
         title: 'Lonnie Cummerata',
         subtitle: 'Legacy Integration Liaison',
-        description: 'Eum enim est accusamus et fuga consequatur autem porro. Quis at commodi dolor. Reprehenderit eius sed soluta fugit laudantium. Error sapiente quaerat corporis ducimus omnis adipisci qui. Enim consequatur omnis consequuntur consequatur laudantium. Nesciunt voluptatem voluptates alias expedita sint alias quis.'
+        description: 'Хочу выразить благодарность специалисту по телу Артуру. Я склонна к отекам и из-за малоподвижного образа жизни мое тело стало не таким идеальным, как раньше. Подруга порекомендовала отличного специалиста. Артур подобрал мне целый комплекс. Мы делали процедуры два раза в неделю, раз восемь. Результат не заставил себя долго ждать, мое тело с благодарностью отреагировало на воздействие! Я могу не стесняться надевать мои любимые шорты! И снова чувствую себя уверенно! Спасибо!'
+    },
+    {
+        image: 'hero.png',
+        title: 'Lonnie Cummerata',
+        subtitle: 'Legacy Integration Liaison',
+        description: 'Спасибо Ангелине  за моё красивое личико))) Ее руки творят чудеса, доверяю ей полностью. Ходим с дочерью уже как год и всегда остаемся очень довольны.'
+    },
+    {
+        image: 'hero.png',
+        title: 'Lonnie Cummerata',
+        subtitle: 'Legacy Integration Liaison',
+        description: 'Лицом любуюсь после процедуры, а оно все лучше и лучше со дня процедуры!!!Поэтому и пишу! Сегодня ещё лучше!!! Артур Александрович - это какое-то волшебство!!Сказать спасибо моему доктору Красоты-это ничего не сказать! Спасибо всему персоналу, профессионализм и тактичность каких я до этого не знала'
     },
 ];
 

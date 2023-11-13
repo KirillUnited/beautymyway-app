@@ -14,16 +14,9 @@ export default function TestimonalsSection(): React.JSX.Element {
     const items = TESTIMONIALS.map(({ image, title, subtitle, description }, index) => {
         return (
             <Carousel.Slide key={index}>
-                <ImageSectionLayout
-                    image={image}
-                    title={title}
-                    description={subtitle}
-                    className={`${styles.wrapper}`}
-                >
-                    <p className='line-clamp-4'>
-                        {description}
-                    </p>
-                </ImageSectionLayout>
+                <p className='font-light mb-10 px-0 lg:px-12 lg:mb-0'>
+                    {description}
+                </p>
             </Carousel.Slide>
         )
     });
@@ -31,19 +24,21 @@ export default function TestimonalsSection(): React.JSX.Element {
     return (
         <>
             <div className="container">
-                <div className='section-heading pb-0'>
+                <div className='section-heading'>
                     <h2 className='section-title'>Отзывы</h2>
                 </div>
+                <Carousel
+                    plugins={[autoplay.current]}
+                    withIndicators={mobile}
+                    withControls={!mobile}
+                    className='max-w-2xl mx-auto'
+                    
+                >
+                    {
+                        items
+                    }
+                </Carousel>
             </div>
-            <Carousel
-                plugins={[autoplay.current]}
-                withIndicators={mobile}
-                withControls={!mobile}
-            >
-                {
-                    items
-                }
-            </Carousel>
         </>
     )
 }

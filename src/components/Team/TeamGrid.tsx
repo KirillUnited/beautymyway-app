@@ -29,8 +29,8 @@ export default function TeamGrid({ className }: TeamGrid): React.JSX.Element {
     });
 
     return (
-        <div className={cn(styles.root, className)}>
+        <div className={cn(styles.grid, className)}>
             {items}
         </div>
-    )
+    ) 
 }

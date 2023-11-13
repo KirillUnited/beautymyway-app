@@ -12,7 +12,7 @@ export default function TestimonalsSection(): React.JSX.Element {
     const items = TESTIMONIALS.map(({ image, title, subtitle, description }, index) => {
         return (
             <Carousel.Slide key={index}>
-                <p className='font-light mb-10 px-0 lg:px-12 lg:mb-0'>
+                <p className='font-light mb-10 px-0 lg:px-12 lg:mb-0 text-center'>
                     {description}
                 </p>
             </Carousel.Slide>

@@ -1,4 +1,4 @@
-import ProductsItem from '@/components/ProductsItem/ProductsItem';
+import ProductsItem from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
 import { FEATURED_PRODUCTS } from '@/data';
@@ -9,7 +9,6 @@ export default function FeaturedProductsSection(): React.JSX.Element {
             <div className='container'>
                 <div className='section-heading'>
                     <h2 className='section-title'>Уникальные процедуры</h2>
-                    <p className='section-description'>Мы ценим время наших пациентов и предлагаем ряд косметологических услуг с wow-эффектом!</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
                     {

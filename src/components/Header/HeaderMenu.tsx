@@ -18,6 +18,7 @@ export default function HeaderMenu(): React.JSX.Element {
                         <a
                             href={link.link}
                             onClick={(event) => event.preventDefault()}
+                            className='linkHover'
                         >
                             <Group gap={'xs'}>
                                 <span>{link.label}</span>
@@ -37,6 +38,7 @@ export default function HeaderMenu(): React.JSX.Element {
                 key={link.label}
                 href={link.link}
                 onClick={(event) => event.preventDefault()}
+                className='linkHover'
             >
                 {link.label}
             </a>

@@ -3,17 +3,11 @@
 @tailwind utilities;
 
 :root {
-    --color-foreground: #2B3632;
-    --mantine-color-body: #2B3632;
-}
-
-@layer base {
-    a {
-        @apply hover:text-accent transition-all;
-    }
+    --color-foreground: #2b3632;
+    --mantine-color-body: #2b3632;
 }
 @layer components {
-    .section-heading{
+    .section-heading {
         @apply flex flex-col gap-2 items-center max-w-xl mx-auto text-center pt-12 lg:pt-16 pb-8;
     }
     .section-title {
@@ -26,5 +20,19 @@
 @layer utilities {
     .flexCol {
         @apply flex flex-col;
+    }
+    .linkHover {
+        &:after {
+            display: block;
+            content: "";
+            width: 0;
+            height: 1px;
+            @apply bg-primary transition-all duration-300;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
     }
 }

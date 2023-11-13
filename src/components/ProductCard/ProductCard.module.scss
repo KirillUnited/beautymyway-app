@@ -14,17 +14,17 @@
     background: linear-gradient(0deg, #37393e 0%, rgba(55, 57, 62, 0) 100%);
 }
 .title {
-    @apply text-lg lg:text-2xl font-semibold line-clamp-2 capitalize;
+    @apply text-lg lg:text-2xl font-semibold line-clamp-2;
 }
 .image {
-    @apply object-cover w-full transition-all;
+    @apply object-cover w-full transition-all duration-300;
     filter: grayscale(100%);
 }
 .description {
     display: grid;
     grid-template-rows: 0fr;
     overflow: hidden;
-    @apply font-light transition-all;
+    @apply font-light transition-all duration-300;
 }
 .featured {
     @apply aspect-video lg:aspect-[260/320] hover:text-primary;

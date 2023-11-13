@@ -40,7 +40,7 @@ export default function Footer() {
                         <div className="socials flex justify-center items-center gap-4">
                             {
                                 Object.values(CONTACTS.socials).map((item)=>{
-                                    return <a href={item} key={item}><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                                    return <a href={item} key={item} target='_blank'><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
                                 })
                             }
                         </div>

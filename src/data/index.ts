@@ -39,7 +39,7 @@ export const LINKS = [
     },
     {
         link: '/',
-        label: 'Цены'
+        label: 'Консультация'
     },
     {
         link: '/',
@@ -54,6 +54,10 @@ export const LINKS = [
                 label: 'Отзывы',
             },
         ]
+    },
+    {
+        link: '/',
+        label: 'Контакты',
     },
 ];
 
@@ -177,7 +181,7 @@ export const TEAM = [
         title: 'team-2'
     },
     {
-        image: 'team-3.png',
+        image: 'team-6.jpeg',
         title: 'team-3'
     },
     {
@@ -189,7 +193,7 @@ export const TEAM = [
         title: 'team-5'
     },
     {
-        image: 'team-6.jpeg',
+        image: 'team-3.png',
         title: 'team-6'
     },
 ];

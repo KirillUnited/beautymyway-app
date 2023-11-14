@@ -29,10 +29,10 @@ export default function Footer() {
                     <Link href={'/'} className={`logo`}>
                         <Image
                             src={`/images/logo-color.png`}
-                            width={140}
-                            height={32}
+                            width={52}
+                            height={52}
                             alt='Артур Сугако теперь и в Барселоне!'
-                            className='max-w-[40px]'
+                            className='max-w-[52px]'
                         />
                     </Link>
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
@@ -40,16 +40,10 @@ export default function Footer() {
                         <div className="socials flex justify-center items-center gap-4">
                             {
                                 Object.values(CONTACTS.socials).map((item)=>{
-                                    return <a href={item} key={item} target='_blank'><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' /></a>
+                                    return <a href={item} key={item} target='_blank' className={`flex gap-4 items-center`}><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' />Instagram</a>
                                 })
                             }
                         </div>
-                        <Image
-                            src={`/images/logo-clinic.svg`}
-                            width={148}
-                            height={53}
-                            alt='Артур Сугако теперь и в Барселоне!'
-                        />
                     </div>
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">

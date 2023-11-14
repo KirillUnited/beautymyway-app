@@ -5,29 +5,32 @@
         rgb(55, 70, 64) 0%,
         var(--color-foreground) 100%
     );
-    &::after {
-        display: block;
-        content: '';
-        position: absolute;
-        inset: 0;
-        background-color: rgba($color: #2b3632, $alpha: 0.3);
-    }
+    // &::after {
+    //     display: block;
+    //     content: '';
+    //     position: absolute;
+    //     inset: 0;
+    //     background-color: rgba($color: #2b3632, $alpha: 0.3);
+    // }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
 }
 .inner {
-    min-height: 60vh;
+    min-height: 50vh;
     z-index: 10;
+    overflow: hidden;
     
-    // @media (max-width: $mantine-breakpoint-md) {
-    //     min-height: auto;
-    // }
+    @media (max-width: $mantine-breakpoint-md) {
+        min-height: 33vh;
+    }
 }
 .text {
-    @apply font-mulish text-lg lg:text-4xl font-extralight italic py-2 border-t border-b border-secondary;
+    @apply font-mulish text-lg lg:text-4xl font-extralight italic py-2;
     text-shadow: 2px 8px 5px #000000;
 }
 .bg-image {
-    @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative;
+    @apply -order-1 lg:order-1 w-full h-full object-contain lg:w-auto absolute inset-0 lg:relative lg:ml-auto;
+    object-position: right;
+    filter: grayscale(1);
 }

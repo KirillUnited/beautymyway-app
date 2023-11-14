@@ -6,6 +6,7 @@
 }
 .image {
     @apply w-full h-full object-cover;
+    object-position: center 35%;
 
     &:nth-child(1){
         grid-column-start: main-start;

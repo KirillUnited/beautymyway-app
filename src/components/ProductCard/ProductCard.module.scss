@@ -1,7 +1,8 @@
 .root {
     &:hover {
         .image {
-            filter: grayscale(0%);
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
         }
         .description {
             grid-template-rows: 1fr;
@@ -17,14 +18,15 @@
     @apply text-lg lg:text-2xl font-semibold line-clamp-2;
 }
 .image {
-    @apply object-cover w-full transition-all duration-300;
-    filter: grayscale(100%);
+    @apply object-cover w-full transition-all duration-700;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 .description {
     display: grid;
     grid-template-rows: 0fr;
     overflow: hidden;
-    @apply font-light transition-all duration-300;
+    @apply font-light transition-all duration-500;
 }
 .featured {
     @apply aspect-video lg:aspect-[260/320] hover:text-primary;

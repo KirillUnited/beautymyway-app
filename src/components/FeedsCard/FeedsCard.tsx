@@ -12,7 +12,7 @@ interface ProductsItemProps extends React.DetailedHTMLProps<React.HTMLAttributes
     description?: string
 }
 
-export default function ProductsItem({ image, title, description, date, className }: ProductsItemProps): React.JSX.Element {
+export default function FeedsCard({ image, title, description, date, className }: ProductsItemProps): React.JSX.Element {
     return (
         <div className={cn(`${styles.root} flexCol`, className)}>
             <Image

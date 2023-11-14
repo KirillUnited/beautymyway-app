@@ -1,4 +1,4 @@
-import ProductsItem from '@/components/ProductCard/ProductCard';
+import ProductCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
 import { PRODUCTS } from '@/data';
@@ -15,7 +15,7 @@ export default function ProductsSection(): React.JSX.Element {
                     PRODUCTS.map(({ image, title }, index) => {
                         return (
                             <Link href={'/'} key={index}>
-                                <ProductsItem
+                                <ProductCard
                                     image={image}
                                     title={title}
                                 />

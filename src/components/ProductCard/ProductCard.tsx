@@ -10,7 +10,7 @@ interface ProductsItemProps extends React.DetailedHTMLProps<React.HTMLAttributes
     description?: string
 }
 
-export default function ProductsItem({ image, title, description, variant = 'default', className }: ProductsItemProps): React.JSX.Element {
+export default function ProductCard({ image, title, description, variant = 'default', className }: ProductsItemProps): React.JSX.Element {
     return (
         <div className={cn(styles.root,
             className,

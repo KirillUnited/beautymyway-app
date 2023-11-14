@@ -25,8 +25,8 @@ export default function Header() {
                     <Link href={'/'} className={styles.logo}>
                         <Image
                             src={`/images/logo-color.png`}
-                            width={180}
-                            height={41}
+                            width={52}
+                            height={52}
                             alt='Артур Сугако теперь и в Барселоне!'
                             priority
                         />
@@ -62,8 +62,8 @@ export default function Header() {
                     <Link href={'/'} className={styles.logo}>
                         <Image
                             src={`/images/logo-color.png`}
-                            width={180}
-                            height={41}
+                            width={52}
+                            height={52}
                             alt='Артур Сугако теперь и в Барселоне!'
                             priority
                         />

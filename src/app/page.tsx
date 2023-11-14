@@ -1,17 +1,14 @@
 'use client';
 import AboutSection from './containers/AboutSection/AboutSection';
-import FeaturedProductsSection from './containers/FeaturedProductsSection/FeaturedProductsSection';
-import FeedsSection from './containers/FeedsSection/FeedsSection';
+import { FeaturedProductsSection } from './containers/FeaturedProductsSection/FeaturedProductsSection';
 import HeroSection from './containers/HeroSection/HeroSection';
 import HitSection from './containers/HitSection/HitSection';
 import InfoSection from './containers/InfoSection/InfoSection';
 import ProductsSection from './containers/ProductsSection/ProductsSection';
-import SurgerySection from './containers/SurgerySection/SurgerySection';
-import WhySection from './containers/WhySection/WhySection';
 import { createTheme, MantineProvider } from '@mantine/core';
 import TestimonialsSection from './containers/TestimonialsSection/TestimonialsSection';
 import '@mantine/carousel/styles.css';
-import TeamSection from './containers/TeamSection/TeamSection';
+import { TeamSection } from './containers/TeamSection/TeamSection';
 
 const theme = createTheme({
 	colors: {

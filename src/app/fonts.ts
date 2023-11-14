@@ -6,5 +6,5 @@ export const mulish = Mulish({
     subsets: ['latin'],
     display: 'swap',
     variable: '--font-mulish',
-    preload: true
+    preload: true,
 });

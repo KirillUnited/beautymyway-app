@@ -39,7 +39,7 @@ export const LINKS = [
     },
     {
         link: '/',
-        label: 'Цены'
+        label: 'Консультация'
     },
     {
         link: '/',
@@ -54,6 +54,10 @@ export const LINKS = [
                 label: 'Отзывы',
             },
         ]
+    },
+    {
+        link: '/',
+        label: 'Контакты',
     },
 ];
 

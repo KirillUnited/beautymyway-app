@@ -5,7 +5,7 @@ import styles from './AboutSection.module.scss';
 export default function AboutSection() {
     return (
         <ImageSectionLayout
-            image={`team-3.png`}
+            image={`about.jpeg`}
             className={styles.wrapper}
         >
             <div className="text-xl font-extralight italic p-3 text-center border border-primary my-4">

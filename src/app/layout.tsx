@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		title: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
 		description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
 		siteName: 'beautymyway',
-		images: './apple-icon.png'
+		images: '/apple-icon.png'
 	},
 	themeColor: '#2b3632',
 };

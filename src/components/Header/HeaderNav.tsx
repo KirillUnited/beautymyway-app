@@ -6,13 +6,26 @@ import styles from './Header.module.scss';
 
 export default function HeaderNav(): React.JSX.Element {
     const NavLinks = LINKS.map((link) => {
-        const menuItems = link.links?.map((item, index) => (
-            <NavLink
-                className={styles.navLink}
-                label={item.label}
-                key={Math.random()}
-            />
-        ));
+        const menuItems = link.links?.map((item, index) => {
+            const innerItems = item.links?.map((innerItem) => {
+                return (
+                    <NavLink
+                        className={styles.navLink}
+                        label={innerItem.label}
+                        key={innerItem.label}
+                    />
+                )
+            })
+            return (
+                <NavLink
+                    className={styles.navLink}
+                    label={item.label}
+                    key={Math.random()}
+                >
+                    {innerItems}
+                </NavLink>
+            )
+        });
 
         if (menuItems) {
             return (

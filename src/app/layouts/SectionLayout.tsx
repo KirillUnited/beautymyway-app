@@ -16,15 +16,16 @@ const SectionLayout = (
     }: ISecionLayoutProps): React.JSX.Element => {
     return (
         <section id={id} className='pb-4'>
-            <div className='container'>
-                {
-                    (title || description)
-                    &&
+            {
+                (title || description)
+                &&
+                <div className='container'>
                     <div className='section-heading'>
                         {title && <h2 className='section-title'>{title}</h2>}
                         {description && <p className='section-description'>{description}</p>}
-                    </div>}
-            </div>
+                    </div>
+                </div>
+            }
             <div className='container'>
                 {children}
             </div>

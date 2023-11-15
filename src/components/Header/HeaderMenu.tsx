@@ -10,7 +10,7 @@ export default function HeaderMenu(): React.JSX.Element {
     const items = LINKS.map((link) => {
         const menuItems = link.links?.map((item) => {
             const innerMenuItems = item.links?.map((innerItem) => (
-                <Menu.Item key={innerItem.label}>{innerItem.label}</Menu.Item>
+                <Menu.Item key={innerItem.label} component={Link} href={innerItem.link}>{innerItem.label}</Menu.Item>
             ));
 
             if (innerMenuItems) {
@@ -20,7 +20,6 @@ export default function HeaderMenu(): React.JSX.Element {
                             <Menu.Target>
                                 <Link
                                     href={item.link}
-                                    onClick={(event) => event.preventDefault()}
                                 >
                                     <Group gap={'xs'}>
                                         <span>{item.label}</span>
@@ -37,7 +36,7 @@ export default function HeaderMenu(): React.JSX.Element {
             }
             
             return (
-                <Menu.Item key={item.label}>{item.label}</Menu.Item>
+                <Menu.Item key={item.label} component={Link} href={item.link}>{item.label}</Menu.Item>
             );
         });
 
@@ -47,7 +46,6 @@ export default function HeaderMenu(): React.JSX.Element {
                     <Menu.Target>
                         <Link
                             href={link.link}
-                            onClick={(event) => event.preventDefault()}
                             className='linkHover'
                         >
                             <Group gap={'xs'}>
@@ -67,7 +65,6 @@ export default function HeaderMenu(): React.JSX.Element {
             <Link
                 key={link.label}
                 href={link.link}
-                onClick={(event) => event.preventDefault()}
                 className='linkHover'
             >
                 {link.label}

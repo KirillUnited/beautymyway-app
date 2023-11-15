@@ -120,7 +120,7 @@ export const LINKS = [
         ]
     },
     {
-        link: '/',
+        link: '/#info',
         label: 'Контакты',
     },
 ];

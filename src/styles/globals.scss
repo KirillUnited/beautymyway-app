@@ -6,6 +6,11 @@
     --color-foreground: #2b3632;
     --mantine-color-body: #2b3632;
 }
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
 @layer components {
     .section-heading {
         @apply flex flex-col gap-2 items-center max-w-xl mx-auto text-center pt-12 lg:pt-16 pb-8;

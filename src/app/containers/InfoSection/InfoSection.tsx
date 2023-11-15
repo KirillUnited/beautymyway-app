@@ -5,7 +5,7 @@ import { CONTACTS } from '@/data';
 
 export default function InfoSection() {
     return (
-        <section className={styles.root}>
+        <section id='info' className={styles.root}>
             <div className={styles.wrapper}>
                 <p className={styles.description}>Чтобы получить консультацию или записаться, пожалуйста, свяжитесь по указанному на сайте контактному номеру.</p>
                 <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />

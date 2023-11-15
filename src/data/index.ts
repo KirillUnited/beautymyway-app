@@ -50,7 +50,7 @@ export const LINKS = [
                 label: 'Кто мы',
             },
             {
-                link: '/',
+                link: '/#testimonials',
                 label: 'Отзывы',
             },
         ]

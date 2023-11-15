@@ -1,4 +1,9 @@
 import { withSectionLayout } from '@/app/layouts/SectionLayout';
 import Team from '@/components/Team/Team';
 
-export const TeamSection = withSectionLayout(Team, 'Наша команда')
+const sectionProps = {
+    id: 'team',
+    title: 'Наша команда',
+}
+
+export const TeamSection = withSectionLayout(Team, sectionProps);

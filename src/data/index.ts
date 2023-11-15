@@ -6,6 +6,16 @@ export const LINKS = [
             {
                 link: '/',
                 label: 'Аппаратная коррекция фигуры',
+                links: [
+                    {
+                        link: '/',
+                        label: 'SpheraWay для лица и тела'
+                    },
+                    {
+                        link: '/',
+                        label: 'SculptWay - сжигание жира и коррекция фигуры'
+                    },
+                ]
             },
             {
                 link: '/',

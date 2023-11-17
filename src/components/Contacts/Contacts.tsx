@@ -2,13 +2,13 @@ import React from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationDot, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 import { ContactsProps } from './Contacts.props';
 import cn from 'classnames';
 import styles from './Contacts.module.scss';
 
-export default function Contacts({ tel, address, time, className }: ContactsProps): React.JSX.Element {
+export default function Contacts({ tel, address, time, email, className }: ContactsProps): React.JSX.Element {
     return (
         <div className={cn(styles.root, className)}>
             {
@@ -30,6 +30,14 @@ export default function Contacts({ tel, address, time, className }: ContactsProp
                         </Link>
                     )
                 })
+            }
+            {
+                email
+                &&
+                <Link href={`mailto:${email}`} className={`${styles.item} truncate`}>
+                    <FontAwesomeIcon icon={faEnvelope} className='w-4 h-4' />
+                    {email}
+                </Link>
             }
             {
                 address

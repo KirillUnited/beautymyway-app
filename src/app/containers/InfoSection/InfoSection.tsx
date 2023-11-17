@@ -8,7 +8,7 @@ export default function InfoSection() {
         <section id='info' className={styles.root}>
             <div className={styles.wrapper}>
                 <p className={styles.description}>Чтобы получить консультацию или записаться, пожалуйста, свяжитесь по указанному на сайте контактному номеру.</p>
-                <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
+                <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email}/>
             </div>
         </section>
     )

@@ -35,7 +35,7 @@ export default function Footer() {
                             className='max-w-[52px]'
                         />
                     </Link>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} />
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email}/>
                     <div className='flex flex-col md:self-start gap-2'>
                         <div className="socials flex justify-center items-center gap-4">
                             {

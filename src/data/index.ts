@@ -268,6 +268,8 @@ export const CONTACTS = {
     time: 'Пн-Вс с 10:00 - 20:00',
     email: 'waymywaybeauty@gmail.com',
     socials: {
-        insta: 'https://instagram.com/beauty.my.way?igshid=YTQwZjQ0NmI0OA==',
+        instagram: 'https://www.instagram.com/beauty.my.way',
+        telegram: 'https://t.me/+34643942528',
+        whatsapp:'https://wa.me/34643942528'
     }
 };

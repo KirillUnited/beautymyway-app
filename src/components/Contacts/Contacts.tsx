@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { faEnvelope, faLocationDot, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 import { ContactsProps } from './Contacts.props';
 import cn from 'classnames';
@@ -22,7 +22,7 @@ export default function Contacts({ tel, address, time, email, className }: Conta
             {
                 tel && Array.isArray(tel)
                 &&
-                tel.map((item)=>{
+                tel.map((item) => {
                     return (
                         <Link href={`tel:${item}`} className={`${styles.item} truncate`} key={item}>
                             <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />

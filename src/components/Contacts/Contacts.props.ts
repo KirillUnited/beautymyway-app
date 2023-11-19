@@ -1,5 +1,5 @@
 export interface ContactsProps {
-    tel: string | Array<string>,
+    tel: Array<string>,
     address?: string,
     time?: string,
     email?: string,

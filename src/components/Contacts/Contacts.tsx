@@ -17,8 +17,8 @@ export default function Contacts({ tel, address, time, email, className }: Conta
                 &&
                 tel.map((item) => {
                     return (
-                        <li className={`${styles.item} truncate`}>
-                            <Link href={`tel:${item}`} key={item}>
+                        <li className={`${styles.item} truncate`} key={item}>
+                            <Link href={`tel:${item}`}>
                                 <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
                             </Link>
                             <Socials />

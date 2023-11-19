@@ -22,7 +22,7 @@ export default function Contacts({ tel, address, time, email, className }: Conta
             {
                 tel && Array.isArray(tel)
                 &&
-                tel.map((item)=>{
+                tel.map((item) => {
                     return (
                         <Link href={`tel:${item}`} className={`${styles.item} truncate`} key={item}>
                             <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />

@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from 'next/image';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
+import Socials from '@/components/Socials/Socials';
 
 type linksCategoryType = 'О нас' | 'Услуги';
 
@@ -35,15 +34,9 @@ export default function Footer() {
                             className='max-w-[52px]'
                         />
                     </Link>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email}/>
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
                     <div className='flex flex-col md:self-start gap-2'>
-                        <div className="socials flex justify-center items-center gap-4">
-                            {
-                                Object.values(CONTACTS.socials).map((item)=>{
-                                    return <a href={item} key={item} target='_blank' className={`flex gap-4 items-center`}><FontAwesomeIcon icon={faInstagram} className='w-5 h-5' />Instagram</a>
-                                })
-                            }
-                        </div>
+                        <Socials/>
                     </div>
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">

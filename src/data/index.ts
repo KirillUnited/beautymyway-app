@@ -50,6 +50,28 @@ export const LINKS = [
             {
                 link: '/',
                 label: 'Аппаратная косметология',
+                links: [
+                    {
+                        link: '',
+                        label: 'Фотоомоложение IPL'
+                    },
+                    {
+                        link: '/',
+                        label: 'SpheraWay для лица и тела'
+                    },
+                    {
+                        link: '/',
+                        label: 'SculptWay - сжигание жира и коррекция фигуры'
+                    },
+                    {
+                        link: '/',
+                        label: 'RF-лифтинг'
+                    },
+                    {
+                        link: '/',
+                        label: 'Комплекс BeatyWay'
+                    },
+                ]
             },
             {
                 link: '/',

@@ -7,54 +7,52 @@ import Link from 'next/link';
 import { ContactsProps } from './Contacts.props';
 import cn from 'classnames';
 import styles from './Contacts.module.scss';
+import Socials from '../Socials/Socials';
 
 export default function Contacts({ tel, address, time, email, className }: ContactsProps): React.JSX.Element {
     return (
-        <div className={cn(styles.root, className)}>
+        <ul className={cn(styles.root, className)}>
             {
-                tel && !Array.isArray(tel)
-                &&
-                <Link href={`tel:${tel}`} className={`${styles.item} truncate`}>
-                    <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
-                    {tel}
-                </Link>
-            }
-            {
-                tel && Array.isArray(tel)
+                (tel && tel.length > 0)
                 &&
                 tel.map((item) => {
                     return (
-                        <Link href={`tel:${item}`} className={`${styles.item} truncate`} key={item}>
-                            <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
+                        <li className={`${styles.item} truncate`} key={item}>
+                            <Link href={`tel:${item}`}>
+                                <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
+                            </Link>
+                            <Socials />
                             {item}
-                        </Link>
+                        </li>
                     )
                 })
             }
             {
                 email
                 &&
-                <Link href={`mailto:${email}`} className={`${styles.item} truncate`}>
-                    <FontAwesomeIcon icon={faEnvelope} className='w-4 h-4' />
-                    {email}
-                </Link>
+                <li>
+                    <Link href={`mailto:${email}`} className={`${styles.item} truncate`}>
+                        <FontAwesomeIcon icon={faEnvelope} className='w-4 h-4' />
+                        {email}
+                    </Link>
+                </li>
             }
             {
                 address
                 &&
-                <p className={styles.item}>
+                <li className={styles.item}>
                     <FontAwesomeIcon icon={faLocationDot} className='w-4 h-4' />
                     {address}
-                </p>
+                </li>
             }
             {
                 time
                 &&
-                <p className={styles.item}>
+                <li className={styles.item}>
                     <FontAwesomeIcon icon={faClock} className='w-4 h-4' />
                     {time}
-                </p>
+                </li>
             }
-        </div>
+        </ul>
     )
 }

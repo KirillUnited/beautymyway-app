@@ -1,6 +1,6 @@
 export const LINKS = [
     {
-        link: '/',
+        link: '',
         label: 'Услуги',
         links: [
             {

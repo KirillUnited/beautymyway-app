@@ -1,4 +1,4 @@
-import { withSectionLayout } from '@/app/layouts/SectionLayout';
+import { withSectionLayout } from '@/layouts/SectionLayout';
 import Team from '@/components/Team/Team';
 
 const sectionProps = {

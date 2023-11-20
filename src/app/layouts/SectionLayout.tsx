@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-interface ISecionLayoutProps {
+interface ISectionLayoutProps {
     children: React.ReactNode,
     title?: string,
     description?: string,
@@ -13,7 +13,7 @@ const SectionLayout = (
         title,
         description,
         id
-    }: ISecionLayoutProps): React.JSX.Element => {
+    }: ISectionLayoutProps): React.JSX.Element => {
     return (
         <section id={id} className='pb-4'>
             {

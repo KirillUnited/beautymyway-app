@@ -1,4 +1,4 @@
-import { withSectionLayout } from '@/app/layouts/SectionLayout';
+import { withSectionLayout } from '@/layouts/SectionLayout';
 import FeaturedProducts from '@/components/FeaturedProducts/FeaturedProducts';
 
 const sectionProps = {

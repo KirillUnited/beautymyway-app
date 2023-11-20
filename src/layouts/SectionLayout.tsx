@@ -1,10 +1,9 @@
 import React, { FunctionComponent } from 'react';
 
-interface ISectionLayoutProps {
+interface ISectionLayoutProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
     children: React.ReactNode,
     title?: string,
     description?: string,
-    id?: string
 }
 
 const SectionLayout = (

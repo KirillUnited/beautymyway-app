@@ -28,7 +28,7 @@ export default async function ServiceTemplate({ params }: Props) {
                         height="600"
                         src={`/images/services/${frontmatter.hero_image}`}
                         alt={`${frontmatter.title}`}
-                        className='object-cover aspect-video max-h-[65vh]'
+                        className={`${styles['hero-image']}`}
                     />
                 </figure>
                 <div className={styles.body}>

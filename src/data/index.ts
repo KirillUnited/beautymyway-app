@@ -2,23 +2,24 @@ export const LINKS = [
     {
         link: '',
         label: 'Услуги',
+        collection: 'services',
         links: [
             {
                 link: '',
                 label: 'Аппаратная коррекция фигуры',
                 links: [
                     {
-                        link: '/services/spheraway',
+                        link: `/services/spheraway`,
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/services/sculptway',
+                        link: `/services/sculptway`,
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                 ]
             },
             {
-                link: '/',
+                link: '/services/nutriciologiya',
                 label: 'Нутрициология',
             },
             {
@@ -30,7 +31,7 @@ export const LINKS = [
                 label: 'Психология',
             },
             {
-                link: '/',
+                link: '',
                 label: 'Лазерная косметология',
                 links: [
                     {

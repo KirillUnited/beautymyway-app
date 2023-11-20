@@ -18,14 +18,10 @@ export default function HeaderMenu(): React.JSX.Element {
                     <Menu.Item key={item.label}>
                         <Menu key={item.label} trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow position="right-start" offset={20}>
                             <Menu.Target>
-                                <Link
-                                    href={item.link}
-                                >
-                                    <Group gap={'xs'}>
-                                        <span>{item.label}</span>
-                                        <FontAwesomeIcon icon={faAngleRight} />
-                                    </Group>
-                                </Link>
+                                <Group gap={'xs'}>
+                                    <span>{item.label}</span>
+                                    <FontAwesomeIcon icon={faAngleRight} />
+                                </Group>
                             </Menu.Target>
                             <Menu.Dropdown>
                                 {innerMenuItems}
@@ -34,7 +30,7 @@ export default function HeaderMenu(): React.JSX.Element {
                     </Menu.Item>
                 )
             }
-            
+
             return (
                 <Menu.Item key={item.label} component={Link} href={item.link}>{item.label}</Menu.Item>
             );
@@ -44,15 +40,14 @@ export default function HeaderMenu(): React.JSX.Element {
             return (
                 <Menu key={link.label} trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow>
                     <Menu.Target>
-                        <Link
-                            href={link.link}
+                        <a
                             className='linkHover'
                         >
                             <Group gap={'xs'}>
                                 <span>{link.label}</span>
                                 <FontAwesomeIcon icon={faAngleDown} />
                             </Group>
-                        </Link>
+                        </a>
                     </Menu.Target>
                     <Menu.Dropdown>
                         {menuItems}

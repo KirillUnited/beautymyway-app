@@ -35,6 +35,7 @@
             @apply bg-primary transition-all duration-300;
         }
         &:hover {
+            @apply cursor-pointer;
             &::after {
                 width: 100%;
             }

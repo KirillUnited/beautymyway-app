@@ -72,7 +72,7 @@ export default function Header() {
                 zIndex={1000000}
             >
                 <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
-                    <HeaderNav/>
+                    <HeaderNav closeNav={closeDrawer} />
                 </Flex>
 
                 <Flex direction={'column'} gap={'md'} align="center" key={235352535235}>

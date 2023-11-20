@@ -34,7 +34,10 @@ export default function TeamSlider({ className }: TeamSlider): React.JSX.Element
             withIndicators
             withControls
             className={cn(styles.slider, className)}
-
+            classNames={{
+                indicator: styles.indicator,
+                indicators: styles.indicators,
+            }}
         >
             {
                 items

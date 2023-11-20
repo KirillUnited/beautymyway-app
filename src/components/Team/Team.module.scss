@@ -2,41 +2,45 @@
     display: grid;
     gap: rem(40px);
     grid-template-columns: [main-start] 2fr [content-start] 1.5fr [content-middle] 1fr [content-end] 1.5fr [main-end];
-    grid-template-rows: [main-start] rem(260px) [content-start] rem(160px) [content-end] rem(260px) [main-end];
+    grid-template-rows:
+        [main-start] rem(260px) [content-start] rem(160px) [content-end] rem(
+            260px
+        )
+        [main-end];
 }
 .image {
     @apply w-full h-full object-cover;
     object-position: center 35%;
 
-    &:nth-child(1){
+    &:nth-child(1) {
         grid-column-start: main-start;
         grid-row-start: main-start;
         grid-row-end: content-start;
     }
-    &:nth-child(2){
+    &:nth-child(2) {
         grid-column-start: content-start;
         grid-column-end: content-middle;
         grid-row-start: main-start;
         grid-row-end: content-end;
     }
-    &:nth-child(3){
+    &:nth-child(3) {
         grid-column-start: content-middle;
         grid-column-end: main-end;
         grid-row-start: main-start;
         grid-row-end: content-end;
     }
-    &:nth-child(4){
+    &:nth-child(4) {
         grid-column-start: main-start;
         grid-row-start: content-start;
         grid-row-end: main-end;
     }
-    &:nth-child(5){
+    &:nth-child(5) {
         grid-column-start: content-start;
         grid-column-end: content-end;
         grid-row-start: content-end;
         grid-row-end: main-end;
     }
-    &:nth-child(6){
+    &:nth-child(6) {
         grid-column-start: content-end;
         grid-column-end: main-end;
         grid-row-start: content-end;
@@ -44,8 +48,18 @@
     }
 }
 .slider {
-    @apply max-w-2xl mx-auto;
+    @apply max-w-2xl mx-auto mb-6;
     &-image {
         @apply aspect-[390/250] object-contain w-full;
+    }
+}
+.indicators {
+    bottom: - rem(20px);
+}
+.indicator {
+    transition: width 250ms ease;
+
+    &[data-active] {
+        width: rem(40px);
     }
 }

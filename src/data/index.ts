@@ -4,15 +4,15 @@ export const LINKS = [
         label: 'Услуги',
         links: [
             {
-                link: '/',
+                link: '',
                 label: 'Аппаратная коррекция фигуры',
                 links: [
                     {
-                        link: '/',
+                        link: '/services/spheraway',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/',
+                        link: '/services/sculptway',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                 ]

@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from '@mantine/core';
 import { LINKS } from '@/data/index';
 import styles from './Header.module.scss';
-import { IHeaderProps } from './Header.props';
+import { IHeaderProps, IMenuItemsProps } from './Header.props';
 
 export default function HeaderNav({ closeNav }: IHeaderProps): React.JSX.Element {
     const NavLinks = LINKS.map((link) => {
-        const menuItems = link.links?.map((item, index) => {
-            const innerItems = item.links?.map((innerItem) => {
+        const menuItems = link.links?.map((item: IMenuItemsProps, index) => {
+            const innerItems = item.links?.map((innerItem: IMenuItemsProps) => {
                 return (
                     <NavLink
                         href={innerItem.link}

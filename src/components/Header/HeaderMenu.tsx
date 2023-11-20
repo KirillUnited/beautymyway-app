@@ -4,12 +4,13 @@ import { LINKS } from '@/data/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import { IMenuItemsProps } from './Header.props';
 
 
 export default function HeaderMenu(): React.JSX.Element {
     const items = LINKS.map((link) => {
-        const menuItems = link.links?.map((item) => {
-            const innerMenuItems = item.links?.map((innerItem) => (
+        const menuItems = link.links?.map((item: IMenuItemsProps) => {
+            const innerMenuItems = item.links?.map((innerItem: IMenuItemsProps) => (
                 <Menu.Item key={innerItem.label} component={Link} href={innerItem.link}>{innerItem.label}</Menu.Item>
             ));
 

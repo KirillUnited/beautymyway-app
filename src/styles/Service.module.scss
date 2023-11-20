@@ -20,4 +20,11 @@
     li{
         @apply mb-4;
     }
+    img {
+        @apply mx-auto;
+    }
+}
+.hero-image{    
+    @apply object-cover aspect-video max-h-[65vh];
+    object-position: center 35%;
 }

@@ -1,10 +1,11 @@
 export const LINKS = [
     {
-        link: '',
+        link: '/',
         label: 'Услуги',
+        collection: 'services',
         links: [
             {
-                link: '',
+                link: '/',
                 label: 'Аппаратная коррекция фигуры',
                 links: [
                     {
@@ -18,7 +19,7 @@ export const LINKS = [
                 ]
             },
             {
-                link: '/',
+                link: '/services/nutriciologiya',
                 label: 'Нутрициология',
             },
             {
@@ -52,7 +53,7 @@ export const LINKS = [
                 label: 'Аппаратная косметология',
                 links: [
                     {
-                        link: '',
+                        link: '/',
                         label: 'Фотоомоложение IPL'
                     },
                     {

@@ -10,7 +10,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
     const { frontmatter } = await getContent(params);
-    
+
     return {
         title: frontmatter.title,
     }
@@ -28,11 +28,9 @@ export default async function ServiceTemplate({ params }: Props) {
                         height="600"
                         src={`/images/services/${frontmatter.hero_image}`}
                         alt={`${frontmatter.title}`}
+                        className='object-cover aspect-video max-h-[65vh]'
                     />
                 </figure>
-                <div className={styles.blog__info}>
-                    <h1>{`${frontmatter.title}`}</h1>
-                </div>
                 <div className={styles.body}>
                     <ReactMarkdown>{`${markdownBody}`}</ReactMarkdown>
                 </div>

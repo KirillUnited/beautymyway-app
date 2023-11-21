@@ -69,7 +69,7 @@ export const LINKS = [
                         label: 'RF-лифтинг'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/beatyway',
                         label: 'Комплекс BeatyWay'
                     },
                 ]

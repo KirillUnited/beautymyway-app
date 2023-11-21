@@ -27,7 +27,7 @@ export const LINKS = [
                 label: 'Тренировки',
             },
             {
-                link: '/services/',
+                link: '/services/psihologiya',
                 label: 'Психология',
             },
             {
@@ -35,11 +35,11 @@ export const LINKS = [
                 label: 'Лазерная косметология',
                 links: [
                     {
-                        link: '',
+                        link: '/services/',
                         label: 'Лазерное удаление сосудов'
                     },
                     {
-                        link: '',
+                        link: '/services/',
                         label: 'Удаление пигментных пятен лазером'
                     },
                 ]

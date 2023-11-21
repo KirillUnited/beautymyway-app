@@ -4,6 +4,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { TESTIMONIALS } from '@/data';
 import { useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
+import styles from './TestimonialsSection.module.scss';
 
 export default function TestimonalsSection(): React.JSX.Element {
     const theme = useMantineTheme();
@@ -30,7 +31,9 @@ export default function TestimonalsSection(): React.JSX.Element {
                     withIndicators={mobile}
                     withControls={!mobile}
                     className='max-w-2xl mx-auto mb-12'
-                    
+                    classNames={{
+                        indicator: styles.indicator,
+                    }}
                 >
                     {
                         items

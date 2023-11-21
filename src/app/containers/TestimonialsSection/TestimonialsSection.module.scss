@@ -5,3 +5,11 @@
         @apply object-top;
     }
 }
+
+.indicator {
+    transition: width 250ms ease;
+
+    &[data-active] {
+        width: rem(40px);
+    }
+}

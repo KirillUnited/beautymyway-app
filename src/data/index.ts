@@ -105,7 +105,7 @@ export const LINKS = [
                         label: 'Чистка лица',
                     },
                     {
-                        link: '/services',
+                        link: '/services/himicheskij-piling',
                         label: 'Xимические пилинги',
                     },
                     {

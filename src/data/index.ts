@@ -101,7 +101,7 @@ export const LINKS = [
                 label: 'Уходовая косметология',
                 links: [
                     {
-                        link: '/services',
+                        link: '/services/chistka-lica',
                         label: 'Чистка лица',
                     },
                     {

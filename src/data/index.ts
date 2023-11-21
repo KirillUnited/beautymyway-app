@@ -35,8 +35,8 @@ export const LINKS = [
                 label: 'Лазерная косметология',
                 links: [
                     {
-                        link: '/services/',
-                        label: 'Лазерное удаление сосудов'
+                        link: '/services/lazernoe-omolozhenie-litsa',
+                        label: 'Лазерное омоложение лица'
                     },
                     {
                         link: '/services/',

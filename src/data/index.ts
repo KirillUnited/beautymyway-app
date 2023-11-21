@@ -57,11 +57,11 @@ export const LINKS = [
                         label: 'Фотоомоложение IPL'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/spheraway',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/sculptway',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                     {

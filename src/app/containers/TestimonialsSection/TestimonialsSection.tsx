@@ -5,6 +5,9 @@ import { TESTIMONIALS } from '@/data';
 import { useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import styles from './TestimonialsSection.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function TestimonalsSection(): React.JSX.Element {
     const theme = useMantineTheme();
@@ -14,7 +17,9 @@ export default function TestimonalsSection(): React.JSX.Element {
         return (
             <Carousel.Slide key={index}>
                 <p className='font-light italic mb-10 px-0 lg:px-12 lg:mb-0 text-center'>
+                    <FontAwesomeIcon icon={faQuoteLeft} className='mr-4 align-bottom' size='2x'/>
                     {description}
+                    <FontAwesomeIcon icon={faQuoteRight} className='ml-4 align-middle' size='2x' />
                 </p>
             </Carousel.Slide>
         )

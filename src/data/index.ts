@@ -45,7 +45,7 @@ export const LINKS = [
                 ]
             },
             {
-                link: '/services/',
+                link: '/services/fotoepilyatsiya',
                 label: 'Лазерная эпиляция',
             },
             {

@@ -52,6 +52,11 @@
     img {
         @apply mx-auto;
     }
+    blockquote {
+        border: 2px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 1em;
+    }
 }
 .hero-image {
     @apply object-cover aspect-video max-h-[65vh];

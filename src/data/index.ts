@@ -91,7 +91,7 @@ export const LINKS = [
                         label: 'Mезотерапия волос',
                     },
                     {
-                        link: '/services/',
+                        link: '/services/biorevitalizatsiya',
                         label: 'Биоревитализация',
                     },
                 ]

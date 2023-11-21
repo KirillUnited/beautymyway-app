@@ -79,19 +79,19 @@ export const LINKS = [
                 label: 'Инъекционная косметология',
                 links: [
                     {
-                        link: '/services',
+                        link: '/services/mezoterapiya-litsa',
                         label: 'Mезотерапия лица',
                     },
                     {
-                        link: '/services',
+                        link: '/services/mezoterapiya-tela',
                         label: 'Mезотерапия тела',
                     },
                     {
-                        link: '/services',
+                        link: '/services/mezoterapiya-volos',
                         label: 'Mезотерапия волос',
                     },
                     {
-                        link: '/services',
+                        link: '/services/biorevitalizatsiya',
                         label: 'Биоревитализация',
                     },
                 ]
@@ -101,23 +101,23 @@ export const LINKS = [
                 label: 'Уходовая косметология',
                 links: [
                     {
-                        link: '/services',
+                        link: '/services/chistka-lica',
                         label: 'Чистка лица',
                     },
                     {
-                        link: '/services',
+                        link: '/services/himicheskij-piling',
                         label: 'Xимические пилинги',
                     },
                     {
-                        link: '/services',
+                        link: '/services/karboksiterapiya',
                         label: 'Карбокситерапия',
                     },
                     {
-                        link: '/services',
+                        link: '/services/mikrotokovaya-terapiya',
                         label: 'Микротоковая терапия',
                     },
                     {
-                        link: '/services',
+                        link: '/services/limfodrenazhnyj-massazh-lica',
                         label: 'Лимфодренажный массаж лица',
                     },
                 ]

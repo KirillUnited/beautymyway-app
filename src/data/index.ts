@@ -83,15 +83,15 @@ export const LINKS = [
                         label: 'Mезотерапия лица',
                     },
                     {
-                        link: '/services',
+                        link: '/services/mezoterapiya-tela',
                         label: 'Mезотерапия тела',
                     },
                     {
-                        link: '/services',
+                        link: '/services/',
                         label: 'Mезотерапия волос',
                     },
                     {
-                        link: '/services',
+                        link: '/services/',
                         label: 'Биоревитализация',
                     },
                 ]

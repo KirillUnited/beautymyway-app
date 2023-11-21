@@ -79,7 +79,7 @@ export const LINKS = [
                 label: 'Инъекционная косметология',
                 links: [
                     {
-                        link: '/services',
+                        link: '/services/mezoterapiya-litsa',
                         label: 'Mезотерапия лица',
                     },
                     {

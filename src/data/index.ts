@@ -109,7 +109,7 @@ export const LINKS = [
                         label: 'Xимические пилинги',
                     },
                     {
-                        link: '/services',
+                        link: '/services/karboksiterapiya',
                         label: 'Карбокситерапия',
                     },
                     {

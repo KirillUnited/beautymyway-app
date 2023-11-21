@@ -113,7 +113,7 @@ export const LINKS = [
                         label: 'Карбокситерапия',
                     },
                     {
-                        link: '/services',
+                        link: '/services/mikrotokovaya-terapiya',
                         label: 'Микротоковая терапия',
                     },
                     {

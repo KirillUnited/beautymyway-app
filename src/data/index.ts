@@ -39,7 +39,7 @@ export const LINKS = [
                         label: 'Лазерное омоложение лица'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/udalenie-pigmentnyh-pyaten-lazerom',
                         label: 'Удаление пигментных пятен лазером'
                     },
                 ]

@@ -31,9 +31,9 @@ export default async function ServiceTemplate({ params }: Props) {
                         className={`${styles['hero-image']}`}
                     />
                 </figure>
-                <div className={styles.body}>
-                    <ReactMarkdown>{`${markdownBody}`}</ReactMarkdown>
-                </div>
+            </div>
+            <div className={styles.body}>
+                <ReactMarkdown>{`${markdownBody}`}</ReactMarkdown>
             </div>
         </article>
     )

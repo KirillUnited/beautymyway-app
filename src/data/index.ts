@@ -53,15 +53,15 @@ export const LINKS = [
                 label: 'Аппаратная косметология',
                 links: [
                     {
-                        link: '/services/',
+                        link: '/services/fotoomolozhenie-ipl',
                         label: 'Фотоомоложение IPL'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/spheraway',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/sculptway',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                     {

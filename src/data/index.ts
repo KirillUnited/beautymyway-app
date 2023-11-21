@@ -117,7 +117,7 @@ export const LINKS = [
                         label: 'Микротоковая терапия',
                     },
                     {
-                        link: '/services',
+                        link: '/services/limfodrenazhnyj-massazh-lica',
                         label: 'Лимфодренажный массаж лица',
                     },
                 ]

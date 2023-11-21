@@ -87,7 +87,7 @@ export const LINKS = [
                         label: 'Mезотерапия тела',
                     },
                     {
-                        link: '/services/',
+                        link: '/services/mezoterapiya-volos',
                         label: 'Mезотерапия волос',
                     },
                     {

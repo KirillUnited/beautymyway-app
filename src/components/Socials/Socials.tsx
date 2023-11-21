@@ -7,7 +7,7 @@ import React from 'react'
 
 export default function Socials() {
     return (
-        <ul className="socials flex justify-center items-center gap-4">
+        <ul className="socials flex justify-center items-center gap-3 lg:gap-4">
             {
                 Object.entries(CONTACTS.socials).map(([keys, values], index) => {
                     return (

@@ -37,7 +37,6 @@ export default function Header() {
                     </Group>
 
                     <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                        <Button variant='transparent' className={styles.button}>В магазин</Button>
                         <div className="flex items-center font-light">
                             <button className={`px-2`}>Ua</button>
                             <button className={`px-2`}>Es</button>
@@ -76,7 +75,6 @@ export default function Header() {
                 </Flex>
 
                 <Flex direction={'column'} gap={'md'} align="center" key={235352535235}>
-                    <Button variant='primary' className={styles.button}>В магазин</Button>
                     <div className="flex items-center justify-center font-light">
                         <button className={`px-2`}>Ua</button>
                         <button className={`px-2`}>Es</button>

@@ -53,7 +53,7 @@ export const LINKS = [
                 label: 'Аппаратная косметология',
                 links: [
                     {
-                        link: '/services/',
+                        link: '/services/fotoomolozhenie-ipl',
                         label: 'Фотоомоложение IPL'
                     },
                     {

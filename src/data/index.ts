@@ -5,7 +5,7 @@ export const LINKS = [
         collection: 'services',
         links: [
             {
-                link: '/',
+                link: '',
                 label: 'Аппаратная коррекция фигуры',
                 links: [
                     {
@@ -23,15 +23,15 @@ export const LINKS = [
                 label: 'Нутрициология',
             },
             {
-                link: '/',
+                link: '/services/trenirovki',
                 label: 'Тренировки',
             },
             {
-                link: '/',
+                link: '/services/',
                 label: 'Психология',
             },
             {
-                link: '/',
+                link: '',
                 label: 'Лазерная косметология',
                 links: [
                     {
@@ -45,79 +45,79 @@ export const LINKS = [
                 ]
             },
             {
-                link: '/',
+                link: '/services/',
                 label: 'Лазерная эпиляция',
             },
             {
-                link: '/',
+                link: '',
                 label: 'Аппаратная косметология',
                 links: [
                     {
-                        link: '/',
+                        link: '/services/',
                         label: 'Фотоомоложение IPL'
                     },
                     {
-                        link: '/',
+                        link: '/services/',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/',
+                        link: '/services/',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                     {
-                        link: '/',
+                        link: '/services/',
                         label: 'RF-лифтинг'
                     },
                     {
-                        link: '/',
+                        link: '/services/',
                         label: 'Комплекс BeatyWay'
                     },
                 ]
             },
             {
-                link: '/',
+                link: '',
                 label: 'Инъекционная косметология',
                 links: [
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Mезотерапия лица',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Mезотерапия тела',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Mезотерапия волос',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Биоревитализация',
                     },
                 ]
             },
             {
-                link: '/',
+                link: '',
                 label: 'Уходовая косметология',
                 links: [
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Чистка лица',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Xимические пилинги',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Карбокситерапия',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Микротоковая терапия',
                     },
                     {
-                        link: '',
+                        link: '/services',
                         label: 'Лимфодренажный массаж лица',
                     },
                 ]

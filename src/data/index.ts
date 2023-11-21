@@ -65,7 +65,7 @@ export const LINKS = [
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                     {
-                        link: '/services/',
+                        link: '/services/rf-lifting',
                         label: 'RF-лифтинг'
                     },
                     {

@@ -21,7 +21,7 @@ export default async function ServiceTemplate({ params }: Props) {
 
     return (
         <article className={styles.root}>
-            <div className="container">
+            <div className="container max-w-6xl">
                 <figure className={styles.hero}>
                     <Image
                         width="1920"
@@ -29,6 +29,7 @@ export default async function ServiceTemplate({ params }: Props) {
                         src={`/images/services/${frontmatter.hero_image}`}
                         alt={`${frontmatter.title}`}
                         className={`${styles['hero-image']}`}
+                        quality={100}
                     />
                 </figure>
             </div>

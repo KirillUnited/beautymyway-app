@@ -152,7 +152,7 @@ export const PRODUCTS = [
     {
         image: 'product-1.JPG',
         title: 'Пигментные пятна',
-        link: '/posts/udalenie-pigmentnyh-pyaten-lazerom'
+        link: '/posts/fotoudalenie-pigmentatsii'
     },
     {
         image: 'product-5.JPG',

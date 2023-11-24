@@ -157,27 +157,27 @@ export const PRODUCTS = [
     {
         image: 'product-5.JPG',
         title: 'Круги под глазами',
-        link: ''
+        link: '/posts/ubrat-temnye-krugi-pod-glazami'
     },
     {
         image: 'product-3.JPG',
         title: 'Мимические морщины',
-        link: ''
+        link: '/posts/konturnaya-plastika'
     },
     {
         image: 'product-4.JPG',
         title: 'Убрать дряблость кожи',
-        link: ''
+        link: '/posts/ubrat-dryablost-kozhi'
     },
     {
         image: 'product-2.JPG',
         title: 'Акне',
-        link: ''
+        link: '/posts/ubrat-rubtsy-postakne'
     },
     {
         image: 'product-6.JPG',
         title: 'Гипергидроз',
-        link: ''
+        link: '/posts/izbavitsya-ot-povyshennoj-potlivosti'
     },
 ];
 

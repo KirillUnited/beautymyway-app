@@ -172,7 +172,7 @@ export const PRODUCTS = [
     {
         image: 'product-2.JPG',
         title: 'Акне',
-        link: ''
+        link: '/posts/ubrat-rubtsy-postakne'
     },
     {
         image: 'product-6.JPG',

@@ -6,6 +6,15 @@ import cn from 'classnames';
 export default function HeroSection(): React.JSX.Element {
     return (
         <section className={cn(styles.root)}>
+        <Image
+        fill
+            src="/images/hero.jpg"
+            // width={430}
+            // height={696}
+            alt="hero"
+            priority
+            className={`${styles['bg-image']}`}
+        />
             <div className="container">
                 <div className={`${styles.inner} relative grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:gap-14 max-w-5xl mx-auto`}>
                     <div className='flex flex-col items-center py-5 z-10'>
@@ -17,14 +26,6 @@ export default function HeroSection(): React.JSX.Element {
                         </div>
                     </div>
 
-                    <Image
-                        src="/images/hero-3.png"
-                        width={430}
-                        height={696}
-                        alt="hero"
-                        priority
-                        className={`${styles['bg-image']}`}
-                    />
                 </div>
             </div>
         </section>

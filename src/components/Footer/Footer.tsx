@@ -35,9 +35,6 @@ export default function Footer() {
                         />
                     </Link>
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
-                    <div className='flex flex-col md:self-start gap-2'>
-                        <Socials/>
-                    </div>
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">О нас</span>

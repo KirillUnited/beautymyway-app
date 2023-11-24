@@ -10,7 +10,6 @@ export default function InfoSection() {
             <div className={styles.wrapper}>
                 <p className={styles.description}>Чтобы получить консультацию или записаться, пожалуйста, свяжитесь по указанному на сайте контактному номеру.</p>
                 <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email}/>
-                <Socials/>
             </div>
         </section>
     )

@@ -177,7 +177,7 @@ export const PRODUCTS = [
     {
         image: 'product-6.JPG',
         title: 'Гипергидроз',
-        link: ''
+        link: '/posts/izbavitsya-ot-povyshennoj-potlivosti'
     },
 ];
 

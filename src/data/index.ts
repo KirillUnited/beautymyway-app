@@ -162,7 +162,7 @@ export const PRODUCTS = [
     {
         image: 'product-3.JPG',
         title: 'Мимические морщины',
-        link: ''
+        link: '/posts/konturnaya-plastika'
     },
     {
         image: 'product-4.JPG',

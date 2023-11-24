@@ -53,6 +53,9 @@ export default function Contacts({ tel, address, time, email, className }: Conta
                     {time}
                 </li>
             }
+            <li>
+                <a href='https://n827290.alteg.io/' className='underline'>Онлайн-запись</a>
+            </li>
         </ul>
     )
 }

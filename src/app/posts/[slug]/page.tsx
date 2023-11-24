@@ -21,18 +21,22 @@ export default async function ServiceTemplate({ params }: Props) {
 
     return (
         <article className={styles.root}>
-            <div className="container max-w-6xl">
-                <figure className={styles.hero}>
-                    <Image
-                        width="1920"
-                        height="600"
-                        src={`/images/posts/${frontmatter.hero_image}`}
-                        alt={`${frontmatter.title}`}
-                        className={`${styles['hero-image']}`}
-                        quality={100}
-                    />
-                </figure>
-            </div>
+            {
+                frontmatter.hero_image
+                &&
+                <div className="container max-w-6xl">
+                    <figure className={styles.hero}>
+                        <Image
+                            width="1920"
+                            height="600"
+                            src={`/images/posts/${frontmatter.hero_image}`}
+                            alt={`${frontmatter.title}`}
+                            className={`${styles['hero-image']}`}
+                            quality={100}
+                        />
+                    </figure>
+                </div>
+            }
             <div className={styles.body}>
                 <ReactMarkdown>{`${markdownBody}`}</ReactMarkdown>
             </div>

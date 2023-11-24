@@ -167,7 +167,7 @@ export const PRODUCTS = [
     {
         image: 'product-4.JPG',
         title: 'Убрать дряблость кожи',
-        link: ''
+        link: '/posts/ubrat-dryablost-kozhi'
     },
     {
         image: 'product-2.JPG',

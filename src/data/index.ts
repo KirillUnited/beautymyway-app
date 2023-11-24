@@ -157,7 +157,7 @@ export const PRODUCTS = [
     {
         image: 'product-5.JPG',
         title: 'Круги под глазами',
-        link: ''
+        link: '/posts/ubrat-temnye-krugi-pod-glazami'
     },
     {
         image: 'product-3.JPG',

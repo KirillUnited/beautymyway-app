@@ -2,32 +2,32 @@ export const LINKS = [
     {
         link: '/',
         label: 'Услуги',
-        collection: 'services',
+        collection: 'posts',
         links: [
             {
                 link: '',
                 label: 'Аппаратная коррекция фигуры',
                 links: [
                     {
-                        link: '/services/spheraway',
+                        link: '/posts/spheraway',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/services/sculptway',
+                        link: '/posts/sculptway',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                 ]
             },
             {
-                link: '/services/nutriciologiya',
+                link: '/posts/nutriciologiya',
                 label: 'Нутрициология',
             },
             {
-                link: '/services/trenirovki',
+                link: '/posts/trenirovki',
                 label: 'Тренировки',
             },
             {
-                link: '/services/psihologiya',
+                link: '/posts/psihologiya',
                 label: 'Психология',
             },
             {
@@ -35,17 +35,17 @@ export const LINKS = [
                 label: 'Лазерная косметология',
                 links: [
                     {
-                        link: '/services/lazernoe-omolozhenie-litsa',
+                        link: '/posts/lazernoe-omolozhenie-litsa',
                         label: 'Лазерное омоложение лица'
                     },
                     {
-                        link: '/services/udalenie-pigmentnyh-pyaten-lazerom',
+                        link: '/posts/udalenie-pigmentnyh-pyaten-lazerom',
                         label: 'Удаление пигментных пятен лазером'
                     },
                 ]
             },
             {
-                link: '/services/fotoepilyatsiya',
+                link: '/posts/fotoepilyatsiya',
                 label: 'Лазерная эпиляция',
             },
             {
@@ -53,23 +53,23 @@ export const LINKS = [
                 label: 'Аппаратная косметология',
                 links: [
                     {
-                        link: '/services/fotoomolozhenie-ipl',
+                        link: '/posts/fotoomolozhenie-ipl',
                         label: 'Фотоомоложение IPL'
                     },
                     {
-                        link: '/services/spheraway',
+                        link: '/posts/spheraway',
                         label: 'SpheraWay для лица и тела'
                     },
                     {
-                        link: '/services/sculptway',
+                        link: '/posts/sculptway',
                         label: 'SculptWay - сжигание жира и коррекция фигуры'
                     },
                     {
-                        link: '/services/rf-lifting',
+                        link: '/posts/rf-lifting',
                         label: 'RF-лифтинг'
                     },
                     {
-                        link: '/services/beatyway',
+                        link: '/posts/beatyway',
                         label: 'Комплекс BeatyWay'
                     },
                 ]
@@ -79,19 +79,19 @@ export const LINKS = [
                 label: 'Инъекционная косметология',
                 links: [
                     {
-                        link: '/services/mezoterapiya-litsa',
+                        link: '/posts/mezoterapiya-litsa',
                         label: 'Mезотерапия лица',
                     },
                     {
-                        link: '/services/mezoterapiya-tela',
+                        link: '/posts/mezoterapiya-tela',
                         label: 'Mезотерапия тела',
                     },
                     {
-                        link: '/services/mezoterapiya-volos',
+                        link: '/posts/mezoterapiya-volos',
                         label: 'Mезотерапия волос',
                     },
                     {
-                        link: '/services/biorevitalizatsiya',
+                        link: '/posts/biorevitalizatsiya',
                         label: 'Биоревитализация',
                     },
                 ]
@@ -101,23 +101,23 @@ export const LINKS = [
                 label: 'Уходовая косметология',
                 links: [
                     {
-                        link: '/services/chistka-lica',
+                        link: '/posts/chistka-lica',
                         label: 'Чистка лица',
                     },
                     {
-                        link: '/services/himicheskij-piling',
+                        link: '/posts/himicheskij-piling',
                         label: 'Xимические пилинги',
                     },
                     {
-                        link: '/services/karboksiterapiya',
+                        link: '/posts/karboksiterapiya',
                         label: 'Карбокситерапия',
                     },
                     {
-                        link: '/services/mikrotokovaya-terapiya',
+                        link: '/posts/mikrotokovaya-terapiya',
                         label: 'Микротоковая терапия',
                     },
                     {
-                        link: '/services/limfodrenazhnyj-massazh-lica',
+                        link: '/posts/limfodrenazhnyj-massazh-lica',
                         label: 'Лимфодренажный массаж лица',
                     },
                 ]
@@ -125,7 +125,7 @@ export const LINKS = [
         ]
     },
     {
-        link: '/',
+        link: '/posts/consult',
         label: 'Консультация'
     },
     {
@@ -152,7 +152,7 @@ export const PRODUCTS = [
     {
         image: 'product-1.JPG',
         title: 'Пигментные пятна',
-        link: '/services/udalenie-pigmentnyh-pyaten-lazerom'
+        link: '/posts/udalenie-pigmentnyh-pyaten-lazerom'
     },
     {
         image: 'product-5.JPG',
@@ -186,7 +186,7 @@ export const FEATURED_PRODUCTS = [
         image: 'featured-product-1.jpeg',
         title: 'Фотолечение и Фотоомоложение (DPL)',
         description: 'Repellendus est voluptas officia.',
-        link: '/services/fotoomolozhenie-ipl'
+        link: '/posts/fotoomolozhenie-ipl'
     },
     {
         image: 'featured-product-2.jpeg',
@@ -198,13 +198,13 @@ export const FEATURED_PRODUCTS = [
         image: 'featured-product-3.JPG',
         title: 'Комплекс BeautyWay',
         description: 'Aut laboriosam officiis cupiditate id. Nisi voluptatem voluptatibus.',
-        link: '/services/beatyway'
+        link: '/posts/beatyway'
     },
     {
         image: 'featured-product-4.JPG',
         title: 'Биоревитализация',
         description: 'Inventore ut atque distinctio laboriosam consequatur praesentium eos. Fugit nostrum odit quis adipisci. Consequatur voluptatibus perspiciatis possimus non beatae aut. Eum qui perferendis dolores. Velit minus ea tempore rerum ipsa sed.',
-        link: '/services/biorevitalizatsiya'
+        link: '/posts/biorevitalizatsiya'
     },
 ];
 

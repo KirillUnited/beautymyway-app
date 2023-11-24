@@ -30,7 +30,7 @@
     text-shadow: 2px 8px 5px #000000;
 }
 .bg-image {
-    @apply -order-1 lg:order-1 w-full h-full object-contain lg:w-auto absolute inset-0 lg:relative lg:ml-auto;
+    @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative lg:ml-auto;
     // object-position: right;
     // filter: grayscale(1);
 }

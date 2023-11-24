@@ -125,7 +125,7 @@ export const LINKS = [
         ]
     },
     {
-        link: '/',
+        link: '/posts/consult',
         label: 'Консультация'
     },
     {

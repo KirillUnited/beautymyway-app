@@ -185,7 +185,7 @@ export const FEATURED_PRODUCTS = [
     {
         image: 'featured-product-1.jpeg',
         title: 'Фотолечение и Фотоомоложение (DPL)',
-        description: 'Repellendus est voluptas officia.',
+        description: 'Использование современного устройства для фотоомоложения IPL позволяет провести полноценное омоложение кожи, устранить дефекты и признаки старения. Эта процедура абсолютно безопасна и не сопровождается нежелательными побочными эффектами',
         link: '/posts/fotoomolozhenie-ipl'
     },
     {
@@ -197,13 +197,13 @@ export const FEATURED_PRODUCTS = [
     {
         image: 'featured-product-3.JPG',
         title: 'Комплекс BeautyWay',
-        description: 'Aut laboriosam officiis cupiditate id. Nisi voluptatem voluptatibus.',
+        description: 'Этот метод представляет собой комплекс омолаживающих процедур и дерматологического ухода для кожи, достигающего гарантированных результатов, аналогичных комплексному медицинскому лечению. Он основан на усовершенствованном подходе к стимуляции регенерации и восстановления кожи, используя инновационный аппарат Beauty Way, который сочетает в себе характеристики медицинского прибора и дерматологического устройства.',
         link: '/posts/beatyway'
     },
     {
         image: 'featured-product-4.JPG',
         title: 'Биоревитализация',
-        description: 'Inventore ut atque distinctio laboriosam consequatur praesentium eos. Fugit nostrum odit quis adipisci. Consequatur voluptatibus perspiciatis possimus non beatae aut. Eum qui perferendis dolores. Velit minus ea tempore rerum ipsa sed.',
+        description: 'Биоревитализация представляет собой метод омоложения кожи, при котором применяются инъекции препаратов, основанных на гиалуроновой кислоте, под кожу или в верхние слои кожи. Эти препараты стимулируют и активизируют синтез эластиновых и коллагеновых волокон, в результате чего клетки кожи восстанавливаются с внутренней стороны. Процедура также способствует восстановлению уровня влажности кожи, уменьшению мелких морщин и выравниванию текстуры кожи. Кроме гиалуроновой кислоты, препараты для биоревитализации содержат витамины, микроэлементы и растительные экстракты, которые работают в совокупности, усиливая положительное воздействие основного компонента.',
         link: '/posts/biorevitalizatsiya'
     },
 ];

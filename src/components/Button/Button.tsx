@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Button.module.scss';
-import { ButtonProps } from './Button.props';
+import { ButtonLinkProps, ButtonProps } from './Button.props';
 import cn from 'classnames';
+import Link from 'next/link';
 
 export default function Button({ variant, children, className, ...props }: ButtonProps): React.JSX.Element {
     return (
@@ -18,3 +19,19 @@ export default function Button({ variant, children, className, ...props }: Butto
         </button>
     )
 }
+
+export function ButtonLink({ variant, children, className, ...props }: ButtonLinkProps): React.JSX.Element {
+    return (
+        <Link className={cn(styles.default,
+            className,
+            {
+                [styles.primary]: variant === 'primary',
+                [styles.transparent]: variant === 'transparent'
+            }
+        )}
+        {...props}
+        >
+            {children}
+        </Link>
+    )
+} 

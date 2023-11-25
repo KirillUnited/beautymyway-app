@@ -8,6 +8,7 @@ import { ContactsProps } from './Contacts.props';
 import cn from 'classnames';
 import styles from './Contacts.module.scss';
 import Socials from '../Socials/Socials';
+import { CONTACTS } from '@/data'
 
 export default function Contacts({ tel, address, time, email, className }: ContactsProps): React.JSX.Element {
     return (
@@ -15,13 +16,19 @@ export default function Contacts({ tel, address, time, email, className }: Conta
             {
                 (tel && tel.length > 0)
                 &&
-                tel.map((item) => {
+                tel.map((item, index) => {
+                    const items = {
+                        'instagram': `${CONTACTS.socials.instagram[index]}`,
+                        'telegram': `${CONTACTS.socials.telegram[index]}`,
+                        'whatsapp': `${CONTACTS.socials.whatsapp[index]}`,
+                    };
+
                     return (
                         <li className={`${styles.item} truncate`} key={item}>
                             <Link href={`tel:${item}`}>
                                 <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
                             </Link>
-                            <Socials />
+                            <Socials items={items}/>
                             {item}
                         </li>
                     )

@@ -7,20 +7,21 @@
     );
     &::after {
         display: block;
-        content: '';
+        content: "";
         position: absolute;
         inset: 0;
-        background-color: rgba($color: #2b3632, $alpha: 0.3);
+        background-color: rgba($color: #2b3632, $alpha: 0.4);
     }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
 }
 .inner {
+    @apply relative grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:gap-14 max-w-5xl mx-auto;
     min-height: 50vh;
     z-index: 10;
     overflow: hidden;
-    
+
     @media (max-width: $mantine-breakpoint-md) {
         min-height: 33vh;
     }

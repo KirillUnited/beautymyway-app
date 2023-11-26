@@ -1,0 +1,25 @@
+{
+    "allProducts": [
+        {
+            "title": "FEATURED_PRODUCTS",
+            "products": [
+                {
+                    "slug": "fotoomolozhenie-ipl"
+                },
+                {
+                    "slug": "kompressionno-vibracionnyj-massazh"
+                },
+                {
+                    "slug": "beatyway"
+                },
+                {
+                    "slug": "biorevitalizatsiya"
+                }
+            ]
+        },
+        {
+            "title": "PRODUCTS",
+            "products": []
+        }
+    ]
+}

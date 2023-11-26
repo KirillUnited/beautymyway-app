@@ -1,18 +1,23 @@
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FEATURED_PRODUCTS } from '@/data';
+import ProductContext from '@/context/ProductContext';
 
-export default function FeaturedProducts(): React.JSX.Element {
+export default function FeaturedProducts() {
+    const { allProducts } = React.useContext<any>(ProductContext);
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
             {
-                FEATURED_PRODUCTS.map(({ image, title, description, link }, index) => {
+                allProducts.map((product: any) => {
+                    const { link } = product;
+                    const { thumb_image, title, description } = product.frontmatter;
                     return (
-                        <Link href={link} key={index}>
+                        <Link href={link} key={title}>
                             <ProductsCard
                                 variant='featured'
-                                image={image}
+                                image={thumb_image}
                                 title={title}
                                 description={description}
                             />

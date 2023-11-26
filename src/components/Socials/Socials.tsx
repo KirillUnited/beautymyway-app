@@ -1,4 +1,3 @@
-import { CONTACTS } from '@/data'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons/faTelegram'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp'

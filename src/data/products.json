@@ -1,0 +1,25 @@
+{
+    "allProducts": [
+        {
+            "title": "FEATURED_PRODUCTS",
+            "products": [
+                {
+                    "slug": "fotoomolozhenie-ipl"
+                },
+                {
+                    "slug": "beatyway"
+                },
+                {
+                    "slug": "fotoomolozhenie-ipl"
+                },
+                {
+                    "slug": "biorevitalizatsiya"
+                }
+            ]
+        },
+        {
+            "title": "PRODUCTS",
+            "products": []
+        }
+    ]
+}

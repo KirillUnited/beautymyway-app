@@ -34,6 +34,8 @@ export default async function ServiceTemplate({ params }: Props) {
                             className={`${styles['hero-image']}`}
                             quality={100}
                             priority
+                            placeholder='blur'
+                            blurDataURL='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
                         />
                     </figure>
                 </div>

@@ -33,6 +33,7 @@ export default async function ServiceTemplate({ params }: Props) {
                             alt={`${frontmatter.title}`}
                             className={`${styles['hero-image']}`}
                             quality={100}
+                            priority
                         />
                     </figure>
                 </div>

@@ -13,6 +13,8 @@ export default function HeroSection(): React.JSX.Element {
             // height={696}
             alt="hero"
             priority
+            placeholder='blur'
+            blurDataURL='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
             className={`${styles['bg-image']}`}
         />
             <div className="container">

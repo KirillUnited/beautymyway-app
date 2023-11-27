@@ -1,7 +1,6 @@
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-import { FEATURED_PRODUCTS } from '@/data';
+import React from 'react';
 import ProductContext from '@/context/ProductContext';
 
 export default function FeaturedProducts() {

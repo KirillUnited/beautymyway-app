@@ -11,9 +11,9 @@ export default function FeaturedProducts() {
             {
                 allProducts.map((product: any) => {
                     const { link } = product;
-                    const { thumb_image, title, description } = product.frontmatter;
+                    const { thumb_image, title, description, path } = product.frontmatter;
                     return (
-                        <Link href={link} key={title}>
+                        <Link href={path || link} key={title}>
                             <ProductsCard
                                 variant='featured'
                                 image={thumb_image}

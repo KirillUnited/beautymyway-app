@@ -9,7 +9,10 @@ import Footer from '@/components/Footer/Footer';
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://beautymyway.es'),
-	title: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
+	title: {
+		default: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
+		template: `%s | Beautymyway ➤ Професиональный косметолог в Валенсии`,
+	},
 	description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
 	keywords: ['Массаж', 'Endosphere', 'Emsculpt', 'Dion laser', 'БАД', 'питание', 'спорт', 'косметолог', 'врач', 'ботокс', 'мезотерапия', 'биоревитализация', 'Myway', 'Beauty', 'BeautyMyway', 'липолитики', 'карбокситерапия', 'чистка', 'лицо', 'кожа', 'тело', 'красота', 'здоровье', 'гармония', 'психология'],
 	openGraph: {

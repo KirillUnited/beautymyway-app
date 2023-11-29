@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageSectionLayout from '../ImageSectionLayout';
+import ImageSectionLayout from '@/layouts/ImageSectionLayout/ImageSectionLayout';
 import styles from './HitSection.module.scss';
 import { ButtonLink } from '@/components/Button/Button';
 

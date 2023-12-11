@@ -43,7 +43,7 @@ export default function Header() {
                         </div>
                     </Group>
 
-                    <Burger opened={drawerOpened} onClick={toggleDrawer} color='#fff' hiddenFrom="lg" />
+                    <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" className='text-primary' />
                 </nav>
             </header>
 

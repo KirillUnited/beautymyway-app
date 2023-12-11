@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageSectionLayout from '@/layouts/ImageSectionLayout/ImageSectionLayout';
+import ImageSectionLayout from '@/components/ImageSectionLayout/ImageSectionLayout';
 import styles from './SurgerySection.module.scss';
 
 export default function SurgerySection() {

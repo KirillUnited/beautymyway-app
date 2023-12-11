@@ -1,9 +1,9 @@
 .default {
-    @apply inline-flex items-center justify-center font-semibold min-h-[2.5rem] px-3 cursor-pointer transition-all;
+    @apply inline-flex items-center justify-center font-light min-h-[2.5rem] px-3 cursor-pointer transition-all;
 }
 
 .primary {
-    @apply text-primaryInvert bg-primary border border-primary;
+    @apply text-secondary hover:text-primary bg-primary hover:bg-transparent border border-primary;
 }
 
 .transparent {

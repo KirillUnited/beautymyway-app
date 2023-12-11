@@ -1,17 +1,17 @@
 .root {
     position: relative;
-    background: radial-gradient(
-        75.72% 51.86% at 57.47% 57.89%,
-        rgb(55, 70, 64) 0%,
-        var(--color-foreground) 100%
-    );
-    &::after {
-        display: block;
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-color: rgba($color: #2b3632, $alpha: 0.4);
-    }
+    // background: radial-gradient(
+    //     75.72% 51.86% at 57.47% 57.89%,
+    //     rgb(55, 70, 64) 0%,
+    //     var(--color-foreground) 100%
+    // );
+    // &::after {
+    //     display: block;
+    //     content: "";
+    //     position: absolute;
+    //     inset: 0;
+    //     background-color: rgba($color: #2b3632, $alpha: 0.4);
+    // }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }

@@ -12,6 +12,7 @@
 }
 .content {
     @apply absolute left-0 bottom-[-1px] right-0 text-center font-semibold p-5 z-10 flex flex-col gap-1;
+    color: var(--mantine-color-primary-0);
     background: linear-gradient(0deg, #37393e 0%, rgba(55, 57, 62, 0) 100%);
 }
 .title {

@@ -1,17 +1,5 @@
 .root {
     position: relative;
-    // background: radial-gradient(
-    //     75.72% 51.86% at 57.47% 57.89%,
-    //     rgb(55, 70, 64) 0%,
-    //     var(--color-foreground) 100%
-    // );
-    // &::after {
-    //     display: block;
-    //     content: "";
-    //     position: absolute;
-    //     inset: 0;
-    //     background-color: rgba($color: #2b3632, $alpha: 0.4);
-    // }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
     }
@@ -26,12 +14,12 @@
         min-height: 33vh;
     }
 }
+.title {
+    @apply font-semibold text-4xl lg:text-6xl mb-4;
+}
 .text {
-    @apply font-mulish text-lg lg:text-4xl font-extralight italic py-2;
-    // text-shadow: 2px 2px 5px #000000;
+    @apply text-lg lg:text-3xl font-extralight py-2;
 }
 .bg-image {
     @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative lg:ml-auto;
-    // object-position: right;
-    // filter: grayscale(1);
 }

@@ -27,17 +27,21 @@
         @apply flex flex-col;
     }
     .linkHover {
+        @apply relative;
         &:after {
+            @apply bg-primary transition-all duration-300;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
             display: block;
             content: "";
-            width: 0;
+            transform: scale(0);
             height: 1px;
-            @apply bg-primary transition-all duration-300;
         }
         &:hover {
             @apply cursor-pointer;
             &::after {
-                width: 100%;
+                transform: scale(1);
             }
         }
     }

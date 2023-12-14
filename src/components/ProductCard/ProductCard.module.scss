@@ -3,7 +3,6 @@
         .image {
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
-            transform: scale(1.1);
         }
         .description {
             grid-template-rows: 1fr;
@@ -13,7 +12,6 @@
 }
 .content {
     @apply absolute left-0 bottom-[-1px] right-0 text-center font-semibold p-5 z-10 flex flex-col gap-1;
-    color: var(--mantine-color-primary-0);
     background: linear-gradient(0deg, #37393e 0%, rgba(55, 57, 62, 0) 100%);
 }
 .title {
@@ -21,9 +19,8 @@
 }
 .image {
     @apply object-cover w-full transition-all duration-700;
-    // -webkit-filter: grayscale(1);
-    // filter: grayscale(1);
-    transform: scale(1);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 .description {
     display: grid;

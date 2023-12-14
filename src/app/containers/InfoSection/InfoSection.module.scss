@@ -11,7 +11,7 @@
     @apply text-sm lg:text-lg font-light leading-snug lg:leading-7 max-w-3xl text-center;
 }
 .contacts {
-    @apply flex flex-wrap justify-center gap-y-1 gap-x-8 border border-gray-400 p-2 lg:p-3;
+    @apply flex flex-wrap justify-center gap-y-1 gap-x-8 border border-primary p-2 lg:p-3;
 }
 .button {
     @apply min-w-[11.5rem];

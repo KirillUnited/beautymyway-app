@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --color-foreground: rgb(200,202,202);
-    --mantine-color-body: #bec0c2;
+    --color-foreground: #2b3632;
+    --mantine-color-body: #2b3632;
 }
 @layer base {
     html {
@@ -16,7 +16,7 @@
         @apply flex flex-col gap-2 items-center max-w-xl mx-auto text-center pt-12 lg:pt-16 pb-8;
     }
     .section-title {
-        @apply text-2xl md:text-3xl font-semibold leading-normal border-b border-b-gray-400 pb-2;
+        @apply text-2xl md:text-3xl font-semibold leading-normal border-b border-b-primary pb-2;
     }
     .section-description {
         @apply text-base font-light;
@@ -27,17 +27,21 @@
         @apply flex flex-col;
     }
     .linkHover {
+        @apply relative;
         &:after {
+            @apply bg-primary transition-all duration-300;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
             display: block;
             content: "";
-            width: 0;
+            transform: scale(0);
             height: 1px;
-            @apply bg-primary transition-all duration-300;
         }
         &:hover {
             @apply cursor-pointer;
             &::after {
-                width: 100%;
+                transform: scale(1);
             }
         }
     }

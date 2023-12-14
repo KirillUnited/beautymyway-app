@@ -24,7 +24,7 @@ export default function Header() {
                 <nav className="min-h-[5rem] container flex justify-between items-center py-2">
                     <Link href={'/'} className={styles.logo}>
                         <Image
-                            src={`/images/logo.png`}
+                            src={`/images/logo-color.png`}
                             width={52}
                             height={52}
                             alt='Артур Сугако теперь и в Барселоне!'
@@ -43,7 +43,7 @@ export default function Header() {
                         </div>
                     </Group>
 
-                    <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" className='text-primary' />
+                    <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" color='var(--mantine-color-primary-0)' />
                 </nav>
             </header>
 

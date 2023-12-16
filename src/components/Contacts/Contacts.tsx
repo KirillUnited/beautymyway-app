@@ -25,11 +25,11 @@ export default function Contacts({ tel, address, time, email, className }: Conta
 
                     return (
                         <li className={`${styles.item} truncate`} key={item}>
-                            <Link href={`tel:${item}`}>
+                            <Socials items={items} />
+                            <Link href={`tel:${item}`} className={`flex items-center gap-3 lg:gap-4`}>
                                 <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
+                                <span>{item}</span>
                             </Link>
-                            <Socials items={items}/>
-                            {item}
                         </li>
                     )
                 })

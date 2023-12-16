@@ -1,13 +1,13 @@
 'use client';
-import AboutSection from './containers/AboutSection/AboutSection';
-import { FeaturedProductsSection } from './containers/FeaturedProductsSection/FeaturedProductsSection';
-import HeroSection from './containers/HeroSection/HeroSection';
-import HitSection from './containers/HitSection/HitSection';
-import InfoSection from './containers/InfoSection/InfoSection';
-import ProductsSection from './containers/ProductsSection/ProductsSection';
-import TestimonialsSection from './containers/TestimonialsSection/TestimonialsSection';
+import AboutSection from '@/components/Sections/AboutSection/AboutSection';
+import { FeaturedProductsSection } from '@/components/Sections/FeaturedProductsSection/FeaturedProductsSection';
+import HeroSection from '@/components/Sections/HeroSection/HeroSection';
+import HitSection from '@/components/Sections/HitSection/HitSection';
+import InfoSection from '@/components/Sections/InfoSection/InfoSection';
+import ProductsSection from '@/components/Sections/ProductsSection/ProductsSection';
+import TestimonialsSection from '@/components/Sections/TestimonialsSection/TestimonialsSection';
 import '@mantine/carousel/styles.css';
-import { TeamSection } from './containers/TeamSection/TeamSection';
+import { TeamSection } from '@/components/Sections/TeamSection/TeamSection';
 import { ProductContextProvider } from '@/context/ProductContext';
 import matter from 'gray-matter';
 

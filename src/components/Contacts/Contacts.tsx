@@ -6,7 +6,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import Link from 'next/link';
 import { ContactsProps } from './Contacts.props';
 import cn from 'classnames';
-import styles from './Contacts.module.scss';
+import styles from './contacts.module.scss';
 import Socials from '../Socials/Socials';
 import { CONTACTS } from '@/data'
 

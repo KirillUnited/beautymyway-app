@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './button.module.scss';
+import styles from './Button.module.scss';
 import { ButtonLinkProps, ButtonProps } from './Button.props';
 import cn from 'classnames';
 import Link from 'next/link';

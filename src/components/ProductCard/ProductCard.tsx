@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './product-card.module.scss';
+import styles from './ProductCard.module.scss';
 import Image from 'next/image';
 import cn from 'classnames';
 import { IProductCardProps } from './ProductCard.props';

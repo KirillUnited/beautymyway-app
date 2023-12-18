@@ -1,4 +1,5 @@
 import { Mulish } from 'next/font/google';
+import localFont from '@next/font/local';
 
 export const mulish = Mulish({
     weight: ['200', '400', '600'],
@@ -8,3 +9,13 @@ export const mulish = Mulish({
     variable: '--font-mulish',
     preload: true,
 });
+
+export const futura = localFont({
+    src: [
+      {
+        path: '../../public/fonts/FuturaPTLight.otf',
+        weight: '200'
+      },
+    ],
+    variable: '--font-futura'
+  })

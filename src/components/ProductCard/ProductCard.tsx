@@ -2,15 +2,9 @@ import React from 'react';
 import styles from './ProductCard.module.scss';
 import Image from 'next/image';
 import cn from 'classnames';
+import { IProductCardProps } from './ProductCard.props';
 
-interface ProductsItemProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
-    image: string,
-    title: string,
-    variant?: 'featured' | 'default',
-    description?: string
-}
-
-export default function ProductCard({ image, title, description, variant = 'default', className }: ProductsItemProps): React.JSX.Element {
+export default function ProductCard({ image, title, description, variant = 'default', className }: IProductCardProps): React.JSX.Element {
     return (
         <div className={cn(styles.root,
             className,

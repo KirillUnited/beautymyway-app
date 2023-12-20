@@ -4,7 +4,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import cn from 'classnames';
-import styles from './_Socials.module.scss';
+import styles from './Socials.module.scss';
 
 interface ISocialsItemProps {
     item: string, value: any

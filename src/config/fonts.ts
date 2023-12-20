@@ -1,5 +1,5 @@
 import { Mulish } from 'next/font/google';
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 
 export const mulish = Mulish({
     weight: ['200', '400', '600'],
@@ -17,5 +17,6 @@ export const futura = localFont({
         weight: '200'
       },
     ],
+    display: 'swap',
     variable: '--font-futura'
   })

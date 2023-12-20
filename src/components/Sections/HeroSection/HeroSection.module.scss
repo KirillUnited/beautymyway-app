@@ -27,12 +27,12 @@
     }
 }
 .title {
-    @apply font-semibold text-4xl lg:text-6xl mb-4;
+    @apply font-futura tracking-wider font-semibold text-4xl lg:text-6xl mb-4;
     color: #356F4C;
     text-shadow: #000 0px 0px 2px;
 }
 .text {
-    @apply text-lg lg:text-3xl font-extralight italic py-2 text-[#121111];
+    @apply font-futura tracking-wider text-lg lg:text-3xl font-extralight italic py-2 text-[#121111];
 }
 .bg-image {
     @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative lg:ml-auto;

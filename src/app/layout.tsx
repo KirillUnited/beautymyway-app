@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import '@mantine/core/styles.css';
 import '@/styles/globals.scss';
-import { mulish } from '@/config/fonts';
+import { mulish, futura } from '@/config/fonts';
 import {theme} from '@/config/theme';
 import { MantineProvider, ColorSchemeScript,createTheme } from '@mantine/core';
 import Header from '@/components/Header/Header';
@@ -37,7 +37,7 @@ export default function RootLayout({
 			<head>
 				<ColorSchemeScript />
 			</head>
-			<body className={`${mulish.className} text-primary bg-foreground`}>
+			<body className={`${mulish.className} ${futura.variable} text-primary bg-foreground`}>
 				<MantineProvider theme={theme}>
 					<div className='wrapper flex flex-col min-h-screen'>
 						<Header></Header>

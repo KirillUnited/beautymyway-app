@@ -13,7 +13,8 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        mulish: ['var(--font-mulish)']
+        mulish: ['var(--font-mulish)'],
+        futura: ['var(--font-futura)']
       },
       colors: {
         foreground: 'var(--color-foreground)',

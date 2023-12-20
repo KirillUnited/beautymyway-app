@@ -14,7 +14,8 @@ export const futura = localFont({
     src: [
       {
         path: '../../public/fonts/FuturaPTLight.otf',
-        weight: '200'
+        weight: '200',
+        style: 'normal'
       },
     ],
     display: 'swap',

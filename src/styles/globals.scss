@@ -10,9 +10,6 @@
     html {
         scroll-behavior: smooth;
     }
-    body {
-        background: linear-gradient(90deg, #355C4E 30%, #2b3733 50%, #121111 90%);
-    }
 }
 @layer components {
     .section-heading {
@@ -30,7 +27,7 @@
         @apply flex flex-col;
     }
     .linkHover {
-        @apply relative;
+        @apply relative transition-all duration-300;
         &:after {
             @apply bg-primary transition-all duration-300;
             position: absolute;
@@ -42,7 +39,7 @@
             height: 1px;
         }
         &:hover {
-            @apply cursor-pointer;
+            @apply cursor-pointer text-white;
             &::after {
                 transform: scale(1);
             }

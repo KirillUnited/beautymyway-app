@@ -10,7 +10,7 @@
         content: "";
         position: absolute;
         inset: 0;
-        // background-color: rgba($color: #2b3632, $alpha: 0.4);
+        background-color: rgba($color: #2b3632, $alpha: 0.4);
     }
     @media (max-width: $mantine-breakpoint-md) {
         background: transparent;
@@ -28,11 +28,9 @@
 }
 .title {
     @apply font-futura tracking-wider font-semibold text-4xl lg:text-6xl mb-4;
-    color: #356F4C;
-    text-shadow: #000 0px 0px 2px;
 }
 .text {
-    @apply font-futura tracking-wider text-lg lg:text-3xl font-extralight italic py-2 text-[#121111];
+    @apply font-futura tracking-wider text-lg lg:text-3xl font-extralight italic py-2;
 }
 .bg-image {
     @apply -order-1 lg:order-1 w-full h-full object-cover lg:w-auto absolute inset-0 lg:relative lg:ml-auto;

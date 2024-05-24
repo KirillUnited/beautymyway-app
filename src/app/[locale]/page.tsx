@@ -10,7 +10,6 @@ import '@mantine/carousel/styles.css';
 import { TeamSection } from '@/components/Sections/TeamSection/TeamSection';
 import { ProductContextProvider } from '@/context/ProductContext';
 import matter from 'gray-matter';
-import { unstable_setRequestLocale } from 'next-intl/server';
 
 export default async function Home({ params: { locale } }: any) {
 	const allProducts = await getProducts();

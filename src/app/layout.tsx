@@ -38,7 +38,6 @@ export default function RootLayout({
 				<ColorSchemeScript />
 			</head>
 			<body className={`${mulish.className} ${futura.variable} text-primary bg-foreground`}>
-
 				<MantineProvider theme={theme}>
 					{children}
 				</MantineProvider>

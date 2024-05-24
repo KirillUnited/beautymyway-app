@@ -1,6 +1,7 @@
 'use client'
 import React, { useRef } from 'react';
 import { Carousel } from '@mantine/carousel';
+import '@mantine/carousel/styles.css';
 import Autoplay from 'embla-carousel-autoplay';
 import { TESTIMONIALS } from '@/data';
 import { useMantineTheme } from '@mantine/core';

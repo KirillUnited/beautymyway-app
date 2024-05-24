@@ -12,7 +12,6 @@ import {
 import HeaderMenu from './HeaderMenu';
 import HeaderNav from './HeaderNav';
 import styles from './Header.module.scss';
-import Button from '@/components/Button/Button';
 import { useDisclosure } from '@mantine/hooks';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 

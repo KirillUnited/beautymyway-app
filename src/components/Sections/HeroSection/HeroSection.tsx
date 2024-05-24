@@ -5,7 +5,7 @@ import cn from 'classnames';
 import { useTranslations } from 'next-intl';
 
 export default function HeroSection(): React.JSX.Element {
-    const t = useTranslations('hero');
+    const t = useTranslations('Hero');
 
     return (
         <section className={cn(styles.root)}>

@@ -1,10 +1,10 @@
 {
-    "meta": {
+    "Meta": {
         "title": "Beauty is Freedom.",
         "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website."
     },
-    "hero": {
+    "Hero": {
         "title": "Beauty is Freedom.",
-        "text": "A century ago and today"
+        "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"
     }
 }

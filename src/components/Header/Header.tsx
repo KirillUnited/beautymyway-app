@@ -14,6 +14,7 @@ import HeaderNav from './HeaderNav';
 import styles from './Header.module.scss';
 import Button from '@/components/Button/Button';
 import { useDisclosure } from '@mantine/hooks';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Header() {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
@@ -37,10 +38,7 @@ export default function Header() {
                     </Group>
 
                     <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                        <div className="flex items-center font-light">
-                            <button className={`px-2`}>Ua</button>
-                            <button className={`px-2`}>Es</button>
-                        </div>
+                        <LanguageSwitcher />
                     </Group>
 
                     <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" color='var(--mantine-color-primary-0)' />

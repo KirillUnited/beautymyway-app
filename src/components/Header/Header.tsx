@@ -9,12 +9,11 @@ import HeaderMenu from './HeaderMenu';
 import styles from './Header.module.scss';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import HeaderDrawer from './HeaderDrawer';
+import { getLocale } from 'next-intl/server';
 
-interface Props {
-    currentLocale: string
-}
+export default async function Header() {
+    const currentLocale = await getLocale();
 
-export default function Header({ currentLocale }: Props) {
     return (
         <header className={styles.root}>
             <nav className="min-h-[5rem] container flex justify-between items-center py-2">

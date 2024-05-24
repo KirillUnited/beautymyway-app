@@ -5,18 +5,14 @@ import { Group, Menu } from '@mantine/core'
 import React from 'react'
 import Link from 'next/link'
 import { locales } from '@/i18n'
-// import { getLocale } from 'next-intl/server'
 
 interface Props {
     currentLocale: string
 }
 
 export default function LanguageSwitcher({ currentLocale }: Props) {
-    // const currentLocale = getLocale();
-
     return (
-        <Menu
-            trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow>
+        <Menu trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow>
             <Menu.Target>
                 <a
                     className='linkHover uppercase'

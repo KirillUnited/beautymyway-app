@@ -3,18 +3,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Group, Menu } from '@mantine/core'
 import React from 'react'
 import Link from 'next/link'
-import i18n, { locales } from '@/i18n'
+import { locales } from '@/i18n'
+// import { getLocale } from 'next-intl/server'
 
-export default function LanguageSwitcher() {
+interface Props {
+    currentLocale: string
+}
+
+export default function LanguageSwitcher({ currentLocale }: Props) {
+    // const currentLocale = getLocale();
+
     return (
-        <Menu trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow>
+        <Menu
+            trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow>
             <Menu.Target>
-
                 <a
-                    className='linkHover'
+                    className='linkHover uppercase'
                 >
                     <Group gap={'xs'}>
-                        <span>RU</span>
+                        <span>{currentLocale}</span>
                         <FontAwesomeIcon icon={faAngleDown} />
                     </Group>
                 </a>
@@ -23,8 +30,8 @@ export default function LanguageSwitcher() {
                 {
                     locales.map((localeName) => {
                         return (
-                            <Menu.Item key={localeName}>
-                                <Link href={localeName}>
+                            <Menu.Item key={localeName} className='uppercase px-0'>
+                                <Link href={localeName} className='px-4'>
                                     {localeName}
                                 </Link>
                             </Menu.Item>

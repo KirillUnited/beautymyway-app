@@ -16,7 +16,11 @@ import Button from '@/components/Button/Button';
 import { useDisclosure } from '@mantine/hooks';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
-export default function Header() {
+interface Props {
+    currentLocale: string
+}
+
+export default function Header({currentLocale}: Props) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
 
     return (
@@ -38,7 +42,7 @@ export default function Header() {
                     </Group>
 
                     <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                        <LanguageSwitcher />
+                        <LanguageSwitcher currentLocale={currentLocale} />
                     </Group>
 
                     <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" color='var(--mantine-color-primary-0)' />

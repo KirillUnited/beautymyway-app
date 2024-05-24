@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { NextIntlClientProvider } from 'next-intl';
@@ -38,7 +37,7 @@ export default async function LocaleLayout({
 	return (
 		<div className='wrapper flex flex-col min-h-screen'>
 			<NextIntlClientProvider messages={messages}>
-				<Header></Header>
+				<Header currentLocale={params.locale}></Header>
 				<main className="content flex-1">
 					{children}
 				</main>

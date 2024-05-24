@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { Menu, Group } from '@mantine/core';
 import { LINKS } from '@/data/index';

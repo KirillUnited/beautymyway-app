@@ -13,9 +13,6 @@ import matter from 'gray-matter';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 export default async function Home({ params: { locale } }: any) {
-	// This method is suggested by the next intl docs
-	// unstable_setRequestLocale(locale);
-
 	const allProducts = await getProducts();
 
 	return (

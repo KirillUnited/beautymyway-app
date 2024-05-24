@@ -13,5 +13,5 @@ export default middleware;
 
 export const config = {
     // Match only internationalized pathnames
-    matcher: ['/', '/(ru)/:path*']
+    matcher: ['/', '/(ru|en|es)/:path*']
 };

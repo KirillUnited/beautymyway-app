@@ -23,9 +23,7 @@ export default function HeroSection(): React.JSX.Element {
                     <div className='flex flex-col items-center py-5 z-10'>
                         <h1 className={`${styles.title}`}>{t('title')}</h1>
                         <div className={styles.text}>
-                            <p>Столетие назад и сегодня</p>
-                            <p>эта истина остается неизменной,</p>
-                            <p>лишь средства для достижения красоты претерпели <span className='font-normal'>изменения</span></p>
+                            <p>{t('text')}</p>
                         </div>
                     </div>
                 </div>

@@ -2,16 +2,29 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
+import { locales } from '@/i18n';
+import { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-	metadataBase: new URL('https://beautymyway.es'),
-	title: {
-		default: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
-		template: `%s | Beautymyway ➤ Професиональный косметолог в Валенсии`,
-	},
-	description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
+type Props = {
+	children: ReactNode;
+	params: { locale: string };
 };
+
+export function generateStaticParams() {
+	return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+	params: { locale }
+}: Omit<Props, 'children'>) {
+	const t = await getTranslations({ locale, namespace: 'meta' });
+
+	return {
+		title: t('title'),
+		description: t('description')
+	};
+}
 
 export default async function LocaleLayout({
 	children,

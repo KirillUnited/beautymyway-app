@@ -18,7 +18,7 @@ export default function LanguageSwitcher() {
             </Menu.Target>
             <Menu.Dropdown>
                 <Menu.Item>
-                    RU
+                    EN
                 </Menu.Item>
                 <Menu.Item>
                     ES

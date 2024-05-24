@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const withNextIntl = require('next-intl/plugin')();
+const nextConfig = withNextIntl({
     sassOptions: {
         prependData: `@import "./src/styles/_mantine.scss";`,
     },
@@ -10,6 +11,6 @@ const nextConfig = {
         })
         return config
     },
-}
+})
 
 module.exports = nextConfig

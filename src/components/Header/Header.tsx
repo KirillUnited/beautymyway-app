@@ -38,7 +38,7 @@ export default function Header() {
                     </Group>
 
                     <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                        <LanguageSwitcher />
+                        {/* <LanguageSwitcher /> */}
                     </Group>
 
                     <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="lg" color='var(--mantine-color-primary-0)' />

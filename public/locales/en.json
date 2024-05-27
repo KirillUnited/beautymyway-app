@@ -20,5 +20,11 @@
     },
     "Team": {
         "title": "Наша команда"
+    },
+    "HIT": {
+        "title": "Procedure of the month",
+        "subtitle": "Phototherapy and Photorejuvenation (IPL)",
+        "description": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
+        "CTA title": "More details about the procedure"
     }
 }

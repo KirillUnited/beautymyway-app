@@ -20,5 +20,11 @@
     },
     "Team": {
         "title": "Наша команда"
+    },
+    "HIT": {
+        "title": "Procedimiento del mes",
+        "subtitle": "Fototerapia y Fotorejuvenecimiento (IPL)",
+        "description": "El fotorrejuvenecimiento es un procedimiento médico destinado a prevenir y eliminar los signos del fotoenvejecimiento cutáneo. Efectiva y no invasiva, esta tecnología se lleva a cabo utilizando fuentes de luz de alta intensidad (IPL), lo que representa una de las tendencias más prometedoras en el campo de la medicina estética.",
+        "CTA title": "Más detalles sobre el procedimiento."
     }
 }

@@ -13,5 +13,9 @@
     "About": {
         "slogan": "¡Nos inspiramos en la belleza de cada cliente<span className=\"font-normal\">que nos contacta!</span>",
         "description": "Usamos <span className=\"font-semibold\">diariamente</span> nuestra experiencia acumulada, las mejores técnicas y herramientas para ayudarlo a descubrir y resaltar su belleza y armonía naturales. Esto nos permite introducir técnicas y protocolos de tratamiento avanzados."
+    },
+    "Products": {
+        "title": "¿Qué problema quieres resolver?",
+        "description": "Cuidamos la juventud de tu piel y figura, utilizando modernos métodos de cosmetología láser, ferretería e inyección."
     }
 }

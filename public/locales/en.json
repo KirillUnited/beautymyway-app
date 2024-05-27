@@ -13,5 +13,9 @@
     "About": {
         "slogan": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",
         "description": "We <span className=\"font-semibold\">daily</span> use our accumulated experience, best techniques and tools to help you discover and highlight your natural beauty and harmony. This allows us to introduce advanced techniques and treatment protocols."
+    },
+    "Products": {
+        "title": "What problem do you want to solve?",
+        "description": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology."
     }
 }

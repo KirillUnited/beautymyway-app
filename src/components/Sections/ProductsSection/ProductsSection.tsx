@@ -2,13 +2,16 @@ import ProductCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
 import { PRODUCTS } from '@/data';
+import { useTranslations } from 'next-intl';
 
 export default function ProductsSection(): React.JSX.Element {
+    const t = useTranslations('Products');
+
     return (
         <section>
             <div className='section-heading container'>
-                <h2 className='section-title'>Какую проблему желаете решить?</h2>
-                <p className='section-description'>Мы заботимся о молодости вашей кожи и фигуры, используя современные методы лазерной, аппаратной и инъекционной косметологии.</p>
+                <h2 className='section-title'>{t('title')}</h2>
+                <p className='section-description'>{t('description')}</p>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-3">
                 {

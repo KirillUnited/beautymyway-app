@@ -37,11 +37,11 @@ export default async function LocaleLayout({
 	return (
 		<div className='wrapper flex flex-col min-h-screen'>
 			<NextIntlClientProvider messages={messages}>
-				<Header></Header>
+				<Header />
 				<main className="content flex-1">
 					{children}
 				</main>
-				<Footer></Footer>
+				<Footer />
 			</NextIntlClientProvider>
 		</div>
 	)

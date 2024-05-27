@@ -17,5 +17,8 @@
     "Products": {
         "title": "¿Qué problema quieres resolver?",
         "description": "Cuidamos la juventud de tu piel y figura, utilizando modernos métodos de cosmetología láser, ferretería e inyección."
+    },
+    "Team": {
+        "title": "Наша команда"
     }
 }

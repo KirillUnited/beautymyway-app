@@ -17,5 +17,8 @@
     "Products": {
         "title": "What problem do you want to solve?",
         "description": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology."
+    },
+    "Team": {
+        "title": "Наша команда"
     }
 }

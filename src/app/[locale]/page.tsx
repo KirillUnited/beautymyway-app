@@ -5,7 +5,7 @@ import HitSection from '@/components/Sections/HitSection/HitSection';
 import InfoSection from '@/components/Sections/InfoSection/InfoSection';
 import ProductsSection from '@/components/Sections/ProductsSection/ProductsSection';
 import TestimonialsSection from '@/components/Sections/TestimonialsSection/TestimonialsSection';
-import { TeamSection } from '@/components/Sections/TeamSection/TeamSection';
+import { TeamSection } from '@/components/Team/TeamSection';
 import { ProductContextProvider } from '@/context/ProductContext';
 import matter from 'gray-matter';
 

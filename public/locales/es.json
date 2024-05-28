@@ -8,7 +8,8 @@
         "text": "Hace un siglo y hoy esta verdad permanece inalterada, Sólo los medios para alcanzar la belleza han cambiado."
     },
     "Info": {
-        "description": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web."
+        "description": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web.",
+        "CTA title": "Registro en línea"
     },
     "About": {
         "slogan": "¡Nos inspiramos en la belleza de cada cliente<span className=\"font-normal\">que nos contacta!</span>",

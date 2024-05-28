@@ -8,7 +8,8 @@
         "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"
     },
     "Info": {
-        "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website."
+        "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website.",
+        "CTA title": "Online registration"
     },
     "About": {
         "slogan": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",

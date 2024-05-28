@@ -9,8 +9,11 @@ import cn from 'classnames';
 import styles from './Contacts.module.scss';
 import Socials from '../Socials/Socials';
 import { CONTACTS } from '@/data'
+import { useTranslations } from 'next-intl';
 
 export default function Contacts({ tel, address, time, email, className }: ContactsProps): React.JSX.Element {
+    const t = useTranslations('Info');
+
     return (
         <ul className={cn(styles.root, className)}>
             {
@@ -61,7 +64,7 @@ export default function Contacts({ tel, address, time, email, className }: Conta
                 </li>
             }
             <li>
-                <a href='https://n827290.alteg.io/' className='underline'>Онлайн-запись</a>
+                <a href='https://n827290.alteg.io/' className='underline'>{t('CTA title')}</a>
             </li>
         </ul>
     )

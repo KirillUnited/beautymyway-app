@@ -26,5 +26,28 @@
         "subtitle": "Phototherapy and Photorejuvenation (IPL)",
         "description": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
         "CTA title": "More details about the procedure"
+    },
+    "TESTIMONIALS": {
+        "title": "Reviews",
+        "list": {
+            "1": {
+                "description": "Hello! I would like to express my gratitude to Arthur. A wonderful specialist, a very friendly and polite person. Thanks to such specialists, I want to come to your office again and again. Sincerely, Olesya and Maxim)"
+            },
+            "2": {
+                "description": "I have been visiting this center for several months now. I completed a course of laser rejuvenation, and now I go for maintenance procedures once every half a year. I always went to see Angelina. She is very attentive, always asks about her well-being, explains everything clearly and clearly, and is pleasant to talk to. The staff is always friendly, the offices are very clean."
+            },
+            "3": {
+                "description": "Yesterday I visited the salon and was very pleased, I will share my emotions: firstly, the pleasant atmosphere of the interior and friendliness are immediately greeted on the threshold of this wonderful place, and secondly, the professionalism and attentiveness of the specialist) This is not the first time I have done this, but this is the first time in this salon biorevitalization, the procedure is carried out painless, which means a professional doctor who will prepare you and approach you where necessary. Thank you so much for the beauty"
+            },
+            "4": {
+                "description": "I would like to express my gratitude to body specialist Arthur. I am prone to swelling and due to a sedentary lifestyle, my body is not as perfect as it used to be. A friend recommended an excellent specialist. Arthur picked out a whole complex for me. We did the procedures twice a week, eight times. The result was not long in coming, my body responded with gratitude to the impact! I can feel free to wear my favorite shorts! And I feel confident again! Thank you!"
+            },
+            "5": {
+                "description": "Thanks to Angelina for my beautiful face))) Her hands work wonders, I trust her completely. My daughter and I have been going here for over a year now and we are always very pleased."
+            },
+            "6": {
+                "description": "I admire my face after the procedure, and it gets better and better from the day of the procedure!!! That’s why I’m writing! Today is even better!!! Arthur Alexandrovich is some kind of magic!! To say thank you to my Beauty Doctor is to say nothing! Thanks to all the staff, professionalism and tactfulness that I have never known before"
+            }
+        }
     }
 }

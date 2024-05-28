@@ -3,7 +3,7 @@ import {withSectionLayout} from "@/layouts/SectionLayout";
 import Feeds from "@/components/Feeds/Feeds";
 
 const sectionProps = {
-    id: 'news',
+    id: 'News',
     title: 'Последние новости',
 }
 

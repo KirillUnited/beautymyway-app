@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import React, { FunctionComponent } from 'react';
 
 interface ISectionLayoutProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
@@ -9,10 +10,12 @@ interface ISectionLayoutProps extends React.DetailedHTMLProps<React.HTMLAttribut
 const SectionLayout = (
     {
         children,
-        title,
-        description,
         id
     }: ISectionLayoutProps): React.JSX.Element => {
+    const t = useTranslations(id);
+    const title = !(t('title') ===`${id}.title`) ? t('title'): null;
+    const description = !(t('description') ===`${id}.description`) ? t('description'): null;
+
     return (
         <section id={id} className='pb-4'>
             {

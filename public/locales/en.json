@@ -11,6 +11,9 @@
         "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website.",
         "CTA title": "Online registration"
     },
+    "FeaturedProducts": {
+        "title": "Unique procedures"
+    },
     "About": {
         "slogan": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",
         "description": "We <span className=\"font-semibold\">daily</span> use our accumulated experience, best techniques and tools to help you discover and highlight your natural beauty and harmony. This allows us to introduce advanced techniques and treatment protocols."
@@ -20,7 +23,7 @@
         "description": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology."
     },
     "Team": {
-        "title": "Наша команда"
+        "title": "Our team"
     },
     "HIT": {
         "title": "Procedure of the month",

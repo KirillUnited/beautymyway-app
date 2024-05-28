@@ -11,6 +11,10 @@
         "description": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web.",
         "CTA title": "Registro en línea"
     },
+    "FeaturedProducts": {
+        "title": "Procedimientos únicos",
+        "description": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web."
+    },
     "About": {
         "slogan": "¡Nos inspiramos en la belleza de cada cliente<span className=\"font-normal\">que nos contacta!</span>",
         "description": "Usamos <span className=\"font-semibold\">diariamente</span> nuestra experiencia acumulada, las mejores técnicas y herramientas para ayudarlo a descubrir y resaltar su belleza y armonía naturales. Esto nos permite introducir técnicas y protocolos de tratamiento avanzados."
@@ -20,7 +24,7 @@
         "description": "Cuidamos la juventud de tu piel y figura, utilizando modernos métodos de cosmetología láser, ferretería e inyección."
     },
     "Team": {
-        "title": "Наша команда"
+        "title": "Nuestro equipo"
     },
     "HIT": {
         "title": "Procedimiento del mes",

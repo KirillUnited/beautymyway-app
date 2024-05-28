@@ -2,7 +2,7 @@ import { withSectionLayout } from '@/layouts/SectionLayout';
 import Team from '@/components/Team/Team';
 
 const sectionProps = {
-    id: 'team',
+    id: 'Team',
     title: 'Наша команда',
 }
 

@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
-import Socials from '@/components/Socials/Socials';
 
 type linksCategoryType = 'О нас' | 'Услуги';
 
@@ -47,7 +46,7 @@ export default function Footer() {
             </div>
             <div className="container">
                 <div className="text-center leading-[115%] text-sm font-light">
-                    <p className="text-secondary">© {new Date().getFullYear()} Beautymyway. Все права защищены!</p>
+                    <p className="text-secondary">© {new Date().getFullYear()} Beautymyway.</p>
                 </div>
             </div>
         </footer>

@@ -2,7 +2,6 @@ import React from 'react';
 import Contacts from '@/components/Contacts/Contacts';
 import styles from './InfoSection.module.scss';
 import { CONTACTS } from '@/data';
-import Socials from '@/components/Socials/Socials';
 import { useTranslations } from 'next-intl';
 
 export default function InfoSection() {

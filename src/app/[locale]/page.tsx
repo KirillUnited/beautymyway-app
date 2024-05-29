@@ -10,7 +10,7 @@ import { ProductContextProvider } from '@/context/ProductContext';
 import matter from 'gray-matter';
 
 export default async function Home({ params: { locale } }: any) {
-	const allProducts = await getProducts();
+	const allProducts = await getProducts(locale);
 
 	return (
 		<ProductContextProvider allProducts={allProducts}>
@@ -26,7 +26,7 @@ export default async function Home({ params: { locale } }: any) {
 	)
 }
 
-const getProducts = async () => {
+const getProducts = async (locale: string) => {
 	const res = await import(`@/data/products.json`);
 	const allProducts = await res.allProducts;
 	const featuredProducts: any = allProducts
@@ -34,17 +34,17 @@ const getProducts = async () => {
 
 	return Promise.all(
 		featuredProducts?.products.map(async ({ slug }: { slug: string }) => {
-			return getContent({ slug });
+			return getContent({ locale, slug });
 		})
 	)
 }
-async function getContent({ slug }: { slug: string }) {
-	const post = await import(`@/data/posts/${slug}.md`)
+async function getContent({ locale, slug }: { locale: string, slug: string }) {
+	const post = await import(`@/data/posts/${locale}.${slug}.md`)
 	const { data, content } = matter(post.default)
 
 	return {
 		frontmatter: data,
 		markdownBody: content,
-		link: `posts/${slug}`
+		link: `posts/${locale}.${slug}`
 	}
 }

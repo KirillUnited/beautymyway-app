@@ -8,8 +8,10 @@ import TestimonialsSection from '@/components/Sections/TestimonialsSection/Testi
 import { TeamSection } from '@/components/Team/TeamSection';
 import { ProductContextProvider } from '@/context/ProductContext';
 import matter from 'gray-matter';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export default async function Home({ params: { locale } }: any) {
+export default async function Home({ params: { locale } }: any) {// Enable static rendering
+	unstable_setRequestLocale(locale);
 	const allProducts = await getProducts(locale);
 
 	return (

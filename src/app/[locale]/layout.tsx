@@ -1,7 +1,7 @@
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n';
 import { ReactNode } from 'react';
 
@@ -31,7 +31,8 @@ export default async function LocaleLayout({
 }: {
 	children: React.ReactNode;
 	params: { locale: string };
-}) {
+}) {// Enable static rendering
+	unstable_setRequestLocale(params.locale);
 	const messages = await getMessages();
 
 	return (

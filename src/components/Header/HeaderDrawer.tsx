@@ -1,13 +1,16 @@
 'use client'
-import { Burger, Drawer, Flex } from '@mantine/core';
+import { Burger, Drawer, Flex, Menu } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link';
 import React from 'react'
 import styles from './Header.module.scss';
 import Image from 'next/image';
 import HeaderNav from './HeaderNav';
+import LanguageSwitcher from '../LanguageSwitcher';
+import { locales } from '@/i18n';
+import classNames from 'classnames';
 
-export default function HeaderDrawer() {
+export default function HeaderDrawer({ currentLocale }: { currentLocale: any }) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
 
     return (
@@ -40,11 +43,25 @@ export default function HeaderDrawer() {
                     <HeaderNav closeNav={closeDrawer} />
                 </Flex>
 
-                <Flex direction={'column'} gap={'md'} align="center" key={235352535235}>
-                    <div className="flex items-center justify-center font-light">
+                <Flex direction={'row'} gap={'md'} align="center" key={235352535235}>
+                    <Menu>
+                        {
+                            locales.map((localeName) => {
+                                return (
+                                    <Menu.Item key={localeName} className={classNames('uppercase px-0',
+                                        styles.navLink
+                                    )}>
+                                        <Link href={localeName} className='px-4'>
+                                            {localeName}
+                                        </Link>
+                                    </Menu.Item>
+                                );
+                            })}
+                    </Menu>
+                    {/* <div className="flex items-center justify-center font-light">
                         <button className={`px-2`}>Ua</button>
                         <button className={`px-2`}>Es</button>
-                    </div>
+                    </div> */}
                 </Flex>
             </Drawer>
         </>

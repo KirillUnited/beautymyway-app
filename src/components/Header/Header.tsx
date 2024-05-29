@@ -35,7 +35,7 @@ export default async function Header() {
                     <LanguageSwitcher currentLocale={currentLocale} />
                 </Group>
 
-                <HeaderDrawer />
+                <HeaderDrawer currentLocale={currentLocale} />
             </nav>
         </header>
     )

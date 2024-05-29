@@ -1,0 +1,458 @@
+﻿[
+  {
+    "KEY": "HERO",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Красота - это Свобода.",
+    "EN": "Beauty is Freedom.",
+    "ES": "La belleza es libertad.",
+    "UK": "Краса – це Свобода.",
+    "": ""
+  },
+  {
+    "KEY": "text1",
+    "RU": "Столетие назад и сегодня",
+    "EN": "A century ago and today",
+    "ES": "Hace un siglo y hoy",
+    "UK": "Століття тому і сьогодні",
+    "": ""
+  },
+  {
+    "KEY": "text2",
+    "RU": "эта истина остается неизменной,",
+    "EN": "this truth remains unchanged,",
+    "ES": "esta verdad permanece inalterada,",
+    "UK": "ця істина залишається незмінною,",
+    "": ""
+  },
+  {
+    "KEY": "text3",
+    "RU": "лишь средства для достижения красоты претерпели изменения",
+    "EN": "only the means to achieve beauty have changed",
+    "ES": "Sólo los medios para alcanzar la belleza han cambiado.",
+    "UK": "лише засоби для досягнення краси зазнали змін",
+    "": ""
+  },
+  {
+    "KEY": "INFO",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Чтобы получить консультацию или записаться, пожалуйста, свяжитесь по указанному на сайте контактному номеру.",
+    "EN": "To get a consultation or make an appointment, please contact the contact number indicated on the website.",
+    "ES": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web.",
+    "UK": "Щоб отримати консультацію або записатись, будь ласка, зв'яжіться за вказаним на сайті контактним номером.",
+    "": ""
+  },
+  {
+    "KEY": "ABOUT",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "slogan",
+    "RU": "Мы получаем вдохновение от красоты каждого клиента,<span className=\"font-normal\"> который обращается к нам!</span>",
+    "EN": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",
+    "ES": "¡Nos inspiramos en la belleza de cada cliente<span className=\"font-normal\">que nos contacta!</span>",
+    "UK": "Ми отримуємо натхнення від краси кожного клієнта, який звертається до нас!</span>",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Мы <span className=\"font-semibold\">ежедневно используем</span> наш накопленный опыт, лучшие методики и средства, чтобы помочь вам обнаружить и подчеркнуть вашу природную красоту и гармонию. Это позволяет нам внедрять передовые техники и протоколы лечения.",
+    "EN": "We <span className=\"font-semibold\">daily</span> use our accumulated experience, best techniques and tools to help you discover and highlight your natural beauty and harmony. This allows us to introduce advanced techniques and treatment protocols.",
+    "ES": "Usamos <span className=\"font-semibold\">diariamente</span> nuestra experiencia acumulada, las mejores técnicas y herramientas para ayudarlo a descubrir y resaltar su belleza y armonía naturales. Esto nos permite introducir técnicas y protocolos de tratamiento avanzados.",
+    "UK": "Ми <span className=\"font-semibold\">щодня використовуємо</span> наш накопичений досвід, найкращі методики та засоби, щоб допомогти вам виявити та підкреслити вашу природну красу та гармонію. Це дозволяє нам впроваджувати передові техніки та протоколи лікування.",
+    "": ""
+  },
+  {
+    "KEY": "FEATURED_PRODUCTS",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Уникальные процедуры",
+    "EN": "Unique procedures",
+    "ES": "Procedimientos únicos",
+    "UK": "Унікальні процедури",
+    "": ""
+  },
+  {
+    "KEY": "Product1",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Фотоомоложение IPL",
+    "EN": "IPL photorejuvenation",
+    "ES": "Fotorrejuvenecimiento IPL",
+    "UK": "Фотоомолодження IPL",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Использование современного устройства для фотоомоложения IPL позволяет провести полноценное омоложение кожи, устранить дефекты и признаки старения. Эта процедура абсолютно безопасна и не сопровождается нежелательными побочными эффектами",
+    "EN": "The use of a modern device for IPL photorejuvenation allows for complete skin rejuvenation, eliminating defects and signs of aging. This procedure is absolutely safe and is not accompanied by unwanted side effects.",
+    "ES": "El uso de un moderno dispositivo de fotorrejuvenecimiento IPL permite un rejuvenecimiento completo de la piel, eliminando defectos y signos de envejecimiento. Este procedimiento es absolutamente seguro y no va acompañado de efectos secundarios no deseados.",
+    "UK": "Використання сучасного пристрою для фотоомолодження IPL дозволяє провести повноцінне омолодження шкіри, усунути дефекти та ознаки старіння. Ця процедура абсолютно безпечна і не супроводжується небажаними побічними ефектами.",
+    "": "El uso de un moderno dispositivo de fotorrejuvenecimiento IPL permite un rejuvenecimiento completo de la piel, eliminando defectos y signos de envejecimiento. Este procedimiento es absolutamente seguro y no va acompañado de efectos secundarios no deseados."
+  },
+  {
+    "KEY": "Product2",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Компрессионно-вибрационный массаж SpheraWay",
+    "EN": "Compression-vibration massage SpheraWay",
+    "ES": "Masaje compresión-vibración SpheraWay",
+    "UK": "Компресійно-вібраційний масаж SpheraWay",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Доказана высокая эффективность этой методики! Она достигается благодаря применению микровибрационной компрессии, которая чередует сжатие и давление на ткани. Этот принцип обеспечивает отличную гимнастику для сосудов.",
+    "EN": "This technique has been proven to be highly effective! It is achieved through the use of microvibration compression, which alternates compression and pressure on the tissue. This principle provides excellent gymnastics for blood vessels.",
+    "ES": "¡Se ha demostrado que esta técnica es muy eficaz! Se logra mediante el uso de compresión por microvibración, que alterna compresión y presión sobre el tejido. Este principio proporciona una excelente gimnasia para los vasos sanguíneos.",
+    "UK": "Доведено високу ефективність цієї методики! Вона досягається завдяки застосуванню мікровібраційної компресії, яка чергує стиск та тиск на тканині. Цей принцип забезпечує чудову гімнастику для судин.",
+    "": ""
+  },
+  {
+    "KEY": "Product3",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Комплекс BeatyWay",
+    "EN": "BeatyWay complex",
+    "ES": "Complejo BeatyWay",
+    "UK": "Комплекс BeatyWay",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Этот метод представляет собой комплекс омолаживающих процедур и дерматологического ухода для кожи, достигающего гарантированных результатов, аналогичных комплексному медицинскому лечению. Он основан на усовершенствованном подходе к стимуляции регенерации и восстановления кожи, используя инновационный аппарат Beauty Way, который сочетает в себе характеристики медицинского прибора и дерматологического устройства.",
+    "EN": "This method is a complex of anti-aging procedures and dermatological skin care, achieving guaranteed results similar to complex medical treatment. It is based on an advanced approach to stimulate skin regeneration and repair using the innovative Beauty Way device, which combines the characteristics of a medical device and a dermatological device.",
+    "ES": "Este método es un complejo de procedimientos anti-envejecimiento y cuidado dermatológico de la piel, logrando resultados garantizados similares a los de un tratamiento médico complejo. Se basa en un enfoque avanzado para estimular la regeneración y reparación de la piel utilizando el innovador dispositivo Beauty Way, que combina las características de un dispositivo médico y un dispositivo dermatológico.",
+    "UK": "Цей метод є комплексом омолоджувальних процедур і дерматологічного догляду для шкіри, що досягає гарантованих результатів, аналогічних комплексному медичному лікуванню. Він заснований на вдосконаленому підході до стимуляції регенерації та відновлення шкіри, використовуючи інноваційний апарат Beauty Way, який поєднує характеристики медичного приладу та дерматологічного пристрою.",
+    "": ""
+  },
+  {
+    "KEY": "Product4",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Биоревитализация",
+    "EN": "Biorevitalization",
+    "ES": "Biorevitalización",
+    "UK": "Біоревіталізація",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Биоревитализация представляет собой метод омоложения кожи, при котором применяются инъекции препаратов, основанных на гиалуроновой кислоте, под кожу или в верхние слои кожи. Эти препараты стимулируют и активизируют синтез эластиновых и коллагеновых волокон, в результате чего клетки кожи восстанавливаются с внутренней стороны. Процедура также способствует восстановлению уровня влажности кожи, уменьшению мелких морщин и выравниванию текстуры кожи. Кроме гиалуроновой кислоты, препараты для биоревитализации содержат витамины, микроэлементы и растительные экстракты, которые работают в совокупности, усиливая положительное воздействие основного компонента.",
+    "EN": "Biorevitalization is a skin rejuvenation method that uses injections of hyaluronic acid-based preparations under the skin or into the upper layers of the skin. These drugs stimulate and activate the synthesis of elastin and collagen fibers, as a result of which skin cells are restored from the inside. The procedure also helps restore skin moisture levels, reduce fine wrinkles and even out skin texture. In addition to hyaluronic acid, biorevitalization preparations contain vitamins, microelements and plant extracts that work together, enhancing the positive effects of the main component.",
+    "ES": "La biorevitalización es un método de rejuvenecimiento de la piel que utiliza inyecciones de preparaciones a base de ácido hialurónico debajo de la piel o en las capas superiores de la piel. Estos medicamentos estimulan y activan la síntesis de elastina y fibras de colágeno, como resultado de lo cual las células de la piel se restauran desde el interior. El procedimiento también ayuda a restaurar los niveles de humedad de la piel, reducir las arrugas finas e igualar la textura de la piel. Además del ácido hialurónico, los preparados biorevitalizantes contienen vitaminas, microelementos y extractos de plantas que actúan juntos potenciando los efectos positivos del componente principal.",
+    "UK": "Біоревіталізація є методом омолодження шкіри, при якому застосовуються ін'єкції препаратів, заснованих на гіалуроновій кислоті, під шкіру або у верхні шари шкіри. Ці препарати стимулюють та активізують синтез еластинових та колагенових волокон, внаслідок чого клітини шкіри відновлюються з внутрішньої сторони. Процедура також сприяє відновленню рівня вологості шкіри, зменшенню дрібних зморшок та вирівнюванню текстури шкіри. Крім гіалуронової кислоти, препарати для біоревіталізації містять вітаміни, мікроелементи та рослинні екстракти, які працюють у сукупності, посилюючи позитивний вплив основного компонента.",
+    "": ""
+  },
+  {
+    "KEY": "PRODUCTS",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Какую проблему желаете решить?",
+    "EN": "What problem do you want to solve?",
+    "ES": "¿Qué problema quieres resolver?",
+    "UK": "Яку проблему хочете вирішити?",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Мы заботимся о молодости вашей кожи и фигуры, используя современные методы лазерной, аппаратной и инъекционной косметологии.",
+    "EN": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology.",
+    "ES": "Cuidamos la juventud de tu piel y figura, utilizando modernos métodos de cosmetología láser, ferretería e inyección.",
+    "UK": "Ми дбаємо про молодість вашої шкіри та фігури, використовуючи сучасні методи лазерної, апаратної та ін'єкційної косметології.",
+    "": ""
+  },
+  {
+    "KEY": "Product1",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Пигментные пятна",
+    "EN": "Dark spots",
+    "ES": "Manchas oscuras",
+    "UK": "Пігментні плями",
+    "": ""
+  },
+  {
+    "KEY": "Product2",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Круги под глазами",
+    "EN": "Circles under the eyes",
+    "ES": "Círculos debajo de los ojos.",
+    "UK": "Кола під очима",
+    "": ""
+  },
+  {
+    "KEY": "Product3",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Мимические морщины",
+    "EN": "Expression wrinkles",
+    "ES": "Arrugas de expresión",
+    "UK": "Мімічні зморшки",
+    "": ""
+  },
+  {
+    "KEY": "Product4",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Убрать дряблость кожи",
+    "EN": "Remove sagging skin",
+    "ES": "Quitar la piel flácida",
+    "UK": "Прибрати в'ялість шкіри",
+    "": ""
+  },
+  {
+    "KEY": "Product5",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Акне",
+    "EN": "Acne",
+    "ES": "Acné",
+    "UK": "Акне",
+    "": ""
+  },
+  {
+    "KEY": "Product6",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Гипергидроз",
+    "EN": "Hyperhidrosis",
+    "ES": "hiperhidrosis",
+    "UK": "Гіпергідроз",
+    "": ""
+  },
+  {
+    "KEY": "HIT",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Процедура месяца",
+    "EN": "Procedure of the month",
+    "ES": "Procedimiento del mes",
+    "UK": "Процедура місяця",
+    "": ""
+  },
+  {
+    "KEY": "subtitle",
+    "RU": "Фотолечение и Фотоомоложение (IPL)",
+    "EN": "Phototherapy and Photorejuvenation (IPL)",
+    "ES": "Fototerapia y Fotorejuvenecimiento (IPL)",
+    "UK": "Фотолікування та фотоомолодження (IPL)",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Фотоомоложение представляет собой медицинскую процедуру, направленную на предотвращение и устранение признаков фотостарения кожи. Эффективная и неинвазивная, эта технология осуществляется с использованием высокоинтенсивных источников света (IPL), представляя собой одно из наиболее перспективных направлений в области эстетической медицины.",
+    "EN": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
+    "ES": "El fotorrejuvenecimiento es un procedimiento médico destinado a prevenir y eliminar los signos del fotoenvejecimiento cutáneo. Efectiva y no invasiva, esta tecnología se lleva a cabo utilizando fuentes de luz de alta intensidad (IPL), lo que representa una de las tendencias más prometedoras en el campo de la medicina estética.",
+    "UK": "Фотоомолоджування є медичною процедурою, спрямованою на запобігання та усунення ознак фотостаріння шкіри. Ефективна та неінвазивна, ця технологія здійснюється з використанням високоінтенсивних джерел світла (IPL), являючи собою один з найперспективніших напрямків у галузі естетичної медицини.",
+    "": ""
+  },
+  {
+    "KEY": "TESTIMONIALS",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "title",
+    "RU": "Отзывы",
+    "EN": "Reviews",
+    "ES": "Reseñas",
+    "UK": "Відгуки",
+    "": ""
+  },
+  {
+    "KEY": "Item1",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Здравствуйте! Хотелось бы выразить благодарность Артуру.Замечательный специалист, очень доброжелательный и вежливый человек. Благодаря таким специалистам, хочется снова и снова приходить в ваш кабинет. С уважением Олеся и Максим )",
+    "EN": "Hello! I would like to express my gratitude to Arthur. A wonderful specialist, a very friendly and polite person. Thanks to such specialists, I want to come to your office again and again. Sincerely, Olesya and Maxim)",
+    "ES": "¡Hola! Me gustaría expresar mi agradecimiento a Arthur. Un especialista maravilloso, una persona muy amable y educada. Gracias a estos especialistas, quiero ir a su oficina una y otra vez. Sinceramente, Olesya y Maxim)",
+    "UK": "Вітаю! Хотілося б висловити подяку Артуру. Чудовий фахівець, дуже доброзичлива та ввічлива людина. Завдяки таким фахівцям хочеться знову і знову приходити до вашого кабінету. З повагою Олеся та Максим )",
+    "": ""
+  },
+  {
+    "KEY": "Item2",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Посещаю данный  центр уже несколько месяцев. Прошла курс лазерного омоложения , теперь хожу на поддерживающие процедуры раз в пол — года. Ходила всегда к Ангелине.Она очень внимательная, всегда спрашивает о самочувствии, объясняет всё доходчиво и понятно, приятная в общении. Персонал всегда приветливый, в кабинетах очень чисто.",
+    "EN": "I have been visiting this center for several months now. I completed a course of laser rejuvenation, and now I go for maintenance procedures once every half a year. I always went to see Angelina. She is very attentive, always asks about her well-being, explains everything clearly and clearly, and is pleasant to talk to. The staff is always friendly, the offices are very clean.",
+    "ES": "Llevo varios meses visitando este centro. Terminé un curso de rejuvenecimiento con láser y ahora me someto a procedimientos de mantenimiento una vez cada medio año. Siempre fui a ver a Angelina. Ella es muy atenta, siempre pregunta por su bienestar, explica todo clara y claramente y es agradable hablar con ella. El personal siempre es amable, las oficinas están muy limpias.",
+    "UK": "Відвідую цей центр уже кілька місяців. Пройшла курс лазерного омолодження, тепер ходжу на процедури, що підтримують, раз на пів-року. Ходила завжди до Ангелини. Вона дуже уважна, завжди запитує про самопочуття, пояснює все зрозуміло, приємна в спілкуванні. Персонал завжди привітний, у кабінетах дуже чистий.",
+    "": ""
+  },
+  {
+    "KEY": "Item3",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Вчера посетила салон и осталась очень довольна, буду делиться эмоциями: во-первых приятной атмосферой интерьером и доброжелательностью  сразу встречают на пороге этого замечательного места, во-вторых профессионализмом и внимательность специалиста) Делаю не первый раз, но в этом салоне впервые биоревитализация, процедура проходит безболезненно, что значит врач профессионал, который и подготовит и где надо душевно подойдет. Огромное спасибо за красоту",
+    "EN": "Yesterday I visited the salon and was very pleased, I will share my emotions: firstly, the pleasant atmosphere of the interior and friendliness are immediately greeted on the threshold of this wonderful place, and secondly, the professionalism and attentiveness of the specialist) This is not the first time I have done this, but this is the first time in this salon biorevitalization, the procedure is carried out painless, which means a professional doctor who will prepare you and approach you where necessary. Thank you so much for the beauty",
+    "ES": "Ayer visité el salón y quedé muy satisfecho, compartiré mis emociones: en primer lugar, el agradable ambiente del interior y la amabilidad se encuentran inmediatamente en la puerta de este maravilloso lugar, y en segundo lugar, la profesionalidad y atención del especialista). No es la primera vez que hago esto, pero sí es la primera vez en este salón de biorevitalización, el procedimiento se realiza sin dolor, lo que significa que un médico profesional lo preparará y se acercará a usted cuando sea necesario. Muchas gracias por la belleza.",
+    "UK": "Вчора відвідала салон і залишилася дуже задоволена, ділитисяму емоціями: по-перше приємною атмосферою інтер'єром і доброзичливістю відразу зустрічають на порозі цього чудового місця, по-друге професіоналізмом і уважність фахівця) Роблю не перший раз, але в цьому салоні вперше біоревіталізація, процедура проходить безболісно, ​​що означає лікар-професіонал, який і підготує і де треба душевно підійде. Велике дякую за красу",
+    "": ""
+  },
+  {
+    "KEY": "Item4",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Хочу выразить благодарность специалисту по телу Артуру. Я склонна к отекам и из-за малоподвижного образа жизни мое тело стало не таким идеальным, как раньше. Подруга порекомендовала отличного специалиста. Артур подобрал мне целый комплекс. Мы делали процедуры два раза в неделю, раз восемь. Результат не заставил себя долго ждать, мое тело с благодарностью отреагировало на воздействие! Я могу не стесняться надевать мои любимые шорты! И снова чувствую себя уверенно! Спасибо!",
+    "EN": "I would like to express my gratitude to body specialist Arthur. I am prone to swelling and due to a sedentary lifestyle, my body is not as perfect as it used to be. A friend recommended an excellent specialist. Arthur picked out a whole complex for me. We did the procedures twice a week, eight times. The result was not long in coming, my body responded with gratitude to the impact! I can feel free to wear my favorite shorts! And I feel confident again! Thank you!",
+    "ES": "Me gustaría expresar mi agradecimiento al especialista corporal Arthur. Soy propenso a hincharme y debido al estilo de vida sedentario, mi cuerpo no es tan perfecto como solía ser. Un amigo me recomendó un excelente especialista. Arthur me eligió todo un complejo. Hicimos los procedimientos dos veces por semana, ocho veces. El resultado no se hizo esperar, ¡mi cuerpo respondió con gratitud al impacto! ¡Puedo sentirme libre de usar mis pantalones cortos favoritos! ¡Y vuelvo a tener confianza! ¡Gracias!",
+    "UK": "Хочу висловити подяку фахівцю по тілу Артуру. Я схильна до набряків і через малорухливий спосіб життя моє тіло стало не таким ідеальним, як раніше. Подруга порекомендувала чудового фахівця. Артур підібрав мені цілий комплекс. Ми робили процедури двічі на тиждень, разів на вісім. Результат не змусив на себе довго чекати, моє тіло з вдячністю відреагувало на дію! Я можу не соромитися одягати мої улюблені шорти! І знову почуваюся впевнено! Дякую!",
+    "": ""
+  },
+  {
+    "KEY": "Item5",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Спасибо Ангелине  за моё красивое личико))) Ее руки творят чудеса, доверяю ей полностью. Ходим с дочерью уже как год и всегда остаемся очень довольны.",
+    "EN": "Thanks to Angelina for my beautiful face))) Her hands work wonders, I trust her completely. My daughter and I have been going here for over a year now and we are always very pleased.",
+    "ES": "Gracias a Angelina por mi hermoso rostro))) Sus manos hacen maravillas, confío en ella completamente. Mi hija y yo vamos aquí desde hace más de un año y siempre estamos muy contentos.",
+    "UK": "Дякую Ангелині за моє красиве личко))) Її руки творять чудеса, довіряю їй повністю. Ходімо з дочкою вже як рік і завжди залишаємось дуже задоволеними.",
+    "": ""
+  },
+  {
+    "KEY": "Item6",
+    "RU": "",
+    "EN": "",
+    "ES": "",
+    "UK": "",
+    "": ""
+  },
+  {
+    "KEY": "description",
+    "RU": "Лицом любуюсь после процедуры, а оно все лучше и лучше со дня процедуры!!!Поэтому и пишу! Сегодня ещё лучше!!! Артур Александрович - это какое-то волшебство!!Сказать спасибо моему доктору Красоты-это ничего не сказать! Спасибо всему персоналу, профессионализм и тактичность каких я до этого не знала",
+    "EN": "I admire my face after the procedure, and it gets better and better from the day of the procedure!!! That’s why I’m writing! Today is even better!!! Arthur Alexandrovich is some kind of magic!! To say thank you to my Beauty Doctor is to say nothing! Thanks to all the staff, professionalism and tactfulness that I have never known before",
+    "ES": "¡Admiro mi rostro después del procedimiento y mejora cada vez más desde el día del procedimiento! ¡¡¡Hoy es aún mejor!!! Arthur Alexandrovich es una especie de magia!! ¡¡Decirle las gracias a mi doctora de belleza es no decir nada!! Gracias a todo el personal, profesionalismo y tacto que nunca antes había conocido.",
+    "UK": "Особою милуюсь після процедури, а воно все краще і краще з дня процедури! Тому й пишу! Сьогодні ще краще! Артур Олександрович - це якесь диво!!Сказати спасибі моєму доктору Краси-це нічого не сказати! Дякуємо всьому персоналу, професіоналізм та тактовність яких я до цього не знала",
+    "": ""
+  }
+]

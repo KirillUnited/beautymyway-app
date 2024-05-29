@@ -1,3 +1,4 @@
+'use client'
 import TeamGrid from '@/components/Team/TeamGrid';
 import TeamSlider from '@/components/Team/TeamSlider';
 import React from 'react';

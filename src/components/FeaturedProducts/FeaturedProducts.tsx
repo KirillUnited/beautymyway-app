@@ -1,3 +1,4 @@
+'use client'
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';

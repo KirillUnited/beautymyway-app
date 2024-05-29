@@ -302,7 +302,7 @@ export const TEAM = [
 export const CONTACTS = {
     tel: ['+34 643 942 528', '+34 643 939 409'],
     adress: 'Valencia',
-    time: 'Пн-Вс с 10:00 - 20:00',
+    time: '10:00 - 20:00',
     email: 'waymywaybeauty@gmail.com',
     socials: {
         instagram: ['https://www.instagram.com/beauty.my.way', 'https://www.instagram.com/beauty.my.way'],

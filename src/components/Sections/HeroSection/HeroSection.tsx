@@ -2,8 +2,11 @@ import React from 'react';
 import styles from './HeroSection.module.scss';
 import Image from 'next/image';
 import cn from 'classnames';
+import { useTranslations } from 'next-intl';
 
 export default function HeroSection(): React.JSX.Element {
+    const t = useTranslations('Hero');
+
     return (
         <section className={cn(styles.root)}>
             <Image
@@ -18,11 +21,9 @@ export default function HeroSection(): React.JSX.Element {
             <div className="container">
                 <div className={`${styles.inner}`}>
                     <div className='flex flex-col items-center py-5 z-10'>
-                        <h1 className={`${styles.title}`}>Красота - это Свобода.</h1>
+                        <h1 className={`${styles.title}`}>{t('title')}</h1>
                         <div className={styles.text}>
-                            <p>Столетие назад и сегодня</p>
-                            <p>эта истина остается неизменной,</p>
-                            <p>лишь средства для достижения красоты претерпели <span className='font-normal'>изменения</span></p>
+                            <p>{t('text')}</p>
                         </div>
                     </div>
                 </div>

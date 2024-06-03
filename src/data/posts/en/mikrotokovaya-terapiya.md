@@ -1,46 +1,44 @@
 ---
-    title: 
+    title: Microcurrent therapy
     hero_image: mikrotokovaya-terapiya.PNG
 ---
-# Микротоковая терапия
+# Microcurrent therapy
 
-Микротоковая терапия представляет собой эффективный метод, который использует модулированные импульсные токи низкой интенсивности и напряжения с определенными частотными характеристиками для достижения косметических или лечебных результатов.
+Microcurrent therapy is an effective method that uses modulated pulsed currents of low intensity and voltage with specific frequency characteristics to achieve cosmetic or therapeutic results.
 
-В области эстетической косметологии данная процедура чаще всего применяется с целью восстановления и омоложения тканей. Она отличается высокой эффективностью, отсутствием боли, не требует периода восстановления и обладает комплексным воздействием. Благодаря всем этим преимуществам, микротоковая терапия является популярным методом, независимым от климатических условий.
+In the field of aesthetic cosmetology, this procedure is most often used for the purpose of tissue restoration and rejuvenation. It is highly effective, painless, does not require a recovery period and has a complex effect. Thanks to all these benefits, microcurrent therapy is a popular method independent of climatic conditions.
 
-> Микротоки для лица помогают поддерживать мышцы в тонусе, устраняют отёчность, способствуют нормализации обменных и ферментативных процессов кожи.
+> Microcurrents for the face help maintain muscle tone, eliminate swelling, and help normalize metabolic and enzymatic processes of the skin.
 
-**Процедура микротоков рекомендуется для следующих случаев:**
+**Microcurrent procedure is recommended for the following cases:**
 
-- Возникновение морщин и складок на коже.
-- Признаки увядания кожи.
-- разование второго подбородка.
-- Нарушение функции сальных желез.
-- Проблемы с акне и постакне.
-- Гиперпигментация.
-- Птоз (опущение тканей).
-- Шрамы и растяжки на коже.
-- Проявления целлюлита.
-- Отеки в области верхних и нижних век.
-- Выраженные мешки и синяки под глазами.
-- Необходимость восстановления после хирургических вмешательств.
+- The appearance of wrinkles and folds on the skin.
+- Signs of skin aging.
+- development of a double chin.
+- Dysfunction of the sebaceous glands.
+- Problems with acne and post-acne.
+- Hyperpigmentation.
+- Ptosis (tissue drooping).
+- Scars and stretch marks on the skin.
+- Manifestations of cellulite.
+- Swelling in the upper and lower eyelids.
+- Pronounced bags and bruises under the eyes.
+- The need for recovery after surgery.
 
-## Суть процедуры
+## The essence of the procedure
 
-Процедура микротоковой терапии, также известная как биостимуляция,основывается на применении низкочастотных электротоков, которые эффективно стимулируют активность клеток. Эти электротоки обладают низкой силой, и они безопасны для кожи, поэтому микротоки по лицу являются одной из самых безопасных косметических процедур.
+Microcurrent therapy, also known as biostimulation, uses low-frequency electrical currents to effectively stimulate cell activity. These electric currents are low-intensity and they are safe for the skin, which is why microcurrents on the face are one of the safest cosmetic procedures.
 
-Микротоковая терапия лица эффективно применяется для борьбы с признаками старения кожи. Она улучшает циркуляцию крови и облегчает распределение питательных веществ в коже. Кожа быстро восстанавливается благодаря активации производства липидов, белков и ферментов, необходимых для нормального функционирования клеток.
+Microcurrent facial therapy is effectively used to combat the signs of skin aging. It improves blood circulation and facilitates the distribution of nutrients in the skin. The skin quickly recovers due to the activation of the production of lipids, proteins and enzymes necessary for the normal functioning of cells.
 
-Микротоковая терапия достигает лифтингового эффекта, который помогает восстановить контуры лица. Эта процедура также воздействует на мышцы, способствуя их нормализации и разглаживанию морщин.
+Microcurrent therapy achieves a lifting effect that helps restore facial contours. This procedure also affects the muscles, helping to normalize them and smooth out wrinkles.
 
-**Курс микротоковой терапии включает 10-15 сеансов с интервалом в 3-4 дня. Результаты обычно видны практически сразу и включают:**
+**The course of microcurrent therapy includes 10-15 sessions with an interval of 3-4 days. Results are usually visible almost immediately and include:**
 
-- подтяжку овала лица
-- разглаживание мелких морщин
-- улучшение цвета и текстуры кожи
-- устранение отёчности.
+- facelift
+- smoothing out small wrinkles
+- improvement of skin color and texture
+- elimination of swelling.
 
-Эффект сохраняется как минимум в течение полугода после завершения курса. Для поддержания результатов рекомендуется использовать качественные средства по уходу за кожей и периодически посещать косметолога раз в 2-3 месяца.
-
-
+The effect lasts for at least six months after completion of the course. To maintain results, it is recommended to use high-quality skin care products and periodically visit a cosmetologist every 2-3 months.
 

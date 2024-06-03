@@ -1,5 +1,5 @@
 ---
-    title: 
+    title: Микротоковая терапия
     hero_image: mikrotokovaya-terapiya.PNG
 ---
 # Микротоковая терапия

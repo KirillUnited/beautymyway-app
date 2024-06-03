@@ -1,46 +1,44 @@
 ---
-    title: 
+    title: Terapi amicrocorriente
     hero_image: mikrotokovaya-terapiya.PNG
 ---
-# Микротоковая терапия
+# Terapi amicrocorriente
 
-Микротоковая терапия представляет собой эффективный метод, который использует модулированные импульсные токи низкой интенсивности и напряжения с определенными частотными характеристиками для достижения косметических или лечебных результатов.
+La terapia con microcorrientes es un método eficaz que utiliza corrientes pulsadas moduladas de baja intensidad y voltaje con características de frecuencia específicas para lograr resultados cosméticos o terapéuticos.
 
-В области эстетической косметологии данная процедура чаще всего применяется с целью восстановления и омоложения тканей. Она отличается высокой эффективностью, отсутствием боли, не требует периода восстановления и обладает комплексным воздействием. Благодаря всем этим преимуществам, микротоковая терапия является популярным методом, независимым от климатических условий.
+En el campo de la cosmetología estética, este procedimiento se utiliza con mayor frecuencia para restaurar y rejuvenecer los tejidos. Es muy eficaz, indoloro, no requiere período de recuperación y tiene un efecto complejo. Gracias a todos estos beneficios, la terapia con microcorrientes es un método popular independientemente de las condiciones climáticas.
 
-> Микротоки для лица помогают поддерживать мышцы в тонусе, устраняют отёчность, способствуют нормализации обменных и ферментативных процессов кожи.
+> Las microcorrientes para el rostro ayudan a mantener el tono muscular, eliminar la hinchazón y ayudar a normalizar los procesos metabólicos y enzimáticos de la piel.
 
-**Процедура микротоков рекомендуется для следующих случаев:**
+**Se recomienda el procedimiento de microcorriente para los siguientes casos:**
 
-- Возникновение морщин и складок на коже.
-- Признаки увядания кожи.
-- разование второго подбородка.
-- Нарушение функции сальных желез.
-- Проблемы с акне и постакне.
-- Гиперпигментация.
-- Птоз (опущение тканей).
-- Шрамы и растяжки на коже.
-- Проявления целлюлита.
-- Отеки в области верхних и нижних век.
-- Выраженные мешки и синяки под глазами.
-- Необходимость восстановления после хирургических вмешательств.
+- La aparición de arrugas y pliegues en la piel.
+- Signos de envejecimiento cutáneo.
+- desarrollo de papada.
+- Disfunción de las glándulas sebáceas.
+- Problemas de acné y post-acné.
+- Hiperpigmentación.
+- Ptosis (tejido caído).
+- Cicatrices y estrías en la piel.
+- Manifestaciones de celulitis.
+- Hinchazón en los párpados superiores e inferiores.
+- Bolsas y moretones pronunciados debajo de los ojos.
+- La necesidad de recuperación después de la cirugía.
 
-## Суть процедуры
+## La esencia del procedimiento.
 
-Процедура микротоковой терапии, также известная как биостимуляция,основывается на применении низкочастотных электротоков, которые эффективно стимулируют активность клеток. Эти электротоки обладают низкой силой, и они безопасны для кожи, поэтому микротоки по лицу являются одной из самых безопасных косметических процедур.
+La terapia con microcorrientes, también conocida como bioestimulación, utiliza corrientes eléctricas de baja frecuencia para estimular eficazmente la actividad celular. Estas corrientes eléctricas son de baja intensidad y seguras para la piel, por lo que las microcorrientes en el rostro son uno de los procedimientos cosméticos más seguros.
 
-Микротоковая терапия лица эффективно применяется для борьбы с признаками старения кожи. Она улучшает циркуляцию крови и облегчает распределение питательных веществ в коже. Кожа быстро восстанавливается благодаря активации производства липидов, белков и ферментов, необходимых для нормального функционирования клеток.
+La terapia facial con microcorriente se utiliza eficazmente para combatir los signos del envejecimiento de la piel. Mejora la circulación sanguínea y facilita la distribución de nutrientes en la piel. La piel se recupera rápidamente debido a la activación de la producción de lípidos, proteínas y enzimas necesarias para el funcionamiento normal de las células.
 
-Микротоковая терапия достигает лифтингового эффекта, который помогает восстановить контуры лица. Эта процедура также воздействует на мышцы, способствуя их нормализации и разглаживанию морщин.
+La terapia con microcorriente consigue un efecto lifting que ayuda a restaurar el contorno facial. Este procedimiento también afecta a los músculos, ayudando a normalizarlos y suavizar las arrugas.
 
-**Курс микротоковой терапии включает 10-15 сеансов с интервалом в 3-4 дня. Результаты обычно видны практически сразу и включают:**
+**El curso de terapia con microcorrientes incluye de 10 a 15 sesiones con un intervalo de 3 a 4 días. Los resultados suelen ser visibles casi de inmediato e incluyen:**
 
-- подтяжку овала лица
-- разглаживание мелких морщин
-- улучшение цвета и текстуры кожи
-- устранение отёчности.
+- lavado de cara
+- suavizar las pequeñas arrugas
+- mejora del color y la textura de la piel
+- eliminación de la hinchazón.
 
-Эффект сохраняется как минимум в течение полугода после завершения курса. Для поддержания результатов рекомендуется использовать качественные средства по уходу за кожей и периодически посещать косметолога раз в 2-3 месяца.
-
-
+El efecto dura al menos seis meses después de finalizar el curso. Para mantener los resultados, se recomienda utilizar productos para el cuidado de la piel de alta calidad y visitar periódicamente a una cosmetóloga cada 2-3 meses.
 

@@ -1,30 +1,30 @@
 ---
-    title: Тренировки
+    title: Workout
     hero_image: 'trenirovki.jpeg'
 ---
 
-## Индивидуальное планирование тренировочной программы
+## Individual training program planning
 
-Создание грамотного и профессионального плана физических упражнений является одним из ключевых факторов достижения желаемых результатов при посещении фитнес-центра или занятиях дома. Но возможно ли разработать такой план самостоятельно?
+Creating a competent and professional exercise plan is one of the key factors in achieving the desired results when visiting a fitness center or exercising at home. But is it possible to develop such a plan on your own?
 
-В настоящее время в интернете можно найти разнообразное программное обеспечение и руководства, которые утверждают, что они позволяют разработать персональную тренировочную программу без особых усилий. Возможно, опытные спортсмены могут воспользоваться такими ресурсами. Но это не подходит для тех, кто только начинает свой путь в фитнесе. Для таких людей наилучшим вариантом будет обратиться к персональному тренеру, хотя бы на первые несколько месяцев тренировок. Благодаря индивидуальному подходу, опытный специалист сможет разработать персональную тренировочную программу, учитывая ваши потребности и физиологические особенности.
+Nowadays, you can find a variety of software and guides on the Internet that claim to allow you to create a personal training program without much effort. Perhaps experienced athletes can take advantage of such resources. But this is not suitable for those who are just starting their fitness journey. For such people, the best option would be to contact a personal trainer, at least for the first few months of training. Thanks to an individual approach, an experienced specialist will be able to develop a personal training program, taking into account your needs and physiological characteristics.
 
-***Какие параметры рассматриваются при разработке индивидуальной программы тренировок?***
+***What parameters are considered when developing an individual training program?***
 
-Если тренер выдает план упражнений, основываясь только на кратком опросе в течение пяти минут, лучше отказаться от его услуг. Создание персональной тренировочной программы — задача, которая требует времени и внимательного анализа. При этом необходимо учитывать следующие факторы:
+If a trainer gives out an exercise plan based only on a brief five-minute survey, it is better to refuse his services. Creating a personal training program is a task that requires time and careful analysis. The following factors must be taken into account:
 
-- Здоровье и физическое состояние;
-- Положительные рекомендации включают медицинское обследование перед началом тренировок. Это важно, так как интенсивные физические нагрузки могут быть вредными для людей с заболеваниями сердечно-сосудистой системы, опорно-двигательного аппарата или для тех, кто недавно перенес операцию в брюшной полости.
-- Возраст;
-- Фитнес доступен для практически всех возрастных групп, но каждая категория имеет свои особенности и рекомендации по интенсивности тренировок.
-- Пол;
-- Физиологические различия между мужчинами и женщинами означают, что тренировочные программы должны быть адаптированы под каждый пол.
-- Индивидуальные особенности организма;
-- Специальные тесты позволяют тренеру определить вашу выносливость, гибкость, скорость восстановления и другие параметры. Это информация позволяет подобрать подходящие упражнения.
+- Health and physical condition;
+- Positive recommendations include a medical examination before starting training. This is important because intense exercise can be harmful for people with cardiovascular disease, musculoskeletal conditions, or those who have recently had abdominal surgery.
+- Age;
+- Fitness is available for almost all age groups, but each category has its own characteristics and recommendations for training intensity.
+- Floor;
+- Physiological differences between men and women mean that training programs must be tailored to each gender.
+- Individual characteristics of the body;
+- Special tests allow the trainer to determine your endurance, flexibility, recovery speed and other parameters. This information allows you to choose the appropriate exercises.
 
-Типы программ В зависимости от целей, тренировочные программы могут быть начальными или ориентированными на конкретные результаты.
+Types of Programs Depending on your goals, training programs can be basic or results-oriented.
 
-- Начальная программа разработана для новичков, которые только начинают заниматься. Обычно она предполагает первые 1-2 месяца занятий и включает задачи, такие как укрепление организма, развитие выносливости и гибкости, а также сбор данных о реакции организма на нагрузки и скорости восстановления.
-- После завершения начальной программы наступает этап целевых тренировок, которые направлены на решение конкретных задач, таких как снижение веса, набор мышечной массы, формирование рельефа и другие. Целевая программа обычно многоэтапная и каждый этап длится около 4 недель. Тренер может корректировать планы на основе ваших результатов.
+- The initial program is designed for beginners who are just starting to practice. It usually involves the first 1-2 months of classes and includes tasks such as strengthening the body, developing endurance and flexibility, as well as collecting data on the body's response to stress and recovery rate.
+- After completing the initial program, the stage of targeted training begins, which is aimed at solving specific problems, such as weight loss, muscle gain, relief formation and others. The targeted program is usually multi-stage and each stage lasts about 4 weeks. The coach can adjust plans based on your results.
 
-В итоге, если вашей целью является достижение результатов, не теряйте время на самостоятельное составление плана, а воспользуйтесь услугами опытных и квалифицированных тренеров. Пусть стоимость индивидуальной программы тренировок не будет барьером, так как результаты, которых вы достигнете, с лихвой окупят ваши вложения."
+As a result, if your goal is to achieve results, do not waste time creating a plan yourself, but use the services of experienced and qualified trainers. Don't let the cost of a personalized training program be a barrier, as the results you'll achieve will more than repay your investment."

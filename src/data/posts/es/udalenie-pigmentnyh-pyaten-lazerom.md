@@ -1,59 +1,59 @@
 ---
-    title: Удаление пигментных пятен лазером
+    title: Eliminación láser de manchas de pigmento.
     hero_image: udalenie-pigmentnyh-pyaten-lazerom.JPG
 ---
-# Удаление пигментных пятен лазером
+# Eliminación láser de manchas de pigmento.
 
-У нас предоставляется возможность эффективного удаления пигментных пятен с помощью лазерной процедуры на различных частях тела, включая лицо, тело и другие области. Этот метод гарантирует видимый результат. Часто клиенты обращаются к нам для устранения пигментных пятен на декольте у женщин, на предплечье и тыльной стороне кистей. У мужчин популярными областями являются спина, руки, лицо и шея.
+Brindamos la capacidad de eliminar eficazmente las manchas de la edad mediante tratamientos con láser en varias partes del cuerpo, incluida la cara, el cuerpo y otras áreas. Este método garantiza resultados visibles. Los clientes suelen recurrir a nosotros para eliminar las manchas de la edad en el escote, el antebrazo y el dorso de las manos de las mujeres. Para los hombres, las zonas populares son la espalda, los brazos, la cara y el cuello.
 
-Важно отметить, что лазерное удаление пигментации обладает накопительным эффектом. В течение двух недель кожа начинает постепенно восстанавливаться. Помимо уменьшения излишков меланина, процедура способствует активации процесса регенерации кожи и восстановлению нормального цвета.
+Es importante tener en cuenta que la eliminación de la pigmentación con láser tiene un efecto acumulativo. En dos semanas, la piel comienza a recuperarse gradualmente. Además de reducir el exceso de melanina, el procedimiento ayuda a activar el proceso de regeneración de la piel y restaurar el color normal.
 
-Метод обычно не требует длительной реабилитации. В редких случаях возможно появление небольшого отека или покраснения кожи в течение двух-трех дней, что зависит от размера и тяжести пигментных пятен.
+El método normalmente no requiere rehabilitación a largo plazo. En casos raros, puede producirse una ligera hinchazón o enrojecimiento de la piel durante dos o tres días, dependiendo del tamaño y la gravedad de las manchas de la edad.
 
-## Что такое пигментные пятна и причины их возникновения?
+## ¿Qué son las manchas de la edad y las causas de su aparición?
 
-Пигментные пятна представляют собой области кожи с избыточным содержанием меланина, особого пигмента, присутствующего в различных слоях эпидермиса. Это избыточное скопление меланина на поверхности кожи может проявляться в виде мелких пятен, веснушек или родинок. Этот эффект связан с нарушением нормального процесса регуляции меланина в дерме, в результате которого некоторые кожные клетки начинают производить этот пигмент в избытке.
+Las manchas de la edad son áreas de la piel con exceso de melanina, un pigmento especial presente en varias capas de la epidermis. Este exceso de acumulación de melanina en la superficie de la piel puede aparecer como pequeñas manchas, pecas o lunares. Este efecto está asociado con una alteración del proceso normal de regulación de la melanina en la dermis, como resultado de lo cual algunas células de la piel comienzan a producir este pigmento en exceso.
 
-Гиперпигментация может иметь разные причины, включая гормональные изменения, процессы старения, неправильный уход за кожей, недостаток витаминов, стресс, генетическую предрасположенность, частое воздействие солнечных лучей и другие факторы.
+La hiperpigmentación puede tener varias causas, incluidos cambios hormonales, envejecimiento, cuidado inadecuado de la piel, deficiencias de vitaminas, estrés, predisposición genética, exposición frecuente a la luz solar y otros factores.
 
-Многие люди, столкнувшись с этой проблемой, интересуются, как можно избавиться от пигментных пятен на лице. На сегодняшний день наиболее оптимальным, быстрым и безопасным методом остается лазерная терапия. При этой процедуре световой лазерный луч направляется на пигментное пятно, что приводит к разрушению меланина и его последующему выводу из организма, что, в свою очередь, способствует осветлению проблемных участков кожи.
+Muchas personas, ante este problema, están interesadas en cómo deshacerse de las manchas de la edad en la cara. Hoy en día, la terapia con láser sigue siendo el método más óptimo, rápido y seguro. Durante este procedimiento, se dirige un rayo de luz láser a la mancha de pigmento, lo que conduce a la destrucción de la melanina y su posterior eliminación del cuerpo, lo que, a su vez, ayuda a aclarar las áreas problemáticas de la piel.
 
-## Показания к процедуре
+## Indicaciones para el procedimiento.
 
-Для успешного проведения лазерной терапии пигментных пятен, необходимо точно определить их причину. Специалист проводит ряд диагностических мероприятий, чтобы установить их происхождение.
+Para realizar con éxito la terapia con láser para las manchas de la edad, es necesario determinar con precisión su causa. El especialista lleva a cabo una serie de medidas de diagnóstico para establecer su origen.
 
-Показаниями к лазерному удалению пигментных пятен являются:
+Las indicaciones para la eliminación con láser de las manchas de la edad son:
 
-1. Диффузная краснота.
-2. Гормональные пятна.
-3. Пойкилодермия (пятнистая или сетчатая пигментация).
-4. Розацея папуло-пустулезного подтипа.
-5. Пятна после угревой сыпи.
-6. Лентигиноз (появление темных пятен на коже).
-7. Веснушки.
-8. Родинки.
-9. Поствоспалительная гиперпигментация.
-10. Гиперпигментация вследствие беременности.
-11. Мелазма (пигментационное нарушение доброкачественного характера).
-12. Возрастные пятна.
-13. Растяжки (стрии) и рубцы.
+1. Enrojecimiento difuso.
+2. Manchas hormonales.
+3. Poiquilodermia (pigmentación irregular o reticular).
+4. Rosácea del subtipo papulopustular.
+5. Manchas de acné.
+6. Lentiginosis (aparición de manchas oscuras en la piel).
+7. Pecas.
+8. Lunares.
+9. Hiperpigmentación posinflamatoria.
+10. Hiperpigmentación por embarazo.
+11. Melasma (trastorno de pigmentación benigno).
+12. Manchas de la edad.
+13. Estrías (estrías) y cicatrices.
 
-Если пигментные пятна вызваны какими-либо заболеваниями, предварительная консультация с дерматологом обязательна. Иногда такие изменения связаны с нервно-психическими расстройствами и болезнями желудочно-кишечного тракта, и для их эффективной коррекции требуется комплексное лечение. В противном случае, кожные дефекты могут повторно появиться.
+Si las manchas de la edad son causadas por alguna enfermedad, se requiere una consulta preliminar con un dermatólogo. A veces, estos cambios se asocian con trastornos neuropsiquiátricos y enfermedades del tracto gastrointestinal, y se requiere un tratamiento complejo para su corrección eficaz. De lo contrario, pueden reaparecer defectos de la piel.
 
-## Противопоказания
+## Contraindicaciones
 
-Несмотря на многочисленные преимущества и высокую безопасность, удаление гиперпигментации лазером подвержено определенным ограничениям, которые абсолютно запрещают проведение процедуры.
+A pesar de las numerosas ventajas y la alta seguridad, la eliminación de la hiperpigmentación con láser está sujeta a ciertas limitaciones que prohíben absolutamente el procedimiento.
 
-Лазерное лечение не рекомендуется во время лактации и во время беременности. Также оно не рекомендуется для лиц, склонных к образованию келоидных рубцов, а также для пациентов с онкологическими заболеваниями или кожными заболеваниями, находящимися в острой стадии.
+No se recomienda el tratamiento con láser durante la lactancia y el embarazo. Tampoco se recomienda para personas propensas a la formación de cicatrices queloides, así como para pacientes con cáncer o enfermedades de la piel en etapa aguda.
 
-### Как выглядит кожа после процедуры?
+### ¿Cómo luce la piel después del procedimiento?
 
-На самом начальном этапе вы, возможно, не заметите явных изменений, и образование сохранит свою темную окраску в течение нескольких дней. Однако через неделю они начнут постепенно светлеть. вашей обыденной жизни, включая использование макияжа и различных косметических средств
+Al principio, es posible que no note ningún cambio obvio y la formación permanecerá de color oscuro durante varios días. Sin embargo, después de una semana comenzarán a aclararse gradualmente. su vida diaria, incluido el uso de maquillaje y diversos productos cosméticos
 
-***Сколько процедур необходимо для полного удаления гиперпигментации?***
+***¿Cuántos tratamientos se necesitan para eliminar por completo la hiperpigmentación?***
 
-Количество сеансов зависит от степени пигментации, но в среднем требуется около трех-пяти сеансов
+El número de sesiones depende del grado de pigmentación, pero en promedio se requieren de tres a cinco sesiones.
 
-***Насколько это безопасно?***
+***¿Qué tan seguro es?***
 
-«Безопасное удаление пигментации с использованием лазера не представляет никакого риска для вашего здоровья. К тому же процедура комфортна и не требует применения обезболивающих средств. Лазерная терапия считается наиболее эффективным и быстрым методом удаления пигментных пятен. Она осуществляется без повреждения окружающих здоровых тканей посредством точечного воздействия. в клетке с повышенным содержанием меланина».
+“La eliminación segura de la pigmentación mediante láser no supone ningún riesgo para la salud. Además, el procedimiento es cómodo y no requiere el uso de analgésicos. La terapia con láser se considera el método más eficaz y rápido para eliminar las manchas de la edad. Se lleva a cabo sin dañar los tejidos sanos circundantes mediante acupresión. en una célula con un alto contenido de melanina."

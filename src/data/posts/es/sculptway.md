@@ -1,39 +1,39 @@
 ---
-    title: SculptWay - сжигание жира и коррекция фигуры
+    title: SculptWay - quema grasa y corrección de figura
     hero_image: 'sculptway.JPG'
 ---
-## Что такое SculptWay?
+## ¿Qué es SculptWay?
 
-Все аппараты для коррекции фигуры в основном работают на уменьшение жира или подтяжку кожи. Однако, если у вас есть небольшой избыток веса и вы хотите достичь более стройного вида или желаете, чтобы ваш живот или ягодицы имели лучшую форму и выглядели более подтянуто, то первым шагом должно быть укрепление базы. Поскольку наше тело состоит преимущественно из мышц в пропорции 3 к 1, укрепление и развитие мышц играют ключевую роль в достижении желаемой формы. SculptWay был разработан с учетом этой цели и позволяет одновременно сжигать жир и укреплять мышцы. Этот инновационный аппарат также является первым в мире нехирургическим методом для подтяжки ягодиц. С помощью SculptWay можно тренировать мышцы живота, придавать форму ягодицам и сформировать подтянутую фигуру.
+Todos los dispositivos de contorno corporal funcionan principalmente para reducir la grasa o tensar la piel. Sin embargo, si tiene un ligero sobrepeso y desea lograr una apariencia más delgada, o desea que su estómago o glúteos tengan una mejor forma y se vean más tonificados, entonces el primer paso debe ser fortalecer su base. Dado que nuestro cuerpo está compuesto principalmente de músculos en una proporción de 3 a 1, fortalecer y desarrollar los músculos juega un papel clave para lograr la forma deseada. SculptWay fue diseñado con este objetivo en mente y le permite quemar grasa y fortalecer los músculos al mismo tiempo. Este innovador dispositivo es también el primer método no quirúrgico del mundo para levantar glúteos. Con SculptWay podrás entrenar tus músculos abdominales, moldear tus glúteos y crear una figura tonificada.
 
-### Что именно делает SculptWay?
+### ¿Qué hace exactamente SculptWay?
 
-SculptWay начинает с создания и укрепления мышечной базы, расположенной под слоем жира. Затем, увеличивая плотность мышц, он способствует уменьшению объема жира в области живота. Это способствует формированию более стройных и спортивных очертаний тела. Если применять SculptWay для области ягодиц, он укрепляет все мышцы, придавая ягодицам более подтянутый и атлетический вид. По мере увеличения плотности мышц происходит моделирование фигуры.
+SculptWay comienza construyendo y fortaleciendo la base muscular debajo de la capa de grasa. Luego, al aumentar la densidad muscular, ayuda a reducir la grasa abdominal. Esto ayuda a crear una forma corporal más delgada y atlética. Cuando se aplica en el área de los glúteos, SculptWay fortalece todos los músculos, dándole a sus glúteos una apariencia más tonificada y atlética. A medida que aumenta la densidad muscular, se moldea el cuerpo.
 
-### Кто может применять SculptWay?
+### ¿Quién puede utilizar SculptWay?
 
-Все здоровые мужчины и женщины могут пользоваться SculptWay.
+Todos los hombres y mujeres sanos pueden utilizar SculptWay.
 
-### SculptWay – это безопасная процедура?
+### ¿Es SculptWay un procedimiento seguro?
 
-SculptWay безопасен, так как не использует термальные методы, что исключает риск ожогов, рубцов или отеков. Устройство имеет медицинскую сертификацию CE.
+SculptWay es seguro porque no utiliza métodos térmicos, eliminando el riesgo de quemaduras, cicatrices o hinchazón. El dispositivo cuenta con certificación médica CE.
 
-### SculptWay – это болезненная процедура?
+### ¿Es SculptWay un procedimiento doloroso?
 
-Применение SculptWay абсолютно безболезненное. После процедуры пациенты чувствуют лишь легкую усталость, сравнимую с интенсивными физическими нагрузками.
+Usar SculptWay es absolutamente indoloro. Después del procedimiento, los pacientes sólo sienten una fatiga leve, comparable a la actividad física intensa.
 
-### Требуется ли время на восстановление?
+### ¿Se requiere tiempo de recuperación?
 
-После SculptWay не требуется период восстановления. Пациенты могут вернуться к обычной активности немедленно после процедуры.
+No se requiere un período de recuperación después de SculptWay. Los pacientes pueden regresar a sus actividades normales inmediatamente después del procedimiento.
 
-### Когда можно ожидать результаты от SculptWay?
+### ¿Cuándo puedo esperar resultados de SculptWay?
 
-Скорость появления результатов может различаться в зависимости от возраста, физической формы и индекса массы тела (ИМТ). Обычно первые положительные изменения заметны через 2–4 недели после завершения курса процедур, и они продолжают улучшаться в течение нескольких недель.
+La rapidez con la que aparecen los resultados puede variar según la edad, el estado físico y el índice de masa corporal (IMC). Normalmente, los primeros cambios positivos se notan entre 2 y 4 semanas después de completar el tratamiento y continúan mejorando durante varias semanas.
 
-### Насколько долгосрочные результаты от SculptWay?
+### ¿Cuán duraderos son los resultados de SculptWay?
 
-Клинические исследования подтверждают, что результаты воздействия на мышцы и жир сохраняются даже спустя год после процедуры.
+Los estudios clínicos confirman que los resultados sobre el músculo y la grasa persisten incluso un año después del procedimiento.
 
-### Почему стоит выбрать SculptWay?
+### ¿Por qué elegir SculptWay?
 
-В Соединенных Штатах было проведено около 65,000 процедур SculptWay, и пока нет негативных отзывов. Множество научных исследований подтверждают эффективность применения SculptWay.
+Se han realizado alrededor de 65.000 procedimientos SculptWay en los Estados Unidos y aún no hay críticas negativas. Muchos estudios científicos confirman la eficacia de SculptWay.

@@ -1,5 +1,5 @@
 ---
-    title: Мезотерапия лица
+    title: Mesoterapia facial
     hero_image: mezoterapiya-litsa.JPG
 ---
 # Mesoterapia facial

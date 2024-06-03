@@ -1,59 +1,59 @@
 ---
-    title: Удаление пигментных пятен лазером
+    title: Laser removal of pigment spots
     hero_image: udalenie-pigmentnyh-pyaten-lazerom.JPG
 ---
-# Удаление пигментных пятен лазером
+# Laser removal of pigment spots
 
-У нас предоставляется возможность эффективного удаления пигментных пятен с помощью лазерной процедуры на различных частях тела, включая лицо, тело и другие области. Этот метод гарантирует видимый результат. Часто клиенты обращаются к нам для устранения пигментных пятен на декольте у женщин, на предплечье и тыльной стороне кистей. У мужчин популярными областями являются спина, руки, лицо и шея.
+We provide the ability to effectively remove age spots using laser treatments on various parts of the body, including the face, body and other areas. This method guarantees visible results. Clients often turn to us to eliminate age spots on women’s décolleté, forearm and back of the hands. For men, popular areas are the back, arms, face and neck.
 
-Важно отметить, что лазерное удаление пигментации обладает накопительным эффектом. В течение двух недель кожа начинает постепенно восстанавливаться. Помимо уменьшения излишков меланина, процедура способствует активации процесса регенерации кожи и восстановлению нормального цвета.
+It is important to note that laser pigmentation removal has a cumulative effect. Within two weeks, the skin begins to gradually recover. In addition to reducing excess melanin, the procedure helps activate the skin regeneration process and restore normal color.
 
-Метод обычно не требует длительной реабилитации. В редких случаях возможно появление небольшого отека или покраснения кожи в течение двух-трех дней, что зависит от размера и тяжести пигментных пятен.
+The method usually does not require long-term rehabilitation. In rare cases, slight swelling or redness of the skin may occur for two to three days, depending on the size and severity of the age spots.
 
-## Что такое пигментные пятна и причины их возникновения?
+## What are age spots and the causes of their occurrence?
 
-Пигментные пятна представляют собой области кожи с избыточным содержанием меланина, особого пигмента, присутствующего в различных слоях эпидермиса. Это избыточное скопление меланина на поверхности кожи может проявляться в виде мелких пятен, веснушек или родинок. Этот эффект связан с нарушением нормального процесса регуляции меланина в дерме, в результате которого некоторые кожные клетки начинают производить этот пигмент в избытке.
+Age spots are areas of the skin with excess melanin, a special pigment present in various layers of the epidermis. This excess accumulation of melanin on the surface of the skin can appear as small spots, freckles or moles. This effect is associated with a disruption of the normal process of melanin regulation in the dermis, as a result of which some skin cells begin to produce this pigment in excess.
 
-Гиперпигментация может иметь разные причины, включая гормональные изменения, процессы старения, неправильный уход за кожей, недостаток витаминов, стресс, генетическую предрасположенность, частое воздействие солнечных лучей и другие факторы.
+Hyperpigmentation can have various causes, including hormonal changes, aging, improper skin care, vitamin deficiencies, stress, genetic predisposition, frequent exposure to sunlight and other factors.
 
-Многие люди, столкнувшись с этой проблемой, интересуются, как можно избавиться от пигментных пятен на лице. На сегодняшний день наиболее оптимальным, быстрым и безопасным методом остается лазерная терапия. При этой процедуре световой лазерный луч направляется на пигментное пятно, что приводит к разрушению меланина и его последующему выводу из организма, что, в свою очередь, способствует осветлению проблемных участков кожи.
+Many people, faced with this problem, are interested in how to get rid of age spots on the face. Today, laser therapy remains the most optimal, fastest and safest method. During this procedure, a laser light beam is directed at the pigment spot, which leads to the destruction of melanin and its subsequent removal from the body, which, in turn, helps to lighten problem areas of the skin.
 
-## Показания к процедуре
+## Indications for the procedure
 
-Для успешного проведения лазерной терапии пигментных пятен, необходимо точно определить их причину. Специалист проводит ряд диагностических мероприятий, чтобы установить их происхождение.
+To successfully carry out laser therapy for age spots, it is necessary to accurately determine their cause. The specialist carries out a number of diagnostic measures to establish their origin.
 
-Показаниями к лазерному удалению пигментных пятен являются:
+Indications for laser removal of age spots are:
 
-1. Диффузная краснота.
-2. Гормональные пятна.
-3. Пойкилодермия (пятнистая или сетчатая пигментация).
-4. Розацея папуло-пустулезного подтипа.
-5. Пятна после угревой сыпи.
-6. Лентигиноз (появление темных пятен на коже).
-7. Веснушки.
-8. Родинки.
-9. Поствоспалительная гиперпигментация.
-10. Гиперпигментация вследствие беременности.
-11. Мелазма (пигментационное нарушение доброкачественного характера).
-12. Возрастные пятна.
-13. Растяжки (стрии) и рубцы.
+1. Diffuse redness.
+2. Hormonal spots.
+3. Poikiloderma (spotty or reticular pigmentation).
+4. Rosacea of ​​the papulopustular subtype.
+5. Acne spots.
+6. Lentiginosis (appearance of dark spots on the skin).
+7. Freckles.
+8. Moles.
+9. Post-inflammatory hyperpigmentation.
+10. Hyperpigmentation due to pregnancy.
+11. Melasma (benign pigmentation disorder).
+12. Age spots.
+13. Stretch marks (striae) and scars.
 
-Если пигментные пятна вызваны какими-либо заболеваниями, предварительная консультация с дерматологом обязательна. Иногда такие изменения связаны с нервно-психическими расстройствами и болезнями желудочно-кишечного тракта, и для их эффективной коррекции требуется комплексное лечение. В противном случае, кожные дефекты могут повторно появиться.
+If pigment spots are caused by any diseases, a preliminary consultation with a dermatologist is required. Sometimes such changes are associated with neuropsychic disorders and diseases of the gastrointestinal tract, and complex treatment is required for their effective correction. Otherwise, skin defects may reappear.
 
-## Противопоказания
+## Contraindications
 
-Несмотря на многочисленные преимущества и высокую безопасность, удаление гиперпигментации лазером подвержено определенным ограничениям, которые абсолютно запрещают проведение процедуры.
+Despite numerous advantages and high safety, laser hyperpigmentation removal is subject to certain limitations that absolutely prohibit the procedure.
 
-Лазерное лечение не рекомендуется во время лактации и во время беременности. Также оно не рекомендуется для лиц, склонных к образованию келоидных рубцов, а также для пациентов с онкологическими заболеваниями или кожными заболеваниями, находящимися в острой стадии.
+Laser treatment is not recommended during lactation or pregnancy. It is also not recommended for people prone to the formation of keloid scars, as well as for patients with cancer or skin diseases that are in an acute stage.
 
-### Как выглядит кожа после процедуры?
+### What does the skin look like after the procedure?
 
-На самом начальном этапе вы, возможно, не заметите явных изменений, и образование сохранит свою темную окраску в течение нескольких дней. Однако через неделю они начнут постепенно светлеть. вашей обыденной жизни, включая использование макияжа и различных косметических средств
+At the very initial stage, you may not notice any obvious changes, and the formation will remain dark in color for several days. However, after a week they will gradually begin to lighten. your daily life, including the use of makeup and various cosmetic products
 
-***Сколько процедур необходимо для полного удаления гиперпигментации?***
+***How ​​many treatments are needed to completely remove hyperpigmentation?***
 
-Количество сеансов зависит от степени пигментации, но в среднем требуется около трех-пяти сеансов
+The number of sessions depends on the degree of pigmentation, but on average about three to five sessions are required
 
-***Насколько это безопасно?***
+***How ​​safe is it?***
 
-«Безопасное удаление пигментации с использованием лазера не представляет никакого риска для вашего здоровья. К тому же процедура комфортна и не требует применения обезболивающих средств. Лазерная терапия считается наиболее эффективным и быстрым методом удаления пигментных пятен. Она осуществляется без повреждения окружающих здоровых тканей посредством точечного воздействия. в клетке с повышенным содержанием меланина».
+“Safe pigmentation removal using laser does not pose any risk to your health. In addition, the procedure is comfortable and does not require the use of painkillers. Laser therapy is considered the most effective and fastest method of removing age spots. It is carried out without damaging surrounding healthy tissues through acupressure. in a cell with a high content of melanin."

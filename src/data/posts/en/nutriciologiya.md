@@ -1,32 +1,32 @@
 ---
-    title: ПЕРСОНАЛИЗИРОВАННЫЙ ПЛАН ПИТАНИЯ
+    title: PERSONALIZED MEAL PLAN
     hero_image: 'nutriciologiya.jpeg'
 ---
-# ПЕРСОНАЛИЗИРОВАННЫЙ ПЛАН ПИТАНИЯ
+# PERSONALIZED MEAL PLAN
 
-В наши дни многие люди стремятся к правильному питанию, чтобы поддерживать оптимальное функционирование своего организма, предотвращать недомогания, болезни и их негативные последствия. Однако, когда люди осознают, что их питание нуждается в коррекции, они могут начать исключать определенные продукты из своей диеты без должной консультации, что, в свою очередь, может привести к ошибкам и нежелательным последствиям для организма. Чтобы избежать таких негативных последствий, важно внимательно изучить вопрос и обратиться за профессиональной помощью.
+Nowadays, many people strive for proper nutrition in order to maintain optimal functioning of their body, prevent ailments, diseases and their negative consequences. However, when people realize that their diet needs adjustment, they may begin to eliminate certain foods from their diet without proper advice, which in turn can lead to mistakes and undesirable consequences for the body. To avoid such negative consequences, it is important to carefully study the issue and seek professional help.
 
-Наш подход включает в себя составление индивидуального плана питания, учитывающего ваши предпочтения, образ жизни, наличие медицинских противопоказаний и заболеваний. Мы отказываемся от строгих диет и жестких ограничений в пользу питания, которое не только улучшит ваше качество жизни и здоровье, но и поможет избежать возможных осложнений, к которым вы можете быть предрасположены.
+Our approach includes drawing up an individual nutrition plan that takes into account your preferences, lifestyle, medical contraindications and diseases. We eschew strict diets and strict restrictions in favor of nutrition that will not only improve your quality of life and health, but also help you avoid possible complications to which you may be predisposed.
 
-## Первичная консультация включает в себя следующие этапы:
+## Initial consultation includes the following steps:
 
-1. **Анкетирование**. Мы проводим детальный сбор информации о вашем образе жизни, вкусовых предпочтениях, наличии хронических заболеваний и медицинских противопоказаниях, аллергии на продукты, а также анализируем ваши предыдущие попытки контроля веса и осуществляем разбор вашего пищевого дневника.
+1. **Questionnaire**. We collect detailed information about your lifestyle, taste preferences, the presence of chronic diseases and medical contraindications, food allergies, and also analyze your previous attempts at weight control and analyze your food diary.
 
-2. **Индивидуальные рекомендации по питанию**. На основе собранной информации мы разрабатываем персонализированный план питания, учитывая ваши конкретные обстоятельства. Этот план включает в себя рекомендации для вашей дневной диеты на неделю или месяц, учитывая ваши вкусовые предпочтения, ограничения по состоянию здоровья и ваши цели. Мы также предоставляем консультации по пропорциям ингредиентов, составляющих блюда, и их питательной ценности.
+2. **Individual nutritional recommendations**. Based on the information collected, we develop a personalized nutrition plan tailored to your specific circumstances. This plan includes recommendations for your daily diet for the week or month, taking into account your taste preferences, health restrictions and your goals. We also provide advice on the proportions of ingredients that make up dishes and their nutritional value.
 
-3. **Расчет индивидуальной нормы калорий**. Мы рассчитываем вашу индивидуальную норму калорий в зависимости от ваших целей и образа жизни. Мы также подбираем оптимальное количество макронутриентов (биологически важных компонентов) и рассматриваем нутрицевтики (биологически активные добавки и определенные пищевые продукты) в зависимости от вашей калорийности.
+3. **Calculation of individual calorie intake**. We calculate your individual calorie intake based on your goals and lifestyle. We also select optimal amounts of macronutrients (biologically important components) and review nutraceuticals (dietary supplements and certain foods) based on your calorie intake.
 
-4. **Подбор оптимальной программы коррекции веса**. На основе данных, собранных в ходе анкетирования, мы рекомендуем оптимальную программу коррекции веса, учитывая ваши потребности и предпочтения. Мы выбираем методы, такие как метод тарелки, интервальное питание и расчет КБЖУ, которые наилучшим образом соответствуют вашей ситуации."
+4. **Selection of the optimal weight correction program**. Based on the data collected during the survey, we recommend the optimal weight correction program, taking into account your needs and preferences. We select methods, such as the plate method, interval feeding and calculating the BPJU, that best suit your situation."
 
 ![ПЕРСОНАЛИЗИРОВАННЫЙ ПЛАН ПИТАНИЯ](/images/posts/nutriciologiya-2.JPG "ПЕРСОНАЛИЗИРОВАННЫЙ ПЛАН ПИТАНИЯ")
 
-## Какие результаты могут быть достигнуты путем разработки персонального рациона питания?
+## What results can be achieved by developing a personal diet?
 
-Правильно составленный план питания, соблюдение рекомендаций от экспертов в области диетологии, позволяют в относительно короткие сроки достичь заметных изменений и преимуществ, таких как:
+A properly drawn up nutrition plan, following recommendations from experts in the field of nutrition, allows you to achieve noticeable changes and benefits in a relatively short time, such as:
 
-- Улучшение внешнего вида, включая состояние волос, кожи и ногтей. Это способствует общему ощущению молодости и свежести.
-- Снижение риска возникновения онкологических заболеваний, диабета и других серьезных патологий.
-- Улучшение настроения и снижение раздражительности. Люди, следящие за своим индивидуальным рационом, чувствуют себя более уверенно и спокойно в любых ситуациях.
-- Повышение уровня энергии и энтузиазма. Те, кто придерживается персонализированного рациона, часто замечают увеличение запасов энергии, что часто отсутствует у городских жителей.
+- Improved appearance, including the condition of hair, skin and nails. This contributes to an overall feeling of youth and freshness.
+- Reducing the risk of cancer, diabetes and other serious pathologies.
+- Improved mood and reduced irritability. People who monitor their individual diet feel more confident and calm in any situation.
+- Increased energy and enthusiasm levels. Those who follow a personalized diet often notice an increase in energy reserves, which is often missing in urban dwellers.
 
-Более подробную информацию о преимуществах, которые можно получить при разработке индивидуального рациона питания, можно получить в ходе консультации с нутрициологом."
+More detailed information about the benefits that can be obtained by developing an individual diet can be obtained during a consultation with a nutritionist."

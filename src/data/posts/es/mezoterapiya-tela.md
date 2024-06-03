@@ -1,5 +1,5 @@
 ---
-    title: Мезотерапия тела
+    title: Mesoterapia Corporal
     hero_image: mezoterapiya-tela.JPG
 ---
 # Mesoterapia Corporal

@@ -1,51 +1,51 @@
 ---
-    title: Мезотерапия волос 
+    title: Mesoterapia capilar 
     hero_image: mezoterapiya-volos.JPG
 ---
-# Мезотерапия волос 
+# Mesoterapia capilar
 
-Мезотерапия для волос представляет собой процедуру, при которой специальные мезотерапевтические коктейли, содержащие микро- и макроэлементы, точечно вводятся в проблемные области кожи головы. Эти инъекции способствуют восстановлению структуры волос изнутри, оказывая следующее воздействие:
+La mesoterapia para el cabello es un procedimiento en el que se introducen con precisión cócteles de mesoterapia especiales que contienen micro y macroelementos en las zonas problemáticas del cuero cabelludo. Estas inyecciones ayudan a restaurar la estructura del cabello desde el interior, teniendo los siguientes efectos:
 
-- Активизируют метаболические процессы в коже головы.
-- Ускоряют выведение токсических веществ.
-- Обеспечивают волосяные фолликулы дополнительным поступлением кислорода.
-- Повышают интенсивность обновления клеток кожи.
+- Activar procesos metabólicos en el cuero cabelludo.
+- Acelerar la eliminación de sustancias tóxicas.
+- Proporcionar a los folículos pilosos un suministro adicional de oxígeno.
+- Aumenta la intensidad de la renovación celular de la piel.
 
-Благодаря этой мезотерапевтической процедуре, все необходимые полезные компоненты доставляются непосредственно в волосяные фолликулы, что способствует улучшению кровоснабжения волосяных луковиц и активизации обменных процессов в тканях.
+Gracias a este procedimiento de mesoterapia, todos los componentes beneficiosos necesarios se entregan directamente a los folículos pilosos, lo que ayuda a mejorar el suministro de sangre a los folículos pilosos y a activar los procesos metabólicos en los tejidos.
 
-## Показания к проведению мезотерапии волос и кожи головы
+## Indicaciones de mesoterapia del cabello y cuero cabelludo.
 
-**Мезотерапия для волос рекомендуется в следующих случаях:**
+**La mesoterapia para el cabello se recomienda en los siguientes casos:**
 
-- При наличии различных форм потери волос.
-- В случае избыточной жирности или сухости кожи головы.
-- При ломкости и отсутствии жизни в волосах.
-- При разрежении волосяного покрова.
-- При проблемах с перхотью.
-- В случае постоянного зуда на коже головы.
-- При наличии себореи.
+- En presencia de diversas formas de caída del cabello.
+- En caso de cuero cabelludo excesivamente graso o seco.
+- Con fragilidad y falta de vida en el cabello.
+- Con cabello debilitado.
+- Para problemas de caspa.
+- En caso de picor constante en el cuero cabelludo.
+- En presencia de seborrea.
 
-## Результаты от курса мезотерапии волос
+## Resultados del curso de mesoterapia capilar
 
-Для достижения наилучшего эффекта от мезотерапии для волос рекомендуется завершить курс, включающий в себя 10-12 сеансов, при строго определенной периодичности, утверждаемой специалистом в области косметологии.
+Para lograr el mejor efecto de la mesoterapia capilar, se recomienda realizar un ciclo de 10 a 12 sesiones con una frecuencia estrictamente definida, aprobada por un especialista en el campo de la cosmetología.
 
-Мезотерапия для волос призвана улучшить состояние кожи головы, стимулировать микроциркуляцию в сосудах, что приводит к целому ряду положительных изменений:
+La mesoterapia para el cabello está diseñada para mejorar el estado del cuero cabelludo, estimular la microcirculación en los vasos, lo que conduce a una serie de cambios positivos:
 
-- Прекращение выпадения волос.
-- Ускорение темпа роста новых волос.
-- Очищение кожи головы и устранение проблемы перхоти.
-- Нормализация работы сальных желез.
+- Detener la caída del cabello.
+- Aceleración de la tasa de crecimiento del cabello nuevo.
+- Limpia el cuero cabelludo y elimina los problemas de caspa.
+- Normalización de las glándulas sebáceas.
 
-В результате проведенных сеансов, волосы приобретают бóльшую плотность, увеличивается их густота, приобретается здоровый блеск, а корни становятся более объемными. Мезотерапия для волос также служит отличным средством профилактики появления преждевременной седины.
+Como resultado de las sesiones, el cabello adquiere mayor densidad, aumenta su grosor, adquiere un brillo saludable y las raíces se vuelven más voluminosas. La mesoterapia capilar también es un excelente medio para prevenir el envejecimiento prematuro.
 
-## Рекомендации после проведения процедуры
+## Recomendaciones después del procedimiento
 
-**Для укрепления результатов после процедуры рекомендуется:**
+**Para reforzar los resultados después del procedimiento, se recomienda:**
 
-- Воздержаться от мытья и чесания головы в течение 24 часов.
-- Избегать посещения бань и саун на протяжении всего курса мезотерапии для волос.
-- Воздержаться от посещения бассейна в течение 48-72 часов.
-- Не подвергать кожу головы воздействию ультрафиолетовых лучей.
-- Не использовать средства для укладки волос.
+- Abstenerse de lavarse y rascarse el cabello durante 24 horas.
+- Evite visitar baños y saunas durante todo el curso de mesoterapia capilar.
+- Abstenerse de visitar la piscina durante 48-72 horas.
+- No expongas tu cuero cabelludo a los rayos ultravioleta.
+- No utilizar productos de peinado.
 
-Эффективность процедуры может быть оценена через несколько месяцев после завершения лечебного курса.
+La eficacia del procedimiento se puede evaluar varios meses después de finalizar el tratamiento.

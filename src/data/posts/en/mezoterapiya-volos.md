@@ -1,51 +1,51 @@
 ---
-    title: Мезотерапия волос 
+    title: Hair mesotherapy 
     hero_image: mezoterapiya-volos.JPG
 ---
-# Мезотерапия волос 
+# Hair mesotherapy
 
-Мезотерапия для волос представляет собой процедуру, при которой специальные мезотерапевтические коктейли, содержащие микро- и макроэлементы, точечно вводятся в проблемные области кожи головы. Эти инъекции способствуют восстановлению структуры волос изнутри, оказывая следующее воздействие:
+Mesotherapy for hair is a procedure in which special mesotherapy cocktails containing micro- and macroelements are precisely introduced into problem areas of the scalp. These injections help restore the hair structure from the inside, having the following effects:
 
-- Активизируют метаболические процессы в коже головы.
-- Ускоряют выведение токсических веществ.
-- Обеспечивают волосяные фолликулы дополнительным поступлением кислорода.
-- Повышают интенсивность обновления клеток кожи.
+- Activate metabolic processes in the scalp.
+- Accelerate the elimination of toxic substances.
+- Provide hair follicles with additional oxygen supply.
+- Increase the intensity of skin cell renewal.
 
-Благодаря этой мезотерапевтической процедуре, все необходимые полезные компоненты доставляются непосредственно в волосяные фолликулы, что способствует улучшению кровоснабжения волосяных луковиц и активизации обменных процессов в тканях.
+Thanks to this mesotherapy procedure, all the necessary beneficial components are delivered directly to the hair follicles, which helps improve blood supply to the hair follicles and activate metabolic processes in the tissues.
 
-## Показания к проведению мезотерапии волос и кожи головы
+## Indications for mesotherapy of hair and scalp
 
-**Мезотерапия для волос рекомендуется в следующих случаях:**
+**Mesotherapy for hair is recommended in the following cases:**
 
-- При наличии различных форм потери волос.
-- В случае избыточной жирности или сухости кожи головы.
-- При ломкости и отсутствии жизни в волосах.
-- При разрежении волосяного покрова.
-- При проблемах с перхотью.
-- В случае постоянного зуда на коже головы.
-- При наличии себореи.
+- In the presence of various forms of hair loss.
+- In case of excessive oily or dry scalp.
+- With fragility and lack of life in the hair.
+- With thinning hair.
+- For problems with dandruff.
+- In case of constant itching on the scalp.
+- In the presence of seborrhea.
 
-## Результаты от курса мезотерапии волос
+## Results from hair mesotherapy course
 
-Для достижения наилучшего эффекта от мезотерапии для волос рекомендуется завершить курс, включающий в себя 10-12 сеансов, при строго определенной периодичности, утверждаемой специалистом в области косметологии.
+To achieve the best effect from hair mesotherapy, it is recommended to complete a course of 10-12 sessions at a strictly defined frequency, approved by a specialist in the field of cosmetology.
 
-Мезотерапия для волос призвана улучшить состояние кожи головы, стимулировать микроциркуляцию в сосудах, что приводит к целому ряду положительных изменений:
+Mesotherapy for hair is designed to improve the condition of the scalp, stimulate microcirculation in the vessels, which leads to a number of positive changes:
 
-- Прекращение выпадения волос.
-- Ускорение темпа роста новых волос.
-- Очищение кожи головы и устранение проблемы перхоти.
-- Нормализация работы сальных желез.
+- Stopping hair loss.
+- Acceleration of the growth rate of new hair.
+- Cleanses the scalp and eliminates dandruff problems.
+- Normalization of the sebaceous glands.
 
-В результате проведенных сеансов, волосы приобретают бóльшую плотность, увеличивается их густота, приобретается здоровый блеск, а корни становятся более объемными. Мезотерапия для волос также служит отличным средством профилактики появления преждевременной седины.
+As a result of the sessions, the hair acquires greater density, its thickness increases, a healthy shine is acquired, and the roots become more voluminous. Hair mesotherapy is also an excellent means of preventing premature graying.
 
-## Рекомендации после проведения процедуры
+## Recommendations after the procedure
 
-**Для укрепления результатов после процедуры рекомендуется:**
+**To strengthen the results after the procedure, it is recommended:**
 
-- Воздержаться от мытья и чесания головы в течение 24 часов.
-- Избегать посещения бань и саун на протяжении всего курса мезотерапии для волос.
-- Воздержаться от посещения бассейна в течение 48-72 часов.
-- Не подвергать кожу головы воздействию ультрафиолетовых лучей.
-- Не использовать средства для укладки волос.
+- Refrain from washing and scratching your hair for 24 hours.
+- Avoid visiting baths and saunas throughout the course of hair mesotherapy.
+- Refrain from visiting the pool for 48-72 hours.
+- Do not expose your scalp to ultraviolet rays.
+- Do not use hair styling products.
 
-Эффективность процедуры может быть оценена через несколько месяцев после завершения лечебного курса.
+The effectiveness of the procedure can be assessed several months after completion of the treatment course.

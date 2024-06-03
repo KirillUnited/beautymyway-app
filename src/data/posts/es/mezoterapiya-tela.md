@@ -2,26 +2,26 @@
     title: Мезотерапия тела
     hero_image: mezoterapiya-tela.JPG
 ---
-# Мезотерапия тела
+# Mesoterapia Corporal
 
-Мезотерапия тела – это метод, который заключается во введении фармакологических препаратов в глубокие слои кожи с целью стимулирования рецепторов и улучшения микроциркуляции лимфы и крови. Мы активно используем данную процедуру для борьбы с целлюлитом, избыточным весом, а также для устранения дряблости и косметических дефектов кожи, таких как швы, рубцы и купероз. Мезотерапия тела применяется в различных областях, включая шею, плечи, внутреннюю часть рук, живот и бедра.
+La mesoterapia corporal es un método que consiste en introducir fármacos farmacológicos en las capas profundas de la piel para estimular los receptores y mejorar la microcirculación de la linfa y la sangre. Utilizamos activamente este procedimiento para combatir la celulitis, el exceso de peso, así como para eliminar la flacidez y defectos cosméticos de la piel, como puntos, cicatrices y rosácea. La mesoterapia corporal se utiliza en una variedad de áreas que incluyen el cuello, los hombros, la parte interna de los brazos, el abdomen y los muslos.
 
-Наиболее популярной среди этих процедур является мезотерапия живота, так как именно в этой области обычно наблюдается наибольшее скопление жировых отложений. Проявление дряблости и растяжек после родов, а также уменьшение упругости и эластичности кожи.
+El más popular entre estos procedimientos es la mesoterapia abdominal, ya que es en esta zona donde suele observarse la mayor acumulación de depósitos de grasa. La aparición de flacidez y estrías tras el parto, así como disminución de la firmeza y elasticidad de la piel.
 
-## Что представляют собой липолитики для тела и каков механизм их воздействия?
+## ¿Qué son los lipolíticos para el organismo y cuál es el mecanismo de acción?
 
-Один из наиболее эффективных методов коррекции фигуры, известный как инъекционный липолиз. Он основан на введении специально разработанных препаратов, называемых липолитиками, которые обладают способностью разрушать жировые отложения и восстанавливать метаболические процессы в жировых клетках путем улучшения лимфодренажа и стимуляции синтеза эластиновых и коллагеновых волокон.
+Uno de los métodos más eficaces para corregir la figura es el conocido como lipólisis inyectable. Se basa en la introducción de fármacos especialmente desarrollados llamados lipolíticos, que tienen la capacidad de destruir los depósitos de grasa y restaurar los procesos metabólicos en las células grasas mejorando el drenaje linfático y estimulando la síntesis de elastina y fibras de colágeno.
 
-**Под воздействием липолитиков в организме происходит следующие изменения:**
+**Bajo la influencia de los lipolíticos, se producen los siguientes cambios en el cuerpo:**
 
-- Расщепление жира на его составные части происходит за счет увеличения осмотического давления, что в итоге приводит к разрушению мембраны жировой клетки.
-- Продукты распада жировых клеток попадают в кровь и лимфу и затем выводятся из организма через работу почек и печени.
-- Процедура также способствует образованию плоско-костных рубцов в областях инъекций, что активно содействует разрушению жировой ткани.
+- La descomposición de la grasa en sus componentes se produce debido a un aumento de la presión osmótica, lo que finalmente conduce a la destrucción de la membrana de las células grasas.
+- Los productos de descomposición de las células grasas ingresan a la sangre y la linfa y luego se excretan del cuerpo a través del trabajo de los riñones y el hígado.
+- El procedimiento también favorece la formación de cicatrices óseas planas en las zonas de inyección, lo que favorece activamente la destrucción del tejido adiposo.
 
-**В результате использования липолитиков для коррекции фигуры можно достичь следующих эффектов:**
+**Como resultado del uso de lipolíticos para corregir la figura, se pueden lograr los siguientes efectos:**
 
-- Подтяжка кожи.
-- Устранение бляшек холестерина в сосудах.
-- Извлечение жировых отложений.
-- Устранение локализированного жира и целлюлита разной степени выраженности.
-- Снижение избыточного веса.
+- Estiramiento de la piel.
+- Eliminación de placas de colesterol en los vasos sanguíneos.
+- Extracción de depósitos de grasa.
+- Eliminación de grasa localizada y celulitis de diversa gravedad.
+- Reducir el exceso de peso.

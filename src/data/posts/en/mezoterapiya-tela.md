@@ -1,27 +1,27 @@
 ---
-    title: Мезотерапия тела
+    title: Body Mesotherapy
     hero_image: mezoterapiya-tela.JPG
 ---
-# Мезотерапия тела
+# Body Mesotherapy
 
-Мезотерапия тела – это метод, который заключается во введении фармакологических препаратов в глубокие слои кожи с целью стимулирования рецепторов и улучшения микроциркуляции лимфы и крови. Мы активно используем данную процедуру для борьбы с целлюлитом, избыточным весом, а также для устранения дряблости и косметических дефектов кожи, таких как швы, рубцы и купероз. Мезотерапия тела применяется в различных областях, включая шею, плечи, внутреннюю часть рук, живот и бедра.
+Body mesotherapy is a method that involves introducing pharmacological drugs into the deep layers of the skin in order to stimulate receptors and improve microcirculation of lymph and blood. We actively use this procedure to combat cellulite, excess weight, as well as to eliminate sagging and cosmetic skin defects, such as stitches, scars and rosacea. Body mesotherapy is used in a variety of areas including the neck, shoulders, inner arms, abdomen and thighs.
 
-Наиболее популярной среди этих процедур является мезотерапия живота, так как именно в этой области обычно наблюдается наибольшее скопление жировых отложений. Проявление дряблости и растяжек после родов, а также уменьшение упругости и эластичности кожи.
+The most popular among these procedures is abdominal mesotherapy, since it is in this area that the largest accumulation of fat deposits is usually observed. The appearance of sagging and stretch marks after childbirth, as well as a decrease in skin firmness and elasticity.
 
-## Что представляют собой липолитики для тела и каков механизм их воздействия?
+## What are lipolytics for the body and what is the mechanism of their action?
 
-Один из наиболее эффективных методов коррекции фигуры, известный как инъекционный липолиз. Он основан на введении специально разработанных препаратов, называемых липолитиками, которые обладают способностью разрушать жировые отложения и восстанавливать метаболические процессы в жировых клетках путем улучшения лимфодренажа и стимуляции синтеза эластиновых и коллагеновых волокон.
+One of the most effective methods of figure correction, known as injection lipolysis. It is based on the introduction of specially developed drugs called lipolytics, which have the ability to destroy fat deposits and restore metabolic processes in fat cells by improving lymphatic drainage and stimulating the synthesis of elastin and collagen fibers.
 
-**Под воздействием липолитиков в организме происходит следующие изменения:**
+**Under the influence of lipolytics, the following changes occur in the body:**
 
-- Расщепление жира на его составные части происходит за счет увеличения осмотического давления, что в итоге приводит к разрушению мембраны жировой клетки.
-- Продукты распада жировых клеток попадают в кровь и лимфу и затем выводятся из организма через работу почек и печени.
-- Процедура также способствует образованию плоско-костных рубцов в областях инъекций, что активно содействует разрушению жировой ткани.
+- The breakdown of fat into its component parts occurs due to an increase in osmotic pressure, which ultimately leads to the destruction of the fat cell membrane.
+- The breakdown products of fat cells enter the blood and lymph and are then eliminated from the body through the work of the kidneys and liver.
+- The procedure also promotes the formation of flat-bone scars in the injection areas, which actively promotes the destruction of adipose tissue.
 
-**В результате использования липолитиков для коррекции фигуры можно достичь следующих эффектов:**
+**As a result of using lipolytics for figure correction, the following effects can be achieved:**
 
-- Подтяжка кожи.
-- Устранение бляшек холестерина в сосудах.
-- Извлечение жировых отложений.
-- Устранение локализированного жира и целлюлита разной степени выраженности.
-- Снижение избыточного веса.
+- Skin tightening.
+- Elimination of cholesterol plaques in blood vessels.
+- Extraction of fat deposits.
+- Elimination of localized fat and cellulite of varying severity.
+- Reducing excess weight.

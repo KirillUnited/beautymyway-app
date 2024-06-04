@@ -1,6 +1,7 @@
 ---
 title: Get rid of expression lines
 hero_image: konturnaya-plastika.JPG
+category: products
 ---
 
 # Get rid of expression lines

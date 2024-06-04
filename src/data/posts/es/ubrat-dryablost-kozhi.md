@@ -1,6 +1,7 @@
 ---
 title: Cómo eliminar la laxitud cutánea
 hero_image: ubrat-dryablost-kozhi.JPG
+category: products
 ---
 
 # Cómo eliminar la laxitud cutánea

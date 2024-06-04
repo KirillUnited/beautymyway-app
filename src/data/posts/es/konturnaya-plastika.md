@@ -1,6 +1,7 @@
 ---
 title: Eliminar las líneas de expresión
 hero_image: konturnaya-plastika.JPG
+category: products
 ---
 
 # Eliminar las líneas de expresión

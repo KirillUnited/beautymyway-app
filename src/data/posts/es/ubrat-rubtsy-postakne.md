@@ -1,6 +1,7 @@
 ---
 title: Elimina el acné
 hero_image: ubrat-rubtsy-postakne.JPG
+category: products
 ---
 
 # Elimina el acné

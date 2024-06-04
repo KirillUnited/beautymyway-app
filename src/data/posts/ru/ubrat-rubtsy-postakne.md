@@ -1,6 +1,7 @@
 ---
     title: Убрать акне 
     hero_image: ubrat-rubtsy-postakne.JPG
+    category: products
 ---
 # Убрать акне 
 

@@ -1,6 +1,7 @@
 ---
 title: Para eliminar las ojeras
 hero_image: ubrat-temnye-krugi-pod-glazami.JPG
+category: products
 ---
 
 # Para eliminar las ojeras

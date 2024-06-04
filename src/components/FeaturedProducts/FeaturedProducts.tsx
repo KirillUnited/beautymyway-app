@@ -2,12 +2,11 @@
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
-import { useProductContext } from '@/context/ProductContext';
 import { useLocale } from 'next-intl';
 import { getFeaturedProductPosts } from '@/lib/api';
 
 export default async function FeaturedProducts() {
-    const locale = useLocale()
+    const locale = await useLocale();
 	const allProducts = await getFeaturedProductPosts(locale);
 
     return (

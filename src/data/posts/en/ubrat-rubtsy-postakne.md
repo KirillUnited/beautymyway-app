@@ -1,6 +1,7 @@
 ---
 title: Eliminates acne
 hero_image: ubrat-rubtsy-postakne.JPG
+category: products
 ---
 
 # Eliminates acne

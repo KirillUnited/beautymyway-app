@@ -1,6 +1,7 @@
 ---
 title: Removing age spots
 hero_image: fotoudalenie-pigmentatsii.JPG
+category: products
 ---
 
 # The most effective methods to remove age spots

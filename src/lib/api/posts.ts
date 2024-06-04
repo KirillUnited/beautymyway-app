@@ -1,4 +1,7 @@
 import matter from "gray-matter"
+import { cache } from "react";
+import path from 'path'
+import fs from 'fs/promises'
 
 export const getFeaturedProductPosts = async (locale: string) => {
 	const res = await import(`@/data/products.json`);
@@ -12,9 +15,34 @@ export const getFeaturedProductPosts = async (locale: string) => {
 		})
 	)
 }
-export const getProductPosts = async (locale: string) => {
-	
-}
+// `cache` is a React 18 feature that allows you to cache a function for the lifetime of a request.
+// this means getPosts() will only be called once per page build, even though we may call it multiple times
+// when rendering the page.
+export const getPostsByCategory = cache(async (locale: string, category: string) => {
+    const DATA_PATH = `./src/data/posts/${locale}`;
+    const files = await fs.readdir(`${DATA_PATH}`);
+
+    return Promise.all(
+        files
+            .filter((file) => path.extname(file) === '.md')
+            .map(async (file) => {
+                const filePath = `${DATA_PATH}/${file}`
+                const fileContent = await fs.readFile(filePath, 'utf8')
+                const { data, content } = matter(fileContent)
+
+                if (data.category !== category) {
+                    return null
+                }
+
+                return { data, body: content }
+            })
+    )
+});
+
+// export async function getCollectionItem(slug: string, name: string) {
+//     const items = await getCollection(name);
+//     return items.find((item) => item?.slug === slug)
+// }
 export async function getPostBySlug({ locale, slug }: { locale: string, slug: string }) {
     const post = await import(`@/data/posts/${locale}/${slug}.md`)
     const { data, content } = matter(post.default)

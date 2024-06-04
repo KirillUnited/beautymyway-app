@@ -1,6 +1,7 @@
 ---
 title: Eliminar las manchas de la edad
 hero_image: fotoudalenie-pigmentatsii.JPG
+category: products
 ---
 
 # Los métodos más eficaces para eliminar las manchas de la edad

@@ -5,7 +5,10 @@ import ReactMarkdown from "react-markdown"
 import styles from "@/styles/post.module.scss";
 
 type Props = {
-    params: { slug: string }
+    params: {
+        locale: string,
+        slug: string
+    }
 }
 
 export async function generateMetadata({ params }: Props) {
@@ -47,8 +50,8 @@ export default async function ServiceTemplate({ params }: Props) {
     )
 }
 
-async function getContent({ slug }: { slug: string }) {
-    const content = await import(`@/data/posts/${slug}.md`)
+async function getContent({ locale, slug }: { locale: string, slug: string }) {
+    const content = await import(`@/data/posts/${locale}/${slug}.md`)
     const data = matter(content.default)
 
     return {

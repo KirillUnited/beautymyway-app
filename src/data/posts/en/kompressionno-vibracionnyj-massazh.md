@@ -4,7 +4,6 @@ description: This technique has been proven to be highly effective! It is achiev
 thumb_image: featured-product-2.jpeg
 hero_image: null
 tags: FEATURED_PRODUCTS
-path: posts/spheraway
 ---
 
 # Compression-vibration massage

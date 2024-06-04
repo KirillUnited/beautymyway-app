@@ -5,11 +5,11 @@ hero_image: null
 
 # Beauty - My Way !  Open our doors!
 
-> _**Discover the synergistic effect of caring for your beauty!**_
+> **Discover the synergistic effect of caring for your beauty!**
 >
-> Skin glow ! Vigour of the body ! Healthy well-being ! Our author's three-in-one method! Comprehensive and effective care for skin, body, pulse rhythm and life! We are pleasant, comfortable and productive! Come and Enjoy! We're in the centre of Valencia! _**In our healthy care:**_ - apparatus treatments for face, body and body shaping. The latest cosmetology equipment with European CE certificates. Professional cosmetics only from reputable global brands.
+> Skin glow ! Vigour of the body ! Healthy well-being ! Our author's three-in-one method! Comprehensive and effective care for skin, body, pulse rhythm and life! We are pleasant, comfortable and productive! Come and Enjoy! We're in the centre of Valencia! **In our healthy care:** - apparatus treatments for face, body and body shaping. The latest cosmetology equipment with European CE certificates. Professional cosmetics only from reputable global brands.
 
-_**Procedures are performed by Angelina - cosmetologist with higher medical education, 💉 effective experience and experience. Regular participant of professional internships, cosmetology and trichology courses**_
+**Procedures are performed by Angelina - cosmetologist with higher medical education, 💉 effective experience and experience. Regular participant of professional internships, cosmetology and trichology courses**
 
 - Facial cleansing (mechanical, ultrasound, combined)
 

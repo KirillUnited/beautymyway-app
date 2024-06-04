@@ -1,11 +1,14 @@
-'use client'
+// 'use client'
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
-import ProductContext from '@/context/ProductContext';
+import { useProductContext } from '@/context/ProductContext';
+import { useLocale } from 'next-intl';
+import { getFeaturedProductPosts } from '@/lib/api';
 
-export default function FeaturedProducts() {
-    const { allProducts } = React.useContext<any>(ProductContext);
+export default async function FeaturedProducts() {
+    const locale = useLocale()
+	const allProducts = await getFeaturedProductPosts(locale);
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">

@@ -125,7 +125,7 @@ export const LINKS = [
         ]
     },
     {
-        link: '/posts/consult',
+        link: '/posts/ru/consult',
         label: 'Консультация'
     },
     {
@@ -133,7 +133,7 @@ export const LINKS = [
         label: 'О нас',
         links: [
             {
-                link: '/posts/about',
+                link: '/posts/ru/about',
                 label: 'Кто мы',
             },
             {

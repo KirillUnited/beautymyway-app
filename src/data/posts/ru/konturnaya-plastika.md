@@ -1,6 +1,7 @@
 ---
     title: Убрать мимические морщины
     hero_image: konturnaya-plastika.JPG
+    category: products
 ---
 # Убрать мимические морщины
 

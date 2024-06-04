@@ -1,6 +1,7 @@
 ---
     title: Как устранить дряблости кожи
     hero_image: ubrat-dryablost-kozhi.JPG
+    category: products
 ---
 # Как устранить дряблости кожи
 

@@ -2,10 +2,13 @@ import ProductCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
 import { PRODUCTS } from '@/data';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { getPostsByCategory } from '@/lib/api/posts';
 
-export default function ProductsSection(): React.JSX.Element {
+export default async function ProductsSection() {
+    const locale = useLocale();
     const t = useTranslations('Products');
+    const PRODUCTS = await getPostsByCategory(locale, 'products');
 
     return (
         <section>
@@ -15,9 +18,16 @@ export default function ProductsSection(): React.JSX.Element {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-3">
                 {
-                    PRODUCTS.map(({ image, title, link }, index) => {
+                    PRODUCTS?.map((item, index) => {
+                        if(typeof item?.data?.category === 'undefined') {
+                            return null
+                        }
+                        const image = item?.data?.hero_image;
+                        const title = item?.data?.title;
+                        const link = item?.data?.link;
+
                         return (
-                            <Link href={link} key={index}>
+                            <Link href={link || '/'} key={index}>
                                 <ProductCard
                                     image={image}
                                     title={title}

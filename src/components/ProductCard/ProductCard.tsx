@@ -14,10 +14,10 @@ export default function ProductCard({ image, title, description, variant = 'defa
         )}>
             <Image
                 fill
-                src={`/images/${image}`}
+                src={`/images/posts/${image}`}
                 sizes="(max-width: 768px) 50vw, 25vw"
                 quality={60}
-                alt={title}
+                alt={`${title}`}
                 className={styles.image}
             />
             <div className={styles.content}>

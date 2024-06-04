@@ -4,6 +4,5 @@
     thumb_image: 'featured-product-2.jpeg'
     hero_image: null
     tags: FEATURED_PRODUCTS
-    path: posts/spheraway
 ---
 # Компрессионно-вибрационный массаж

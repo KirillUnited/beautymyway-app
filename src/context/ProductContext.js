@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 
-const ProductContext = React.createContext([]);
+const ProductContext = React.createContext();
 export default ProductContext;
 export function ProductContextProvider({ allProducts, children }) {
     return (
@@ -11,4 +11,7 @@ export function ProductContextProvider({ allProducts, children }) {
             {children}
         </ProductContext.Provider>
     )
+}
+export function useProductContext() {
+    return React.useContext(ProductContext);
 }

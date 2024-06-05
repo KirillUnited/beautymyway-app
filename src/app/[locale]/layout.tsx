@@ -36,14 +36,14 @@ export default async function LocaleLayout({
 	const messages = await getMessages();
 
 	return (
-		<div className='wrapper flex flex-col min-h-screen'>
-			<NextIntlClientProvider messages={messages}>
+		<NextIntlClientProvider messages={messages}>
+			<div className='wrapper flex flex-col min-h-screen'>
 				<Header />
 				<main className="content flex-1">
 					{children}
 				</main>
 				<Footer />
-			</NextIntlClientProvider>
-		</div>
+			</div>
+		</NextIntlClientProvider>
 	)
 }

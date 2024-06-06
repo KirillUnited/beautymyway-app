@@ -1,13 +1,13 @@
 import ProductCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
-import { PRODUCTS } from '@/data';
 import { useLocale, useTranslations } from 'next-intl';
 import { getPostsByCategory } from '@/lib/api/posts';
+import { getLocale, getTranslations } from 'next-intl/server';
 
 export default async function ProductsSection() {
-    const locale = useLocale();
-    const t = useTranslations('Products');
+    const locale = await getLocale();
+    const t = await getTranslations('Products');
     const PRODUCTS = await getPostsByCategory(locale, 'products');
 
     return (

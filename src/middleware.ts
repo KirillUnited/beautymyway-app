@@ -1,20 +1,10 @@
 import createMiddleware from 'next-intl/middleware';
-import { locales, localePrefix } from './navigation';
-import { Pathnames } from 'next-intl/navigation';
-
-export const pathnames = {
-    '/': '/',
-    '/posts': {
-        ru: '/posts',
-        en: '/posts',
-        es: '/posts'
-    }
-} satisfies Pathnames<typeof locales>;
+import { locales } from "./i18n.config";
 
 const middleware = createMiddleware({
     defaultLocale: 'ru',
-    localePrefix,
-    locales
+    locales,
+    localeDetection: false,
 });
 
 export default middleware;

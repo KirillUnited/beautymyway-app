@@ -7,7 +7,7 @@ import styles from './Header.module.scss';
 import Image from 'next/image';
 import HeaderNav from './HeaderNav';
 import LanguageSwitcher from '../LanguageSwitcher';
-import { locales } from '@/i18n';
+import { locales } from '@/i18n.config';
 import classNames from 'classnames';
 
 export default function HeaderDrawer({ currentLocale }: { currentLocale: any }) {

@@ -4,7 +4,7 @@ import { LINKS } from '@/data/index';
 import styles from './Header.module.scss';
 import { IHeaderProps, IMenuItemsProps } from './Header.props';
 
-export default function HeaderNav({ closeNav, translatedNavbar }: IHeaderProps): React.JSX.Element {    
+export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }: IHeaderProps): React.JSX.Element {    
     const NavLinks = LINKS.map((link) => {
         const menuItems = link.links?.map((item: IMenuItemsProps, index) => {
             const innerItems = item.links?.map((innerItem: IMenuItemsProps) => {
@@ -56,7 +56,7 @@ export default function HeaderNav({ closeNav, translatedNavbar }: IHeaderProps):
 
         return (
             <NavLink
-                href={link.link}
+                href={`/${currentLocale}${link.link}`}
                 className={styles.navLink}
                 label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name]}</span>}
                 key={Math.random()}

@@ -1,6 +1,7 @@
 export interface IHeaderProps {
     closeNav: () => void;
-    translatedNavbar: any
+    translatedNavbar: any,
+    currentLocale: string
 }
 export interface IMenuItemsProps {
     link: string, 

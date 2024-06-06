@@ -40,7 +40,7 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                 zIndex={1000000}
             >
                 <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
-                    <HeaderNav closeNav={closeDrawer} translatedNavbar={translatedNavbar} />
+                    <HeaderNav closeNav={closeDrawer} translatedNavbar={translatedNavbar} currentLocale={currentLocale} />
                 </Flex>
 
                 <Flex direction={'row'} gap={'md'} align="center" key={235352535235}>

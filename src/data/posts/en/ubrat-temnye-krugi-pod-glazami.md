@@ -2,6 +2,7 @@
 title: To remove dark circles under the eyes
 hero_image: ubrat-temnye-krugi-pod-glazami.JPG
 category: products
+link: /posts/ubrat-temnye-krugi-pod-glazami
 ---
 
 # To remove dark circles under the eyes

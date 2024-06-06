@@ -2,6 +2,7 @@
 title: How to eliminate skin laxity
 hero_image: ubrat-dryablost-kozhi.JPG
 category: products
+link: /posts/ubrat-dryablost-kozhi
 ---
 
 # How to eliminate skin laxity

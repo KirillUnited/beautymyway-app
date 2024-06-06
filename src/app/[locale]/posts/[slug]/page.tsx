@@ -4,6 +4,7 @@ import matter from "gray-matter"
 import ReactMarkdown from "react-markdown"
 import styles from "@/styles/post.module.scss";
 import { locales } from '@/i18n.config';
+import { getPostBySlug } from '@/lib/api/posts';
 
 type Props = {
     params: {
@@ -17,7 +18,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props) {
-    const { frontmatter } = await getContent(params);
+    const { frontmatter } = await getPostBySlug(params);
 
     return {
         title: frontmatter.title,
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function ServiceTemplate({ params }: Props) {
-    const { frontmatter, markdownBody } = await getContent(params);
+    const { frontmatter, markdownBody } = await getPostBySlug(params);
 
     return (
         <article className={styles.root}>

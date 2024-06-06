@@ -2,6 +2,7 @@
 title: Eliminates excessive sweating
 hero_image: izbavitsya-ot-povyshennoj-potlivosti.JPG
 category: products
+link: /posts/izbavitsya-ot-povyshennoj-potlivosti
 ---
 
 # Get rid of excessive sweating:

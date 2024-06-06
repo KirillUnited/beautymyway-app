@@ -1,5 +1,5 @@
 import ProductCard from '@/components/ProductCard/ProductCard';
-import Link from 'next/link';
+import { Link } from '@/i18n.config';
 import React from 'react';
 import { getPosts } from '@/lib/api/posts';
 import { getLocale, getTranslations } from 'next-intl/server';
@@ -26,7 +26,7 @@ export default async function ProductsSection() {
                 {
                     PRODUCT_POST_LIST?.map((item, index) => {
                         const data = item?.data;
-                        
+
                         return (
                             <Link href={data?.link || '/'} key={index}>
                                 <ProductCard

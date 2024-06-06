@@ -2,6 +2,7 @@
 title: Get rid of expression lines
 hero_image: konturnaya-plastika.JPG
 category: products
+link: /posts/konturnaya-plastika
 ---
 
 # Get rid of expression lines

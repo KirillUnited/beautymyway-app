@@ -2,6 +2,7 @@
 title: Elimina la sudoración excesiva
 hero_image: izbavitsya-ot-povyshennoj-potlivosti.JPG
 category: products
+link: /posts/izbavitsya-ot-povyshennoj-potlivosti
 ---
 
 # Deshacerse de la sudoración excesiva:

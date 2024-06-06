@@ -17,7 +17,7 @@ export default function HitSection() {
             <p>
                 {t('description')}
             </p>
-            <ButtonLink href={`/posts/${locale}/fotoomolozhenie-ipl`} variant='primary' className='self-center lg:self-start mt-4 lg:mt-auto'>{t('CTA title')}</ButtonLink>
+            <ButtonLink href={`${locale}/posts/fotoomolozhenie-ipl`} variant='primary' className='self-center lg:self-start mt-4 lg:mt-auto'>{t('CTA title')}</ButtonLink>
         </ImageSectionLayout>
     )
 }

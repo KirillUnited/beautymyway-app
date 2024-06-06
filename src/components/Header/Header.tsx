@@ -10,6 +10,7 @@ import styles from './Header.module.scss';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import HeaderDrawer from './HeaderDrawer';
 import { getLocale, getTranslations } from 'next-intl/server';
+import LocaleSwitcher from '../LanguageSwitcher/LocaleSwitcher';
 
 export default async function Header() {
     const currentLocale = await getLocale();
@@ -39,7 +40,7 @@ export default async function Header() {
                 </Group>
 
                 <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                    <LanguageSwitcher currentLocale={currentLocale} />
+                    <LocaleSwitcher locale={currentLocale} />
                 </Group>
 
                 <HeaderDrawer currentLocale={currentLocale} translatedNavbar={translatedNavbar} />

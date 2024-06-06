@@ -12,7 +12,11 @@
                 "label": "Консультация"
             },
             "aboutUs":{
-                "label": "О нас"
+                "label": "О нас",
+                "menuItems": {
+                    "whoAreWe": "Кто мы",
+                    "reviews": "Отзывы"
+                }
             },
             "contacts":{
                 "label": "Контакты"

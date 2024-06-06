@@ -5,16 +5,20 @@
     },
     "Header": {
         "navbar": {
-            "services":{
+            "services": {
                 "label": "Services"
             },
-            "consult":{
+            "consult": {
                 "label": "Consultation"
             },
-            "aboutUs":{
-                "label": "About Us"
+            "aboutUs": {
+                "label": "About Us",
+                "menuItems": {
+                    "whoAreWe": "Who are we",
+                    "reviews": "Reviews"
+                }
             },
-            "contacts":{
+            "contacts": {
                 "label": "Contacts"
             }
         }

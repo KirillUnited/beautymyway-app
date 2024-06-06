@@ -1,24 +1,26 @@
 import React from 'react';
-
 import Image from 'next/image';
-import Link from 'next/link';
+import {Link} from '@/i18n.config';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
+import { useTranslations } from 'next-intl';
 
 type linksCategoryType = 'О нас' | 'Услуги';
 
-export default function Footer() {
-    const getLinks = (name: linksCategoryType) => {
-        const links = LINKS.filter((item) => {
-            if (item.label === name) return item;
-        })[0].links?.map((item) => (
-            <li key={item.label}>
-                <Link href={item.link} className='linkHover inline-block'>{item.label}</Link>
-            </li>
-        ));
+const getLinks = (name: linksCategoryType) => {
+    const links = LINKS.filter((item) => {
+        if (item.label === name) return item;
+    })[0].links?.map((item) => (
+        <li key={item.label}>
+            <Link href={item.link} className='linkHover inline-block'>{item.label}</Link>
+        </li>
+    ));
 
-        return links;
-    }
+    return links;
+}
+
+export default function Footer() {
+    const t = useTranslations('Header.navbar');
 
     return (
         <footer className="flex flex-col gap-10 bg-foregroundDark py-6">
@@ -36,11 +38,11 @@ export default function Footer() {
                     <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
-                    <span className="text-lg font-semibold leading-7">О нас</span>
+                    <span className="text-lg font-semibold leading-7">{t('aboutUs.label')}</span>
                     {getLinks('О нас')}
                 </ul>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
-                    <span className="text-lg font-semibold leading-7">Услуги</span>
+                    <span className="text-lg font-semibold leading-7">{t('services.label')}</span>
                     {getLinks('Услуги')}
                 </ul>
             </div>

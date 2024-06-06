@@ -136,7 +136,7 @@ export const LINKS = [
         name: 'aboutUs',
         links: [
             {
-                link: '/posts/ru/about',
+                link: '/posts/about',
                 label: 'Кто мы',
             },
             {

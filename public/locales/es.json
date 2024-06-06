@@ -12,7 +12,11 @@
                 "label": "Consulta"
             },
             "aboutUs": {
-                "label": "Sobre nosotros"
+                "label": "Sobre nosotros",
+                "menuItems": {
+                    "whoAreWe": "Quienes somos",
+                    "reviews": "Reseñas"
+                }
             },
             "contacts": {
                 "label": "Contactos"

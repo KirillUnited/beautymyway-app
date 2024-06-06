@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Group, Menu } from '@mantine/core'
 import React from 'react'
 import Link from 'next/link'
-import { locales } from '@/i18n'
+import { locales } from '@/i18n.config'
 
 interface Props {
     currentLocale: string

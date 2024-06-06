@@ -7,10 +7,10 @@ import styles from './Header.module.scss';
 import Image from 'next/image';
 import HeaderNav from './HeaderNav';
 import LanguageSwitcher from '../LanguageSwitcher';
-import { locales } from '@/i18n';
+import { locales } from '@/i18n.config';
 import classNames from 'classnames';
 
-export default function HeaderDrawer({ currentLocale }: { currentLocale: any }) {
+export default function HeaderDrawer({ currentLocale, translatedNavbar }: { currentLocale: any, translatedNavbar: any }) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
 
     return (
@@ -40,7 +40,7 @@ export default function HeaderDrawer({ currentLocale }: { currentLocale: any }) 
                 zIndex={1000000}
             >
                 <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
-                    <HeaderNav closeNav={closeDrawer} />
+                    <HeaderNav closeNav={closeDrawer} translatedNavbar={translatedNavbar} currentLocale={currentLocale} />
                 </Flex>
 
                 <Flex direction={'row'} gap={'md'} align="center" key={235352535235}>

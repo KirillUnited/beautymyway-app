@@ -5,10 +5,22 @@
     },
     "Header": {
         "navbar": {
-            "Услуги": {},
-            "Консультация": {},
-            "О нас": {},
-            "Контакты": {}
+            "services":{
+                "label": "Услуги"
+            },
+            "consult":{
+                "label": "Консультация"
+            },
+            "aboutUs":{
+                "label": "О нас",
+                "menuItems": {
+                    "whoAreWe": "Кто мы",
+                    "reviews": "Отзывы"
+                }
+            },
+            "contacts":{
+                "label": "Контакты"
+            }
         }
     },
     "Hero": {

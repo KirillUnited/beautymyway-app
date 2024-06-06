@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl';
 
-export default function TestimonialCarousel() {
+export default function ClientTestimonialCarousel() {
     const t = useTranslations('TESTIMONIALS.list');
     const theme = useMantineTheme();
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`)

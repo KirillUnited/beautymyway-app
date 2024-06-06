@@ -18,7 +18,7 @@ export const getFeaturedProductPosts = async (locale: string) => {
 // `cache` is a React 18 feature that allows you to cache a function for the lifetime of a request.
 // this means getPosts() will only be called once per page build, even though we may call it multiple times
 // when rendering the page.
-export const getPostsByCategory = cache(async (locale: string, category: string) => {
+export const getPosts = cache(async (locale: string, category?: string) => {
     const DATA_PATH = `./src/data/posts/${locale}`;
     const files = await fs.readdir(`${DATA_PATH}`);
 
@@ -28,11 +28,7 @@ export const getPostsByCategory = cache(async (locale: string, category: string)
             .map(async (file) => {
                 const filePath = `${DATA_PATH}/${file}`
                 const fileContent = await fs.readFile(filePath, 'utf8')
-                const { data, content } = matter(fileContent)
-
-                if (data.category !== category) {
-                    return null
-                }
+                const { data, content } = matter(fileContent);
 
                 return { data, body: content }
             })
@@ -50,6 +46,6 @@ export async function getPostBySlug({ locale, slug }: { locale: string, slug: st
     return {
         frontmatter: data,
         markdownBody: content,
-        link: `/posts/${locale}/${slug}`
+        link: `/posts/${slug}`
     }
 }

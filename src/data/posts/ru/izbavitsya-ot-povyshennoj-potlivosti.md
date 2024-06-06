@@ -2,6 +2,7 @@
     title: Избавиться от повышенной потливости
     hero_image: izbavitsya-ot-povyshennoj-potlivosti.JPG
     category: products
+    link: /posts/izbavitsya-ot-povyshennoj-potlivosti
 ---
 # Избавиться от повышенной потливости:
 

@@ -2,6 +2,7 @@
     title: Убрать пигментные пятна
     hero_image: fotoudalenie-pigmentatsii.JPG
     category: products
+    link: /posts/fotoudalenie-pigmentatsii
 ---
 # Самые эффективные методы удаление пигментных пятен
 

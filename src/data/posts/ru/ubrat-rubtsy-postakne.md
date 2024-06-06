@@ -2,6 +2,7 @@
     title: Убрать акне 
     hero_image: ubrat-rubtsy-postakne.JPG
     category: products
+    link: /posts/ubrat-rubtsy-postakne
 ---
 # Убрать акне 
 

@@ -2,6 +2,7 @@
     title: Убрать темные круги под глазами
     hero_image: ubrat-temnye-krugi-pod-glazami.JPG
     category: products
+    link: /posts/ubrat-temnye-krugi-pod-glazami
 ---
 # Убрать темные круги под глазами
 

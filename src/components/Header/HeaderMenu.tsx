@@ -4,11 +4,11 @@ import { Menu, Group } from '@mantine/core';
 import { LINKS } from '@/data/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import { Link } from '@/i18n.config';
 import { IMenuItemsProps } from './Header.props';
 
 
-export default function HeaderMenu(): React.JSX.Element {
+export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element {
     const items = LINKS.map((link) => {
         const menuItems = link.links?.map((item: IMenuItemsProps) => {
             const innerMenuItems = item.links?.map((innerItem: IMenuItemsProps) => (
@@ -46,7 +46,7 @@ export default function HeaderMenu(): React.JSX.Element {
                             className='linkHover'
                         >
                             <Group gap={'xs'}>
-                                <span>{link.label}</span>
+                                <span>{translatedNavbar[link.name]}</span>
                                 <FontAwesomeIcon icon={faAngleDown} />
                             </Group>
                         </a>
@@ -64,7 +64,7 @@ export default function HeaderMenu(): React.JSX.Element {
                 href={link.link}
                 className='linkHover'
             >
-                {link.label}
+                {translatedNavbar[link.name]}
             </Link>
         );
     });

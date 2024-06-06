@@ -9,10 +9,18 @@ import HeaderMenu from './HeaderMenu';
 import styles from './Header.module.scss';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import HeaderDrawer from './HeaderDrawer';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
+import LocaleSwitcher from '../LanguageSwitcher/LocaleSwitcher';
 
 export default async function Header() {
     const currentLocale = await getLocale();
+    const t = await getTranslations('Header.navbar');
+    const translatedNavbar = {
+        "services": t('services.label'),
+        "consult": t('consult.label'),
+        "aboutUs": t('aboutUs.label'),
+        "contacts": t('contacts.label'),
+    }
 
     return (
         <header className={styles.root}>
@@ -28,14 +36,14 @@ export default async function Header() {
                 </Link>
 
                 <Group gap={rem('28px')} visibleFrom='lg' justify='center' className='text-base font-light gap-y-3'>
-                    <HeaderMenu />
+                    <HeaderMenu translatedNavbar={translatedNavbar} />
                 </Group>
 
                 <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                    <LanguageSwitcher currentLocale={currentLocale} />
+                    <LocaleSwitcher locale={currentLocale} />
                 </Group>
 
-                <HeaderDrawer currentLocale={currentLocale} />
+                <HeaderDrawer currentLocale={currentLocale} translatedNavbar={translatedNavbar} />
             </nav>
         </header>
     )

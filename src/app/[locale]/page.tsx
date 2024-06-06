@@ -6,9 +6,6 @@ import InfoSection from '@/components/Sections/InfoSection/InfoSection';
 import ProductsSection from '@/components/Sections/ProductsSection/ProductsSection';
 import TestimonialsSection from '@/components/Sections/TestimonialsSection/TestimonialsSection';
 import { TeamSection } from '@/components/Team/TeamSection';
-import { ProductContextProvider } from '@/context/ProductContext';
-import { getFeaturedProductPosts } from '@/lib/api';
-import matter from 'gray-matter';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 export default async function Home({ params: { locale } }: any) {// Enable static rendering

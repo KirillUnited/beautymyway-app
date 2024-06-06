@@ -1,9 +1,10 @@
 import React from 'react';
-import TestimonialCarousel from '@/components/Testimonial/TestimonialCarousel';
-import { useTranslations } from 'next-intl';
+import { NextIntlClientProvider, useMessages, useTranslations } from 'next-intl';
+import { ClientTestimonialCarousel } from '@/components/Testimonial';
 
 
 export default function TestimonalsSection(): React.JSX.Element {
+    const messages = useMessages()
     const t = useTranslations('TESTIMONIALS');
 
     return (
@@ -12,7 +13,11 @@ export default function TestimonalsSection(): React.JSX.Element {
                 <div className='section-heading'>
                     <h2 className='section-title'>{t('title')}</h2>
                 </div>
-                <TestimonialCarousel/>
+                <NextIntlClientProvider
+                    messages={messages}
+                >
+                    <ClientTestimonialCarousel />
+                </NextIntlClientProvider>
             </div>
         </section>
     )

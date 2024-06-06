@@ -2,6 +2,7 @@
     title: Убрать мимические морщины
     hero_image: konturnaya-plastika.JPG
     category: products
+    link: /posts/konturnaya-plastika
 ---
 # Убрать мимические морщины
 

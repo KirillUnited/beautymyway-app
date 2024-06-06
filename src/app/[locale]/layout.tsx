@@ -1,8 +1,7 @@
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { locales } from '@/i18n';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { locales } from '@/i18n.config';
 import { ReactNode } from 'react';
 
 type Props = {
@@ -31,19 +30,19 @@ export default async function LocaleLayout({
 }: {
 	children: React.ReactNode;
 	params: { locale: string };
-}) {// Enable static rendering
+}) {
+	// Enable static rendering
 	unstable_setRequestLocale(params.locale);
-	const messages = await getMessages();
 
 	return (
 		<div className='wrapper flex flex-col min-h-screen'>
-			<NextIntlClientProvider messages={messages}>
-				<Header />
-				<main className="content flex-1">
-					{children}
-				</main>
-				<Footer />
-			</NextIntlClientProvider>
+
+			<Header />
+			<main className="content flex-1">
+				{children}
+			</main>
+			<Footer />
+
 		</div>
 	)
 }

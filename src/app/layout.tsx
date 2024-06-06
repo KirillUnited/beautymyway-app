@@ -1,9 +1,20 @@
-import type { Metadata } from 'next';
+import { ReactNode } from 'react';
 import '@mantine/core/styles.css';
 import '@/styles/globals.scss';
-import { mulish, futura } from '@/config/fonts';
+import type { Metadata } from 'next';
+import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/config/theme';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { futura, mulish } from '@/config/fonts';
+
+type Props = {
+	children: ReactNode;
+};
+
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+// export default function RootLayout({ children }: Props) {
+// 	return children;
+// }
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://beautymyway.es'),
@@ -27,13 +38,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-	params
 }: {
 	children: React.ReactNode;
-	params: { locale: string };
 }) {
 	return (
-		<html lang={params.locale}>
+		<html lang='ru'>
 			<head>
 				<ColorSchemeScript />
 			</head>

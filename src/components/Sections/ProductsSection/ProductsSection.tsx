@@ -1,14 +1,20 @@
 import ProductCard from '@/components/ProductCard/ProductCard';
 import Link from 'next/link';
 import React from 'react';
-import { useLocale, useTranslations } from 'next-intl';
-import { getPostsByCategory } from '@/lib/api/posts';
+import { getPosts } from '@/lib/api/posts';
 import { getLocale, getTranslations } from 'next-intl/server';
 
 export default async function ProductsSection() {
     const locale = await getLocale();
     const t = await getTranslations('Products');
-    const PRODUCTS = await getPostsByCategory(locale, 'products');
+    const posts = await getPosts(locale);
+    const PRODUCT_POST_LIST = posts.filter((product) => {
+        const category = product?.data?.category;
+
+        if ((typeof category !== 'undefined') && (category === 'products')) {
+            return product
+        }
+    });
 
     return (
         <section>
@@ -18,19 +24,14 @@ export default async function ProductsSection() {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-3">
                 {
-                    PRODUCTS?.map((item, index) => {
-                        if(typeof item?.data?.category === 'undefined') {
-                            return null
-                        }
-                        const image = item?.data?.hero_image;
-                        const title = item?.data?.title;
-                        const link = item?.data?.link;
-
+                    PRODUCT_POST_LIST?.map((item, index) => {
+                        const data = item?.data;
+                        
                         return (
-                            <Link href={link || '/'} key={index}>
+                            <Link href={data?.link || '/'} key={index}>
                                 <ProductCard
-                                    image={image}
-                                    title={title}
+                                    image={data?.hero_image}
+                                    title={data?.title}
                                 />
                             </Link>
                         )

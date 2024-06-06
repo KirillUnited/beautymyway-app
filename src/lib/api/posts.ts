@@ -46,6 +46,6 @@ export async function getPostBySlug({ locale, slug }: { locale: string, slug: st
     return {
         frontmatter: data,
         markdownBody: content,
-        link: `/posts/${locale}/${slug}`
+        link: `/posts/${slug}`
     }
 }

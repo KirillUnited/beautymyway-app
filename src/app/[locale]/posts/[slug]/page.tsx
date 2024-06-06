@@ -3,12 +3,17 @@ import Image from "next/image"
 import matter from "gray-matter"
 import ReactMarkdown from "react-markdown"
 import styles from "@/styles/post.module.scss";
+import { locales } from '@/i18n.config';
 
 type Props = {
     params: {
         locale: string,
         slug: string
     }
+}
+
+export function generateStaticParams() {
+	return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: Props) {

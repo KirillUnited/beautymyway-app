@@ -4,7 +4,7 @@ import { Menu, Group } from '@mantine/core';
 import { LINKS } from '@/data/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import { Link } from '@/i18n.config';
 import { IMenuItemsProps } from './Header.props';
 
 

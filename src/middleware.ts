@@ -4,7 +4,8 @@ import { locales } from "./i18n.config";
 const middleware = createMiddleware({
     defaultLocale: 'ru',
     locales,
-    localeDetection: false,
+    localeDetection: true,
+    localePrefix: "always"
 });
 
 export default middleware;

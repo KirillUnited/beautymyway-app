@@ -3,6 +3,22 @@
         "title": "La belleza es libertad.",
         "description": "Para obtener una consulta o concertar una cita, comuníquese con el número de contacto indicado en el sitio web."
     },
+    "Header": {
+        "navbar": {
+            "services": {
+                "label": "Servicios"
+            },
+            "consult": {
+                "label": "Consulta"
+            },
+            "aboutUs": {
+                "label": "Sobre nosotros"
+            },
+            "contacts": {
+                "label": "Contactos"
+            }
+        }
+    },
     "Hero": {
         "title": "La belleza es libertad.",
         "text": "Hace un siglo y hoy esta verdad permanece inalterada, Sólo los medios para alcanzar la belleza han cambiado."

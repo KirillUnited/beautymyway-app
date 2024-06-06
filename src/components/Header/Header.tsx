@@ -9,10 +9,12 @@ import HeaderMenu from './HeaderMenu';
 import styles from './Header.module.scss';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import HeaderDrawer from './HeaderDrawer';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 
 export default async function Header() {
     const currentLocale = await getLocale();
+    const t = await getTranslations('Header');
+    console.log(t('navbar'))
 
     return (
         <header className={styles.root}>

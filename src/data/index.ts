@@ -2,6 +2,7 @@ export const LINKS = [
     {
         link: '/',
         label: 'Услуги',
+        name: 'services',
         collection: 'posts',
         links: [
             {
@@ -126,11 +127,13 @@ export const LINKS = [
     },
     {
         link: '/posts/ru/consult',
-        label: 'Консультация'
+        label: 'Консультация',
+        name: 'consult',
     },
     {
         link: '/',
         label: 'О нас',
+        name: 'aboutUs',
         links: [
             {
                 link: '/posts/ru/about',
@@ -145,6 +148,7 @@ export const LINKS = [
     {
         link: '/#info',
         label: 'Контакты',
+        name: 'contacts',
     },
 ];
 

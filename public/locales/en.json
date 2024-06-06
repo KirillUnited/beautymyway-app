@@ -3,6 +3,22 @@
         "title": "Beauty is Freedom.",
         "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website."
     },
+    "Header": {
+        "navbar": {
+            "services":{
+                "label": "Services"
+            },
+            "consult":{
+                "label": "Consultation"
+            },
+            "aboutUs":{
+                "label": "About Us"
+            },
+            "contacts":{
+                "label": "Contacts"
+            }
+        }
+    },
     "Hero": {
         "title": "Beauty is Freedom.",
         "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"

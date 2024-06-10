@@ -1,22 +1,26 @@
 import React from 'react';
 import Image from 'next/image';
-import {Link} from '@/i18n.config';
+import { Link } from '@/i18n.config';
 import Contacts from '@/components/Contacts/Contacts';
 import { CONTACTS, LINKS } from '@/data';
 import { useTranslations } from 'next-intl';
 
-type linksCategoryType = 'О нас' | 'Услуги';
+type linksCategoryType = 'aboutUs' | 'services';
 
 const getLinks = (name: linksCategoryType) => {
+    const t = useTranslations(`Header.navbar.${name}.menuItems`);
     const links = LINKS.filter((item) => {
-        if (item.label === name) return item;
-    })[0].links?.map((item) => (
-        <li key={item.label}>
-            <Link href={item.link} className='linkHover inline-block'>{item.label}</Link>
-        </li>
-    ));
+        if (item.name === name) return item;
+    })[0].links?.map((item) => {
+        if (typeof item?.name === 'undefined') return null;
+        return (
+            <li key={item.label}>
+                <Link href={item.link} className='linkHover inline-block'>{t(`${item.name}`)}</Link>
+            </li>
+        )
+});
 
-    return links;
+return links;
 }
 
 export default function Footer() {
@@ -39,11 +43,11 @@ export default function Footer() {
                 </div>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">{t('aboutUs.label')}</span>
-                    {getLinks('О нас')}
+                    {getLinks('aboutUs')}
                 </ul>
                 <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
                     <span className="text-lg font-semibold leading-7">{t('services.label')}</span>
-                    {getLinks('Услуги')}
+                    {getLinks('services')}
                 </ul>
             </div>
             <div className="container">

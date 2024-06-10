@@ -8,6 +8,7 @@ export const LINKS = [
             {
                 link: '',
                 label: 'Аппаратная коррекция фигуры',
+                name: 'service_1',
                 links: [
                     {
                         link: '/posts/spheraway',
@@ -22,18 +23,22 @@ export const LINKS = [
             {
                 link: '/posts/nutriciologiya',
                 label: 'Нутрициология',
+                name: 'service_2',
             },
             {
                 link: '/posts/trenirovki',
                 label: 'Тренировки',
+                name: 'service_3',
             },
             {
                 link: '/posts/psihologiya',
                 label: 'Психология',
+                name: 'service_4',
             },
             {
                 link: '',
                 label: 'Лазерная косметология',
+                name: 'service_5',
                 links: [
                     {
                         link: '/posts/lazernoe-omolozhenie-litsa',
@@ -48,10 +53,12 @@ export const LINKS = [
             {
                 link: '/posts/fotoepilyatsiya',
                 label: 'Лазерная эпиляция',
+                name: 'service_6',
             },
             {
                 link: '',
                 label: 'Аппаратная косметология',
+                name: 'service_7',
                 links: [
                     {
                         link: '/posts/fotoomolozhenie-ipl',
@@ -78,6 +85,7 @@ export const LINKS = [
             {
                 link: '',
                 label: 'Инъекционная косметология',
+                name: 'service_8',
                 links: [
                     {
                         link: '/posts/mezoterapiya-litsa',
@@ -100,6 +108,7 @@ export const LINKS = [
             {
                 link: '',
                 label: 'Уходовая косметология',
+                name: 'service_9',
                 links: [
                     {
                         link: '/posts/chistka-lica',
@@ -138,10 +147,12 @@ export const LINKS = [
             {
                 link: '/posts/about',
                 label: 'Кто мы',
+                name: "whoAreWe"
             },
             {
                 link: '/#testimonials',
                 label: 'Отзывы',
+                name: "reviews"
             },
         ]
     },

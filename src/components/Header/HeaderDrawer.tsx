@@ -8,9 +8,14 @@ import Image from 'next/image';
 import HeaderNav from './HeaderNav';
 import { locales } from '@/i18n.config';
 import classNames from 'classnames';
+import useLocaleSwitcher from '@/hooks/useLocaleSwitcher';
 
 export default function HeaderDrawer({ currentLocale, translatedNavbar }: { currentLocale: any, translatedNavbar: any }) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
+    const { changeLocale } = useLocaleSwitcher();
+    const handleLocaleChange = (localeName: string) => {
+        changeLocale(localeName)
+    }
 
     return (
         <>
@@ -43,24 +48,22 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                 </Flex>
 
                 <Flex direction={'row'} gap={'md'} align="center" justify={'center'} key={235352535235}>
-                    <Menu classNames={{dropdown:classNames('inline-flex')}}>
+                    <Menu classNames={{ dropdown: classNames('inline-flex') }}>
                         {
                             locales.map((localeName) => {
                                 return (
-                                    <Menu.Item key={localeName} className={classNames('w-auto uppercase px-0',
-                                        styles.navLink
-                                    )}>
-                                        <Link href={localeName} className='flex px-4'>
-                                            {localeName}
-                                        </Link>
+                                    <Menu.Item
+                                        key={localeName}
+                                        className={classNames('w-auto uppercase px-4',
+                                            styles.navLink
+                                        )}
+                                        onClick={() => handleLocaleChange(localeName)}
+                                    >
+                                        {localeName}
                                     </Menu.Item>
                                 );
                             })}
                     </Menu>
-                    {/* <div className="flex items-center justify-center font-light">
-                        <button className={`px-2`}>Ua</button>
-                        <button className={`px-2`}>Es</button>
-                    </div> */}
                 </Flex>
             </Drawer>
         </>

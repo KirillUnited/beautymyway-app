@@ -7,7 +7,6 @@ import {
 } from '@mantine/core';
 import HeaderMenu from './HeaderMenu';
 import styles from './Header.module.scss';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 import HeaderDrawer from './HeaderDrawer';
 import { getLocale } from 'next-intl/server';
 import LocaleSwitcher from '../LanguageSwitcher/LocaleSwitcher';

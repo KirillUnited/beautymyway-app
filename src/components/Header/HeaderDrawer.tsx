@@ -6,7 +6,6 @@ import React from 'react'
 import styles from './Header.module.scss';
 import Image from 'next/image';
 import HeaderNav from './HeaderNav';
-import LanguageSwitcher from '../LanguageSwitcher';
 import { locales } from '@/i18n.config';
 import classNames from 'classnames';
 
@@ -43,15 +42,15 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                     <HeaderNav closeNav={closeDrawer} translatedNavbar={translatedNavbar} currentLocale={currentLocale} />
                 </Flex>
 
-                <Flex direction={'row'} gap={'md'} align="center" key={235352535235}>
-                    <Menu>
+                <Flex direction={'row'} gap={'md'} align="center" justify={'center'} key={235352535235}>
+                    <Menu classNames={{dropdown:classNames('inline-flex')}}>
                         {
                             locales.map((localeName) => {
                                 return (
-                                    <Menu.Item key={localeName} className={classNames('uppercase px-0',
+                                    <Menu.Item key={localeName} className={classNames('w-auto uppercase px-0',
                                         styles.navLink
                                     )}>
-                                        <Link href={localeName} className='px-4'>
+                                        <Link href={localeName} className='flex px-4'>
                                             {localeName}
                                         </Link>
                                     </Menu.Item>

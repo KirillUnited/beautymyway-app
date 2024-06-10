@@ -34,8 +34,8 @@ export default function LocaleSwitcher({
                 comboboxProps={{ transitionProps: { transition: 'pop', duration: 200 } }}
                 classNames={
                     {
-                        input: 'uppercase',
-                        option: 'text-black uppercase'
+                        input: 'uppercase bg-transparent text-primary border-none w-20',
+                        option: 'text-foreground uppercase'
                     }
                 }
             />

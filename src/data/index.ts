@@ -12,11 +12,13 @@ export const LINKS = [
                 links: [
                     {
                         link: '/posts/spheraway',
-                        label: 'SpheraWay для лица и тела'
+                        label: 'SpheraWay для лица и тела',
+                        name: 'sub_service_1',
                     },
                     {
                         link: '/posts/sculptway',
-                        label: 'SculptWay - сжигание жира и коррекция фигуры'
+                        label: 'SculptWay - сжигание жира и коррекция фигуры',
+                        name: 'sub_service_2',
                     },
                 ]
             },
@@ -42,11 +44,13 @@ export const LINKS = [
                 links: [
                     {
                         link: '/posts/lazernoe-omolozhenie-litsa',
-                        label: 'Лазерное омоложение лица'
+                        label: 'Лазерное омоложение лица',
+                        name: 'sub_service_1',
                     },
                     {
                         link: '/posts/udalenie-pigmentnyh-pyaten-lazerom',
-                        label: 'Удаление пигментных пятен лазером'
+                        label: 'Удаление пигментных пятен лазером',
+                        name: 'sub_service_2',
                     },
                 ]
             },
@@ -62,23 +66,28 @@ export const LINKS = [
                 links: [
                     {
                         link: '/posts/fotoomolozhenie-ipl',
-                        label: 'Фотоомоложение IPL'
+                        label: 'Фотоомоложение IPL',
+                        name: 'sub_service_1',
                     },
                     {
                         link: '/posts/spheraway',
-                        label: 'SpheraWay для лица и тела'
+                        label: 'SpheraWay для лица и тела',
+                        name: 'sub_service_2',
                     },
                     {
                         link: '/posts/sculptway',
-                        label: 'SculptWay - сжигание жира и коррекция фигуры'
+                        label: 'SculptWay - сжигание жира и коррекция фигуры',
+                        name: 'sub_service_3',
                     },
                     {
                         link: '/posts/rf-lifting',
-                        label: 'RF-лифтинг'
+                        label: 'RF-лифтинг',
+                        name: 'sub_service_4',
                     },
                     {
                         link: '/posts/beatyway',
-                        label: 'Комплекс BeatyWay'
+                        label: 'Комплекс BeatyWay',
+                        name: 'sub_service_5',
                     },
                 ]
             },
@@ -90,18 +99,22 @@ export const LINKS = [
                     {
                         link: '/posts/mezoterapiya-litsa',
                         label: 'Mезотерапия лица',
+                        name: 'sub_service_1',
                     },
                     {
                         link: '/posts/mezoterapiya-tela',
                         label: 'Mезотерапия тела',
+                        name: 'sub_service_2',
                     },
                     {
                         link: '/posts/mezoterapiya-volos',
                         label: 'Mезотерапия волос',
+                        name: 'sub_service_3',
                     },
                     {
                         link: '/posts/biorevitalizatsiya',
                         label: 'Биоревитализация',
+                        name: 'sub_service_4',
                     },
                 ]
             },
@@ -113,22 +126,27 @@ export const LINKS = [
                     {
                         link: '/posts/chistka-lica',
                         label: 'Чистка лица',
+                        name: 'sub_service_1',
                     },
                     {
                         link: '/posts/himicheskij-piling',
                         label: 'Xимические пилинги',
+                        name: 'sub_service_2',
                     },
                     {
                         link: '/posts/karboksiterapiya',
                         label: 'Карбокситерапия',
+                        name: 'sub_service_3',
                     },
                     {
                         link: '/posts/mikrotokovaya-terapiya',
                         label: 'Микротоковая терапия',
+                        name: 'sub_service_4',
                     },
                     {
                         link: '/posts/limfodrenazhnyj-massazh-lica',
                         label: 'Лимфодренажный массаж лица',
+                        name: 'sub_service_5',
                     },
                 ]
             },
@@ -322,6 +340,6 @@ export const CONTACTS = {
     socials: {
         instagram: ['https://www.instagram.com/beauty.my.way', 'https://www.instagram.com/beauty.my.way'],
         telegram: ['https://t.me/+34643942528', 'https://t.me/+34643939409'],
-        whatsapp:['https://wa.me/34643942528', 'https://wa.me/34643939409']
+        whatsapp: ['https://wa.me/34643942528', 'https://wa.me/34643939409']
     }
 };

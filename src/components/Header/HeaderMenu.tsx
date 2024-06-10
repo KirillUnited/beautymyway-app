@@ -11,6 +11,7 @@ import { IMenuItemsProps } from './Header.props';
 export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element {
     const items = LINKS.map((link) => {
         const menuItems = link.links?.map((item: IMenuItemsProps) => {
+            const translatedMenuItem = translatedNavbar[link.name].menuItems[`${item.name}`];
             const innerMenuItems = item.links?.map((innerItem: IMenuItemsProps) => (
                 <Menu.Item key={innerItem.label} component={Link} href={innerItem.link}>{innerItem.label}</Menu.Item>
             ));
@@ -21,7 +22,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
                         <Menu key={item.label} trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow position="right-start" offset={20}>
                             <Menu.Target>
                                 <Group gap={'xs'}>
-                                    <span>{item.label}</span>
+                                    <span>{translatedMenuItem}</span>
                                     <FontAwesomeIcon icon={faAngleRight} />
                                 </Group>
                             </Menu.Target>
@@ -34,7 +35,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
             }
 
             return (
-                <Menu.Item key={item.label} component={Link} href={item.link}>{item.label}</Menu.Item>
+                <Menu.Item key={item.label} component={Link} href={item.link}>{translatedMenuItem}</Menu.Item>
             );
         });
 
@@ -46,7 +47,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
                             className='linkHover'
                         >
                             <Group gap={'xs'}>
-                                <span>{translatedNavbar[link.name]}</span>
+                                <span>{translatedNavbar[link.name].label}</span>
                                 <FontAwesomeIcon icon={faAngleDown} />
                             </Group>
                         </a>
@@ -64,7 +65,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
                 href={link.link}
                 className='linkHover'
             >
-                {translatedNavbar[link.name]}
+                {translatedNavbar[link.name].label}
             </Link>
         );
     });

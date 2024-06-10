@@ -6,7 +6,18 @@
     "Header": {
         "navbar": {
             "services": {
-                "label": "Servicios"
+                "label": "Servicios",
+                "menuItems": {
+                    "service_1": "Corrección del cuerpo del hardware",
+                    "service_2": "Nutritología",
+                    "service_3": "Ejercicio",
+                    "service_4": "Psicología",
+                    "service_5": "Cosmetología láser",
+                    "service_6": "La depilación láser",
+                    "service_7": "Cosmetología de hardware",
+                    "service_8": "Cosmetología de inyección",
+                    "service_9": "Cosmetología del cuidado de la piel"
+                }
             },
             "consult": {
                 "label": "Consulta"

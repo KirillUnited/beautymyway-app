@@ -6,7 +6,18 @@
     "Header": {
         "navbar": {
             "services": {
-                "label": "Services"
+                "label": "Services",
+                "menuItems": {
+                    "service_1": "Hardware body correction",
+                    "service_2": "Nutritionology",
+                    "service_3": "Workout",
+                    "service_4": "Psychology",
+                    "service_5": "Laser cosmetology",
+                    "service_6": "Laser hair removal",
+                    "service_7": "Hardware cosmetology",
+                    "service_8": "Injection cosmetology",
+                    "service_9": "Skincare cosmetology"
+                }
             },
             "consult": {
                 "label": "Consultation"

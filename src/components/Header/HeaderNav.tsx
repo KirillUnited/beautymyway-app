@@ -7,6 +7,7 @@ import { IHeaderProps, IMenuItemsProps } from './Header.props';
 export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }: IHeaderProps): React.JSX.Element {    
     const NavLinks = LINKS.map((link) => {
         const menuItems = link.links?.map((item: IMenuItemsProps, index) => {
+            const translatedMenuItem = translatedNavbar[link.name].menuItems[`${item.name}`];
             const innerItems = item.links?.map((innerItem: IMenuItemsProps) => {
                 return (
                     <NavLink
@@ -23,7 +24,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
                 return (
                     <NavLink
                         className={styles.navLink}
-                        label={item.label}
+                        label={translatedMenuItem}
                         key={Math.random()}
                     >
                         {innerItems}
@@ -35,7 +36,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
                 <NavLink
                     href={item.link}
                     className={styles.navLink}
-                    label={item.label}
+                    label={translatedMenuItem}
                     key={Math.random()}
                     onClick={() => closeNav()}
                 />
@@ -45,7 +46,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
         if (menuItems) {
             return (
                 <NavLink
-                    label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name]}</span>}
+                    label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name].label}</span>}
                     className={styles.navLink}
                     key={Math.random()}
                 >
@@ -58,7 +59,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
             <NavLink
                 href={`/${currentLocale}${link.link}`}
                 className={styles.navLink}
-                label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name]}</span>}
+                label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name].label}</span>}
                 key={Math.random()}
                 onClick={() => closeNav()}
             />

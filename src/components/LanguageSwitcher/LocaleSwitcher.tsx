@@ -1,9 +1,8 @@
 "use client";
 
+import useLocaleSwitcher from "@/hooks/useLocaleSwitcher";
 import {
     locales,
-    usePathname,
-    useRouter,
     type Locale,
 } from "@/i18n.config";
 import { Select } from "@mantine/core";
@@ -13,16 +12,7 @@ export default function LocaleSwitcher({
 }: {
     locale: string;
 }) {
-    // `pathname` will contain the current
-    // route without the locale e.g. `/about`...
-    const pathname = usePathname();
-    const router = useRouter();
-
-    const changeLocale = (
-        newLocale: any,
-    ) => {
-        router.replace(pathname, { locale: newLocale });
-    };
+    const { changeLocale } = useLocaleSwitcher();
 
     return (
         <div>
@@ -34,8 +24,8 @@ export default function LocaleSwitcher({
                 comboboxProps={{ transitionProps: { transition: 'pop', duration: 200 } }}
                 classNames={
                     {
-                        input: 'uppercase',
-                        option: 'text-black uppercase'
+                        input: 'uppercase bg-transparent text-primary border-none w-20',
+                        option: 'text-foreground uppercase'
                     }
                 }
             />

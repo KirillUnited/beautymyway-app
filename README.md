@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Live preview](https://beautymyway.netlify.app)
+
+## ⚙️ Tech Stack
+
+- 🏎️ Next.js - Fast by default, with config optimized for performance (with App Directory)
+- 💅 Mantine - includes more than 100 customizable components and 50 hooks to cover you in any situation
+- 💅 Tailwind CSS - A utility-first CSS framework for rapid UI development
+- ⚔️ Internationalized routing: `next-intl` provide unique pathnames per language and optionally localize pathnames for search engine optimization.
 
 ## Getting Started
 

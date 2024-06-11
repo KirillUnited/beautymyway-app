@@ -15,7 +15,7 @@ const useNavbarLinks = (name: linksCategoryType) => {
         if (typeof item?.name === 'undefined') return null;
         return (
             <li key={item.label}>
-                <Link href={item.link} className='linkHover inline-block'>{t(`${item.name}`)}</Link>
+                <Link href={item.link} className='linkHover inline-block'>{t(`${item.name}.label`)}</Link>
             </li>
         )
     });

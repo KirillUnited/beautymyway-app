@@ -5,31 +5,81 @@
     },
     "Header": {
         "navbar": {
-            "services":{
+            "services": {
                 "label": "Услуги",
                 "menuItems": {
-                    "service_1": "Аппаратная коррекция фигуры",
-                    "service_2": "Нутрициология",
-                    "service_3": "Тренировки",
-                    "service_4": "Психология",
-                    "service_5": "Лазерная косметология",
-                    "service_6": "Лазерная эпиляция",
-                    "service_7": "Аппаратная косметология",
-                    "service_8": "Инъекционная косметология",
-                    "service_9": "Уходовая косметология"
+                    "service_1": {
+                        "label": "Аппаратная коррекция фигуры",
+                        "innerMenuItems": {
+                            "sub_service_1": "SpheraWay для лица и тела",
+                            "sub_service_2": "SculptWay - сжигание жира и коррекция фигуры"
+                        }
+                    },
+                    "service_2": {
+                        "label": "Нутрициология"
+                    },
+                    "service_3": {
+                        "label": "Тренировки"
+                    },
+                    "service_4": {
+                        "label": "Психология"
+                    },
+                    "service_5": {
+                        "label": "Лазерная косметология",
+                        "innerMenuItems": {
+                            "sub_service_1": "Лазерное омоложение лица",
+                            "sub_service_2": "Удаление пигментных пятен лазером"
+                        }
+                    },
+                    "service_6": {
+                        "label": "Лазерная эпиляция"
+                    },
+                    "service_7": {
+                        "label": "Аппаратная косметология",
+                        "innerMenuItems": {
+                            "sub_service_1": "Фотоомоложение IPL",
+                            "sub_service_2": "SpheraWay для лица и тела",
+                            "sub_service_3": "SculptWay - сжигание жира и коррекция фигуры",
+                            "sub_service_4": "RF-лифтинг",
+                            "sub_service_5": "Комплекс BeatyWay"
+                        }
+                    },
+                    "service_8": {
+                        "label": "Инъекционная косметология",
+                        "innerMenuItems": {
+                            "sub_service_1": "Mезотерапия лица",
+                            "sub_service_2": "Mезотерапия тела",
+                            "sub_service_3": "Mезотерапия волос",
+                            "sub_service_4": "Биоревитализация"
+                        }
+                    },
+                    "service_9": {
+                        "label": "Уходовая косметология",
+                        "innerMenuItems": {
+                            "sub_service_1": "Чистка лица",
+                            "sub_service_2": "Xимические пилинги",
+                            "sub_service_3": "Карбокситерапия",
+                            "sub_service_4": "Микротоковая терапия",
+                            "sub_service_5": "Лимфодренажный массаж лица"
+                        }
+                    }
                 }
             },
-            "consult":{
+            "consult": {
                 "label": "Консультация"
             },
-            "aboutUs":{
+            "aboutUs": {
                 "label": "О нас",
                 "menuItems": {
-                    "whoAreWe": "Кто мы",
-                    "reviews": "Отзывы"
+                    "whoAreWe": {
+                        "label": "Кто мы"
+                    },
+                    "reviews": {
+                        "label": "Отзывы"
+                    }
                 }
             },
-            "contacts":{
+            "contacts": {
                 "label": "Контакты"
             }
         }

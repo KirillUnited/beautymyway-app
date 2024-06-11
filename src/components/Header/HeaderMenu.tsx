@@ -13,7 +13,9 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
         const menuItems = link.links?.map((item: IMenuItemsProps) => {
             const translatedMenuItem = translatedNavbar[link.name].menuItems[`${item.name}`];
             const innerMenuItems = item.links?.map((innerItem: IMenuItemsProps) => (
-                <Menu.Item key={innerItem.label} component={Link} href={innerItem.link}>{innerItem.label}</Menu.Item>
+                <Menu.Item key={innerItem.label} component={Link} href={innerItem.link}>
+                    {translatedMenuItem.innerMenuItems[`${innerItem.name}`]}
+                </Menu.Item>
             ));
 
             if (innerMenuItems) {
@@ -22,7 +24,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
                         <Menu key={item.label} trigger="hover" transitionProps={{ exitDuration: 150 }} withinPortal withArrow position="right-start" offset={20}>
                             <Menu.Target>
                                 <Group gap={'xs'}>
-                                    <span>{translatedMenuItem}</span>
+                                    <span>{translatedMenuItem.label}</span>
                                     <FontAwesomeIcon icon={faAngleRight} />
                                 </Group>
                             </Menu.Target>
@@ -35,7 +37,7 @@ export default function HeaderMenu({ translatedNavbar }: any): React.JSX.Element
             }
 
             return (
-                <Menu.Item key={item.label} component={Link} href={item.link}>{translatedMenuItem}</Menu.Item>
+                <Menu.Item key={item.label} component={Link} href={item.link}>{translatedMenuItem.label}</Menu.Item>
             );
         });
 

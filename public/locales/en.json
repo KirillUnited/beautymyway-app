@@ -8,15 +8,61 @@
             "services": {
                 "label": "Services",
                 "menuItems": {
-                    "service_1": "Hardware body correction",
-                    "service_2": "Nutritionology",
-                    "service_3": "Workout",
-                    "service_4": "Psychology",
-                    "service_5": "Laser cosmetology",
-                    "service_6": "Laser hair removal",
-                    "service_7": "Hardware cosmetology",
-                    "service_8": "Injection cosmetology",
-                    "service_9": "Skincare cosmetology"
+                    "service_1": {
+                        "label": "Hardware body correction",
+                        "innerMenuItems": {
+                            "sub_service_1": "SpheraWay for face and body",
+                            "sub_service_2": "SculptWay - fat burning and figure correction'"
+                        }
+                    },
+                    "service_2": {
+                        "label": "Nutritionology"
+                    },
+                    "service_3": {
+                        "label": "Workout"
+                    },
+                    "service_4": {
+                        "label": "Psychology"
+                    },
+                    "service_5": {
+                        "label": "Laser cosmetology",
+                        "innerMenuItems": {
+                            "sub_service_1": "Laser facial rejuvenation",
+                            "sub_service_2": "Laser removal of pigment spots"
+                        }
+                    },
+                    "service_6": {
+                        "label": "Laser hair removal"
+                    },
+                    "service_7": {
+                        "label": "Hardware cosmetology",
+                        "innerMenuItems": {
+                            "sub_service_1": "IPL photorejuvenation",
+                            "sub_service_2": "SpheraWay for face and body",
+                            "sub_service_3": "SculptWay - fat burning and figure correction",
+                            "sub_service_4": "RF lifting",
+                            "sub_service_5": "BeatyWay complex"
+                        }
+                    },
+                    "service_8": {
+                        "label": "Injection cosmetology",
+                        "innerMenuItems": {
+                            "sub_service_1": "Facial mesotherapy",
+                            "sub_service_2": "Body mesotherapy",
+                            "sub_service_3": "Hair mesotherapy",
+                            "sub_service_4": "Biorevitalization"
+                        }
+                    },
+                    "service_9": {
+                        "label": "Skincare cosmetology",
+                        "innerMenuItems": {
+                            "sub_service_1": "Face cleaning",
+                            "sub_service_2": "Chemical peels",
+                            "sub_service_3": "Carboxytherapy",
+                            "sub_service_4": "Microcurrent therapy",
+                            "sub_service_5": "Lymphatic drainage facial massage"
+                        }
+                    }
                 }
             },
             "consult": {
@@ -25,8 +71,12 @@
             "aboutUs": {
                 "label": "About Us",
                 "menuItems": {
-                    "whoAreWe": "Who are we",
-                    "reviews": "Reviews"
+                    "whoAreWe": {
+                        "label": "Who are we"
+                    },
+                    "reviews": {
+                        "label": "Reviews"
+                    }
                 }
             },
             "contacts": {

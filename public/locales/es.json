@@ -8,15 +8,61 @@
             "services": {
                 "label": "Servicios",
                 "menuItems": {
-                    "service_1": "Corrección del cuerpo del hardware",
-                    "service_2": "Nutritología",
-                    "service_3": "Ejercicio",
-                    "service_4": "Psicología",
-                    "service_5": "Cosmetología láser",
-                    "service_6": "La depilación láser",
-                    "service_7": "Cosmetología de hardware",
-                    "service_8": "Cosmetología de inyección",
-                    "service_9": "Cosmetología del cuidado de la piel"
+                    "service_1": {
+                        "label": "Corrección del cuerpo del hardware",
+                        "innerMenuItems": {
+                            "sub_service_1": "SpheraWay para rostro y cuerpo",
+                            "sub_service_2": "SculptWay - quema grasa y corrección de figura'"
+                        }
+                    },
+                    "service_2": {
+                        "label": "Nutritología"
+                    },
+                    "service_3": {
+                        "label": "Ejercicio"
+                    },
+                    "service_4": {
+                        "label": "Psicología"
+                    },
+                    "service_5": {
+                        "label": "Cosmetología láser",
+                        "innerMenuItems": {
+                            "sub_service_1": "Rejuvenecimiento facial con láser",
+                            "sub_service_2": "Eliminación láser de manchas de pigmento."
+                        }
+                    },
+                    "service_6": {
+                        "label": "La depilación láser"
+                    },
+                    "service_7": {
+                        "label": "Cosmetología de hardware",
+                        "innerMenuItems": {
+                            "sub_service_1": "Fotorrejuvenecimiento IPL",
+                            "sub_service_2": "SpheraWay para rostro y cuerpo",
+                            "sub_service_3": "SculptWay - quema grasa y corrección de figura",
+                            "sub_service_4": "elevación por radiofrecuencia",
+                            "sub_service_5": "Complejo BeatyWay"
+                        }
+                    },
+                    "service_8": {
+                        "label": "Cosmetología de inyección",
+                        "innerMenuItems": {
+                            "sub_service_1": "mesoterapia facial",
+                            "sub_service_2": "Mesoterapia corporal",
+                            "sub_service_3": "Mesoterapia capilar",
+                            "sub_service_4": "Biorevitalización"
+                        }
+                    },
+                    "service_9": {
+                        "label": "Cosmetología del cuidado de la piel",
+                        "innerMenuItems": {
+                            "sub_service_1": "limpieza facial",
+                            "sub_service_2": "exfoliaciones químicas",
+                            "sub_service_3": "Carboxiterapia",
+                            "sub_service_4": "Terapia de microcorriente",
+                            "sub_service_5": "Masaje facial de drenaje linfático."
+                        }
+                    }
                 }
             },
             "consult": {
@@ -25,8 +71,12 @@
             "aboutUs": {
                 "label": "Sobre nosotros",
                 "menuItems": {
-                    "whoAreWe": "Quienes somos",
-                    "reviews": "Reseñas"
+                    "whoAreWe": {
+                        "label": "Quienes somos"
+                    },
+                    "reviews": {
+                        "label": "Reseñas"
+                    }
                 }
             },
             "contacts": {

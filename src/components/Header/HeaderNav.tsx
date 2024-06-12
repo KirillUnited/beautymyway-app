@@ -13,7 +13,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
                     <NavLink
                         href={innerItem.link}
                         className={styles.navLink}
-                        label={innerItem.label}
+                        label={translatedMenuItem.innerMenuItems[`${innerItem.name}`]}
                         key={innerItem.label}
                         onClick={() => closeNav()}
                     />

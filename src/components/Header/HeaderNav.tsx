@@ -11,7 +11,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
             const innerItems = item.links?.map((innerItem: IMenuItemsProps) => {
                 return (
                     <NavLink
-                        href={innerItem.link}
+                        href={`/${currentLocale}${innerItem.link}`}
                         className={styles.navLink}
                         label={translatedMenuItem.innerMenuItems[`${innerItem.name}`]}
                         key={innerItem.label}
@@ -34,7 +34,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
 
             return (
                 <NavLink
-                    href={item.link}
+                    href={`/${currentLocale}${item.link}`}
                     className={styles.navLink}
                     label={translatedMenuItem.label}
                     key={Math.random()}

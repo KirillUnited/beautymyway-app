@@ -24,7 +24,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
                 return (
                     <NavLink
                         className={styles.navLink}
-                        label={translatedMenuItem}
+                        label={translatedMenuItem.label}
                         key={Math.random()}
                     >
                         {innerItems}
@@ -36,7 +36,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
                 <NavLink
                     href={item.link}
                     className={styles.navLink}
-                    label={translatedMenuItem}
+                    label={translatedMenuItem.label}
                     key={Math.random()}
                     onClick={() => closeNav()}
                 />

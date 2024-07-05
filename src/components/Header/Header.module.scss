@@ -1,7 +1,7 @@
 .root {
     @apply sticky top-0 left-0 z-50 w-full;
     background-color: rgba(#2B3632, $alpha: 0.5);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(16px) saturate(120%);
 }
 .logo {
     @apply inline-flex w-[52px];

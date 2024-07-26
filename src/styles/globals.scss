@@ -10,6 +10,9 @@
     html {
         scroll-behavior: smooth;
     }
+    .wrapper {
+        min-height: 100dvh;
+    }
 }
 @layer components {
     .section-heading {

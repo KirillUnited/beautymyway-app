@@ -35,7 +35,7 @@ export default async function LocaleLayout({
 	unstable_setRequestLocale(params.locale);
 
 	return (
-		<div className='wrapper flex flex-col min-h-screen'>
+		<div className='wrapper flex flex-col'>
 
 			<Header />
 			<main className="content flex-1">

@@ -6,7 +6,16 @@ import {
     type Locale,
 } from "@/i18n.config";
 import { Select } from "@mantine/core";
-import { IconLanguageHiragana } from '@tabler/icons-react';
+import EnFlag from '@/assets/icons/en.svg'
+import RuFlag from '@/assets/icons/ru.svg'
+import EsFlag from '@/assets/icons/es.svg'
+import Image from "next/image";
+
+const icons: any = {
+    'en': EnFlag,
+    'ru': RuFlag,
+    'es': EsFlag
+}
 
 export default function LocaleSwitcher({
     locale,
@@ -21,14 +30,21 @@ export default function LocaleSwitcher({
                 variant="unstyled"
                 onChange={(newLocale) => changeLocale(newLocale)}
                 checkIconPosition="left"
-                rightSection={<IconLanguageHiragana/>}
+                rightSection={
+                    <Image
+                        src={icons[locale]}
+                        width={34}
+                        height={34}
+                        className="rounded-full"
+                        alt={locale} />
+                }
                 data={[...locales]}
                 defaultValue={locale}
                 comboboxProps={{ transitionProps: { transition: 'pop', duration: 200 } }}
                 classNames={
                     {
                         wrapper: 'inline-flex',
-                        input: 'uppercase text-primary flex-0 w-16',
+                        input: 'uppercase text-primary w-16',
                         option: 'text-foreground uppercase',
                         dropdown: 'min-w-[80px]'
                     }

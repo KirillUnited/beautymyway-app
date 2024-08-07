@@ -6,23 +6,15 @@ import {
     type Locale,
 } from "@/i18n.config";
 import { Select } from "@mantine/core";
-import EnFlag from '@/assets/icons/en.svg'
-import RuFlag from '@/assets/icons/ru.svg'
-import EsFlag from '@/assets/icons/es.svg'
 import Image from "next/image";
-
-const icons: any = {
-    'en': EnFlag,
-    'ru': RuFlag,
-    'es': EsFlag
-}
 
 export default function LocaleSwitcher({
     locale,
 }: {
     locale: string;
 }) {
-    const { changeLocale } = useLocaleSwitcher();
+    const { changeLocale, getLocaleIcon } = useLocaleSwitcher();
+    const icon = getLocaleIcon(locale);
 
     return (
         <div>
@@ -32,7 +24,7 @@ export default function LocaleSwitcher({
                 checkIconPosition="left"
                 rightSection={
                     <Image
-                        src={icons[locale]}
+                        src={icon}
                         width={34}
                         height={34}
                         className="rounded-full"

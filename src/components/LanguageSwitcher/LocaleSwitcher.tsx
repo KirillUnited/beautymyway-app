@@ -6,14 +6,15 @@ import {
     type Locale,
 } from "@/i18n.config";
 import { Select } from "@mantine/core";
-import { IconLanguageHiragana } from '@tabler/icons-react';
+import Image from "next/image";
 
 export default function LocaleSwitcher({
     locale,
 }: {
     locale: string;
 }) {
-    const { changeLocale } = useLocaleSwitcher();
+    const { changeLocale, getLocaleIcon } = useLocaleSwitcher();
+    const icon = getLocaleIcon(locale);
 
     return (
         <div>
@@ -21,14 +22,21 @@ export default function LocaleSwitcher({
                 variant="unstyled"
                 onChange={(newLocale) => changeLocale(newLocale)}
                 checkIconPosition="left"
-                rightSection={<IconLanguageHiragana/>}
+                rightSection={
+                    <Image
+                        src={icon}
+                        width={34}
+                        height={34}
+                        className="rounded-full"
+                        alt={locale} />
+                }
                 data={[...locales]}
                 defaultValue={locale}
                 comboboxProps={{ transitionProps: { transition: 'pop', duration: 200 } }}
                 classNames={
                     {
                         wrapper: 'inline-flex',
-                        input: 'uppercase text-primary flex-0 w-16',
+                        input: 'uppercase text-primary w-16',
                         option: 'text-foreground uppercase',
                         dropdown: 'min-w-[80px]'
                     }

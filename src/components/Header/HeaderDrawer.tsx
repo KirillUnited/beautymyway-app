@@ -12,7 +12,7 @@ import useLocaleSwitcher from '@/hooks/useLocaleSwitcher';
 
 export default function HeaderDrawer({ currentLocale, translatedNavbar }: { currentLocale: any, translatedNavbar: any }) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
-    const { changeLocale } = useLocaleSwitcher();
+    const { changeLocale, getLocaleIcon } = useLocaleSwitcher();
     const handleLocaleChange = (localeName: string) => {
         changeLocale(localeName)
     }
@@ -58,8 +58,16 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                                             styles.navLink
                                         )}
                                         onClick={() => handleLocaleChange(localeName)}
+                                        leftSection={
+                                            <Image
+                                                src={getLocaleIcon(localeName)}
+                                                width={24}
+                                                height={24}
+                                                className="rounded-full"
+                                                alt={localeName} />
+                                        }
                                     >
-                                        {localeName}
+                                        <span>{localeName}</span>
                                     </Menu.Item>
                                 );
                             })}

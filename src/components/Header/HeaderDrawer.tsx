@@ -51,23 +51,32 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                     <Menu classNames={{ dropdown: classNames('inline-flex') }}>
                         {
                             locales.map((localeName) => {
+                                const active = currentLocale === localeName ? true : null;
+
                                 return (
                                     <Menu.Item
                                         key={localeName}
-                                        className={classNames('w-auto uppercase px-4',
-                                            styles.navLink
+                                        className={classNames('w-auto uppercase font-light px-2 md:px-4 flex-wrap gap-y-2',
+                                            styles.navLink,
+                                            {
+                                                'scale-150': active
+                                            }
                                         )}
                                         onClick={() => handleLocaleChange(localeName)}
                                         leftSection={
                                             <Image
                                                 src={getLocaleIcon(localeName)}
-                                                width={24}
-                                                height={24}
+                                                width={20}
+                                                height={20}
                                                 className="rounded-full"
                                                 alt={localeName} />
                                         }
                                     >
-                                        <span>{localeName}</span>
+                                        <span className={classNames(
+                                            {
+                                                'font-bold': active
+                                            }
+                                        )}>{localeName}</span>
                                     </Menu.Item>
                                 );
                             })}

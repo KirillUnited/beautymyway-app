@@ -3,10 +3,19 @@ import EnFlag from '@/assets/icons/en.svg'
 import RuFlag from '@/assets/icons/ru.svg'
 import EsFlag from '@/assets/icons/es.svg'
 
-const icons: any = {
-    'en': EnFlag,
-    'ru': RuFlag,
-    'es': EsFlag
+const data: any = {
+    'en': {
+        label: 'English',
+        icon: EnFlag,
+    },
+    'ru': {
+        label: 'Русский',
+        icon: RuFlag,
+    },
+    'es': {
+        label: 'Español',
+        icon: EsFlag,
+    }
 }
 
 export default function useLocaleSwitcher() {
@@ -20,12 +29,12 @@ export default function useLocaleSwitcher() {
     ) => {
         router.replace(pathname, { locale: newLocale });
     };
-    const getLocaleIcon = (locale: string) => {
-        return icons[locale];
+    const getLocaleData = (locale: string) => {
+        return data[locale];
     }
-    
+
     return {
         changeLocale,
-        getLocaleIcon
+        getLocaleData
     }
 }

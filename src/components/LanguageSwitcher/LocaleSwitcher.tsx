@@ -45,6 +45,7 @@ export default function LocaleSwitcher({
                 }
                 data={[...locales]}
                 defaultValue={locale}
+                value={locale}
                 comboboxProps={{
                     width: 'auto',
                     transitionProps: { transition: 'pop', duration: 200 },

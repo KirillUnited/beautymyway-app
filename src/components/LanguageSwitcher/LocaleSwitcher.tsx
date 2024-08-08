@@ -17,7 +17,7 @@ export default function LocaleSwitcher({
     const currentLocaleIcon = getLocaleData(locale).icon;
     const renderSelectOption: SelectProps['renderOption'] = ({ option }) => (
         <Group flex="1" gap="xs" justify="space-between">
-            <span className="truncate">{getLocaleData(option.value).label}</span>
+            <span className="truncate max-w-[20ch]">{getLocaleData(option.value).label}</span>
             <Image
                 src={getLocaleData(option.value).icon}
                 width={20}

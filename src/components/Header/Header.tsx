@@ -33,11 +33,13 @@ export default async function Header() {
                     <HeaderMenu translatedNavbar={translatedNavbar} />
                 </Group>
 
-                <Group gap={'xl'} justify='center' visibleFrom='lg' className='gap-y-3'>
-                    <LocaleSwitcher locale={currentLocale} />
+                <Group gap={'xs'}>
+                    <Group gap={'xl'} justify='center' className='gap-y-3'>
+                        <LocaleSwitcher locale={currentLocale} />
+                    </Group>
+    
+                    <HeaderDrawer currentLocale={currentLocale} translatedNavbar={translatedNavbar} />
                 </Group>
-
-                <HeaderDrawer currentLocale={currentLocale} translatedNavbar={translatedNavbar} />
             </nav>
         </header>
     )

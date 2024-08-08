@@ -5,7 +5,7 @@ import {
     locales,
     type Locale,
 } from "@/i18n.config";
-import { Group, Select } from "@mantine/core";
+import { Group, Select, SelectProps } from "@mantine/core";
 import Image from "next/image";
 
 export default function LocaleSwitcher({
@@ -15,6 +15,18 @@ export default function LocaleSwitcher({
 }) {
     const { changeLocale, getLocaleData } = useLocaleSwitcher();
     const currentLocaleIcon = getLocaleData(locale).icon;
+    const renderSelectOption: SelectProps['renderOption'] = ({ option }) => (
+        <Group flex="1" gap="xs" justify="space-between">
+            <span className="truncate">{getLocaleData(option.value).label}</span>
+            <Image
+                src={getLocaleData(option.value).icon}
+                width={20}
+                height={20}
+                className="rounded-full"
+                alt={option.label} />
+            { }
+        </Group>
+    );
 
     return (
         <div>
@@ -34,7 +46,7 @@ export default function LocaleSwitcher({
                 data={[...locales]}
                 defaultValue={locale}
                 comboboxProps={{
-                    width: 80,
+                    width: 'auto',
                     transitionProps: { transition: 'pop', duration: 200 },
                 }}
                 classNames={
@@ -44,6 +56,7 @@ export default function LocaleSwitcher({
                         option: 'text-foreground',
                     }
                 }
+                renderOption={renderSelectOption}
             />
         </div>
     );

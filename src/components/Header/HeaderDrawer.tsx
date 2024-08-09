@@ -6,16 +6,18 @@ import React from 'react'
 import styles from './Header.module.scss';
 import Image from 'next/image';
 import HeaderNav from './HeaderNav';
-import { locales } from '@/i18n.config';
-import classNames from 'classnames';
-import useLocaleSwitcher from '@/hooks/useLocaleSwitcher';
+import Socials from '@/components/Socials/Socials';
+import { CONTACTS } from '@/data';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function HeaderDrawer({ currentLocale, translatedNavbar }: { currentLocale: any, translatedNavbar: any }) {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
-    const { changeLocale, getLocaleData } = useLocaleSwitcher();
-    const handleLocaleChange = (localeName: string) => {
-        changeLocale(localeName)
-    }
+    const socialItems = {
+        'instagram': `${CONTACTS.socials.instagram[0]}`,
+        'telegram': `${CONTACTS.socials.telegram[0]}`,
+        'whatsapp': `${CONTACTS.socials.whatsapp[0]}`,
+    };
 
     return (
         <>
@@ -46,42 +48,13 @@ export default function HeaderDrawer({ currentLocale, translatedNavbar }: { curr
                 <Flex direction={'column'} mx={'-md'} mb={'md'} key={235235}>
                     <HeaderNav closeNav={closeDrawer} translatedNavbar={translatedNavbar} currentLocale={currentLocale} />
                 </Flex>
-
-                <Flex direction={'row'} gap={'md'} align="center" justify={'center'} key={235352535235}>
-                    <Menu classNames={{ dropdown: classNames('inline-flex') }}>
-                        {
-                            locales.map((localeName) => {
-                                const active = currentLocale === localeName ? true : null;
-
-                                return (
-                                    <Menu.Item
-                                        key={localeName}
-                                        className={classNames('w-auto uppercase font-light px-2 md:px-4 flex-wrap gap-y-2',
-                                            styles.navLink,
-                                            {
-                                                'scale-150': active
-                                            }
-                                        )}
-                                        onClick={() => handleLocaleChange(localeName)}
-                                        leftSection={
-                                            <Image
-                                                src={getLocaleData(localeName).icon}
-                                                width={20}
-                                                height={20}
-                                                className="rounded-full"
-                                                alt={localeName} />
-                                        }
-                                    >
-                                        <span className={classNames(
-                                            {
-                                                'font-bold': active
-                                            }
-                                        )}>{localeName}</span>
-                                    </Menu.Item>
-                                );
-                            })}
-                    </Menu>
-                </Flex>
+                <div className='flex flex-col items-center gap-4'>
+                    <Socials items={socialItems} />
+                    <Link href={`tel:${CONTACTS.tel[0]}`} className={`flex items-center gap-3 lg:gap-4`}>
+                        <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
+                        <span>{CONTACTS.tel[0]}</span>
+                    </Link>
+                </div>
             </Drawer>
         </>
     )

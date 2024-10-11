@@ -55,13 +55,3 @@ export default async function ServiceTemplate({ params }: Props) {
         </article>
     )
 }
-
-async function getContent({ locale, slug }: { locale: string, slug: string }) {
-    const content = await import(`@/data/posts/${locale}/${slug}.md`)
-    const data = matter(content.default)
-
-    return {
-        frontmatter: data.data,
-        markdownBody: data.content,
-    }
-}

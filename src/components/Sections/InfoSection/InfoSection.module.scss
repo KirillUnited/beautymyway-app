@@ -2,7 +2,7 @@
     @apply py-12 lg:py-20;
 }
 .wrapper {
-    @apply container flex flex-col gap-7 items-center;
+    @apply flex flex-col gap-7 items-center;
 }
 .title {
     @apply text-2xl lg:text-3xl text-center font-semibold leading-10;

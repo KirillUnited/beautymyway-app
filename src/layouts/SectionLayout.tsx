@@ -13,22 +13,20 @@ const SectionLayout = (
         id
     }: ISectionLayoutProps): React.JSX.Element => {
     const t = useTranslations(id);
-    const title = !(t('title') ===`${id}.title`) ? t('title'): null;
-    const description = !(t('description') ===`${id}.description`) ? t('description'): null;
+    const title = !(t('title') === `${id}.title`) ? t('title') : null;
+    const description = !(t('description') === `${id}.description`) ? t('description') : null;
 
     return (
         <section id={id} className='pb-4'>
-            {
-                (title || description)
-                &&
-                <div className='container'>
+            <div className='container'>
+                {
+                    (title || description)
+                    &&
                     <div className='section-heading'>
                         {title && <h2 className='section-title'>{title}</h2>}
                         {description && <p className='section-description'>{description}</p>}
                     </div>
-                </div>
-            }
-            <div className='container'>
+                }
                 {children}
             </div>
         </section>

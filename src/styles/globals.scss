@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 :root {
-    --color-foreground: #2b3632;
+    --COLOR_FOREGROUND: #2b3632;
+    --FOREGROUND_DARK: #0E0E0E;
+    --PRIMARY: #f5f5f5;
+    --SECONDARY: #C4C4C4;
+    --ACCENT: #CAAC59;
+    --PRIMARY_INVERT: #000;
+    --GREY: #3D3D3D;
+    // mantine variables
     --mantine-color-body: #2b3632;
 }
 @layer base {

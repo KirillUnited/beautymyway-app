@@ -5,6 +5,9 @@ import type { Metadata } from 'next';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/config/theme';
 import { futura, mulish } from '@/config/fonts';
+import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { Chat } from '@/components/widgets/chat';
 
 type Props = {
 	children: ReactNode;
@@ -49,6 +52,7 @@ export default function RootLayout({
 			<body className={`${mulish.className} ${futura.variable} text-primary bg-foreground`}>
 				<MantineProvider theme={theme}>
 					{children}
+					<Chat />
 				</MantineProvider>
 			</body>
 		</html >

@@ -1,0 +1,57 @@
+.root {
+    --COLOR: #00d32a;
+    --Z: 999;
+    --SIZE: rem(55px);
+    position: fixed;
+    z-index: var(--Z);
+    bottom: rem(12px);
+    right: rem(17px);
+    width: var(--SIZE);
+    height: var(--SIZE);
+    font: 16px / 1em Arial, Sans-Serif;
+    letter-spacing: 0;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.pulse {
+    width: 100%;
+    height: 100%;
+    border: 12px solid var(--COLOR);
+    border-radius: var(--SIZE);
+    animation: pulse infinite 1.5s 1s both;
+}
+.cta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: var(--SIZE);
+    height: var(--SIZE);
+    justify-content: center;
+    background: var(--COLOR);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    border-radius: 50%;
+    svg {
+        width: rem(36px);
+        height: rem(36px);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2, 2);
+        opacity: 0;
+    }
+}

@@ -5,28 +5,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import cn from 'classnames';
 import styles from './Socials.module.scss';
+import classNames from 'classnames'
 
-interface ISocialsItemProps {
+interface ISocialsItemProps extends React.HTMLAttributes<HTMLDivElement> {
     item: string, value: any
 }
 
-export const SocialsItem = ({ item, value }: ISocialsItemProps): React.JSX.Element => {
+export const SocialsItem = ({ item, value, className }: ISocialsItemProps): React.JSX.Element => {
     switch (item) {
         case 'instagram':
             return (
-                <a href={value} target='_blank' className={`${styles.link}`}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
                     <FontAwesomeIcon icon={faInstagram} className={`${styles.icon}`} />
                 </a>
             )
         case 'telegram':
             return (
-                <a href={value} target='_blank' className={`${styles.link}`}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
                     <FontAwesomeIcon icon={faTelegram} className={`${styles.icon}`} />
                 </a>
             )
         case 'whatsapp':
             return (
-                <a href={value} target='_blank' className={`${styles.link}`}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
                     <FontAwesomeIcon icon={faWhatsapp} className={`${styles.icon}`} />
                 </a>
             )

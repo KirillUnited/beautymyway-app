@@ -5,8 +5,6 @@ import type { Metadata } from 'next';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/config/theme';
 import { futura, mulish } from '@/config/fonts';
-import { GoogleTagManager } from '@next/third-parties/google'
-import { GoogleAnalytics } from '@next/third-parties/google'
 import { Chat } from '@/components/widgets/chat';
 
 type Props = {

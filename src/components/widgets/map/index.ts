@@ -1,5 +1,7 @@
 import MapEmbed from "./MapEmbed";
+import { GoogleMapComponent } from "./GoogleMap";
 
 export {
-    MapEmbed
+    MapEmbed,
+    GoogleMapComponent
 }

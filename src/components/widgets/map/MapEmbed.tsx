@@ -21,13 +21,12 @@ export default function MapEmbed(props: Props) {
     return (
         <MapEmbedContainer {...props}>
             <GoogleMapsEmbed
-                    apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''}
-                    width="100%"
-                    height={500}
-                    mode="place"
-                    q="Brooklyn+Bridge,New+York,NY"
-                    language={props.locale}
-                />
+                apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''}
+                width="100%"
+                height={500}
+                mode="place"
+                q="Brooklyn+Bridge,New+York,NY"
+            />
         </MapEmbedContainer>
     )
 }

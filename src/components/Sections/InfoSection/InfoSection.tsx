@@ -4,7 +4,7 @@ import styles from './InfoSection.module.scss';
 import { CONTACTS } from '@/data';
 import { useTranslations } from 'next-intl';
 import classNames from 'classnames';
-import { MapEmbed } from '@/components/widgets/map';
+import { GoogleMapComponent, MapEmbed } from '@/components/widgets/map';
 
 export default function InfoSection({ locale }: { locale: string }) {
     const t = useTranslations('Info');
@@ -18,7 +18,7 @@ export default function InfoSection({ locale }: { locale: string }) {
                     </div>
                     <p className={styles.description}>{t('description')}</p>
                     <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
-                    <MapEmbed locale={locale} />
+                    <GoogleMapComponent/>
                 </div>
             </div>
         </section>

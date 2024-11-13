@@ -3,10 +3,10 @@ import Contacts from '@/components/Contacts/Contacts';
 import styles from './InfoSection.module.scss';
 import { CONTACTS } from '@/data';
 import { useTranslations } from 'next-intl';
-import { GoogleMapsEmbed } from '@next/third-parties/google'
 import classNames from 'classnames';
+import { GoogleMapComponent, MapEmbed } from '@/components/widgets/map';
 
-export default function InfoSection() {
+export default function InfoSection({ locale }: { locale: string }) {
     const t = useTranslations('Info');
 
     return (
@@ -18,16 +18,7 @@ export default function InfoSection() {
                     </div>
                     <p className={styles.description}>{t('description')}</p>
                     <Contacts className={styles.contacts} tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
-                    <div className='w-full bg-slate-300'>
-                        <GoogleMapsEmbed
-                            apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''}
-                            width="100%"
-                            height={500}
-                            mode="place"
-                            q="Brooklyn+Bridge,New+York,NY"
-                            language='es'
-                        />
-                    </div>
+                    <GoogleMapComponent/>
                 </div>
             </div>
         </section>

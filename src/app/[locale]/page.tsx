@@ -20,7 +20,7 @@ export default async function Home({ params: { locale } }: any) {// Enable stati
 			<TeamSection />
 			<HitSection />
 			<TestimonialsSection />
-			<InfoSection />
+			<InfoSection locale={locale} />
 		</>
 	)
 }

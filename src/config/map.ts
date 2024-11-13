@@ -6,5 +6,6 @@ export const mapConfig = {
     center: {
         lat: 39.473004,
         lng: -0.358259
-    }
+    },
+    zoom: 15
 }

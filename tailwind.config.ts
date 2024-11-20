@@ -17,13 +17,13 @@ const config: Config = {
         futura: ['var(--font-futura)']
       },
       colors: {
-        foreground: 'var(--color-foreground)',
-        foregroundDark: '#0E0E0E',
-        primary: '#f5f5f5',
-        secondary: '#C4C4C4',
-        accent: '#CAAC59',
-        primaryInvert: '#000',
-        grey: '#3D3D3D'
+        foreground: 'var(--COLOR_FOREGROUND)',
+        foregroundDark: 'var(--FOREGROUND_DARK)',
+        primary: 'var(--PRIMARY)',
+        secondary: 'var(--SECONDARY)',
+        accent: 'var(--ACCENT)',
+        primaryInvert: 'var(--PRIMARY_INVERT)',
+        grey: 'var(--GREY)',
       }
     },
   },

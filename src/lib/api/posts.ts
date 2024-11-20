@@ -4,16 +4,16 @@ import path from 'path'
 import fs from 'fs/promises'
 
 export const getFeaturedProductPosts = async (locale: string) => {
-	const res = await import(`@/data/products.json`);
-	const allProducts = await res.allProducts;
-	const featuredProducts: any = allProducts
-		.find(({ title }: { title: string }) => title === 'FEATURED_PRODUCTS');
+    const res = await import(`@/data/products.json`);
+    const allProducts = await res.allProducts;
+    const featuredProducts: any = allProducts
+        .find(({ title }: { title: string }) => title === 'FEATURED_PRODUCTS');
 
-	return Promise.all(
-		featuredProducts?.products.map(async ({ slug }: { slug: string }) => {
-			return getPostBySlug({ locale, slug });
-		})
-	)
+    return Promise.all(
+        featuredProducts?.products.map(async ({ slug }: { slug: string }) => {
+            return getPostBySlug({ locale, slug });
+        })
+    )
 }
 // `cache` is a React 18 feature that allows you to cache a function for the lifetime of a request.
 // this means getPosts() will only be called once per page build, even though we may call it multiple times
@@ -47,5 +47,15 @@ export async function getPostBySlug({ locale, slug }: { locale: string, slug: st
         frontmatter: data,
         markdownBody: content,
         link: `/posts/${slug}`
+    }
+}
+
+export async function getContent({ locale, slug }: { locale: string, slug: string }) {
+    const content = await import(`@/data/posts/${locale}/${slug}.md`)
+    const data = matter(content.default)
+
+    return {
+        frontmatter: data.data,
+        markdownBody: data.content,
     }
 }

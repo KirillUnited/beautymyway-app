@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import '@mantine/core/styles.css';
 import '@/styles/globals.scss';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/config/theme';
 import { futura, mulish } from '@/config/fonts';
@@ -34,8 +34,11 @@ export const metadata: Metadata = {
 		siteName: 'beautymyway',
 		images: '/apple-icon.png'
 	},
-	themeColor: '#2b3632',
 };
+
+export const viewport: Viewport = {
+	themeColor: '#2b3632',
+}
 
 export default function RootLayout({
 	children,

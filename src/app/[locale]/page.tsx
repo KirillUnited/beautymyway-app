@@ -14,13 +14,13 @@ export default async function Home({ params: { locale } }: any) {// Enable stati
 	return (
 		<>
 			<HeroSection />
-			<InfoSection />
 			<FeaturedProductsSection />
 			<AboutSection />
 			<ProductsSection />
 			<TeamSection />
 			<HitSection />
 			<TestimonialsSection />
+			<InfoSection locale={locale} />
 		</>
 	)
 }

@@ -4,6 +4,7 @@
     ],
     "i18n-ally.keystyle": "nested",
     "conventionalCommits.scopes": [
-        "'Info' section"
+        "Layout",
+      "'Info' section"
     ]
 }

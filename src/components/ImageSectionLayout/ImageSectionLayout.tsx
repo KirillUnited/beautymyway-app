@@ -13,7 +13,7 @@ export default function ImageSectionLayout({ title, description, children, image
                         src={`/images/${image}`}
                         width={700}
                         height={510}
-                        alt={title || 'Артур Сугако теперь и в Барселоне!'}
+                        alt={title || 'Beauty My Way'}
                         className='object-cover w-full h-full aspect-video'
                     />
                 </div>

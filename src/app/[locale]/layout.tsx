@@ -20,17 +20,24 @@ export async function generateMetadata({
 
 	return {
 		title: t('title'),
-		description: t('description')
+		description: t('description'),
+		keywords: t('keywords'),
+		openGraph: {
+			type: 'website',
+			locale: locale,
+			url: 'https://beautymyway.es',
+			title: t('title'),
+			description: t('description'),
+			siteName: 'beautymyway',
+			images: '/apple-icon.png'
+		},
 	};
 }
 
 export default async function LocaleLayout({
 	children,
 	params,
-}: {
-	children: React.ReactNode;
-	params: { locale: string };
-}) {
+}: Props) {
 	// Enable static rendering
 	unstable_setRequestLocale(params.locale);
 

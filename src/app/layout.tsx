@@ -7,10 +7,6 @@ import { theme } from '@/config/theme';
 import { futura, mulish } from '@/config/fonts';
 import { Chat } from '@/components/widgets/chat';
 
-type Props = {
-	children: ReactNode;
-};
-
 // Since we have a `not-found.tsx` page on the root, a layout file
 // is required, even if it's just passing children through.
 // export default function RootLayout({ children }: Props) {
@@ -21,7 +17,7 @@ export const metadata: Metadata = {
 	metadataBase: new URL('https://beautymyway.es'),
 	title: {
 		default: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
-		template: `%s | Beautymyway ➤ Професиональный косметолог в Валенсии`,
+		template: `%s | Beauty My Way`,
 	},
 	description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
 	keywords: ['Массаж', 'Endosphere', 'Emsculpt', 'Dion laser', 'БАД', 'питание', 'спорт', 'косметолог', 'врач', 'ботокс', 'мезотерапия', 'биоревитализация', 'Myway', 'Beauty', 'BeautyMyway', 'липолитики', 'карбокситерапия', 'чистка', 'лицо', 'кожа', 'тело', 'красота', 'здоровье', 'гармония', 'психология'],
@@ -43,7 +39,7 @@ export const viewport: Viewport = {
 export default function RootLayout({
 	children,
 }: {
-	children: React.ReactNode;
+	children: ReactNode;
 }) {
 	return (
 		<html lang='ru'>

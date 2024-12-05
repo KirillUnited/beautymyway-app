@@ -14,14 +14,25 @@ type Props = {
 }
 
 export function generateStaticParams() {
-	return locales.map((locale) => ({ locale }));
+    return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: Props) {
     const { frontmatter } = await getPostBySlug(params);
+    const { title, description, keywords } = frontmatter.meta || {};
 
     return {
-        title: frontmatter.title,
+        title: `${title || frontmatter.title || ''}`,
+        description: `${description || ''}`,
+        keywords: `${keywords || ''}`,
+        openGraph: {
+            title: `${title || frontmatter.title || ''}`,
+            description: `${description || ''}`
+        },
+        twitter: {
+            title: `${title || frontmatter.title || ''}`,
+            description: `${description || ''}`
+        }
     }
 }
 

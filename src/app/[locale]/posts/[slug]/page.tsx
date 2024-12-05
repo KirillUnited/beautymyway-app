@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown"
 import styles from "@/styles/post.module.scss";
 import { locales } from '@/i18n.config';
 import { getPostBySlug } from '@/lib/api/posts';
+import { generateMetadata as generateMetadataLayout } from '../../layout';
 
 type Props = {
     params: {
@@ -14,14 +15,27 @@ type Props = {
 }
 
 export function generateStaticParams() {
-	return locales.map((locale) => ({ locale }));
+    return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: Props) {
     const { frontmatter } = await getPostBySlug(params);
+    const { title, description, keywords } = frontmatter.meta || {};
+    const pageDescription = description || (await generateMetadataLayout({ params })).description;
+    const pageKeywords = keywords || (await generateMetadataLayout({ params })).keywords;
 
     return {
-        title: frontmatter.title,
+        title: `${title || frontmatter.title || ''}`,
+        description: `${description || pageDescription}`,
+        keywords: `${keywords || pageKeywords}`,
+        openGraph: {
+            title: `${title || frontmatter.title || ''}`,
+            description: `${description || pageDescription}`,
+        },
+        twitter: {
+            title: `${title || frontmatter.title || ''}`,
+            description: `${description || pageDescription}`,
+        }
     }
 }
 

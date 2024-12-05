@@ -16,17 +16,17 @@ import { Chat } from '@/components/widgets/chat';
 export const metadata: Metadata = {
 	metadataBase: new URL('https://beautymyway.es'),
 	title: {
-		default: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
+		default: 'Beauty My Way',
 		template: `%s | Beauty My Way`,
 	},
-	description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
-	keywords: ['Массаж', 'Endosphere', 'Emsculpt', 'Dion laser', 'БАД', 'питание', 'спорт', 'косметолог', 'врач', 'ботокс', 'мезотерапия', 'биоревитализация', 'Myway', 'Beauty', 'BeautyMyway', 'липолитики', 'карбокситерапия', 'чистка', 'лицо', 'кожа', 'тело', 'красота', 'здоровье', 'гармония', 'психология'],
+	description: 'Beauty My Way ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
+	keywords: ['Массаж', 'Endosphere', 'Emsculpt', 'Dion laser', 'БАД', 'питание', 'спорт', 'косметолог', 'врач', 'ботокс', 'мезотерапия', 'биоревитализация', 'Myway', 'Beauty', 'Beauty My Way', 'липолитики', 'карбокситерапия', 'чистка', 'лицо', 'кожа', 'тело', 'красота', 'здоровье', 'гармония', 'психология'],
 	openGraph: {
 		type: 'website',
 		locale: 'en_IE',
 		url: 'https://beautymyway.es',
-		title: 'Beautymyway ➤ Професиональный косметолог в Валенсии',
-		description: 'Beautymyway ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
+		title: 'Beauty My Way ➤ Профессиональный косметолог в Валенсии',
+		description: 'Beauty My Way ➤ косметолог в Валенсии⭐ Профессионально помогаю обрести красоту и здоровье! ✅ ➤ Опыт более 15 лет!',
 		siteName: 'beautymyway',
 		images: '/apple-icon.png'
 	},

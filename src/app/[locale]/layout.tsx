@@ -19,7 +19,10 @@ export async function generateMetadata({
 	const t = await getTranslations({ locale, namespace: 'Meta' });
 
 	return {
-		title: t('title'),
+		title: {
+			template: `%s | ${t('title')}`,
+			default: t('title')
+		},
 		description: t('description'),
 		keywords: t('keywords'),
 		openGraph: {
@@ -28,7 +31,7 @@ export async function generateMetadata({
 			url: 'https://beautymyway.es',
 			title: t('title'),
 			description: t('description'),
-			siteName: 'beautymyway',
+			siteName: 'beautymyway.es',
 			images: '/apple-icon.png'
 		},
 	};

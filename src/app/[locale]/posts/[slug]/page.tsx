@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image"
-import matter from "gray-matter"
 import ReactMarkdown from "react-markdown"
 import styles from "@/styles/post.module.scss";
 import { locales } from '@/i18n.config';
@@ -31,6 +30,7 @@ export async function generateMetadata({ params }: Props) {
         openGraph: {
             title: `${title || frontmatter.title || ''}`,
             description: `${description || pageDescription}`,
+            images: '/apple-icon.png'
         },
         twitter: {
             title: `${title || frontmatter.title || ''}`,

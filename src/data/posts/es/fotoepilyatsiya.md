@@ -1,10 +1,10 @@
 ---
-    title: Depilación láser
-    hero_image: fotoepilyatsiya.JPG
-    meta: 
-        title: 'Depilación láser en Valencia – My Way Laser Center'
-        description: 'Depilación láser ultrarrápida en Valencia. ¡Obtén resultados sorprendentes al mejor precio!'
-        keywords: 'depilación láser ultrarrápida, depilación láser Valencia, depilación láser al mejor precio,
+title: Depilación láser
+hero_image: fotoepilyatsiya.JPG
+seo: 
+    title: 'Depilación láser en Valencia – My Way Laser Center'
+    description: 'Depilación láser ultrarrápida en Valencia. ¡Obtén resultados sorprendentes al mejor precio!'
+    keywords: 'depilación láser ultrarrápida, depilación láser Valencia, depilación láser al mejor precio,
 resultados de depilación láser, depilación en Valencia, depilación láser rápida Valencia, depilación sin dolor Valencia, estándar de oro de la depilación láser, opiniones de depilación láser Valencia, depilación láser eficaz Valencia, precios de depilación láser Valencia, ultra- depilación rápida con resultados, depilación láser profesional Valencia'
 ---
 

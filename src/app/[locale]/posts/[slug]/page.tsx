@@ -18,7 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({params}: Props) {
     const {frontmatter} = await getPostBySlug(params);
-    const {title = '', description = '', keywords = ''} = frontmatter.meta || {};
+    const {title = '', description = '', keywords = ''} = frontmatter.seo || {};
 
     return {
         title: `${title || frontmatter.title || ''}`,

@@ -1,10 +1,10 @@
 ---
-    title: Laser hair removal
-    hero_image: fotoepilyatsiya.JPG
-    meta: 
-        title: 'Laser hair removal in Valencia – My Way Laser Center'
-        description: 'Ultra-fast laser hair removal in Valencia. Get amazing results at the best price!'
-        keywords: 'ultra-fast laser hair removal, laser hair removal Valencia, laser hair removal at the best price,
+title: Laser hair removal
+hero_image: fotoepilyatsiya.JPG
+seo: 
+    title: 'Laser hair removal in Valencia – My Way Laser Center'
+    description: 'Ultra-fast laser hair removal in Valencia. Get amazing results at the best price!'
+    keywords: 'ultra-fast laser hair removal, laser hair removal Valencia, laser hair removal at the best price,
 laser hair removal results, hair removal in Valencia, fast laser hair removal Valencia, hair removal without pain Valencia, gold standard of laser hair removal, laser hair removal reviews Valencia, effective laser hair removal Valencia, prices for laser hair removal Valencia, ultra-fast hair removal with results, professional laser hair removal Valencia'
 ---
 

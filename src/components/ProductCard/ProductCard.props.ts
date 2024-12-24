@@ -2,5 +2,6 @@ export interface IProductCardProps extends React.DetailedHTMLProps<React.HTMLAtt
     image: string,
     title: string,
     variant?: 'featured' | 'default',
-    description?: string
+    description?: string,
+    index: number
 }

@@ -1,4 +1,3 @@
-// 'use client'
 import ProductsCard from '@/components/ProductCard/ProductCard';
 import { Link } from '@/i18n.config';
 import React from 'react';
@@ -12,7 +11,7 @@ export default async function FeaturedProducts() {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
             {
-                allProducts.map((product: any) => {
+                allProducts.map((product: any, index) => {
                     const { link } = product;
                     const { thumb_image, title, description, path } = product.frontmatter;
                     return (
@@ -22,6 +21,7 @@ export default async function FeaturedProducts() {
                                 image={thumb_image}
                                 title={title}
                                 description={description}
+                                index={index}
                             />
                         </Link>
                     )

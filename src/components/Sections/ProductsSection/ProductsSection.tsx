@@ -32,6 +32,7 @@ export default async function ProductsSection() {
                                 <ProductCard
                                     image={data?.hero_image}
                                     title={data?.title}
+                                    index={index}
                                 />
                             </Link>
                         )

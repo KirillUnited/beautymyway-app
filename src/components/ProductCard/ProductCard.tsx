@@ -4,6 +4,18 @@ import Image from 'next/image';
 import cn from 'classnames';
 import {IProductCardProps} from './ProductCard.props';
 import * as motion from 'framer-motion/client';
+import {Variants} from "framer-motion";
+
+const cardVariants: Variants = {
+    offscreen: {
+        opacity: 0,
+        scale: 0
+    },
+    onscreen: {
+        opacity: 1,
+        scale: 1
+    }
+};
 
 export default function ProductCard({
                                         image,
@@ -15,17 +27,15 @@ export default function ProductCard({
                                     }: IProductCardProps): React.JSX.Element {
     return (
         <motion.div
-            animate={{
-                opacity: 1,
-            }}
-            initial={{
-                opacity: 0,
-            }}
+            variants={cardVariants}
+            initial="offscreen"
+            whileInView="onscreen"
             transition={{
                 delay: index * 0.25,
-                duration: 0.5
+                duration: 0.6,
+                ease: 'easeInOut',
             }}
-            viewport={{amount: 0}}
+            viewport={{once: true}}
             className={cn(styles.root,
                 className,
                 {

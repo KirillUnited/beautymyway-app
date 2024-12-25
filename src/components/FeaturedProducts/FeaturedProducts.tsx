@@ -5,7 +5,7 @@ import { useLocale } from 'next-intl';
 import { getFeaturedProductPosts } from '@/lib/api';
 
 export default async function FeaturedProducts() {
-    const locale = await useLocale();
+    const locale = useLocale();
     const allProducts = await getFeaturedProductPosts(locale);
 
     return (

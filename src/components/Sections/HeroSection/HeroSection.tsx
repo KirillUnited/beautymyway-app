@@ -5,11 +5,6 @@ import cn from 'classnames';
 import * as motion from 'framer-motion/client';
 import {useTranslations} from "next-intl";
 
-interface HeroSectionProps {
-    title?: string;
-    text?: string;
-}
-
 export default function HeroSection(): React.JSX.Element {
     const t = useTranslations('Hero');
 

@@ -9,11 +9,11 @@ import {Variants} from "framer-motion";
 const cardVariants: Variants = {
     offscreen: {
         opacity: 0,
-        scale: 0
+        y: 15
     },
     onscreen: {
         opacity: 1,
-        scale: 1
+        y: 0
     }
 };
 

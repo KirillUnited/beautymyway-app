@@ -16,7 +16,7 @@ export default function ImageSectionLayout({ title, description, children, image
                     initial={{
                         opacity: 0,
                     }}
-                    transition={{duration: 1}}
+                    transition={{duration: 1, ease: 'easeInOut'}}
                     viewport={{once: true,amount: 0}}
                     className='relative'>
                     <Image

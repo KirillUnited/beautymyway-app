@@ -32,7 +32,7 @@ export default function ProductCard({
             whileInView="onscreen"
             transition={{
                 delay: index * 0.25,
-                duration: 0.6,
+                duration: 0.5,
                 ease: 'easeInOut',
             }}
             viewport={{once: true}}

@@ -5,11 +5,6 @@ import cn from 'classnames';
 import * as motion from 'framer-motion/client';
 import {useTranslations} from "next-intl";
 
-interface HeroSectionProps {
-    title?: string;
-    text?: string;
-}
-
 export default function HeroSection(): React.JSX.Element {
     const t = useTranslations('Hero');
 
@@ -25,7 +20,7 @@ export default function HeroSection(): React.JSX.Element {
                     opacity: 0,
                 }}
                 transition={{duration: 1}}
-                viewport={{amount: 0}}
+                viewport={{once: true,amount: 0}}
                 className={cn(styles.bgImageWrapper)}
             >
                 <Image
@@ -42,7 +37,7 @@ export default function HeroSection(): React.JSX.Element {
                         animate={{opacity: 1, y: 0}}
                         initial={{opacity: 0, y: 120}}
                         transition={{duration: 0.5}}
-                        viewport={{amount: 0}}
+                        viewport={{once: true, amount: 0}}
                         className='flex flex-col items-center py-5 z-10'
                     >
                         <h1 className={`${styles.title}`}>{t('title')}</h1>

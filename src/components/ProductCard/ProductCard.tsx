@@ -9,11 +9,11 @@ import {Variants} from "framer-motion";
 const cardVariants: Variants = {
     offscreen: {
         opacity: 0,
-        scale: 0
+        y: 15
     },
     onscreen: {
         opacity: 1,
-        scale: 1
+        y: 0
     }
 };
 
@@ -32,7 +32,7 @@ export default function ProductCard({
             whileInView="onscreen"
             transition={{
                 delay: index * 0.25,
-                duration: 0.6,
+                duration: 0.5,
                 ease: 'easeInOut',
             }}
             viewport={{once: true}}

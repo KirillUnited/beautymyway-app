@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './HeroSection.module.scss';
 import Image from 'next/image';
+import heroPic from '../../../../public/images/hero.jpg';
 import cn from 'classnames';
 import * as motion from 'framer-motion/client';
 import {useTranslations} from "next-intl";
@@ -25,9 +26,11 @@ export default function HeroSection(): React.JSX.Element {
             >
                 <Image
                     fill
-                    src="/images/hero.jpg"
-                    alt="hero"
+                    src={heroPic}
+                    placeholder={'blur'}
+                    alt={`${t('title')}`}
                     priority
+                    quality={100}
                     className={`${styles['bg-image']}`}
                 />
             </motion.div>

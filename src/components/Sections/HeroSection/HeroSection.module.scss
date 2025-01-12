@@ -21,7 +21,7 @@
     @apply relative grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:gap-14 max-w-5xl mx-auto;
     min-height: 50vh;
     z-index: 10;
-    overflow: hidden;
+    //overflow: hidden;
 
     @media (max-width: $mantine-breakpoint-md) {
         min-height: 33vh;

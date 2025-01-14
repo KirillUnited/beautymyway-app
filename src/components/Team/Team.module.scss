@@ -12,39 +12,41 @@
     @apply w-full h-full object-cover;
     object-position: center 35%;
 
-    &:nth-child(1) {
-        grid-column-start: main-start;
-        grid-row-start: main-start;
-        grid-row-end: content-start;
-    }
-    &:nth-child(2) {
-        grid-column-start: content-start;
-        grid-column-end: content-middle;
-        grid-row-start: main-start;
-        grid-row-end: content-end;
-    }
-    &:nth-child(3) {
-        grid-column-start: content-middle;
-        grid-column-end: main-end;
-        grid-row-start: main-start;
-        grid-row-end: content-end;
-    }
-    &:nth-child(4) {
-        grid-column-start: main-start;
-        grid-row-start: content-start;
-        grid-row-end: main-end;
-    }
-    &:nth-child(5) {
-        grid-column-start: content-start;
-        grid-column-end: content-end;
-        grid-row-start: content-end;
-        grid-row-end: main-end;
-    }
-    &:nth-child(6) {
-        grid-column-start: content-end;
-        grid-column-end: main-end;
-        grid-row-start: content-end;
-        grid-row-end: main-end;
+    &-wrapper {
+        &:nth-child(1) {
+            grid-column-start: main-start;
+            grid-row-start: main-start;
+            grid-row-end: content-start;
+        }
+        &:nth-child(2) {
+            grid-column-start: content-start;
+            grid-column-end: content-middle;
+            grid-row-start: main-start;
+            grid-row-end: content-end;
+        }
+        &:nth-child(3) {
+            grid-column-start: content-middle;
+            grid-column-end: main-end;
+            grid-row-start: main-start;
+            grid-row-end: content-end;
+        }
+        &:nth-child(4) {
+            grid-column-start: main-start;
+            grid-row-start: content-start;
+            grid-row-end: main-end;
+        }
+        &:nth-child(5) {
+            grid-column-start: content-start;
+            grid-column-end: content-end;
+            grid-row-start: content-end;
+            grid-row-end: main-end;
+        }
+        &:nth-child(6) {
+            grid-column-start: content-end;
+            grid-column-end: main-end;
+            grid-row-start: content-end;
+            grid-row-end: main-end;
+        }
     }
 }
 .slider {

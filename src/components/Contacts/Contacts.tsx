@@ -29,7 +29,7 @@ export default function Contacts({ tel, address, time, email, className }: Conta
                     return (
                         <li className={`${styles.item} truncate`} key={item}>
                             <Socials items={items} />
-                            <Link href={`tel:${item}`} className={`flex items-center gap-3 lg:gap-4`}>
+                            <Link href={`tel:${item}`} className={`flex items-center gap-3 lg:gap-4`} aria-label={item}>
                                 <FontAwesomeIcon icon={faPhone} className='w-4 h-4' />
                                 <span>{item}</span>
                             </Link>

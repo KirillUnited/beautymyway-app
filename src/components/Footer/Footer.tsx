@@ -28,7 +28,8 @@ export default function Footer() {
 
     return (
         <footer className="flex flex-col gap-10 bg-foregroundDark py-6">
-            <div className="container flex flex-wrap flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
+            <div
+                className="container flex flex-wrap flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
                 <div className='flex flex-col items-center md:items-start gap-6 order-1 sm:order-none'>
                     <Link href={'/'} className={`logo`}>
                         <Image
@@ -39,16 +40,21 @@ export default function Footer() {
                             className='max-w-[52px]'
                         />
                     </Link>
-                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel} address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email} />
+                    <Contacts className='flex flex-col items-center md:items-start gap-2 text-center' tel={CONTACTS.tel}
+                              address={CONTACTS.adress} time={CONTACTS.time} email={CONTACTS.email}/>
                 </div>
-                <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
-                    <span className="text-lg font-semibold leading-7">{t('aboutUs.label')}</span>
-                    {useNavbarLinks('aboutUs')}
-                </ul>
-                <ul className="flex flex-col font-light leading-normal gap-2 text-center md:text-left">
-                    <span className="text-lg font-semibold leading-7">{t('services.label')}</span>
-                    {useNavbarLinks('services')}
-                </ul>
+                <div className='flex flex-col gap-2'>
+                    <span className="text-lg uppercase font-light leading-7">{t('aboutUs.label')}</span>
+                    <ul className="flex flex-col leading-normal gap-2 text-center md:text-left">
+                        {useNavbarLinks('aboutUs')}
+                    </ul>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <span className="text-lg uppercase font-light leading-7">{t('services.label')}</span>
+                    <ul className="flex flex-col leading-normal gap-2 text-center md:text-left">
+                        {useNavbarLinks('services')}
+                    </ul>
+                </div>
             </div>
             <div className="container">
                 <div className="text-center leading-[115%] text-sm font-light">

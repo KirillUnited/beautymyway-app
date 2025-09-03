@@ -1,6 +1,11 @@
 ---
-    title: PLAN DE COMIDAS PERSONALIZADO
-    hero_image: 'nutriciologiya.jpeg'
+title: PLAN DE COMIDAS PERSONALIZADO
+hero_image: 'nutriciologiya.jpeg'
+seo:
+    title: Plan de comidas personalizado en Valencia
+    description: Elaboramos planes de nutrición personalizados para mejorar tu salud, energía y bienestar. Ajusta tu peso con Beauty My Way.
+    keywords: nutrition plan Valencia, personalized diet, healthy eating, dietitian Valencia
+    ogImage: '/apple-icon.png'
 ---
 # PLAN DE COMIDAS PERSONALIZADO
 

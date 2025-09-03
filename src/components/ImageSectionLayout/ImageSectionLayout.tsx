@@ -25,6 +25,7 @@ export default function ImageSectionLayout({ title, description, children, image
                         height={510}
                         alt={title || 'Beauty My Way'}
                         className='object-cover w-full h-full aspect-video'
+                        quality={75}
                     />
                 </motion.div>
                 <motion.div

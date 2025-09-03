@@ -1,6 +1,11 @@
 ---
-    title: Psychology
-    hero_image: 'psihologiya.jpeg'
+title: Psychology
+hero_image: 'psihologiya.jpeg'
+seo:
+  title: Psychological Support & Harmony
+  description: Psychology and beauty are connected. Helping you achieve harmony and confidence.
+  keywords: psychology Valencia, emotional support, mental well-being
+  ogImage: '/apple-icon.png'
 ---
 ## The role of psychology in human life
 

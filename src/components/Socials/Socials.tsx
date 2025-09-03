@@ -15,19 +15,19 @@ export const SocialsItem = ({ item, value, className }: ISocialsItemProps): Reac
     switch (item) {
         case 'instagram':
             return (
-                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)} aria-label={item}>
                     <FontAwesomeIcon icon={faInstagram} className={`${styles.icon}`} />
                 </a>
             )
         case 'telegram':
             return (
-                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)} aria-label={item}>
                     <FontAwesomeIcon icon={faTelegram} className={`${styles.icon}`} />
                 </a>
             )
         case 'whatsapp':
             return (
-                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)}>
+                <a href={value} target='_blank' className={classNames(`${styles.link}`, className)} aria-label={item}>
                     <FontAwesomeIcon icon={faWhatsapp} className={`${styles.icon}`} />
                 </a>
             )

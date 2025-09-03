@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Team.module.scss';
 import cn from 'classnames';
 import Image from 'next/image';
-import { TEAM } from '@/data';
+import {TEAM} from '@/data';
 import * as motion from 'framer-motion/client';
 import {Variants} from "framer-motion";
 
@@ -20,11 +20,11 @@ const animateVariants: Variants = {
     }
 };
 
-export default function TeamGrid({ className }: TeamGrid): React.JSX.Element {
+export default function TeamGrid({className}: TeamGrid): React.JSX.Element {
     const items = TEAM.map(({
-        image,
-        title
-    }: {
+                                image,
+                                title
+                            }: {
         image: string,
         title: string
     }, index) => {
@@ -43,13 +43,14 @@ export default function TeamGrid({ className }: TeamGrid): React.JSX.Element {
                 className={styles['image-wrapper']}
             >
                 <Image
-                src={`/images/${image}`}
-                width={360}
-                height={200}
-                quality={100}
-                alt={title}
-                className={styles.image}
-            />
+                    className={styles.image}
+                    src={`/images/${image}`}
+                    width={360}
+                    height={200}
+                    quality={75}
+                    alt={title}
+
+                />
             </motion.div>
         )
     });

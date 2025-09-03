@@ -1,6 +1,11 @@
 ---
-    title: PERSONALIZED MEAL PLAN
-    hero_image: 'nutriciologiya.jpeg'
+title: PERSONALIZED MEAL PLAN
+hero_image: 'nutriciologiya.jpeg'
+seo:
+    title: Personalized meal plan in Valencia
+    description: We create personalized nutrition plans to improve your health, energy and well-being. Adjust your weight with Beauty My Way.
+    keywords: nutrition plan Valencia, personalized diet, healthy eating, dietitian Valencia
+    ogImage: '/apple-icon.png'
 ---
 # PERSONALIZED MEAL PLAN
 

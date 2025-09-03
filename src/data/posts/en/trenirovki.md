@@ -1,6 +1,11 @@
 ---
-    title: Workout
-    hero_image: 'trenirovki.jpeg'
+title: Workout
+hero_image: 'trenirovki.jpeg'
+seo:
+    title: Personalized Training Program in Valencia
+    description: Personalized workout plan for health, weight loss, and body strengthening.
+    keywords: Workout, Individual training program planning
+    ogImage: '/apple-icon.png'
 ---
 
 ## Individual training program planning

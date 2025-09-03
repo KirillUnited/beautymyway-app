@@ -30,7 +30,7 @@ export default function HeroSection(): React.JSX.Element {
                     placeholder={'blur'}
                     alt={`${t('title')}`}
                     priority
-                    quality={100}
+                    quality={90}
                     className={`${styles['bg-image']}`}
                 />
             </motion.div>

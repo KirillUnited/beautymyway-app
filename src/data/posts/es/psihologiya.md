@@ -1,6 +1,11 @@
 ---
-    title: Psicología
-    hero_image: 'psihologiya.jpeg'
+title: Psicología
+hero_image: 'psihologiya.jpeg'
+seo:
+    title: Apoyo psicológico y equilibrio
+    description: La psicología y la belleza están conectadas. Te ayudamos a lograr equilibrio y confianza.
+    keywords: psicología Valencia, apoyo emocional, equilibrio y bienestar
+    ogImage: '/apple-icon.png'
 ---
 ## El papel de la psicología en la vida humana.
 

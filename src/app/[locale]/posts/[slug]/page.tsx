@@ -18,7 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({params}: Props) {
     const {frontmatter} = await getPostBySlug(params);
-    const {title = '', description = '', keywords = ''} = frontmatter.seo || {};
+    const {title = '', description = '', keywords = '', ogImage} = frontmatter?.seo || {};
 
     return {
         title: `${title || frontmatter.title || ''}`,
@@ -27,7 +27,19 @@ export async function generateMetadata({params}: Props) {
         openGraph: {
             title: `${title || frontmatter.title || ''}`,
             description: `${description}`,
-            images: '/apple-icon.png'
+            images: [
+                {
+                    url: `https://beautymyway.es${ogImage || frontmatter.hero_image || ''}`,
+                    width: 1200,
+                    height: 630,
+                    alt: `Featured image for ${frontmatter.title || ''}`,
+                }],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${title || frontmatter.title || ''}`,
+            description: `${description}`,
+            images: [`https://beautymyway.es${ogImage || frontmatter.hero_image || ''}`],
         }
     }
 }

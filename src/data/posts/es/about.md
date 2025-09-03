@@ -1,6 +1,11 @@
 ---
 title: QUIÉNES SOMOS
 hero_image: null
+seo:
+    title: Beauty My Way — cosmetologo en Valencia | Belleza y bienestar
+    description: Descubra lo que tenemos para ofrecer en Beauty My Way en Valencia ⭐ Profesionalismo en cosmetologia, cuidado facial y corporal, planes personalizados de bienestar y belleza.
+    keywords: cosmetologo Valencia, cosmetologia en Valencia, cuidado facial, profesionalismo en cosmetologia, Beauty My Way
+    ogImage: '/apple-icon.png'
 ---
 
 # Beauty - My Way !  ¡Abran nuestras puertas!

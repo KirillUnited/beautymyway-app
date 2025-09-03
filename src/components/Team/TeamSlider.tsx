@@ -23,6 +23,7 @@ export default function TeamSlider({ className }: TeamSlider): React.JSX.Element
                     width={360}
                     height={200}
                     alt={title}
+                    quality={75}
                     className={styles['slider-image']}
                 />
             </Carousel.Slide>

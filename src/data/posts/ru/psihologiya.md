@@ -1,6 +1,11 @@
 ---
-    title: Psihologiya
-    hero_image: 'psihologiya.jpeg'
+title: Psihologiya
+hero_image: 'psihologiya.jpeg'
+seo:
+    title: Психологическая поддержка и гармония
+    description: Психология и красота взаимосвязаны. Помогаю обрести гармонию и уверенность.
+    keywords: психология Валенсия, гармония и здоровье, психологическая поддержка
+    ogImage: '/apple-icon.png'
 ---
 ## Роль психологии в жизни человека
 

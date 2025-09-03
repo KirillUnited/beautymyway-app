@@ -1,6 +1,11 @@
 ---
 title: SpheraWay for face and body
 hero_image: spheraway.JPG
+seo:
+    title: SpheraWay for Face & Body in Valencia
+    description: Innovative SpheraWay method for skin rejuvenation and recovery. Professional face & body care in Valencia.
+    keywords: SpheraWay Valencia, skin rejuvenation, face & body treatment
+    ogImage: '/apple-icon.png'
 ---
 
 ## SpheraWay for face and body

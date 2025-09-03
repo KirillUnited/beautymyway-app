@@ -1,6 +1,11 @@
 ---
 title: SpheraWay para la cara y el cuerpo
 hero_image: spheraway.JPG
+seo:
+    title: SpheraWay para rostro y cuerpo en Valencia
+    description: Método innovador SpheraWay para rejuvenecer y revitalizar la piel. Cuidado profesional del rostro y cuerpo en Valencia.
+    keywords: SpheraWay Valencia, rejuvenecimiento facial y corporal, tratamientos de estética
+    ogImage: '/apple-icon.png'
 ---
 
 ## SpheraWay para la cara y el cuerpo

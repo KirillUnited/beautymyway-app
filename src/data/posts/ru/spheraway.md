@@ -1,6 +1,11 @@
 ---
-    title: SpheraWay для лица и тела
-    hero_image: 'spheraway.JPG'
+title: SpheraWay для лица и тела
+hero_image: 'spheraway.JPG'
+seo:
+    title: SpheraWay для лица и тела в Валенсии
+    description: Инновационная методика SpheraWay для омоложения и восстановления кожи. Профессиональный уход за лицом и телом.
+    keywords: SpheraWay Валенсия, уход за лицом и телом, омоложение кожи
+    ogImage: '/apple-icon.png'
 ---
 ## SpheraWay для лица и тела
 

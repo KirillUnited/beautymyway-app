@@ -1,6 +1,11 @@
 ---
 title: WHO WE ARE
 hero_image: null
+seo:
+    title: Beauty My Way — cosmetologist in Valencia | Beauty and health
+    description: Find out more about Beauty My Way in Valencia ⭐ Professional cosmetology, skin care and body care, personalized health and beauty plans.
+    keywords: cosmetologist Valencia, cosmetology in Valencia, skin care, professional cosmetology, Beauty My Way
+    ogImage: '/apple-icon.png'
 ---
 
 # Beauty - My Way !  Open our doors!

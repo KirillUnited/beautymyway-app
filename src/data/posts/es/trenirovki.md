@@ -1,6 +1,11 @@
 ---
-    title: Ejercicio
-    hero_image: 'trenirovki.jpeg'
+title: Ejercicio
+hero_image: 'trenirovki.jpeg'
+seo:
+    title: Programa de entrenamiento personalizado en Valencia
+    description: Plan de entrenamiento individual para mejorar tu salud, perder peso y fortalecer tu cuerpo.
+    keywords: entrenamiento personalizado Valencia, plan fitness, entrenador personal
+    ogImage: '/apple-icon.png'
 ---
 
 ## Planificación del programa de entrenamiento individual

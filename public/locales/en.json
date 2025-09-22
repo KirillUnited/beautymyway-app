@@ -1,140 +1,170 @@
 {
-    "Meta": {
-        "title": "Beauty My Way ➤ Professional cosmetologist in Valencia",
-        "description": "Beauty My Way ➤ cosmetologist in Valencia⭐ I professionally help you find beauty and health! ✅ ➤ More than 15 years of experience!",
-        "keywords": "Massage, Endosphere, Emsculpt, Dion laser, dietary supplement, nutrition, sports, cosmetologist, doctor, botox, mesotherapy, biorevitalization, Myway, Beauty, Beauty My Way, lipolytics, carboxytherapy, cleansing, face, skin, body, beauty, health, harmony, psychology"
-    },
-    "Header": {
-        "navbar": {
-            "services": {
-                "label": "Services",
-                "menuItems": {
-                    "service_1": {
-                        "label": "Hardware body correction",
-                        "innerMenuItems": {
-                            "sub_service_1": "SpheraWay for face and body",
-                            "sub_service_2": "SculptWay - fat burning and figure correction'"
-                        }
-                    },
-                    "service_2": {
-                        "label": "Nutritionology"
-                    },
-                    "service_3": {
-                        "label": "Workout"
-                    },
-                    "service_4": {
-                        "label": "Psychology"
-                    },
-                    "service_5": {
-                        "label": "Laser cosmetology",
-                        "innerMenuItems": {
-                            "sub_service_1": "Laser facial rejuvenation",
-                            "sub_service_2": "Laser removal of pigment spots"
-                        }
-                    },
-                    "service_6": {
-                        "label": "Laser hair removal"
-                    },
-                    "service_7": {
-                        "label": "Hardware cosmetology",
-                        "innerMenuItems": {
-                            "sub_service_1": "IPL photorejuvenation",
-                            "sub_service_2": "SpheraWay for face and body",
-                            "sub_service_3": "SculptWay - fat burning and figure correction",
-                            "sub_service_4": "RF lifting",
-                            "sub_service_5": "BeatyWay complex"
-                        }
-                    },
-                    "service_8": {
-                        "label": "Injection cosmetology",
-                        "innerMenuItems": {
-                            "sub_service_1": "Facial mesotherapy",
-                            "sub_service_2": "Body mesotherapy",
-                            "sub_service_3": "Hair mesotherapy",
-                            "sub_service_4": "Biorevitalization"
-                        }
-                    },
-                    "service_9": {
-                        "label": "Skincare cosmetology",
-                        "innerMenuItems": {
-                            "sub_service_1": "Face cleaning",
-                            "sub_service_2": "Chemical peels",
-                            "sub_service_3": "Carboxytherapy",
-                            "sub_service_4": "Microcurrent therapy",
-                            "sub_service_5": "Lymphatic drainage facial massage"
-                        }
-                    }
-                }
-            },
-            "consult": {
-                "label": "Consultation"
-            },
-            "aboutUs": {
-                "label": "About Us",
-                "menuItems": {
-                    "whoAreWe": {
-                        "label": "Who are we"
-                    },
-                    "reviews": {
-                        "label": "Reviews"
-                    }
-                }
-            },
-            "contacts": {
-                "label": "Contacts"
+  "Meta": {
+    "title": "Beauty My Way ➤ Professional cosmetologist in Valencia",
+    "description": "Beauty My Way ➤ cosmetologist in Valencia⭐ I professionally help you find beauty and health! ✅ ➤ More than 15 years of experience!",
+    "keywords": "Massage, Endosphere, Emsculpt, Dion laser, dietary supplement, nutrition, sports, cosmetologist, doctor, botox, mesotherapy, biorevitalization, Myway, Beauty, Beauty My Way, lipolytics, carboxytherapy, cleansing, face, skin, body, beauty, health, harmony, psychology"
+  },
+  "Header": {
+    "navbar": {
+      "services": {
+        "label": "Services",
+        "menuItems": {
+          "service_1": {
+            "label": "Hardware body correction",
+            "innerMenuItems": {
+              "sub_service_1": "SpheraWay for face and body",
+              "sub_service_2": "SculptWay - fat burning and figure correction'"
             }
-        }
-    },
-    "Hero": {
-        "title": "Beauty is Freedom.",
-        "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"
-    },
-    "Info": {
-        "title": "Contacts",
-        "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website.",
-        "CTA title": "Online registration"
-    },
-    "FeaturedProducts": {
-        "title": "Unique procedures"
-    },
-    "About": {
-        "slogan": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",
-        "description": "We <span className=\"font-semibold\">daily</span> use our accumulated experience, best techniques and tools to help you discover and highlight your natural beauty and harmony. This allows us to introduce advanced techniques and treatment protocols."
-    },
-    "Products": {
-        "title": "What problem do you want to solve?",
-        "description": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology."
-    },
-    "Team": {
-        "title": "Our team"
-    },
-    "HIT": {
-        "title": "Procedure of the month",
-        "subtitle": "Phototherapy and Photorejuvenation (IPL)",
-        "description": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
-        "CTA title": "More details about the procedure"
-    },
-    "TESTIMONIALS": {
-        "title": "Reviews",
-        "list": {
-            "1": {
-                "description": "Hello! I would like to express my gratitude to Arthur. A wonderful specialist, a very friendly and polite person. Thanks to such specialists, I want to come to your office again and again. Sincerely, Olesya and Maxim)"
-            },
-            "2": {
-                "description": "I have been visiting this center for several months now. I completed a course of laser rejuvenation, and now I go for maintenance procedures once every half a year. I always went to see Angelina. She is very attentive, always asks about her well-being, explains everything clearly and clearly, and is pleasant to talk to. The staff is always friendly, the offices are very clean."
-            },
-            "3": {
-                "description": "Yesterday I visited the salon and was very pleased, I will share my emotions: firstly, the pleasant atmosphere of the interior and friendliness are immediately greeted on the threshold of this wonderful place, and secondly, the professionalism and attentiveness of the specialist) This is not the first time I have done this, but this is the first time in this salon biorevitalization, the procedure is carried out painless, which means a professional doctor who will prepare you and approach you where necessary. Thank you so much for the beauty"
-            },
-            "4": {
-                "description": "I would like to express my gratitude to body specialist Arthur. I am prone to swelling and due to a sedentary lifestyle, my body is not as perfect as it used to be. A friend recommended an excellent specialist. Arthur picked out a whole complex for me. We did the procedures twice a week, eight times. The result was not long in coming, my body responded with gratitude to the impact! I can feel free to wear my favorite shorts! And I feel confident again! Thank you!"
-            },
-            "5": {
-                "description": "Thanks to Angelina for my beautiful face))) Her hands work wonders, I trust her completely. My daughter and I have been going here for over a year now and we are always very pleased."
-            },
-            "6": {
-                "description": "I admire my face after the procedure, and it gets better and better from the day of the procedure!!! That’s why I’m writing! Today is even better!!! Arthur Alexandrovich is some kind of magic!! To say thank you to my Beauty Doctor is to say nothing! Thanks to all the staff, professionalism and tactfulness that I have never known before"
+          },
+          "service_2": {
+            "label": "Nutritionology"
+          },
+          "service_3": {
+            "label": "Workout"
+          },
+          "service_4": {
+            "label": "Psychology"
+          },
+          "service_5": {
+            "label": "Laser cosmetology",
+            "innerMenuItems": {
+              "sub_service_1": "Laser facial rejuvenation",
+              "sub_service_2": "Laser removal of pigment spots"
             }
+          },
+          "service_6": {
+            "label": "Laser hair removal"
+          },
+          "service_7": {
+            "label": "Hardware cosmetology",
+            "innerMenuItems": {
+              "sub_service_1": "IPL photorejuvenation",
+              "sub_service_2": "SpheraWay for face and body",
+              "sub_service_3": "SculptWay - fat burning and figure correction",
+              "sub_service_4": "RF lifting",
+              "sub_service_5": "BeatyWay complex"
+            }
+          },
+          "service_8": {
+            "label": "Injection cosmetology",
+            "innerMenuItems": {
+              "sub_service_1": "Facial mesotherapy",
+              "sub_service_2": "Body mesotherapy",
+              "sub_service_3": "Hair mesotherapy",
+              "sub_service_4": "Biorevitalization"
+            }
+          },
+          "service_9": {
+            "label": "Skincare cosmetology",
+            "innerMenuItems": {
+              "sub_service_1": "Face cleaning",
+              "sub_service_2": "Chemical peels",
+              "sub_service_3": "Carboxytherapy",
+              "sub_service_4": "Microcurrent therapy",
+              "sub_service_5": "Lymphatic drainage facial massage"
+            }
+          }
         }
+      },
+      "consult": {
+        "label": "Consultation"
+      },
+      "aboutUs": {
+        "label": "About Us",
+        "menuItems": {
+          "whoAreWe": {
+            "label": "Who are we"
+          },
+          "reviews": {
+            "label": "Reviews"
+          }
+        }
+      },
+      "contacts": {
+        "label": "Contacts"
+      }
     }
+  },
+  "Hero": {
+    "title": "Beauty is Freedom.",
+    "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"
+  },
+  "Info": {
+    "title": "Contacts",
+    "description": "To get a consultation or make an appointment, please contact the contact number indicated on the website.",
+    "CTA title": "Online registration"
+  },
+  "FeaturedProducts": {
+    "title": "Unique procedures"
+  },
+  "About": {
+    "slogan": "We get inspiration from the beauty of every client<span className=\"font-normal\">who contacts us!</span>",
+    "description": "We <span className=\"font-semibold\">daily</span> use our accumulated experience, best techniques and tools to help you discover and highlight your natural beauty and harmony. This allows us to introduce advanced techniques and treatment protocols."
+  },
+  "Products": {
+    "title": "What problem do you want to solve?",
+    "description": "We take care of the youth of your skin and figure, using modern methods of laser, hardware and injection cosmetology."
+  },
+  "Team": {
+    "title": "Our team"
+  },
+  "HIT": {
+    "title": "Procedure of the month",
+    "subtitle": "Phototherapy and Photorejuvenation (IPL)",
+    "description": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
+    "CTA title": "More details about the procedure"
+  },
+  "TESTIMONIALS": {
+    "title": "Reviews",
+    "list": {
+      "1": {
+        "description": "Hello! I would like to express my gratitude to Arthur. A wonderful specialist, a very friendly and polite person. Thanks to such specialists, I want to come to your office again and again. Sincerely, Olesya and Maxim)"
+      },
+      "2": {
+        "description": "I have been visiting this center for several months now. I completed a course of laser rejuvenation, and now I go for maintenance procedures once every half a year. I always went to see Angelina. She is very attentive, always asks about her well-being, explains everything clearly and clearly, and is pleasant to talk to. The staff is always friendly, the offices are very clean."
+      },
+      "3": {
+        "description": "Yesterday I visited the salon and was very pleased, I will share my emotions: firstly, the pleasant atmosphere of the interior and friendliness are immediately greeted on the threshold of this wonderful place, and secondly, the professionalism and attentiveness of the specialist) This is not the first time I have done this, but this is the first time in this salon biorevitalization, the procedure is carried out painless, which means a professional doctor who will prepare you and approach you where necessary. Thank you so much for the beauty"
+      },
+      "4": {
+        "description": "I would like to express my gratitude to body specialist Arthur. I am prone to swelling and due to a sedentary lifestyle, my body is not as perfect as it used to be. A friend recommended an excellent specialist. Arthur picked out a whole complex for me. We did the procedures twice a week, eight times. The result was not long in coming, my body responded with gratitude to the impact! I can feel free to wear my favorite shorts! And I feel confident again! Thank you!"
+      },
+      "5": {
+        "description": "Thanks to Angelina for my beautiful face))) Her hands work wonders, I trust her completely. My daughter and I have been going here for over a year now and we are always very pleased."
+      },
+      "6": {
+        "description": "I admire my face after the procedure, and it gets better and better from the day of the procedure!!! That’s why I’m writing! Today is even better!!! Arthur Alexandrovich is some kind of magic!! To say thank you to my Beauty Doctor is to say nothing! Thanks to all the staff, professionalism and tactfulness that I have never known before"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "description": "FAQ about Beauty My Way cosmetology services in Valencia. Learn more about treatments, safety, and skincare results.",
+    "data": [
+      {
+        "value": "What cosmetology services do you offer?",
+        "description": "We provide a wide range of treatments: laser rejuvenation, hair removal, face and body care, lymphatic drainage massage, as well as personalized nutrition and workout programs."
+      },
+      {
+        "value": "Do I need any preparation before treatments?",
+        "description": "Preparation depends on the chosen procedure. For laser treatments, it is recommended to avoid sun exposure, while for facials, it is enough to come with clean skin."
+      },
+      {
+        "value": "Are the procedures safe?",
+        "description": "Yes, all procedures are carried out using certified equipment and techniques that comply with European safety standards."
+      },
+      {
+        "value": "How long do the effects of cosmetology treatments last?",
+        "description": "The duration depends on the treatment. Laser hair removal provides long-term results, while skincare treatments are most effective when taken as a course."
+      },
+      {
+        "value": "Can cosmetology be combined with nutrition and workout plans?",
+        "description": "Yes, we follow a holistic approach: cosmetology, nutrition, and training programs work together to achieve beauty and health."
+      },
+      {
+        "value": "Where is Beauty My Way located in Valencia?",
+        "description": "We are located in the center of Valencia, convenient for both residents and visitors. The exact address and contact details can be found on the 'Contacts' page."
+      }
+    ]
+  }
 }

@@ -7,6 +7,7 @@ import ProductsSection from '@/components/Sections/ProductsSection/ProductsSecti
 import TestimonialsSection from '@/components/Sections/TestimonialsSection/TestimonialsSection';
 import {TeamSection} from '@/components/Team/TeamSection';
 import {unstable_setRequestLocale} from 'next-intl/server';
+import FaqSection from "@/components/Sections/FAQSection";
 
 export default async function Home({params: {locale}}: any) {// Enable static rendering
     unstable_setRequestLocale(locale);
@@ -20,6 +21,7 @@ export default async function Home({params: {locale}}: any) {// Enable static re
             <TeamSection/>
             <HitSection/>
             <TestimonialsSection/>
+            <FaqSection/>
             <InfoSection locale={locale}/>
         </>
     )

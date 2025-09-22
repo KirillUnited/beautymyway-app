@@ -1,9 +1,13 @@
-import { withSectionLayout } from '@/layouts/SectionLayout';
+import {SectionLayout, withSectionLayout} from '@/layouts/SectionLayout';
 import FeaturedProducts from '@/components/FeaturedProducts/FeaturedProducts';
+import {useTranslations} from "next-intl";
 
-const sectionProps = {
-    id: 'FeaturedProducts',
-    title: 'Уникальные процедуры'
-}
+export const FeaturedProductsSection = ()=>{
+    const t = useTranslations('FeaturedProducts');
 
-export const FeaturedProductsSection = withSectionLayout(FeaturedProducts, sectionProps);
+    return (
+        <SectionLayout id='featured-products' title={t('title')}>
+            <FeaturedProducts/>
+        </SectionLayout>
+    )
+};

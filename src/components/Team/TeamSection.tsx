@@ -1,9 +1,12 @@
-import { withSectionLayout } from '@/layouts/SectionLayout';
+import {SectionLayout, withSectionLayout} from '@/layouts/SectionLayout';
 import Team from '@/components/Team/Team';
+import {useTranslations} from "next-intl";
 
-const sectionProps = {
-    id: 'Team',
-    title: 'Наша команда',
-}
-
-export const TeamSection = withSectionLayout(Team, sectionProps);
+export const TeamSection = () => {
+    const t = useTranslations('Team');
+    return (
+        <SectionLayout id='team' title={t('title')}>
+            <Team/>
+        </SectionLayout>
+    )
+};

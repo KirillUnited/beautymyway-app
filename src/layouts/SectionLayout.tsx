@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import React, { FunctionComponent } from 'react';
+import cn from "classnames";
 
 interface ISectionLayoutProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
     children: React.ReactNode,
@@ -7,17 +8,18 @@ interface ISectionLayoutProps extends React.DetailedHTMLProps<React.HTMLAttribut
     description?: string,
 }
 
-const SectionLayout = (
+export const SectionLayout = (
     {
         children,
-        id
+        id,
+        title,
+        description,
+        className,
     }: ISectionLayoutProps): React.JSX.Element => {
     const t = useTranslations(id);
-    const title = !(t('title') === `${id}.title`) ? t('title') : null;
-    const description = !(t('description') === `${id}.description`) ? t('description') : null;
 
     return (
-        <section id={id} className='pb-4'>
+        <section id={id} className={cn('pb-4', className)}>
             <div className='container'>
                 {
                     (title || description)

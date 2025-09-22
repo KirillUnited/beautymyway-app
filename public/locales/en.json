@@ -114,6 +114,11 @@
     "description": "Photorejuvenation is a medical procedure aimed at preventing and eliminating signs of skin photoaging. Effective and non-invasive, this technology is carried out using high-intensity light sources (IPL), representing one of the most promising trends in the field of aesthetic medicine.",
     "CTA title": "More details about the procedure"
   },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "homeButton": "Go to Home"
+  },
   "TESTIMONIALS": {
     "title": "Reviews",
     "list": {

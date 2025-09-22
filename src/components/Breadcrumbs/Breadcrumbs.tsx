@@ -41,7 +41,7 @@ export default function Breadcrumbs({
                 {/*    },*/}
                 {/*)}*/}
 
-                <Crumb position={(crumbs?.length || 0) + 2} hidden={hideCurrent}>
+                <Crumb position={(crumbs?.length || 0) + 1} hidden={hideCurrent}>
                     {currentPage?.title || currentPage?.metadata?.title}
                 </Crumb>
             </ol>

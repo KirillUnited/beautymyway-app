@@ -7,6 +7,7 @@ import {getPostBySlug} from '@/lib/api/posts';
 import FAQSection from "@/components/Sections/FAQSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {getBreadcrumbs} from "@/lib/crumbs";
+import {notFound} from "next/navigation";
 
 type Props = {
     params: {
@@ -20,7 +21,12 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({params}: Props) {
-    const {frontmatter} = await getPostBySlug(params);
+    const {frontmatter} = await getPostBySlug(params) || {};
+
+    if (!frontmatter) {
+        return notFound()
+    }
+
     const {title = '', description = '', keywords = '', ogImage} = frontmatter?.seo || {};
 
     return {
@@ -48,22 +54,22 @@ export async function generateMetadata({params}: Props) {
 }
 
 export default async function ServiceTemplate({params}: Props) {
-    const {frontmatter, markdownBody} = await getPostBySlug(params);
-    const { crumbs, currentPage } = getBreadcrumbs(frontmatter.title);
+    const {frontmatter, markdownBody} = await getPostBySlug(params) || {};
+    const { crumbs, currentPage } = getBreadcrumbs(frontmatter?.title);
 
     return (
         <>
             <article className={styles.root}>
                 {
-                    frontmatter.hero_image
+                    frontmatter?.hero_image
                     &&
 						<div className="container max-w-6xl">
 							<figure className={styles.hero}>
 								<Image
 										width="1920"
 										height="600"
-										src={`/images/posts/${frontmatter.hero_image}`}
-										alt={`${frontmatter.title}`}
+										src={`/images/posts/${frontmatter?.hero_image}`}
+										alt={`${frontmatter?.title}`}
 										className={`${styles['hero-image']}`}
 										quality={100}
 										priority

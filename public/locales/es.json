@@ -138,6 +138,11 @@
       }
     }
   },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "description": "La página que estás buscando podría haber sido eliminada, haber cambiado de nombre o no estar disponible temporalmente.",
+    "homeButton": "Ir al inicio"
+  },
   "FAQ": {
     "title": "Preguntas frecuentes sobre",
     "description": "FAQ sobre los servicios de estética de Beauty My Way en Valencia. Conozca más sobre tratamientos, seguridad y resultados en el cuidado de la piel.",

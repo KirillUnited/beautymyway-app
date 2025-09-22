@@ -8,7 +8,7 @@ export default function FaqSection() {
     const faqItems: FaqItem[] = t.raw("data");
 
     return (
-        <SectionLayout id='faq' title={t('title')} description={t('description')}>
+        <SectionLayout id='faq' className='pb-12 lg:pb-20' title={t('title')} description={t('description')}>
             <FAQList data={faqItems} className='max-w-4xl mx-auto'/>
         </SectionLayout>
     )

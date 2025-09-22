@@ -1,5 +1,5 @@
 ---
-title: Psihologiya
+title: Психология
 hero_image: 'psihologiya.jpeg'
 seo:
     title: Психологическая поддержка и гармония

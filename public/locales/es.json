@@ -16,15 +16,6 @@
               "sub_service_2": "SculptWay - quema grasa y corrección de figura'"
             }
           },
-          "service_2": {
-            "label": "Nutritología"
-          },
-          "service_3": {
-            "label": "Ejercicio"
-          },
-          "service_4": {
-            "label": "Psicología"
-          },
           "service_5": {
             "label": "Cosmetología láser",
             "innerMenuItems": {

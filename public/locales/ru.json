@@ -16,15 +16,6 @@
               "sub_service_2": "SculptWay - сжигание жира и коррекция фигуры"
             }
           },
-          "service_2": {
-            "label": "Нутрициология"
-          },
-          "service_3": {
-            "label": "Тренировки"
-          },
-          "service_4": {
-            "label": "Психология"
-          },
           "service_5": {
             "label": "Лазерная косметология",
             "innerMenuItems": {

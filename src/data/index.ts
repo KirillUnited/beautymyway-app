@@ -23,21 +23,6 @@ export const LINKS = [
                 ]
             },
             {
-                link: '/posts/nutriciologiya',
-                label: 'Нутрициология',
-                name: 'service_2',
-            },
-            {
-                link: '/posts/trenirovki',
-                label: 'Тренировки',
-                name: 'service_3',
-            },
-            {
-                link: '/posts/psihologiya',
-                label: 'Психология',
-                name: 'service_4',
-            },
-            {
                 link: '',
                 label: 'Лазерная косметология',
                 name: 'service_5',

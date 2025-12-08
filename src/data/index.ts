@@ -318,13 +318,13 @@ export const TEAM = [
 ];
 
 export const CONTACTS = {
-    tel: ['+34 643 942 528', '+34 643 939 409'],
+    tel: ['+34 643 942 528'],
     adress: 'Valencia',
     time: '10:00 - 20:00',
     email: 'waymywaybeauty@gmail.com',
     socials: {
-        instagram: ['https://www.instagram.com/beauty.my.way', 'https://www.instagram.com/beauty.my.way'],
-        telegram: ['https://t.me/+34643942528', 'https://t.me/+34643939409'],
-        whatsapp: ['https://wa.me/34643942528', 'https://wa.me/34643939409']
+        instagram: ['https://www.instagram.com/beauty.my.way'],
+        telegram: ['https://t.me/+34643942528'],
+        whatsapp: ['https://wa.me/34643942528']
     }
 };

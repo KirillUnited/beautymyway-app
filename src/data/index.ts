@@ -37,6 +37,16 @@ export const LINKS = [
                         label: 'Удаление пигментных пятен лазером',
                         name: 'sub_service_2',
                     },
+                    {
+                        link: '/posts/candela',
+                        label: 'IPL-фототерапия на аппарате Candela',
+                        name: 'sub_service_3',
+                    },
+                    {
+                        link: '/posts/candela-frax',
+                        label: 'Фракционный лазер Candela Frax 1550 в Clinica My Way',
+                        name: 'sub_service_4',
+                    }
                 ]
             },
             {

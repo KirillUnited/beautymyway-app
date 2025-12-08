@@ -20,7 +20,9 @@
             "label": "Лазерная косметология",
             "innerMenuItems": {
               "sub_service_1": "Лазерное омоложение лица",
-              "sub_service_2": "Удаление пигментных пятен лазером"
+              "sub_service_2": "Удаление пигментных пятен лазером",
+              "sub_service_3": "IPL-фототерапия на аппарате Candela",
+              "sub_service_4": "Фракционный лазер Candela Frax 1550 в Clinica My Way"
             }
           },
           "service_6": {

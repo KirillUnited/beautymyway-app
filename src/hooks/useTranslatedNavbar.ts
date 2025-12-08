@@ -26,7 +26,9 @@ export default async function useTranslatedNavbar() {
                     "label": t('services.menuItems.service_5.label'),
                     "innerMenuItems": {
                         "sub_service_1": t('services.menuItems.service_5.innerMenuItems.sub_service_1'),
-                        "sub_service_2": t('services.menuItems.service_5.innerMenuItems.sub_service_2')
+                        "sub_service_2": t('services.menuItems.service_5.innerMenuItems.sub_service_2'),
+                        "sub_service_3": t('services.menuItems.service_5.innerMenuItems.sub_service_3'),
+                        "sub_service_4": t('services.menuItems.service_5.innerMenuItems.sub_service_4')
                     }
                 },
                 "service_6": {

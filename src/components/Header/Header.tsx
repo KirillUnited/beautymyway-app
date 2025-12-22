@@ -37,7 +37,9 @@ export default async function Header() {
           justify="center"
           className="text-base font-light gap-y-3"
         >
-          <HeaderMenu translatedNavbar={navigation?.[0].links} />
+          {navigation?.[0]?.links && (
+            <HeaderMenu translatedNavbar={navigation?.[0].links} />
+          )}
         </Group>
 
         <Group gap={"xs"}>

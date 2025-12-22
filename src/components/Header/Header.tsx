@@ -7,13 +7,11 @@ import styles from "./Header.module.scss";
 import HeaderDrawer from "./HeaderDrawer";
 import { getLocale } from "next-intl/server";
 import LocaleSwitcher from "../LanguageSwitcher/LocaleSwitcher";
-import useTranslatedNavbar from "@/hooks/useTranslatedNavbar";
 import { client } from "@/sanity/lib/client";
 import { NAVIGATION_QUERY } from "@/sanity/queries/site.query";
 
 export default async function Header() {
   const currentLocale = await getLocale();
-  const translatedNavbar = await useTranslatedNavbar();
   const navigation = await client.fetch(NAVIGATION_QUERY, {
     language: `${currentLocale}`,
   });
@@ -49,7 +47,7 @@ export default async function Header() {
 
           <HeaderDrawer
             currentLocale={currentLocale}
-            translatedNavbar={translatedNavbar}
+            translatedNavbar={navigation?.[0].links}
           />
         </Group>
       </nav>

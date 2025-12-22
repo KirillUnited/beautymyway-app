@@ -67,14 +67,14 @@ export default async function ServicePage({
   params,
 }: Props): Promise<JSX.Element> {
   const { locale, slug } = params;
-  const service = await client.fetch(SERVICE_QUERY, { slug, language: locale });
+  const service = await client.fetch(SERVICE_QUERY, { slug, language: `${locale}` });
   const serviceImageUrl = service?.image
     ? urlFor(service.image)?.width(1200).height(600).url()
     : "/";
   // const relatedProjectsArray = Array.isArray(relatedProjects)
   //   ? relatedProjects
   //   : [relatedProjects];
-  console.log(service);
+  
   if (!service) {
     return notFound();
   }

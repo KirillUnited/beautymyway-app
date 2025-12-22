@@ -15,7 +15,7 @@ export default async function Header() {
   const currentLocale = await getLocale();
   const translatedNavbar = await useTranslatedNavbar();
   const navigation = await client.fetch(NAVIGATION_QUERY, {
-    language: currentLocale,
+    language: `${currentLocale}`,
   });
 
   return (

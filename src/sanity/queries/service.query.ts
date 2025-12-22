@@ -11,12 +11,28 @@ export const SERVICES_QUERY = defineQuery(`*[
       `);
 
 export const SERVICE_QUERY =
-  defineQuery(`*[_type == "service" && slug.current == $slug][0]{
+  defineQuery(`*[_type == "service" && slug.current == $slug && language == $language ][0]{
   ...,
+  _id,
+  title,
+  description,
+  slug,
   language,
   seo {
     title,
     description,
     "ogImage": image.asset->url
   },
+    "_translations": *[_type == "translation.metadata" && references(^._id)].translations[].value->{
+      _id,
+      title,
+      description,
+      slug,
+      language,
+      seo {
+        title,
+        description,
+        "ogImage": image.asset->url
+      }
+    },
 }`);

@@ -10,17 +10,13 @@ export const SERVICES_QUERY = defineQuery(`*[
       "currentSlug": slug.current}
       `);
 
-export const SERVICE_QUERY = defineQuery(`*[_type == "service" && slug.current == $slug][0]{
+export const SERVICE_QUERY =
+  defineQuery(`*[_type == "service" && slug.current == $slug][0]{
   ...,
-  calculator -> {
-      title,
-      description,
-      type
-  }
-  ,
+  language,
   seo {
     title,
     description,
     "ogImage": image.asset->url
-  }
+  },
 }`);

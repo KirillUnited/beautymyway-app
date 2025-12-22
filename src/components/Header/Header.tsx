@@ -17,7 +17,6 @@ export default async function Header() {
   const navigation = await client.fetch(NAVIGATION_QUERY, {
     language: currentLocale,
   });
-  console.log(navigation);
 
   return (
     <header className={styles.root}>

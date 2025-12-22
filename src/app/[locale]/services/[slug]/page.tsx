@@ -9,7 +9,10 @@ import Section, {
   SectionSubtitle,
   SectionTitle,
 } from "@/components/Sections/Section";
-import { ServiceDetails, ServiceHero } from "@/components/shared/service";
+import { ServiceHero } from "@/components/shared/service";
+import { client } from "@/sanity/lib/client";
+import { SERVICE_QUERY } from "@/sanity/queries/service.query";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: {
@@ -22,20 +25,21 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: Promise<Props>) {
-  const { locale, slug } = await params;
-  const service = await sanityFetch({
-    query: SERVICE_QUERY,
-    params: await params,
-  });
+export async function generateMetadata({ params }: Props) {
+  const { locale, slug } = params;
+  const service = await client.fetch(SERVICE_QUERY, { slug, language: locale });
   const { title = "", description = "", ogImage = "" } = service?.seo || {};
 
-  const url = `${process.env.NEXT_PUBLIC_SERVER_URL}/services/${slug}`;
+  const url = `${process.env.NEXT_PUBLIC_SERVER_URL}/${locale}/services/${slug}`;
+
+  if (!service) {
+    return notFound();
+  }
 
   return {
     title: `${title || ""}`,
     description: `${description}`,
-    keywords: `${title.split(" ").join(", ")}, ${description.split(" ").join(", ")}`,
+    keywords: `${title?.split(" ").join(", ")}, ${description?.split(" ").join(", ")}`,
     openGraph: {
       title: `${title || ""}`,
       description: `${description}`,
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: Promise<Props>) {
           url: ogImage ? ogImage : "/apple-touch-icon.png",
           width: 1200,
           height: 630,
-          alt: `Изображение для сервиса ${title || ""}`,
+          alt: `Featured image for ${title || ""}`,
         },
       ],
     },
@@ -62,22 +66,25 @@ export async function generateMetadata({ params }: Promise<Props>) {
 export default async function ServicePage({
   params,
 }: Props): Promise<JSX.Element> {
-  const { locale, slug } = await params;
-  // Fetch data in parallel for better performance
-  const service = [];
-  const serviceImageUrl = service.image
+  const { locale, slug } = params;
+  const service = await client.fetch(SERVICE_QUERY, { slug, language: locale });
+  const serviceImageUrl = service?.image
     ? urlFor(service.image)?.width(1200).height(600).url()
-    : null;
-  const relatedProjectsArray = Array.isArray(relatedProjects)
-    ? relatedProjects
-    : [relatedProjects];
+    : "/";
+  // const relatedProjectsArray = Array.isArray(relatedProjects)
+  //   ? relatedProjects
+  //   : [relatedProjects];
+  console.log(service);
+  if (!service) {
+    return notFound();
+  }
 
   return (
     <>
       {/* Hero section with background image and gradient overlay */}
       <ServiceHero
         description={service.description}
-        image={serviceImageUrl || ""}
+        image={serviceImageUrl}
         mediaBlock={service.mediaBlock}
         title={service.title}
       />
@@ -128,28 +135,28 @@ export default async function ServicePage({
       </div>
 
       {/* Portfolio section */}
-      {relatedProjectsArray.length > 0 && (
-        <Section className="bg-[#F9F9F9]">
-          <div className="flex flex-col gap-6 px-4">
-            <SectionHeading className="items-center text-center mx-auto">
-              <SectionSubtitle>{"галерея"}</SectionSubtitle>
-              <SectionTitle>{"Примеры работ"}</SectionTitle>
-              <SectionDescription>
-                {"Портфолио выполненных работ"}
-              </SectionDescription>
-            </SectionHeading>
+      {/*{relatedProjectsArray.length > 0 && (*/}
+      {/*  <Section className="bg-[#F9F9F9]">*/}
+      {/*    <div className="flex flex-col gap-6 px-4">*/}
+      {/*      <SectionHeading className="items-center text-center mx-auto">*/}
+      {/*        <SectionSubtitle>{"галерея"}</SectionSubtitle>*/}
+      {/*        <SectionTitle>{"Примеры работ"}</SectionTitle>*/}
+      {/*        <SectionDescription>*/}
+      {/*          {"Портфолио выполненных работ"}*/}
+      {/*        </SectionDescription>*/}
+      {/*      </SectionHeading>*/}
 
-            {/*<ProjectList bentoGrid={false} projectList={relatedProjectsArray} />*/}
+      {/*      /!*<ProjectList bentoGrid={false} projectList={relatedProjectsArray} />*!/*/}
 
-            {/* Mobile-only projects button */}
-            <SectionButton
-              className="lg:hidden flex"
-              href={"/projects"}
-              label="Все проекты"
-            />
-          </div>
-        </Section>
-      )}
+      {/*      /!* Mobile-only projects button *!/*/}
+      {/*      <SectionButton*/}
+      {/*        className="lg:hidden flex"*/}
+      {/*        href={"/projects"}*/}
+      {/*        label="Все проекты"*/}
+      {/*      />*/}
+      {/*    </div>*/}
+      {/*  </Section>*/}
+      {/*)}*/}
 
       {/* FAQ section */}
       {service.faqs && (

@@ -8,13 +8,14 @@ import { Link } from "@/i18n.config";
 export default function HeaderMenu({
   translatedNavbar,
 }: any): React.JSX.Element {
+  console.log(translatedNavbar);
   const items = translatedNavbar.map((link: any) => {
     const menuItems = link.submenu?.[0]?.services?.map((item: any) => {
       return (
         <Menu.Item
           key={item.title}
           component={Link}
-          href={`posts/${item.slug}`}
+          href={`/${link.slug}/${item.slug}`}
         >
           {item.title}
         </Menu.Item>

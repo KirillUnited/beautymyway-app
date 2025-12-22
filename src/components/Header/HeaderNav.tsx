@@ -1,42 +1,15 @@
 import React from 'react';
 import { NavLink } from '@mantine/core';
-import { LINKS } from '@/data/index';
 import styles from './Header.module.scss';
-import { IHeaderProps, IMenuItemsProps } from './Header.props';
 
-export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }: IHeaderProps): React.JSX.Element {    
-    const NavLinks = LINKS.map((link) => {
-        const menuItems = link.links?.map((item: IMenuItemsProps, index) => {
-            const translatedMenuItem = translatedNavbar[link.name].menuItems[`${item.name}`];
-            const innerItems = item.links?.map((innerItem: IMenuItemsProps) => {
-                return (
-                    <NavLink
-                        href={`/${currentLocale}${innerItem.link}`}
-                        className={styles.navLink}
-                        label={translatedMenuItem.innerMenuItems[`${innerItem.name}`]}
-                        key={innerItem.label}
-                        onClick={() => closeNav()}
-                    />
-                )
-            });
-
-            if (innerItems) {
-                return (
-                    <NavLink
-                        className={styles.navLink}
-                        label={translatedMenuItem.label}
-                        key={Math.random()}
-                    >
-                        {innerItems}
-                    </NavLink>
-                )
-            }
-
+export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }: any): React.JSX.Element {    
+    const NavLinks = translatedNavbar.map((link: any) => {
+        const menuItems = link.submenu?.[0]?.services?.map((item: any,) => {
             return (
                 <NavLink
-                    href={`/${currentLocale}${item.link}`}
+                    href={`/${currentLocale}/${link.slug}/${item.slug}`}
                     className={styles.navLink}
-                    label={translatedMenuItem.label}
+                    label={item.title}
                     key={Math.random()}
                     onClick={() => closeNav()}
                 />
@@ -46,7 +19,7 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
         if (menuItems) {
             return (
                 <NavLink
-                    label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name].label}</span>}
+                    label={<span className={styles.navLinkLabel}>{link.title}</span>}
                     className={styles.navLink}
                     key={Math.random()}
                 >
@@ -57,9 +30,9 @@ export default function HeaderNav({ closeNav, translatedNavbar, currentLocale }:
 
         return (
             <NavLink
-                href={`/${currentLocale}${link.link}`}
+                href={`/${currentLocale}/${link.slug}`}
                 className={styles.navLink}
-                label={<span className={styles.navLinkLabel}>{translatedNavbar[link.name].label}</span>}
+                label={<span className={styles.navLinkLabel}>{link.title}</span>}
                 key={Math.random()}
                 onClick={() => closeNav()}
             />

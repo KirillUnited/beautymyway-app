@@ -1,12 +1,4 @@
 import { PortableText } from "next-sanity";
-// import { ProjectList } from "@/components/shared/project";
-import { PROJECTS_BY_SERVICE_QUERY } from "@/sanity/lib/queries";
-import { OrderForm } from "@/components/ui/form";
-// import { FAQSection } from "@/components/shared/faq";
-import { SECTION_FIELDS } from "@/sanity/lib/queries/page.query";
-import ServiceJsonLd, {
-  BreadcrumbListJsonLd,
-} from "@/components/ServiceJsonLd";
 import { urlFor } from "@/sanity/lib/image";
 import { JSX } from "react";
 import { locales } from "@/i18n.config";
@@ -30,8 +22,8 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<Props> }) {
-  const { slug } = await params;
+export async function generateMetadata({ params }: Promise<Props>) {
+  const { locale, slug } = await params;
   const service = await sanityFetch({
     query: SERVICE_QUERY,
     params: await params,
@@ -69,17 +61,12 @@ export async function generateMetadata({ params }: { params: Promise<Props> }) {
 
 export default async function ServicePage({
   params,
-}: {
-  params: Promise<Props>;
-}): Promise<JSX.Element> {
-  const { slug } = await params;
+}: Props): Promise<JSX.Element> {
+  const { locale, slug } = await params;
   // Fetch data in parallel for better performance
-  const [service, relatedProjects] = await Promise.all([
-    sanityFetch({ query: SERVICE_QUERY, params: await params }),
-    // sanityFetch({query: PROJECTS_BY_SERVICE_QUERY, params: await params}),
-  ]);
+  const service = [];
   const serviceImageUrl = service.image
-    ? urlFor(service.image)?.width(1200).height(400).url()
+    ? urlFor(service.image)?.width(1200).height(600).url()
     : null;
   const relatedProjectsArray = Array.isArray(relatedProjects)
     ? relatedProjects

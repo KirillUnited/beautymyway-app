@@ -12,8 +12,6 @@ import { client } from "@/sanity/lib/client";
 import { SERVICES_QUERY } from "@/sanity/queries/service.query";
 import Link from "next/link";
 
-const options = { next: { revalidate: 30 } };
-
 export default async function Home({ params: { locale } }: any) {
   // Enable static rendering
   unstable_setRequestLocale(locale);

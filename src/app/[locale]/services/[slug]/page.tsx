@@ -108,7 +108,9 @@ export default async function ServicePage({
         {/* Service details section */}
         <Section id="serviceDetails" innerClassname="pt-6 md:pt-6">
           {Array.isArray(service.body) && (
-            <PortableText value={service.body} onMissingComponent={false} />
+            <article className="prose dark:prose-invert mx-auto">
+              <PortableText value={service.body} onMissingComponent={false} />
+            </article>
           )}
           {/*<ServiceDetails*/}
           {/*  advantages={service.advantages}*/}

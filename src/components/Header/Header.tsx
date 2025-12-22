@@ -45,10 +45,10 @@ export default async function Header() {
             <LocaleSwitcher locale={currentLocale} />
           </Group>
 
-          <HeaderDrawer
+          {navigation?.[0]?.links && (<HeaderDrawer
             currentLocale={currentLocale}
             translatedNavbar={navigation?.[0].links}
-          />
+          />)}
         </Group>
       </nav>
     </header>

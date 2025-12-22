@@ -1,23 +1,21 @@
 'use client';
 
-import {Button} from '@heroui/button';
-import {ArrowUpRightIcon} from 'lucide-react';
 import Link from 'next/link';
 import clsx from 'clsx';
-import {SectionProps} from '@/types';
+import Button from '../Button/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+interface SectionProps {
+	label: string;
+	href: string;
+	className?: string;
+}
 
 export const SectionButton = ({label, href, className}: SectionProps) => (
-	<Button
-		as={Link}
-		className={clsx('bg-brand-gradient text-fill-transparent', 'font-semibold border-1', 'group', className)}
-		color="secondary"
-		href={href}
-		radius="sm"
-		size="md"
-		target="_blank"
-		variant="bordered"
-	>
-		<span className="leading-none">{label}</span>
-		<ArrowUpRightIcon className="text-secondary group-hover:translate-x-1 transition-transform" size={18} />
-	</Button>
+	<Link href={href} target='_blank'>
+		<Button variant='transparent' className={clsx('group', className)} >
+			<span className="leading-none">{label}</span>
+			<FontAwesomeIcon icon={['fas', 'arrow-right']} className="text-secondary group-hover:translate-x-1 transition-transform" />
+		</Button>
+	</Link>
 );

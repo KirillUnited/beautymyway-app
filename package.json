@@ -19,6 +19,7 @@
     "@mantine/hooks": "^7.12.0",
     "@next/third-parties": "^14.2.15",
     "@react-google-maps/api": "^2.19.0",
+    "@sanity/image-url": "^2.0.2",
     "@tabler/icons-react": "^3.5.0",
     "classnames": "^2.3.2",
     "embla-carousel-autoplay": "^7.1.0",
@@ -27,6 +28,7 @@
     "motion": "^11.15.0",
     "next": "^14.2.15",
     "next-intl": "^3.14.1",
+    "next-sanity": "^12.0.5",
     "raw-loader": "^4.0.2",
     "react": "^18",
     "react-dom": "^18",
@@ -34,6 +36,7 @@
     "sass": "^1.69.4"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "@types/classnames": "^2.3.1",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -44,6 +47,7 @@
     "postcss": "^8.4.31",
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.7.4",
     "tailwindcss": "^3",
     "typescript": "^5"
   }

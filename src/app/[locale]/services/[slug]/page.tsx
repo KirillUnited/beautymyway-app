@@ -2,13 +2,7 @@ import { PortableText } from "next-sanity";
 import { urlFor } from "@/sanity/lib/image";
 import { JSX } from "react";
 import { locales } from "@/i18n.config";
-import { SectionButton } from "@/components/Sections/SectionButton";
-import Section, {
-  SectionDescription,
-  SectionHeading,
-  SectionSubtitle,
-  SectionTitle,
-} from "@/components/Sections/Section";
+import Section from "@/components/Sections/Section";
 import { ServiceHero } from "@/components/shared/service";
 import { client } from "@/sanity/lib/client";
 import { SERVICE_QUERY } from "@/sanity/queries/service.query";

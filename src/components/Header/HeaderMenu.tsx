@@ -32,7 +32,7 @@ export default function HeaderMenu({
         >
           <Menu.Target>
             <a className="linkHover">
-              <Group gap={"xs"}>
+              <Group gap={"xs"} wrap="nowrap">
                 <span>{link.title}</span>
                 <FontAwesomeIcon icon={faAngleDown} />
               </Group>

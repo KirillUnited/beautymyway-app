@@ -2,17 +2,16 @@ import { PortableText } from "next-sanity";
 import { urlFor } from "@/sanity/lib/image";
 import { JSX } from "react";
 import { locales } from "@/i18n.config";
-import { SectionButton } from "@/components/Sections/SectionButton";
-import Section, {
-  SectionDescription,
-  SectionHeading,
-  SectionSubtitle,
-  SectionTitle,
-} from "@/components/Sections/Section";
+import Section from "@/components/Sections/Section";
 import { ServiceHero } from "@/components/shared/service";
 import { client } from "@/sanity/lib/client";
 import { SERVICE_QUERY } from "@/sanity/queries/service.query";
 import { notFound } from "next/navigation";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { getBreadcrumbs } from "@/lib/crumbs";
+import { FAQList } from "@/components/FAQ";
+import { SectionLayout } from "@/layouts/SectionLayout";
+import { getTranslations } from "next-intl/server";
 
 type Props = {
   params: {
@@ -67,14 +66,21 @@ export default async function ServicePage({
   params,
 }: Props): Promise<JSX.Element> {
   const { locale, slug } = params;
-  const service = await client.fetch(SERVICE_QUERY, { slug, language: `${locale}` });
+  const service = await client.fetch(SERVICE_QUERY, {
+    slug,
+    language: `${locale}`,
+  });
   const serviceImageUrl = service?.image
     ? urlFor(service.image)?.width(1200).height(600).url()
     : "/";
   // const relatedProjectsArray = Array.isArray(relatedProjects)
   //   ? relatedProjects
   //   : [relatedProjects];
-  
+
+  const { crumbs, currentPage } = getBreadcrumbs(service?.title);
+
+  const t = await getTranslations("FAQ");
+
   if (!service) {
     return notFound();
   }
@@ -95,12 +101,7 @@ export default async function ServicePage({
         <section>
           <div className="container">
             <div className="mt-10 mb-6">
-              {/*<BreadcrumbListJsonLd name={service.title} />*/}
-              {/*<ServiceBreadcrumb*/}
-              {/*  service="Услуги"*/}
-              {/*  serviceSlug="services"*/}
-              {/*  title={service.title}*/}
-              {/*/>*/}
+              <Breadcrumbs crumbs={crumbs} currentPage={currentPage} />
             </div>
           </div>
         </section>
@@ -162,8 +163,14 @@ export default async function ServicePage({
 
       {/* FAQ section */}
       {service.faqs && (
-        <p>FAQ Section</p>
-        // <FAQSection className="bg-[#F9F9F9]" faqs={service.faqs} />
+        <SectionLayout
+          id="faq"
+          className="max-w-2xl mx-auto pb-12 lg:pb-20 border-t"
+          title={t("title")}
+          description={t("description")}
+        >
+          <FAQList data={service.faqs} />
+        </SectionLayout>
       )}
 
       {/* Contact form section */}

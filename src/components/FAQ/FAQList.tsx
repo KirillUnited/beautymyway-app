@@ -17,7 +17,6 @@ export default function FAQList({
   data: FaqItem[];
   className?: string;
 }): JSX.Element {
-  console.log(data);
   const items = data.map((item) => (
     <Accordion.Item key={item.title || item.value} value={item.title || item.value}>
       <Accordion.Control>{item.title || item.value}</Accordion.Control>

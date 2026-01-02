@@ -71,14 +71,12 @@ export default async function ServicePage({
   params,
 }: Props): Promise<JSX.Element> {
   const { locale, slug } = params;
-  const [service, t, t_hero] = await Promise.all([
-    client.fetch(SERVICE_QUERY, {
+  const service = await client.fetch(SERVICE_QUERY, {
       slug,
       language: `${locale}`,
-    }),
-    getTranslations("FAQ"),
-    getTranslations("Hero")
-  ]);
+    });
+  const t_faq = await getTranslations("FAQ");
+  const t_hero = await getTranslations("Hero");
   const serviceImageUrl = service?.image
     ? urlFor(service.image)?.width(1200).height(600).url()
     : "/";
@@ -141,8 +139,8 @@ export default async function ServicePage({
         <SectionLayout
           id="faq"
           className="max-w-2xl mx-auto pb-12 lg:pb-20 border-t"
-          title={t("title")}
-          description={t("description")}
+          title={t_faq("title")}
+          description={t_faq("description")}
         >
           <FAQList data={service.faqs} />
         </SectionLayout>

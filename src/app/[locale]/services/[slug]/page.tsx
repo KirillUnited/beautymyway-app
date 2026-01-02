@@ -12,6 +12,11 @@ import { getBreadcrumbs } from "@/lib/crumbs";
 import { FAQList } from "@/components/FAQ";
 import { SectionLayout } from "@/layouts/SectionLayout";
 import { getTranslations } from "next-intl/server";
+import InfoSection from "@/components/Sections/InfoSection/InfoSection";
+import { Button } from "@mantine/core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 
 type Props = {
   params: {
@@ -66,20 +71,18 @@ export default async function ServicePage({
   params,
 }: Props): Promise<JSX.Element> {
   const { locale, slug } = params;
-  const service = await client.fetch(SERVICE_QUERY, {
-    slug,
-    language: `${locale}`,
-  });
+  const [service, t, t_hero] = await Promise.all([
+    client.fetch(SERVICE_QUERY, {
+      slug,
+      language: `${locale}`,
+    }),
+    getTranslations("FAQ"),
+    getTranslations("Hero")
+  ]);
   const serviceImageUrl = service?.image
     ? urlFor(service.image)?.width(1200).height(600).url()
     : "/";
-  // const relatedProjectsArray = Array.isArray(relatedProjects)
-  //   ? relatedProjects
-  //   : [relatedProjects];
-
   const { crumbs, currentPage } = getBreadcrumbs(service?.title);
-
-  const t = await getTranslations("FAQ");
 
   if (!service) {
     return notFound();
@@ -93,14 +96,31 @@ export default async function ServicePage({
         image={serviceImageUrl}
         mediaBlock={service.mediaBlock}
         title={service.title}
+        footerSection={
+          <>
+            <Button
+              component="a"
+              href="#info"
+              color="#2b3632"
+              leftSection={<FontAwesomeIcon icon={faCalendar} />}
+            >{t_hero("CTA1")}</Button>
+            <Button
+              component="a"
+              href="#serviceDetails"
+              variant="default"
+              color="#2b3632"
+              rightSection={<FontAwesomeIcon icon={faArrowDown} />}
+            >{t_hero("CTA2")}</Button>
+          </>
+        }
       />
 
       {/* Main content wrapper */}
-      <div className="">
+      <div>
         {/* Breadcrumb navigation */}
         <section>
           <div className="container">
-            <div className="mt-10 mb-6">
+            <div className="pt-10 pb-6">
               <Breadcrumbs crumbs={crumbs} currentPage={currentPage} />
             </div>
           </div>
@@ -113,53 +133,8 @@ export default async function ServicePage({
               <PortableText value={service.body} onMissingComponent={false} />
             </article>
           )}
-          {/*<ServiceDetails*/}
-          {/*  advantages={service.advantages}*/}
-          {/*  gallery={service.gallery}*/}
-          {/*  image={getUrlFor(service.image)}*/}
-          {/*  layoutRequirements={*/}
-          {/*    service.layoutRequirements && (*/}
-          {/*      <PortableText*/}
-          {/*        value={service.layoutRequirements}*/}
-          {/*        onMissingComponent={false}*/}
-          {/*      />*/}
-          {/*    )*/}
-          {/*  }*/}
-          {/*  name={service.title}*/}
-          {/*  paymentMethods={service.paymentOptions}*/}
-          {/*  price={service.price}*/}
-          {/*  priceTable={service.priceTable}*/}
-          {/*>*/}
-          {/*  {Array.isArray(service.body) && (*/}
-          {/*    <PortableText value={service.body} onMissingComponent={false} />*/}
-          {/*  )}*/}
-          {/*</ServiceDetails>*/}
         </Section>
       </div>
-
-      {/* Portfolio section */}
-      {/*{relatedProjectsArray.length > 0 && (*/}
-      {/*  <Section className="bg-[#F9F9F9]">*/}
-      {/*    <div className="flex flex-col gap-6 px-4">*/}
-      {/*      <SectionHeading className="items-center text-center mx-auto">*/}
-      {/*        <SectionSubtitle>{"галерея"}</SectionSubtitle>*/}
-      {/*        <SectionTitle>{"Примеры работ"}</SectionTitle>*/}
-      {/*        <SectionDescription>*/}
-      {/*          {"Портфолио выполненных работ"}*/}
-      {/*        </SectionDescription>*/}
-      {/*      </SectionHeading>*/}
-
-      {/*      /!*<ProjectList bentoGrid={false} projectList={relatedProjectsArray} />*!/*/}
-
-      {/*      /!* Mobile-only projects button *!/*/}
-      {/*      <SectionButton*/}
-      {/*        className="lg:hidden flex"*/}
-      {/*        href={"/projects"}*/}
-      {/*        label="Все проекты"*/}
-      {/*      />*/}
-      {/*    </div>*/}
-      {/*  </Section>*/}
-      {/*)}*/}
 
       {/* FAQ section */}
       {service.faqs && (
@@ -173,17 +148,8 @@ export default async function ServicePage({
         </SectionLayout>
       )}
 
-      {/* Contact form section */}
-      {/*<Section className="max-w-3xl mx-auto" id="contacts">*/}
-      {/*	<SectionHeading className="items-center text-center mx-auto">*/}
-      {/*		<SectionSubtitle>{'обратная связь'}</SectionSubtitle>*/}
-      {/*		<SectionTitle>{'Оставить заявку'}</SectionTitle>*/}
-      {/*		<SectionDescription>{'Оставьте заявку и мы свяжемся с Вами в ближайшее время'}</SectionDescription>*/}
-      {/*	</SectionHeading>*/}
-      {/*	<Card className={clsx('flex flex-col gap-6', 'p-4 bg-background sticky top-16')} radius="sm" shadow="sm">*/}
-      {/*		<OrderForm className="w-full" />*/}
-      {/*	</Card>*/}
-      {/*</Section>*/}
+      {/* Contact section */}
+      <InfoSection locale={locale} />
 
       {/* Structured data for service */}
       {/*<ServiceJsonLd description={service.description} name={service.title} url={`${process.env.NEXT_PUBLIC_SERVER_URL}/services/${slug}`} imageUrl={service.seo?.ogImage} />*/}

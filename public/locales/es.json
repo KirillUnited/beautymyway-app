@@ -78,7 +78,9 @@
   },
   "Hero": {
     "title": "La belleza es libertad.",
-    "text": "Hace un siglo y hoy esta verdad permanece inalterada, Sólo los medios para alcanzar la belleza han cambiado."
+    "text": "Hace un siglo y hoy esta verdad permanece inalterada, Sólo los medios para alcanzar la belleza han cambiado.",
+    "CTA1": "Registro",
+    "CTA2": "Más detalles"
   },
   "Info": {
     "title": "Contactos",

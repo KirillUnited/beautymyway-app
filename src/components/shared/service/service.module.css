@@ -47,3 +47,14 @@
     @apply max-w-full;
     @apply pb-11;
 }
+
+.HeroSection {
+    @apply pb-12 pt-24 relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-gray-950 after:to-gray-950/40 overflow-hidden grid place-items-end;
+
+    &-container {
+        @apply container flex flex-col gap-10 max-w-2xl relative z-10;
+    }
+    &-inner {
+        @apply flex flex-col gap-4 text-gray-100;
+    }
+}

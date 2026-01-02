@@ -78,7 +78,9 @@
   },
   "Hero": {
     "title": "Beauty is Freedom.",
-    "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed"
+    "text": "A century ago and today this truth remains unchanged, only the means to achieve beauty have changed",
+    "CTA1": "Get an appointment",
+    "CTA2": "Learn more"
   },
   "Info": {
     "title": "Contacts",
